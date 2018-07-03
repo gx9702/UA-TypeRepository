@@ -1,4 +1,5 @@
-## DataItemType
+[Core](/Core)/[Part8](/Core/Part8)/[VariableTypes](/Core/Part8/VariableTypes)
+## DiscreteItemType
 ### Overview
 This VariableType defines the general characteristics of a DataItem. All other DataItem Types derive from it. The DataItemType derives from the BaseDataVariableType and therefore shares the variable model as described in Part 3 and Part 5.
 
