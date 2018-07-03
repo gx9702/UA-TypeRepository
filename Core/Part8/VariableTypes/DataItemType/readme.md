@@ -14,8 +14,8 @@ This VariableType defines the general characteristics of a DataItem. All other D
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
 |HasSubtype|VariableType|[AnalogItemType](../AnalogItemType/readme.md)|
-|HasSubtype|VariableType|DiscreteItemType|
-|HasSubtype|VariableType|ArrayItemType|
+|HasSubtype|VariableType|[DiscreteItemType](../DiscreteItemType/readme.md)|
+|HasSubtype|VariableType|[ArrayItemType](../ArrayItemType/readme.md)|
 |HasProperty|Variable|[Definition](#Definition)|String|PropertyType|Optional|
 |HasProperty|Variable|[ValuePrecision](#ValuePrecision)|Double|PropertyType|Optional|
 
