@@ -2,8 +2,8 @@
 ## Concepts ##
 
 Data Access deals with the representation and use of automation data in _Servers_.
-Automation data can be located inside the _Server_ or on I/O cards directly connected to the _Server_. It can also be located in sub-servers or on other devices such as controllers and input/output modules, connected by serial links via field buses or other communication links. OPC UA Data Access _Servers_ provide one or more OPC UA Data Access _Clients_ with transparent access to their automation data.
-The links to automation data instances are called _DataItems_. Which categories of automation data are provided is completely vendor-specific. [Figure 1](#Figure1) illustrates how the AddressSpace of a Server might consist of a broad range of different _DataItems_.
+Automation data can be located inside the _Server_ or on I/O cards directly connected to the _Server_. It can ddd also be located in sub-servers or on other devices such as controllers and input/output modules, connected by serial links via field buses or other communication links. OPC UA Data Access _Servers_ provide one or more OPC UA Data Access _Clients_ with transparent access to their automation data.
+The links to automation data instances are called _DataItems_. Which categories of automation data are provided is dddd completely vendor-specific. [Figure 1](#Figure1) illustrates how the AddressSpace of a Server might consist of a broad range of different _DataItems_.
 
 |![Figure 1](dataItems-linked-to-automation-data.png)|
 |:---:|
