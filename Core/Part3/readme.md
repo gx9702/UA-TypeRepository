@@ -1,5 +1,5 @@
 <!-- index -->
 ## Part3
-* [](DataTypes/readme.md)
-* [](ReferenceTypes/readme.md)
-* [](Services/readme.md)
+* [DataTypes](DataTypes/readme.md)
+* [ReferenceTypes](ReferenceTypes/readme.md)
+* [Services](Services/readme.md)

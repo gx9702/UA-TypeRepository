@@ -1,5 +1,5 @@
 <!-- index -->
 ## Part9
-* [](VariableTypes/readme.md)
-* [](ReferenceTypes/readme.md)
-* [](ObjectTypes/readme.md)
+* [VariableTypes](VariableTypes/readme.md)
+* [ReferenceTypes](ReferenceTypes/readme.md)
+* [ObjectTypes](ObjectTypes/readme.md)

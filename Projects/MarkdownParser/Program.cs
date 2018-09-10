@@ -151,19 +151,19 @@ namespace MarkdownProcessor
             }
         }
 
-        private static void ModelImporter_ModelRequired(object sender, ModelRequiredEventArgs e)
+        private static string GetRepositoryPath(string modelUri)
         {
-            string nodeSetPath = null;
-
-            if (Settings.NodeSetFiles.TryGetValue(e.ModelUri, out nodeSetPath))
-            {
-                e.ModelFilePath = nodeSetPath;
-            }
-
             string repositoryPath = null;
 
-            if (!Settings.RepositoryPaths.TryGetValue(e.ModelUri, out repositoryPath))
+            if (!Settings.RepositoryPaths.TryGetValue(modelUri, out repositoryPath))
             {
+                string nodeSetPath = null;
+
+                if (!Settings.NodeSetFiles.TryGetValue(modelUri, out nodeSetPath))
+                {
+                    return null;
+                }
+
                 repositoryPath = nodeSetPath;
 
                 int index = repositoryPath.LastIndexOfAny(new char[] { '/', '\\' });
@@ -176,8 +176,45 @@ namespace MarkdownProcessor
                 {
                     repositoryPath = repositoryPath.Substring(0, index);
                 }
+            }
 
-                e.ModelLinkPath = repositoryPath;
+            return repositoryPath;
+        }
+
+        private static void ModelImporter_ModelRequired(object sender, ModelRequiredEventArgs e)
+        {
+            string nodeSetPath = null;
+
+            if (Settings.NodeSetFiles.TryGetValue(e.ModelUri, out nodeSetPath))
+            {
+                e.ModelFilePath = nodeSetPath;
+            }
+
+            string repositoryPath = GetRepositoryPath(e.ModelUri);
+
+            if (e.ModelUri != Settings.TargetModel)
+            {
+                string targetPath = GetRepositoryPath(Settings.TargetModel);
+
+                DirectoryInfo path1 = new DirectoryInfo(repositoryPath);
+                DirectoryInfo path2 = new DirectoryInfo(targetPath);
+
+                string relativePath = "";
+
+                while (path2 != null)
+                {
+                    if (!path1.FullName.StartsWith(path2.FullName))
+                    {
+                        relativePath += "..\\";
+                        path2 = path2.Parent;
+                        continue;
+                    }
+
+                    relativePath = $"{relativePath}{path1.FullName.Substring(path2.FullName.Length+1)}";
+                    break;
+                }
+
+                repositoryPath = relativePath.Replace("\\", "/");
             }
 
             e.ModelLinkPath = repositoryPath;

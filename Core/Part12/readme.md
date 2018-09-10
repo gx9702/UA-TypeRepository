@@ -1,4 +1,4 @@
 <!-- index -->
 ## Part12
-* [](ObjectTypes/readme.md)
-* [](DataTypes/readme.md)
+* [ObjectTypes](ObjectTypes/readme.md)
+* [DataTypes](DataTypes/readme.md)

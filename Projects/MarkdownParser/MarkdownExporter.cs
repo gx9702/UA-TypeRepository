@@ -32,7 +32,7 @@ namespace MarkdownProcessor
                 {
                     foreach (var child in index.Children)
                     {
-                        writer.WriteLine($"* [{child.DisplayName}]({child.Name}/readme.md)");
+                        writer.WriteLine($"* [{child.Name}]({child.Name}/readme.md)");
                     }
                 }
             }

@@ -1,6 +1,6 @@
 <!-- index -->
 ## Part14
-* [](DataTypes/readme.md)
-* [](ObjectTypes/readme.md)
-* [](ReferenceTypes/readme.md)
-* [](VariableTypes/readme.md)
+* [DataTypes](DataTypes/readme.md)
+* [ObjectTypes](ObjectTypes/readme.md)
+* [ReferenceTypes](ReferenceTypes/readme.md)
+* [VariableTypes](VariableTypes/readme.md)

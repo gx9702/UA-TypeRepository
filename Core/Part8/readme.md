@@ -1,4 +1,4 @@
 <!-- index -->
 ## Part8
-* [](VariableTypes/readme.md)
-* [](DataTypes/readme.md)
+* [VariableTypes](VariableTypes/readme.md)
+* [DataTypes](DataTypes/readme.md)

@@ -1,7 +1,7 @@
 <!-- index -->
 ## Part5
-* [](ReferenceTypes/readme.md)
-* [](ObjectTypes/readme.md)
-* [](VariableTypes/readme.md)
-* [](DataTypes/readme.md)
-* [](Services/readme.md)
+* [ReferenceTypes](ReferenceTypes/readme.md)
+* [ObjectTypes](ObjectTypes/readme.md)
+* [VariableTypes](VariableTypes/readme.md)
+* [DataTypes](DataTypes/readme.md)
+* [Services](Services/readme.md)

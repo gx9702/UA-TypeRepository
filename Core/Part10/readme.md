@@ -1,5 +1,5 @@
 <!-- index -->
 ## Part10
-* [](ObjectTypes/readme.md)
-* [](VariableTypes/readme.md)
-* [](DataTypes/readme.md)
+* [ObjectTypes](ObjectTypes/readme.md)
+* [VariableTypes](VariableTypes/readme.md)
+* [DataTypes](DataTypes/readme.md)
