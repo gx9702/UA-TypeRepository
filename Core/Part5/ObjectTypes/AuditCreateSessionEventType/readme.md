@@ -13,9 +13,9 @@ The references from the AuditCreateSessionEventType ObjectType Node are shown in
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|SecureChannelId||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|ClientCertificate||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|ClientCertificateThumbprint||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|RevisedSessionTimeout||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|SecureChannelId|[String](../../../Part3/DataTypes/String/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|ClientCertificate|[ByteString](../../../Part3/DataTypes/ByteString/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|ClientCertificateThumbprint|[String](../../../Part3/DataTypes/String/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|RevisedSessionTimeout|[Duration](../../../Part3/DataTypes/Duration/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
 |[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|AuditUrlMismatchEventType||||
 

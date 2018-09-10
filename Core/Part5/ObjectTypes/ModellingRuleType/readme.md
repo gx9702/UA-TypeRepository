@@ -13,5 +13,5 @@ The references from the ModellingRuleType ObjectType Node are shown in the follo
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|NamingRule||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|NamingRule|[NamingRuleType](../../../Part3/DataTypes/NamingRuleType/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
 

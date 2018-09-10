@@ -13,7 +13,7 @@ The references from the AnalogUnitItemType VariableType Node are shown in the fo
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|InstrumentRange||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|EURange||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|EngineeringUnits||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|InstrumentRange|[Range](../../../Part8/DataTypes/Range/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|EURange|[Range](../../../Part8/DataTypes/Range/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|EngineeringUnits|[EUInformation](../../../Part8/DataTypes/EUInformation/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
 

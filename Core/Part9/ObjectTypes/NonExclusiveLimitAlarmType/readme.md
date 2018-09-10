@@ -13,11 +13,11 @@ The references from the NonExclusiveLimitAlarmType ObjectType Node are shown in 
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|ActiveState||[TwoStateVariableType](../../Part9/VariableTypes/TwoStateVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|HighHighState||[TwoStateVariableType](../../Part9/VariableTypes/TwoStateVariableType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|HighState||[TwoStateVariableType](../../Part9/VariableTypes/TwoStateVariableType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|LowState||[TwoStateVariableType](../../Part9/VariableTypes/TwoStateVariableType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|LowLowState||[TwoStateVariableType](../../Part9/VariableTypes/TwoStateVariableType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|ActiveState|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|[TwoStateVariableType](../../Part9/VariableTypes/TwoStateVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|HighHighState|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|[TwoStateVariableType](../../Part9/VariableTypes/TwoStateVariableType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|HighState|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|[TwoStateVariableType](../../Part9/VariableTypes/TwoStateVariableType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|LowState|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|[TwoStateVariableType](../../Part9/VariableTypes/TwoStateVariableType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|LowLowState|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|[TwoStateVariableType](../../Part9/VariableTypes/TwoStateVariableType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
 |[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|NonExclusiveLevelAlarmType||||
 |[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|NonExclusiveDeviationAlarmType||||
 |[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|NonExclusiveRateOfChangeAlarmType||||

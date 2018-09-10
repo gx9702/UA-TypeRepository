@@ -13,14 +13,14 @@ The references from the ArrayItemType VariableType Node are shown in the followi
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|InstrumentRange||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|EURange||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|EngineeringUnits||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|Title||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|AxisScaleType||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|YArrayItemType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)[]|||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|XYArrayItemType|[XVType](../../../Part8/DataTypes/XVType/readme.md)[]|||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|ImageItemType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)[]|||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|CubeItemType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)[]|||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|NDimensionArrayItemType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)[]|||
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|InstrumentRange|[Range](../../../Part8/DataTypes/Range/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|EURange|[Range](../../../Part8/DataTypes/Range/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|EngineeringUnits|[EUInformation](../../../Part8/DataTypes/EUInformation/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|Title|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|AxisScaleType|[AxisScaleEnumeration](../../../Part8/DataTypes/AxisScaleEnumeration/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|YArrayItemType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|XYArrayItemType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|ImageItemType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|CubeItemType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|NDimensionArrayItemType||||
 

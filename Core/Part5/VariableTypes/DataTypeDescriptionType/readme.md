@@ -13,6 +13,6 @@ The references from the DataTypeDescriptionType VariableType Node are shown in t
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|DataTypeVersion||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|DictionaryFragment||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|DataTypeVersion|[String](../../../Part3/DataTypes/String/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|DictionaryFragment|[ByteString](../../../Part3/DataTypes/ByteString/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
 

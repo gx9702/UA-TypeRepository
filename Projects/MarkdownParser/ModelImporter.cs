@@ -683,12 +683,12 @@ namespace MarkdownProcessor
                 output.TypeDefinition = CreateLink(reference.TargetId, ReferenceTypeIds.HasTypeDefinition, true);
                 output.ModellingRule = CreateLink(reference.TargetId, ReferenceTypeIds.HasModellingRule, true);
 
-                var vt = target as UAVariableType;
+                var vt = target as UAVariable;
 
                 if (vt != null)
                 {
                     output.ValueRank = vt.ValueRank;
-                    output.DataType = CreateLink(sourceId, vt.DataType);
+                    output.DataType = CreateLink(sourceId, vt.DecodedDataType);
                 }
 
                 var mt = target as UAMethod;

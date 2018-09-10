@@ -13,7 +13,7 @@ The references from the ExtensionFieldsType ObjectType Node are shown in the fol
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|&lt;ExtensionFieldName&gt;||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[OptionalPlaceholder](../../Objects/OptionalPlaceholder/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|&lt;ExtensionFieldName&gt;|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[OptionalPlaceholder](../../Objects/OptionalPlaceholder/readme.md)|
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|AddExtensionField|||[Mandatory](../../Objects/Mandatory/readme.md)|
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|RemoveExtensionField|||[Mandatory](../../Objects/Mandatory/readme.md)|
 

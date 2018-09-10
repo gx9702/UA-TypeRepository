@@ -13,5 +13,5 @@ The references from the SubscriptionDiagnosticsArrayType VariableType Node are s
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|SubscriptionDiagnostics||[SubscriptionDiagnosticsType](../../Part5/VariableTypes/SubscriptionDiagnosticsType/readme.md)|[ExposesItsArray](../../Objects/ExposesItsArray/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|SubscriptionDiagnostics|[SubscriptionDiagnosticsDataType](../../../Part5/DataTypes/SubscriptionDiagnosticsDataType/readme.md)|[SubscriptionDiagnosticsType](../../Part5/VariableTypes/SubscriptionDiagnosticsType/readme.md)|[ExposesItsArray](../../Objects/ExposesItsArray/readme.md)|
 

@@ -13,7 +13,7 @@ The references from the PubSubStatusType ObjectType Node are shown in the follow
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|State||[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|State|[PubSubState](../../../Part14/DataTypes/PubSubState/readme.md)|[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|Enable|||[Optional](../../Objects/Optional/readme.md)|
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|Disable|||[Optional](../../Objects/Optional/readme.md)|
 

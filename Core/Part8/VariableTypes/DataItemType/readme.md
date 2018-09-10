@@ -13,11 +13,11 @@ The references from the DataItemType VariableType Node are shown in the followin
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|Definition||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|ValuePrecision||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|Definition|[String](../../../Part3/DataTypes/String/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|ValuePrecision|[Double](../../../Part3/DataTypes/Double/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
 |[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|AnalogItemType||||
 |[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|EUItemType||||
 |[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|AnalogUnitItemType||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|DiscreteItemType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)[]|||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|ArrayItemType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)[]|||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|DiscreteItemType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|ArrayItemType||||
 

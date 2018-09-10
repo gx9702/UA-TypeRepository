@@ -13,7 +13,7 @@ The references from the ShelvedStateMachineType ObjectType Node are shown in the
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|UnshelveTime||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|UnshelveTime|[Duration](../../../Part3/DataTypes/Duration/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|Unshelved||[StateType](../../Part5/ObjectTypes/StateType/readme.md)||
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|TimedShelved||[StateType](../../Part5/ObjectTypes/StateType/readme.md)||
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|OneShotShelved||[StateType](../../Part5/ObjectTypes/StateType/readme.md)||

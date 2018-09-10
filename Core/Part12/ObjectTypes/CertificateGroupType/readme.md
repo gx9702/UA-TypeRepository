@@ -14,5 +14,5 @@ The references from the CertificateGroupType ObjectType Node are shown in the fo
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|TrustList||[TrustListType](../../Part12/ObjectTypes/TrustListType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|CertificateTypes||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|CertificateTypes|[NodeId](../../../Part3/DataTypes/NodeId/readme.md)[]|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
 

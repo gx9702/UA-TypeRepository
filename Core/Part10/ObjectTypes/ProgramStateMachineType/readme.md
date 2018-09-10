@@ -13,16 +13,16 @@ The references from the ProgramStateMachineType ObjectType Node are shown in the
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|CurrentState||[FiniteStateVariableType](../../Part5/VariableTypes/FiniteStateVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|LastTransition||[FiniteTransitionVariableType](../../Part5/VariableTypes/FiniteTransitionVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|Creatable||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)||
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|Deletable||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|AutoDelete||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|RecycleCount||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|InstanceCount||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)||
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|MaxInstanceCount||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)||
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|MaxRecycleCount||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)||
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|ProgramDiagnostics||[ProgramDiagnostic2Type](../../Part10/VariableTypes/ProgramDiagnostic2Type/readme.md)|[Optional](../../Objects/Optional/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|CurrentState|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|[FiniteStateVariableType](../../Part5/VariableTypes/FiniteStateVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|LastTransition|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|[FiniteTransitionVariableType](../../Part5/VariableTypes/FiniteTransitionVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|Creatable|[Boolean](../../../Part3/DataTypes/Boolean/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)||
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|Deletable|[Boolean](../../../Part3/DataTypes/Boolean/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|AutoDelete|[Boolean](../../../Part3/DataTypes/Boolean/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|RecycleCount|[Int32](../../../Part3/DataTypes/Int32/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|InstanceCount|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)||
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|MaxInstanceCount|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)||
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|MaxRecycleCount|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)||
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|ProgramDiagnostics|[ProgramDiagnostic2DataType](../../../Part10/DataTypes/ProgramDiagnostic2DataType/readme.md)|[ProgramDiagnostic2Type](../../Part10/VariableTypes/ProgramDiagnostic2Type/readme.md)|[Optional](../../Objects/Optional/readme.md)|
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|FinalResultData||[BaseObjectType](../../Part5/ObjectTypes/BaseObjectType/readme.md)|[Optional](../../Objects/Optional/readme.md)|
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|Halted||[StateType](../../Part5/ObjectTypes/StateType/readme.md)||
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|Ready||[StateType](../../Part5/ObjectTypes/StateType/readme.md)||

@@ -13,11 +13,11 @@ The references from the PubSubDiagnosticsType ObjectType Node are shown in the f
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|DiagnosticsLevel||[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|TotalInformation||[PubSubDiagnosticsCounterType](../../Part14/VariableTypes/PubSubDiagnosticsCounterType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|TotalError||[PubSubDiagnosticsCounterType](../../Part14/VariableTypes/PubSubDiagnosticsCounterType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|DiagnosticsLevel|[DiagnosticsLevel](../../../Part14/DataTypes/DiagnosticsLevel/readme.md)|[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|TotalInformation|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|[PubSubDiagnosticsCounterType](../../Part14/VariableTypes/PubSubDiagnosticsCounterType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|TotalError|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|[PubSubDiagnosticsCounterType](../../Part14/VariableTypes/PubSubDiagnosticsCounterType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|Reset|||[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|SubError||[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|SubError|[Boolean](../../../Part3/DataTypes/Boolean/readme.md)|[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|Counters||[BaseObjectType](../../Part5/ObjectTypes/BaseObjectType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|LiveValues||[BaseObjectType](../../Part5/ObjectTypes/BaseObjectType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
 |[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|PubSubDiagnosticsRootType||||

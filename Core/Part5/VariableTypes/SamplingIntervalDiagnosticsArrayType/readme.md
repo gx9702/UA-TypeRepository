@@ -13,5 +13,5 @@ The references from the SamplingIntervalDiagnosticsArrayType VariableType Node a
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|SamplingIntervalDiagnostics||[SamplingIntervalDiagnosticsType](../../Part5/VariableTypes/SamplingIntervalDiagnosticsType/readme.md)|[ExposesItsArray](../../Objects/ExposesItsArray/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|SamplingIntervalDiagnostics|[SamplingIntervalDiagnosticsDataType](../../../Part5/DataTypes/SamplingIntervalDiagnosticsDataType/readme.md)|[SamplingIntervalDiagnosticsType](../../Part5/VariableTypes/SamplingIntervalDiagnosticsType/readme.md)|[ExposesItsArray](../../Objects/ExposesItsArray/readme.md)|
 

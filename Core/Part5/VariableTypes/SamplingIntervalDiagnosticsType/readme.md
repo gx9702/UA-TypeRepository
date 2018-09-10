@@ -13,8 +13,8 @@ The references from the SamplingIntervalDiagnosticsType VariableType Node are sh
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|SamplingInterval||[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|SampledMonitoredItemsCount||[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|MaxSampledMonitoredItemsCount||[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|DisabledMonitoredItemsSamplingCount||[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|SamplingInterval|[Duration](../../../Part3/DataTypes/Duration/readme.md)|[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|SampledMonitoredItemsCount|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|MaxSampledMonitoredItemsCount|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|DisabledMonitoredItemsSamplingCount|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|[BaseDataVariableType](../../Part5/VariableTypes/BaseDataVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
 

@@ -13,5 +13,5 @@ The references from the SessionDiagnosticsArrayType VariableType Node are shown 
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|SessionDiagnostics||[SessionDiagnosticsVariableType](../../Part5/VariableTypes/SessionDiagnosticsVariableType/readme.md)|[ExposesItsArray](../../Objects/ExposesItsArray/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|SessionDiagnostics|[SessionDiagnosticsDataType](../../../Part5/DataTypes/SessionDiagnosticsDataType/readme.md)|[SessionDiagnosticsVariableType](../../Part5/VariableTypes/SessionDiagnosticsVariableType/readme.md)|[ExposesItsArray](../../Objects/ExposesItsArray/readme.md)|
 

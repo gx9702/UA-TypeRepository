@@ -13,6 +13,6 @@ The references from the BaseVariableType VariableType Node are shown in the foll
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|BaseDataVariableType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)[]|||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|PropertyType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)[]|||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|BaseDataVariableType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|VariableType|PropertyType||||
 
