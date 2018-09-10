@@ -1,0 +1,30 @@
+<!-- datatype -->
+## String
+<!-- end of description -->
+The fields of the String DataType are defined in the following table:  
+
+|Name|Type|Description|
+|---|---|---|
+|String|Structure||
+
+The representation of the String DataType in the address space is shown in the following table:  
+
+|Name|Attribute|
+|---|---|
+|BrowseName|String|
+|IsAbtract|False|
+|BaseType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)|
+
+The references from the String DataType Node are shown in the following table:  
+
+|Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
+|---|---|---|---|---|---|
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|DataType|NormalizedString||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|DataType|DecimalString||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|DataType|DurationString||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|DataType|TimeString||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|DataType|DateString||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|DataType|LocaleId||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|DataType|NumericRange||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|DataType|Time||||
+

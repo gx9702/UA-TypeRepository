@@ -1,0 +1,26 @@
+<!-- datatype -->
+## IdType
+<!-- end of description -->
+The fields of the IdType DataType are defined in the following table:  
+
+|Name|Value| Description|
+|---|---|---|
+|Numeric|0|The identifier is a numeric value. 0 is a null value.|
+|String|1|The identifier is a string value. An empty string is a null value.|
+|Guid|2|The identifier is a 16 byte structure. 16 zero bytes is a null value.|
+|Opaque|3|The identifier is an array of bytes. A zero length array is a null value.|
+
+The representation of the IdType DataType in the address space is shown in the following table:  
+
+|Name|Attribute|
+|---|---|
+|BrowseName|IdType|
+|IsAbtract|False|
+|BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+
+The references from the IdType DataType Node are shown in the following table:  
+
+|Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
+|---|---|---|---|---|---|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|EnumStrings||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+

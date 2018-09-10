@@ -1,0 +1,19 @@
+<!-- datatype -->
+## SignedSoftwareCertificate
+<!-- end of description -->
+The fields of the SignedSoftwareCertificate DataType are defined in the following table:  
+
+|Name|Type|Description|
+|---|---|---|
+|SignedSoftwareCertificate|Structure||
+|&nbsp;&nbsp;&nbsp;&nbsp;certificateData|[ByteString](../../../Part3/DataTypes/ByteString/readme.md)|The data of the certificate.|
+|&nbsp;&nbsp;&nbsp;&nbsp;signature|[ByteString](../../../Part3/DataTypes/ByteString/readme.md)|The digital signature.|
+
+The representation of the SignedSoftwareCertificate DataType in the address space is shown in the following table:  
+
+|Name|Attribute|
+|---|---|
+|BrowseName|SignedSoftwareCertificate|
+|IsAbtract|False|
+|BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+

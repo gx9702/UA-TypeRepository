@@ -1,0 +1,16 @@
+<!-- index -->
+## VariableTypes
+* [DataItemType](DataItemType/readme.md)
+* [AnalogItemType](AnalogItemType/readme.md)
+* [EUItemType](EUItemType/readme.md)
+* [AnalogUnitItemType](AnalogUnitItemType/readme.md)
+* [DiscreteItemType](DiscreteItemType/readme.md)
+* [TwoStateDiscreteType](TwoStateDiscreteType/readme.md)
+* [MultiStateDiscreteType](MultiStateDiscreteType/readme.md)
+* [MultiStateValueDiscreteType](MultiStateValueDiscreteType/readme.md)
+* [ArrayItemType](ArrayItemType/readme.md)
+* [YArrayItemType](YArrayItemType/readme.md)
+* [XYArrayItemType](XYArrayItemType/readme.md)
+* [ImageItemType](ImageItemType/readme.md)
+* [CubeItemType](CubeItemType/readme.md)
+* [NDimensionArrayItemType](NDimensionArrayItemType/readme.md)

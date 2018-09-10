@@ -272,6 +272,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="BuildModel.bat" />
     <None Include="BuildSchema.bat" />
     <None Include="packages.config" />
     <None Include="UANodeSet.xsd">

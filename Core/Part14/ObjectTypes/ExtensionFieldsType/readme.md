@@ -1,0 +1,19 @@
+<!-- objecttype -->
+## ExtensionFieldsType
+The representation of the ExtensionFieldsType ObjectType in the address space is shown in the following table:  
+
+|Name|Attribute|
+|---|---|
+|BrowseName|ExtensionFieldsType|
+|NodeClass|ObjectType|
+|IsAbtract|False|
+|BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+
+The references from the ExtensionFieldsType ObjectType Node are shown in the following table:  
+
+|Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
+|---|---|---|---|---|---|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|&lt;ExtensionFieldName&gt;||[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[OptionalPlaceholder](../../Objects/OptionalPlaceholder/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|AddExtensionField|||[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|RemoveExtensionField|||[Mandatory](../../Objects/Mandatory/readme.md)|
+

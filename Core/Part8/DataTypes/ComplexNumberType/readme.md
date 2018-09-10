@@ -1,0 +1,19 @@
+<!-- datatype -->
+## ComplexNumberType
+<!-- end of description -->
+The fields of the ComplexNumberType DataType are defined in the following table:  
+
+|Name|Type|Description|
+|---|---|---|
+|ComplexNumberType|Structure||
+|&nbsp;&nbsp;&nbsp;&nbsp;real|[Float](../../../Part3/DataTypes/Float/readme.md)||
+|&nbsp;&nbsp;&nbsp;&nbsp;imaginary|[Float](../../../Part3/DataTypes/Float/readme.md)||
+
+The representation of the ComplexNumberType DataType in the address space is shown in the following table:  
+
+|Name|Attribute|
+|---|---|
+|BrowseName|ComplexNumberType|
+|IsAbtract|False|
+|BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+

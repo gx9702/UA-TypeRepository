@@ -854,6 +854,11 @@ namespace MarkdownProcessor
         {
             var namespaceIndex = NamespaceUris.GetIndex(modelUri);
 
+            if (namespaceIndex < 0)
+            {
+                throw new ArgumentException("Model is not recognized.", "modelUri");
+            }
+
             Repository repository = new Repository();
 
             foreach (var ii in Nodes.Values)
@@ -1001,7 +1006,7 @@ namespace MarkdownProcessor
                                 var field = CreateField(ii.DecodedNodeId, jj);
                                 entry.Fields.Add(field);
 
-                                if (jj.Value != 0 && entry.DataTypeClass == DataTypeClass.Structure)
+                                if (jj.Value >= 0 && entry.DataTypeClass == DataTypeClass.Structure)
                                 {
                                     entry.DataTypeClass = DataTypeClass.Enumeration;
                                 }

@@ -1,0 +1,18 @@
+<!-- datatype -->
+## RelativePath
+<!-- end of description -->
+The fields of the RelativePath DataType are defined in the following table:  
+
+|Name|Type|Description|
+|---|---|---|
+|RelativePath|Structure||
+|&nbsp;&nbsp;&nbsp;&nbsp;elements|[RelativePathElement](../../../Part4/DataTypes/RelativePathElement/readme.md)[]|A list of elements in the path.|
+
+The representation of the RelativePath DataType in the address space is shown in the following table:  
+
+|Name|Attribute|
+|---|---|
+|BrowseName|RelativePath|
+|IsAbtract|False|
+|BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+
