@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SecurityTokenRequestType
+Indicates whether a token if being created or renewed.  
 <!-- end of description -->
 The fields of the SecurityTokenRequestType DataType are defined in the following table:  
 

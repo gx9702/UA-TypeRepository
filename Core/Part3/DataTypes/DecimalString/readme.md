@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DecimalString
+An arbitraty numeric value.  
 <!-- end of description -->
 The fields of the DecimalString DataType are defined in the following table:  
 

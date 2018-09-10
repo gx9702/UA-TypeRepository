@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## AuditProgramTransitionEventType
+
 The representation of the AuditProgramTransitionEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,5 +14,6 @@ The references from the AuditProgramTransitionEventType ObjectType Node are show
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|TransitionNumber|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[TransitionNumber](#TransitionNumber)|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+
 

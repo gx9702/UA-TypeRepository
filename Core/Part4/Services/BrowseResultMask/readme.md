@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BrowseResultMask
+A bit mask which specifies what should be returned in a browse response.  
 <!-- end of description -->
 The fields of the BrowseResultMask DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## RegisterNodesRequest
+Registers one or more nodes for repeated use within a session.  
 <!-- end of description -->
 The fields of the RegisterNodesRequest DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## String
+Describes a value that is a sequence of printable Unicode characters.  
 <!-- end of description -->
 The fields of the String DataType are defined in the following table:  
 

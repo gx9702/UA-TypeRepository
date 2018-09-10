@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ApplicationType
+The types of applications.  
 <!-- end of description -->
 The fields of the ApplicationType DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ByteString
+Describes a value that is a sequence of bytes.  
 <!-- end of description -->
 The fields of the ByteString DataType are defined in the following table:  
 

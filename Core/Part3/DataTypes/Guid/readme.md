@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Guid
+Describes a value that is a 128-bit globally unique identifier.  
 <!-- end of description -->
 The fields of the Guid DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## CreateSessionRequest
+Creates a new session with the server.  
 <!-- end of description -->
 The fields of the CreateSessionRequest DataType are defined in the following table:  
 

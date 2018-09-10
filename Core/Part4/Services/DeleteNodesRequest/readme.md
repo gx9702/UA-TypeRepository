@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DeleteNodesRequest
+Delete one or more nodes from the server address space.  
 <!-- end of description -->
 The fields of the DeleteNodesRequest DataType are defined in the following table:  
 

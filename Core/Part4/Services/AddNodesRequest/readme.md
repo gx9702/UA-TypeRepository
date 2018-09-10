@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AddNodesRequest
+Adds one or more nodes to the server address space.  
 <!-- end of description -->
 The fields of the AddNodesRequest DataType are defined in the following table:  
 

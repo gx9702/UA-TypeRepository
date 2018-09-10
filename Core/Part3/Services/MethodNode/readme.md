@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## MethodNode
+Specifies the attributes which belong to method nodes.  
 <!-- end of description -->
 The fields of the MethodNode DataType are defined in the following table:  
 

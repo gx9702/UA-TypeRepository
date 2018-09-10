@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## RegisterServerRequest
+Registers a server with the discovery server.  
 <!-- end of description -->
 The fields of the RegisterServerRequest DataType are defined in the following table:  
 

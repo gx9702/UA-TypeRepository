@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SignedSoftwareCertificate
+A software certificate with a digital signature.  
 <!-- end of description -->
 The fields of the SignedSoftwareCertificate DataType are defined in the following table:  
 

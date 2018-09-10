@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## DataSetWriterTransportType
+
 The representation of the DataSetWriterTransportType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,5 +14,6 @@ The references from the DataSetWriterTransportType ObjectType Node are shown in 
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|BrokerDataSetWriterTransportType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[BrokerDataSetWriterTransportType](#BrokerDataSetWriterTransportType)||||
+
 

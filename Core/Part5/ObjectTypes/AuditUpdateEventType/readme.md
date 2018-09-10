@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## AuditUpdateEventType
+
 The representation of the AuditUpdateEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,6 +14,7 @@ The references from the AuditUpdateEventType ObjectType Node are shown in the fo
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|AuditWriteUpdateEventType||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|AuditHistoryUpdateEventType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[AuditWriteUpdateEventType](#AuditWriteUpdateEventType)||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[AuditHistoryUpdateEventType](#AuditHistoryUpdateEventType)||||
+
 

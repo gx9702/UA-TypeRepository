@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## LocalizedText
+Describes a value that is human readable Unicode text with a locale identifier.  
 <!-- end of description -->
 The fields of the LocalizedText DataType are defined in the following table:  
 

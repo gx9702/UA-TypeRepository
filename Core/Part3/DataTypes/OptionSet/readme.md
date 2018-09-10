@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## OptionSet
+This abstract Structured DataType is the base DataType for all DataTypes representing a bit mask.  
 <!-- end of description -->
 The fields of the OptionSet DataType are defined in the following table:  
 

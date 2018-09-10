@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## NumericRange
+Specifies a range of array indexes.  
 <!-- end of description -->
 The fields of the NumericRange DataType are defined in the following table:  
 

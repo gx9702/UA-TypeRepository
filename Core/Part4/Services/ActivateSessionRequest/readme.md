@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ActivateSessionRequest
+Activates a session with the server.  
 <!-- end of description -->
 The fields of the ActivateSessionRequest DataType are defined in the following table:  
 

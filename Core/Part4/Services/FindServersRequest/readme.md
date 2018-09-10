@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## FindServersRequest
+Finds the servers known to the discovery server.  
 <!-- end of description -->
 The fields of the FindServersRequest DataType are defined in the following table:  
 

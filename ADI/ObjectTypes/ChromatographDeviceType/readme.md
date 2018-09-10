@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## ChromatographDeviceType
+
 The representation of the ChromatographDeviceType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

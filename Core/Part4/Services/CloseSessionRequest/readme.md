@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## CloseSessionRequest
+Closes a session with the server.  
 <!-- end of description -->
 The fields of the CloseSessionRequest DataType are defined in the following table:  
 

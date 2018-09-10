@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BrowseResult
+The result of a browse operation.  
 <!-- end of description -->
 The fields of the BrowseResult DataType are defined in the following table:  
 

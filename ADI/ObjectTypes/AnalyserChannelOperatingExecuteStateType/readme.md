@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## AnalyserChannelOperatingExecuteStateType
+
 The representation of the AnalyserChannelOperatingExecuteStateType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,5 +14,6 @@ The references from the AnalyserChannelOperatingExecuteStateType ObjectType Node
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubStateMachine](../../../Core/Part5/ReferenceTypes/HasSubStateMachine/readme.md)|Object|OperatingExecuteSubStateMachine||[AnalyserChannel_OperatingModeExecuteSubStateMachineType](../../ObjectTypes/AnalyserChannel_OperatingModeExecuteSubStateMachineType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasSubStateMachine](../../../Core/Part5/ReferenceTypes/HasSubStateMachine/readme.md)|Object|[OperatingExecuteSubStateMachine](#OperatingExecuteSubStateMachine)||[AnalyserChannel_OperatingModeExecuteSubStateMachineType](../../ObjectTypes/AnalyserChannel_OperatingModeExecuteSubStateMachineType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+
 

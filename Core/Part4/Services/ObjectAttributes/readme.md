@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ObjectAttributes
+The attributes for an object node.  
 <!-- end of description -->
 The fields of the ObjectAttributes DataType are defined in the following table:  
 

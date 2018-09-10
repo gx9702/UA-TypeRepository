@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## ServerRedundancyType
+A base type for an object that describe how a server supports redundancy.
 The representation of the ServerRedundancyType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,7 +14,8 @@ The references from the ServerRedundancyType ObjectType Node are shown in the fo
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|RedundancySupport|[RedundancySupport](../../../Part5/DataTypes/RedundancySupport/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|TransparentRedundancyType||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|NonTransparentRedundancyType||||
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[RedundancySupport](#RedundancySupport)|[RedundancySupport](../../../Part5/DataTypes/RedundancySupport/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[TransparentRedundancyType](#TransparentRedundancyType)||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[NonTransparentRedundancyType](#NonTransparentRedundancyType)||||
+
 

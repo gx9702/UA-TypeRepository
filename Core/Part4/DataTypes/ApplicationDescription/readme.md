@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ApplicationDescription
+Describes an application and how to find it.  
 <!-- end of description -->
 The fields of the ApplicationDescription DataType are defined in the following table:  
 

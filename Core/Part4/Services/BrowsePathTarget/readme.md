@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BrowsePathTarget
+The target of the translated path.  
 <!-- end of description -->
 The fields of the BrowsePathTarget DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ApplicationInstanceCertificate
+A certificate for an instance of an application.  
 <!-- end of description -->
 The fields of the ApplicationInstanceCertificate DataType are defined in the following table:  
 

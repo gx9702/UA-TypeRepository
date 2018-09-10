@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UtcTime
+A date/time value specified in Universal Coordinated Time (UTC).  
 <!-- end of description -->
 The fields of the UtcTime DataType are defined in the following table:  
 

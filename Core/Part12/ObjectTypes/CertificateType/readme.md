@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## CertificateType
+
 The representation of the CertificateType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,7 +14,8 @@ The references from the CertificateType ObjectType Node are shown in the followi
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|ApplicationCertificateType||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|HttpsCertificateType||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|UserCredentialCertificateType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[ApplicationCertificateType](#ApplicationCertificateType)||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[HttpsCertificateType](#HttpsCertificateType)||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[UserCredentialCertificateType](#UserCredentialCertificateType)||||
+
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## MethodAttributes
+The attributes for a method node.  
 <!-- end of description -->
 The fields of the MethodAttributes DataType are defined in the following table:  
 

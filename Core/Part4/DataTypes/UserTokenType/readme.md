@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UserTokenType
+The possible user token types.  
 <!-- end of description -->
 The fields of the UserTokenType DataType are defined in the following table:  
 

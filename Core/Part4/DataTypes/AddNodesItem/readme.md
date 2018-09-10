@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AddNodesItem
+A request to add a node to the server address space.  
 <!-- end of description -->
 The fields of the AddNodesItem DataType are defined in the following table:  
 

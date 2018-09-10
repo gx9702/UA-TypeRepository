@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## HasPubSubConnection
+
 The representation of the HasPubSubConnection ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

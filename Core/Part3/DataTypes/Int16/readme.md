@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Int16
+Describes a value that is an integer between −32,768 and 32,767.  
 <!-- end of description -->
 The fields of the Int16 DataType are defined in the following table:  
 

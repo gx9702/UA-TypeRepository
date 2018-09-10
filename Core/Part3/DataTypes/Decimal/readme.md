@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Decimal
+Describes an arbitrary precision decimal value.  
 <!-- end of description -->
 The fields of the Decimal DataType are defined in the following table:  
 

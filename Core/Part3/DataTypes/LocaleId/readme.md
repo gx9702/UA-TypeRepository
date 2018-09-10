@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## LocaleId
+An identifier for a user locale.  
 <!-- end of description -->
 The fields of the LocaleId DataType are defined in the following table:  
 

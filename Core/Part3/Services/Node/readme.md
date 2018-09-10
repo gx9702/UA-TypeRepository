@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Node
+Specifies the attributes which belong to all nodes.  
 <!-- end of description -->
 The fields of the Node DataType are defined in the following table:  
 

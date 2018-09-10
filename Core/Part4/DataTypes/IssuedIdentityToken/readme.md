@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## IssuedIdentityToken
+A token representing a user identified by a WS-Security XML token.  
 <!-- end of description -->
 The fields of the IssuedIdentityToken DataType are defined in the following table:  
 

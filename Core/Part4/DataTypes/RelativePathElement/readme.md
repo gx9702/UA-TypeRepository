@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## RelativePathElement
+An element in a relative path.  
 <!-- end of description -->
 The fields of the RelativePathElement DataType are defined in the following table:  
 

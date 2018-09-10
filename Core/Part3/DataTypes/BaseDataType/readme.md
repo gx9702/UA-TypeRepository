@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BaseDataType
+Describes a value that can have any valid DataType.  
 <!-- end of description -->
 The fields of the BaseDataType DataType are defined in the following table:  
 

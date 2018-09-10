@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Integer
+Describes a value that can have any integer DataType.  
 <!-- end of description -->
 The fields of the Integer DataType are defined in the following table:  
 

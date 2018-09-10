@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Int64
+Describes a value that is an integer between −9,223,372,036,854,775,808 and 9,223,372,036,854,775,807.  
 <!-- end of description -->
 The fields of the Int64 DataType are defined in the following table:  
 

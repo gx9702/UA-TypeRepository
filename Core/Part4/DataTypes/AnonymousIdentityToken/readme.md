@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AnonymousIdentityToken
+A token representing an anonymous user.  
 <!-- end of description -->
 The fields of the AnonymousIdentityToken DataType are defined in the following table:  
 

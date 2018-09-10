@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UInteger
+Describes a value that can have any unsigned integer DataType.  
 <!-- end of description -->
 The fields of the UInteger DataType are defined in the following table:  
 

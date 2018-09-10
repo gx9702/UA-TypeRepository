@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## ExclusiveLimitAlarmType
+
 The representation of the ExclusiveLimitAlarmType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,9 +14,10 @@ The references from the ExclusiveLimitAlarmType ObjectType Node are shown in the
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|ActiveState|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|[TwoStateVariableType](../../Part9/VariableTypes/TwoStateVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|LimitState||[ExclusiveLimitStateMachineType](../../Part9/ObjectTypes/ExclusiveLimitStateMachineType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|ExclusiveLevelAlarmType||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|ExclusiveDeviationAlarmType||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|ExclusiveRateOfChangeAlarmType||||
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|[ActiveState](#ActiveState)|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|[TwoStateVariableType](../../Part9/VariableTypes/TwoStateVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|[LimitState](#LimitState)||[ExclusiveLimitStateMachineType](../../Part9/ObjectTypes/ExclusiveLimitStateMachineType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[ExclusiveLevelAlarmType](#ExclusiveLevelAlarmType)||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[ExclusiveDeviationAlarmType](#ExclusiveDeviationAlarmType)||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[ExclusiveRateOfChangeAlarmType](#ExclusiveRateOfChangeAlarmType)||||
+
 

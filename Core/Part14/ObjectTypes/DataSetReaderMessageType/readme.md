@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## DataSetReaderMessageType
+
 The representation of the DataSetReaderMessageType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,6 +14,7 @@ The references from the DataSetReaderMessageType ObjectType Node are shown in th
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|UadpDataSetReaderMessageType||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|JsonDataSetReaderMessageType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[UadpDataSetReaderMessageType](#UadpDataSetReaderMessageType)||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[JsonDataSetReaderMessageType](#JsonDataSetReaderMessageType)||||
+
 

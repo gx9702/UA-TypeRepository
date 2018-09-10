@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## TimeString
+A time formatted as defined in ISO 8601-2000.  
 <!-- end of description -->
 The fields of the TimeString DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ImageGIF
+An image encoded in GIF format.  
 <!-- end of description -->
 The fields of the ImageGIF DataType are defined in the following table:  
 

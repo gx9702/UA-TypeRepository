@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## IntegerId
+A numeric identifier for an object.  
 <!-- end of description -->
 The fields of the IntegerId DataType are defined in the following table:  
 

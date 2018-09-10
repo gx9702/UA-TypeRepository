@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## NodeAttributes
+The base attributes for all nodes.  
 <!-- end of description -->
 The fields of the NodeAttributes DataType are defined in the following table:  
 

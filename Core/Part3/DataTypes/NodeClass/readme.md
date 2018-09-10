@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## NodeClass
+A mask specifying the class of the node.  
 <!-- end of description -->
 The fields of the NodeClass DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## DataSetWriterMessageType
+
 The representation of the DataSetWriterMessageType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,6 +14,7 @@ The references from the DataSetWriterMessageType ObjectType Node are shown in th
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|UadpDataSetWriterMessageType||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|JsonDataSetWriterMessageType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[UadpDataSetWriterMessageType](#UadpDataSetWriterMessageType)||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[JsonDataSetWriterMessageType](#JsonDataSetWriterMessageType)||||
+
 

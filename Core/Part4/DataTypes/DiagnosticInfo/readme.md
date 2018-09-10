@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DiagnosticInfo
+Describes a value that is a structure containing diagnostics associated with a StatusCode.  
 <!-- end of description -->
 The fields of the DiagnosticInfo DataType are defined in the following table:  
 

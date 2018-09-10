@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Time
+A time value specified as HH:MM:SS.SSS.  
 <!-- end of description -->
 The fields of the Time DataType are defined in the following table:  
 

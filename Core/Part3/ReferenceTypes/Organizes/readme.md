@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## Organizes
+The type for hierarchical references that are used to organize nodes.
 The representation of the Organizes ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,5 +14,6 @@ The references from the Organizes ReferenceType Node are shown in the following 
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ReferenceType|AlarmGroupMember||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ReferenceType|[AlarmGroupMember](#AlarmGroupMember)||||
+
 

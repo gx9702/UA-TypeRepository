@@ -80,6 +80,116 @@ namespace MarkdownProcessor
             }
         }
 
+        private void WriteParagraphs(StreamWriter writer, List<string> documentation, bool noFinalNewLine = false)
+        {
+            if (documentation != null)
+            {
+                bool written = false;
+
+                foreach (var ii in documentation)
+                {
+                    if (written)
+                    {
+                        writer.WriteLine("  ");
+                    }
+
+                    writer.Write(ii);
+                    written = true;
+                }
+
+                if (!noFinalNewLine)
+                {
+                    writer.WriteLine();
+                }
+            }
+        }
+
+
+        private void WriteMethod(StreamWriter writer, RepositoryReference reference)
+        {
+            var name = reference.BrowseName;
+            name = name.Replace("<", "&lt;");
+            name = name.Replace(">", "&gt;");
+
+            bool hasArguments = (reference.InputArguments != null && reference.InputArguments.Count > 0) || (reference.OutputArguments != null && reference.OutputArguments.Count > 0);
+
+            writer.WriteLine($"### <a name=\"{name}\"></a>{name}");
+            WriteParagraphs(writer, reference.Documentation);
+
+            const string indent = "    ";
+
+            writer.WriteLine($"**Signature**");
+            writer.WriteLine($"```");
+            writer.Write($"{indent}{name}(");
+
+            if (reference.InputArguments != null && reference.InputArguments.Count > 0)
+            {
+                writer.WriteLine();
+
+                foreach (var arg in reference.InputArguments)
+                {
+                    writer.WriteLine($"{indent}{indent}[in]  {arg.DataType.Name} {arg.Name}");
+                }
+            }
+
+            if (reference.OutputArguments != null && reference.OutputArguments.Count > 0)
+            {
+                foreach (var arg in reference.OutputArguments)
+                {
+                    writer.WriteLine($"{indent}{indent}[out] {arg.DataType.Name} {arg.Name}");
+                }
+            }
+
+            writer.WriteLine($"{indent});");
+            writer.WriteLine($"```");
+
+            if (hasArguments)
+            {
+                writer.WriteLine();
+                writer.WriteLine($"|Argument|Description|");
+                writer.WriteLine($"|---|---|");
+
+                if (reference.InputArguments != null && reference.InputArguments.Count > 0)
+                {
+                    foreach (var arg in reference.InputArguments)
+                    {
+                        writer.Write($"|{arg.Name}|");
+                        WriteParagraphs(writer, arg.Documentation, true);
+                        writer.WriteLine($"|");
+                    }
+                }
+
+                if (reference.OutputArguments != null && reference.OutputArguments.Count > 0)
+                {
+                    foreach (var arg in reference.OutputArguments)
+                    {
+                        writer.Write($"|{arg.Name}|");
+                        WriteParagraphs(writer, arg.Documentation, true);
+                        writer.WriteLine($"|");
+                    }
+                }
+
+                writer.WriteLine();
+            }
+
+            if (reference.StatusCodes != null && reference.StatusCodes.Count > 0)
+            {
+                writer.WriteLine($"**Method Result Codes**");
+                writer.WriteLine();
+                writer.WriteLine($"|Result Code|Description|");
+                writer.WriteLine($"|---|---|");
+
+                foreach (var statusCode in reference.StatusCodes)
+                {
+                    writer.Write($"|{statusCode.Code}|");
+                    WriteParagraphs(writer, statusCode.Documentation, true);
+                    writer.WriteLine($"|");
+                }
+
+                writer.WriteLine();
+            }
+        }
+
         public void Export(RepositoryObjectVariableType entry, string path)
         {
             if (path == null)
@@ -99,13 +209,7 @@ namespace MarkdownProcessor
                 writer.WriteLine("<!-- objecttype -->");
                 writer.WriteLine($"## {entry.Name}");
 
-                if (entry.Description != null)
-                {
-                    foreach (var description in entry.Description)
-                    {
-                        writer.WriteLine($"## {description}  ");
-                    }
-                }
+                WriteParagraphs(writer, entry.Documentation);
 
                 writer.WriteLine($"The representation of the {entry.Name} {entry.NodeClass} in the address space is shown in the following table:  ");
 
@@ -134,7 +238,7 @@ namespace MarkdownProcessor
 
                         writer.Write($"|{Export(reference.ReferenceType)}");
                         writer.Write($"|{reference.NodeClass}");
-                        writer.Write($"|{name}");
+                        writer.Write($"|[{name}](#{name})");
                         writer.Write($"|{Export(reference.DataType)}");
 
                         if (reference.DataType != null)
@@ -148,6 +252,27 @@ namespace MarkdownProcessor
                         writer.Write($"|{Export(reference.TypeDefinition)}");
                         writer.Write($"|{Export(reference.ModellingRule)}");
                         writer.WriteLine($"|");
+                    }
+
+                    writer.WriteLine();
+
+                    foreach (var reference in entry.References)
+                    {
+                        if (reference.NodeClass == NodeClass.Method)
+                        {
+                            WriteMethod(writer, reference);
+                            continue;
+                        }
+
+                        if (reference.Documentation != null && reference.Documentation.Count > 0)
+                        {
+                            var name = reference.BrowseName;
+                            name = name.Replace("<", "&lt;");
+                            name = name.Replace(">", "&gt;");
+
+                            writer.WriteLine($"### <a name=\"{name}\"></a>{name}");
+                            WriteParagraphs(writer, reference.Documentation);
+                        }
                     }
 
                     writer.WriteLine();
@@ -174,11 +299,11 @@ namespace MarkdownProcessor
                 writer.WriteLine("<!-- datatype -->");
                 writer.WriteLine($"## {entry.Name}");
 
-                if (entry.Description != null)
+                if (entry.Documentation != null)
                 {
-                    foreach (var description in entry.Description)
+                    foreach (var description in entry.Documentation)
                     {
-                        writer.WriteLine($"## {description}  ");
+                        writer.WriteLine($"{description}  ");
                     }
                 }
 
@@ -197,9 +322,9 @@ namespace MarkdownProcessor
                     {
                         StringBuilder description = new StringBuilder();
 
-                        if (field.Description != null)
+                        if (field.Documentation != null)
                         {
-                            foreach (var ii in field.Description)
+                            foreach (var ii in field.Documentation)
                             {
                                 if (description.Length > 0)
                                 {
@@ -239,9 +364,9 @@ namespace MarkdownProcessor
                     {
                         StringBuilder description = new StringBuilder();
 
-                        if (field.Description != null)
+                        if (field.Documentation != null)
                         {
-                            foreach (var ii in field.Description)
+                            foreach (var ii in field.Documentation)
                             {
                                 if (description.Length > 0)
                                 {

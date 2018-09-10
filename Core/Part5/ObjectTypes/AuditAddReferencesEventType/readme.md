@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## AuditAddReferencesEventType
+
 The representation of the AuditAddReferencesEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,5 +14,6 @@ The references from the AuditAddReferencesEventType ObjectType Node are shown in
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|ReferencesToAdd|[AddReferencesItem](../../../Part4/DataTypes/AddReferencesItem/readme.md)[]|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[ReferencesToAdd](#ReferencesToAdd)|[AddReferencesItem](../../../Part4/DataTypes/AddReferencesItem/readme.md)[]|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+
 

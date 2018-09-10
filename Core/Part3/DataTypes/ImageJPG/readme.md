@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ImageJPG
+An image encoded in JPEG format.  
 <!-- end of description -->
 The fields of the ImageJPG DataType are defined in the following table:  
 

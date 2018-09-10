@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DeleteNodesItem
+A request to delete a node to the server address space.  
 <!-- end of description -->
 The fields of the DeleteNodesItem DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BrowseDirection
+The directions of the references to return.  
 <!-- end of description -->
 The fields of the BrowseDirection DataType are defined in the following table:  
 

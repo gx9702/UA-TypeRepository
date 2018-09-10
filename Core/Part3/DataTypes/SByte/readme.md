@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SByte
+Describes a value that is an integer between -128 and 127.  
 <!-- end of description -->
 The fields of the SByte DataType are defined in the following table:  
 

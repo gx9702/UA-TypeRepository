@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SignatureData
+A digital signature.  
 <!-- end of description -->
 The fields of the SignatureData DataType are defined in the following table:  
 

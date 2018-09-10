@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UInt64
+Describes a value that is an integer between 0 and 18,446,744,073,709,551,615.  
 <!-- end of description -->
 The fields of the UInt64 DataType are defined in the following table:  
 

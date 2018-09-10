@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Union
+This abstract DataType is the base DataType for all union DataTypes.  
 <!-- end of description -->
 The fields of the Union DataType are defined in the following table:  
 

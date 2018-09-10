@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DeleteReferencesItem
+A request to delete a node from the server address space.  
 <!-- end of description -->
 The fields of the DeleteReferencesItem DataType are defined in the following table:  
 

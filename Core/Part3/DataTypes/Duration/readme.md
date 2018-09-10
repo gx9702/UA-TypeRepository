@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Duration
+A period of time measured in milliseconds.  
 <!-- end of description -->
 The fields of the Duration DataType are defined in the following table:  
 

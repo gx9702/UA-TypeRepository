@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## JsonDataSetWriterMessageType
+
 The representation of the JsonDataSetWriterMessageType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,5 +14,6 @@ The references from the JsonDataSetWriterMessageType ObjectType Node are shown i
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|DataSetMessageContentMask|[JsonDataSetMessageContentMask](../../../Part14/DataTypes/JsonDataSetMessageContentMask/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[DataSetMessageContentMask](#DataSetMessageContentMask)|[JsonDataSetMessageContentMask](../../../Part14/DataTypes/JsonDataSetMessageContentMask/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+
 

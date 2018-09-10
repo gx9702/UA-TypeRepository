@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## OpenSecureChannelRequest
+Creates a secure channel with a server.  
 <!-- end of description -->
 The fields of the OpenSecureChannelRequest DataType are defined in the following table:  
 

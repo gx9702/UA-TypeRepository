@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## AuditHistoryEventDeleteEventType
+
 The representation of the AuditHistoryEventDeleteEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,6 +14,7 @@ The references from the AuditHistoryEventDeleteEventType ObjectType Node are sho
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|EventIds|[ByteString](../../../Part3/DataTypes/ByteString/readme.md)[]|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|OldValues|[HistoryEventFieldList](../../../Part4/DataTypes/HistoryEventFieldList/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[EventIds](#EventIds)|[ByteString](../../../Part3/DataTypes/ByteString/readme.md)[]|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[OldValues](#OldValues)|[HistoryEventFieldList](../../../Part4/DataTypes/HistoryEventFieldList/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## X509IdentityToken
+A token representing a user identified by an X509 certificate.  
 <!-- end of description -->
 The fields of the X509IdentityToken DataType are defined in the following table:  
 

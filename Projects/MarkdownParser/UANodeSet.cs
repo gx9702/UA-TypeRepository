@@ -453,8 +453,6 @@ namespace MarkdownProcessor.NodeSet {
         
         private LocalizedText[] descriptionField;
         
-        private string documentationField;
-        
         private string nameField;
         
         private string symbolicNameField;
@@ -493,16 +491,6 @@ namespace MarkdownProcessor.NodeSet {
             }
             set {
                 this.descriptionField = value;
-            }
-        }
-        
-        /// <remarks/>
-        public string Documentation {
-            get {
-                return this.documentationField;
-            }
-            set {
-                this.documentationField = value;
             }
         }
         

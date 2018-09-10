@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## RegisteredServer
+The information required to register a server with a discovery server.  
 <!-- end of description -->
 The fields of the RegisteredServer DataType are defined in the following table:  
 

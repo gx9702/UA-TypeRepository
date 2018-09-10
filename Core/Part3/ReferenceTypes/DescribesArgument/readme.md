@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## DescribesArgument
+
 The representation of the DescribesArgument ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,6 +14,7 @@ The references from the DescribesArgument ReferenceType Node are shown in the fo
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ReferenceType|DescribesInputArgument||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ReferenceType|DescribesOutputArgument||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ReferenceType|[DescribesInputArgument](#DescribesInputArgument)||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ReferenceType|[DescribesOutputArgument](#DescribesOutputArgument)||||
+
 

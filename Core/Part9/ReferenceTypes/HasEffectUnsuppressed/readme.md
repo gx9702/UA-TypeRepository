@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## HasEffectUnsuppressed
+
 The representation of the HasEffectUnsuppressed ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

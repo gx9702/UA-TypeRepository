@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## TranslateBrowsePathsToNodeIdsRequest
+Translates one or more paths in the server address space.  
 <!-- end of description -->
 The fields of the TranslateBrowsePathsToNodeIdsRequest DataType are defined in the following table:  
 

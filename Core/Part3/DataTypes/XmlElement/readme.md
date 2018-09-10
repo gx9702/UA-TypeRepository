@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## XmlElement
+Describes a value that is an XML element.  
 <!-- end of description -->
 The fields of the XmlElement DataType are defined in the following table:  
 

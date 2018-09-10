@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UserIdentityToken
+A base type for a user identity token.  
 <!-- end of description -->
 The fields of the UserIdentityToken DataType are defined in the following table:  
 

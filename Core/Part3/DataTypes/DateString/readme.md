@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DateString
+A date formatted as defined in ISO 8601-2000.  
 <!-- end of description -->
 The fields of the DateString DataType are defined in the following table:  
 

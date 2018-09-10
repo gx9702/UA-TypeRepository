@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## EnumValueType
+A mapping between a value of an enumerated type and a name and description.  
 <!-- end of description -->
 The fields of the EnumValueType DataType are defined in the following table:  
 

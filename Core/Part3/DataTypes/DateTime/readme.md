@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DateTime
+Describes a value that is a Gregorian calender date and time.  
 <!-- end of description -->
 The fields of the DateTime DataType are defined in the following table:  
 

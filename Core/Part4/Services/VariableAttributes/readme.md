@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## VariableAttributes
+The attributes for a variable node.  
 <!-- end of description -->
 The fields of the VariableAttributes DataType are defined in the following table:  
 

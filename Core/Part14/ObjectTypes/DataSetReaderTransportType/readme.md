@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## DataSetReaderTransportType
+
 The representation of the DataSetReaderTransportType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,5 +14,6 @@ The references from the DataSetReaderTransportType ObjectType Node are shown in 
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|BrokerDataSetReaderTransportType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[BrokerDataSetReaderTransportType](#BrokerDataSetReaderTransportType)||||
+
 

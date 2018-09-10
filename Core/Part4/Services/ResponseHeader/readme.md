@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ResponseHeader
+The header passed with every server response.  
 <!-- end of description -->
 The fields of the ResponseHeader DataType are defined in the following table:  
 

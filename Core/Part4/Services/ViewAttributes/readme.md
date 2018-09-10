@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ViewAttributes
+The attributes for a view node.  
 <!-- end of description -->
 The fields of the ViewAttributes DataType are defined in the following table:  
 

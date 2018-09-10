@@ -11,6 +11,7 @@ namespace MarkdownProcessor
     internal class Settings
     {
         public bool OutputMarkdown;
+        public bool OutputNodeSet;
         public string OutputPath;
         public string TargetModel;
         public Dictionary<string,string> NodeSetFiles;
@@ -19,6 +20,7 @@ namespace MarkdownProcessor
         public static class ArgName
         {
             public const string Markdown = "-markdown";
+            public const string NodeSet = "-nodeset";
             public const string Output = "-output=";
             public const string Model = "-model=";
         }
@@ -45,6 +47,7 @@ namespace MarkdownProcessor
             Settings settings = new Settings();
 
             settings.OutputMarkdown = false;
+            settings.OutputNodeSet = false;
             settings.OutputPath = ".\\";
             settings.TargetModel = null;
             settings.NodeSetFiles = new Dictionary<string, string>();
@@ -55,6 +58,11 @@ namespace MarkdownProcessor
                 if (arg == ArgName.Markdown)
                 {
                     settings.OutputMarkdown = true;
+                    continue;
+                }
+                else if (arg == ArgName.NodeSet)
+                {
+                    settings.OutputNodeSet = true;
                     continue;
                 }
 
@@ -145,6 +153,29 @@ namespace MarkdownProcessor
                 MarkdownExporter exporter = new MarkdownExporter();
                 exporter.Export(repository, Settings.OutputPath);
 
+                Console.WriteLine($"All Done!");
+                Console.ReadLine();
+                return;
+            }
+
+            if (Settings.OutputNodeSet)
+            {
+                Console.WriteLine($"Loading Model: {Settings.TargetModel}");
+                ModelImporter importer = new ModelImporter();
+                importer.ModelRequired += ModelImporter_ModelRequired;
+                importer.LoadModel(Settings.NodeSetFiles[Settings.TargetModel]);
+
+                var repositoryPath = GetRepositoryPath(Settings.TargetModel);
+                Console.WriteLine($"Loading Markdown: {repositoryPath}");
+                MarkdownImporter markdown = new MarkdownImporter();
+                var repository = markdown.Import(repositoryPath);
+
+                Console.WriteLine($"Merge Markdown");
+                importer.MergeRepository(Settings.TargetModel, repository);
+
+                Console.WriteLine($"Save NodeSet: {Settings.OutputPath}");
+                importer.SaveNodeSet(Settings.TargetModel, Settings.OutputPath);
+                
                 Console.WriteLine($"All Done!");
                 Console.ReadLine();
                 return;

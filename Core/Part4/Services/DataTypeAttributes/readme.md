@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DataTypeAttributes
+The attributes for a data type node.  
 <!-- end of description -->
 The fields of the DataTypeAttributes DataType are defined in the following table:  
 

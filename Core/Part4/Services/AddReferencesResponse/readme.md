@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AddReferencesResponse
+Adds one or more references to the server address space.  
 <!-- end of description -->
 The fields of the AddReferencesResponse DataType are defined in the following table:  
 

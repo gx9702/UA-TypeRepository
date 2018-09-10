@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Byte
+Describes a value that is an integer between 0 and 255.  
 <!-- end of description -->
 The fields of the Byte DataType are defined in the following table:  
 

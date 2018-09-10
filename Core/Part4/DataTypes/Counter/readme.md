@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Counter
+A monotonically increasing value.  
 <!-- end of description -->
 The fields of the Counter DataType are defined in the following table:  
 

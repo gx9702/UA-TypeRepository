@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## MessageSecurityMode
+The type of security to use on a message.  
 <!-- end of description -->
 The fields of the MessageSecurityMode DataType are defined in the following table:  
 

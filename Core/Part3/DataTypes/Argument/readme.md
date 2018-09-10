@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Argument
+An argument for a method.  
 <!-- end of description -->
 The fields of the Argument DataType are defined in the following table:  
 

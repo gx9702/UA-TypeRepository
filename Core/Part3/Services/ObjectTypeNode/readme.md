@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ObjectTypeNode
+Specifies the attributes which belong to object type nodes.  
 <!-- end of description -->
 The fields of the ObjectTypeNode DataType are defined in the following table:  
 

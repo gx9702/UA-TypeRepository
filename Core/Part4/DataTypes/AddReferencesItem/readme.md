@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AddReferencesItem
+A request to add a reference to the server address space.  
 <!-- end of description -->
 The fields of the AddReferencesItem DataType are defined in the following table:  
 

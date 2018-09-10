@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## NamingRuleType
+Describes a value that specifies the significance of the BrowseName for an instance declaration.  
 <!-- end of description -->
 The fields of the NamingRuleType DataType are defined in the following table:  
 

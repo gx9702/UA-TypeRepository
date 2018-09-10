@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UserNameIdentityToken
+A token representing a user identified by a user name and password.  
 <!-- end of description -->
 The fields of the UserNameIdentityToken DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## JsonWriterGroupMessageType
+
 The representation of the JsonWriterGroupMessageType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,5 +14,6 @@ The references from the JsonWriterGroupMessageType ObjectType Node are shown in 
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|NetworkMessageContentMask|[JsonNetworkMessageContentMask](../../../Part14/DataTypes/JsonNetworkMessageContentMask/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[NetworkMessageContentMask](#NetworkMessageContentMask)|[JsonNetworkMessageContentMask](../../../Part14/DataTypes/JsonNetworkMessageContentMask/readme.md)|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+
 

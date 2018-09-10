@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BrowseNextResponse
+Continues one or more browse operations.  
 <!-- end of description -->
 The fields of the BrowseNextResponse DataType are defined in the following table:  
 

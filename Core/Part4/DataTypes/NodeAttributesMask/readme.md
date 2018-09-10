@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## NodeAttributesMask
+The bits used to specify default attributes for a new node.  
 <!-- end of description -->
 The fields of the NodeAttributesMask DataType are defined in the following table:  
 

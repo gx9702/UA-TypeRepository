@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DataValue
+Describes a value that is a structure containing a value, a status code and timestamps.  
 <!-- end of description -->
 The fields of the DataValue DataType are defined in the following table:  
 

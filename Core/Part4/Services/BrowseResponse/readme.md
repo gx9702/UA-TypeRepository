@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BrowseResponse
+Browse the references for one or more nodes from the server address space.  
 <!-- end of description -->
 The fields of the BrowseResponse DataType are defined in the following table:  
 

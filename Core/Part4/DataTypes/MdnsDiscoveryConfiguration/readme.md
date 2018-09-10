@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## MdnsDiscoveryConfiguration
+The discovery information needed for mDNS registration.  
 <!-- end of description -->
 The fields of the MdnsDiscoveryConfiguration DataType are defined in the following table:  
 

@@ -11,6 +11,7 @@
     <RootNamespace>MarkdownProcessor</RootNamespace>
     <AssemblyName>MarkdownProcessor</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <IntermediateOutputPath>$(SolutionDir)build\obj\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</IntermediateOutputPath>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -19,7 +20,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>$(SolutionDir)build\bin\\$(Configuration)\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -27,7 +28,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>$(SolutionDir)build\bin\\$(Configuration)\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -265,14 +266,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MarkdownImporter.cs" />
     <Compile Include="MarkdownExporter.cs" />
-    <Compile Include="RepositoryFolder.cs" />
+    <Compile Include="Repository.cs" />
     <Compile Include="UANodeSet.cs">
       <DependentUpon>UANodeSet.xsd</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="BuildModel.bat" />
+    <Content Include="BuildModel.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="BuildSchema.bat" />
     <None Include="packages.config" />
     <None Include="UANodeSet.xsd">

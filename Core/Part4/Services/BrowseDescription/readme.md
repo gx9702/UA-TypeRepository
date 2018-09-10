@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BrowseDescription
+A request to browse the the references from a node.  
 <!-- end of description -->
 The fields of the BrowseDescription DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BrowsePathResult
+The result of a translate opearation.  
 <!-- end of description -->
 The fields of the BrowsePathResult DataType are defined in the following table:  
 

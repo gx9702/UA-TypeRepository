@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UnregisterNodesResponse
+Unregisters one or more previously registered nodes.  
 <!-- end of description -->
 The fields of the UnregisterNodesResponse DataType are defined in the following table:  
 

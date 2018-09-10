@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DeleteReferencesRequest
+Delete one or more references from the server address space.  
 <!-- end of description -->
 The fields of the DeleteReferencesRequest DataType are defined in the following table:  
 

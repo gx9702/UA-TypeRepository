@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Date
+A date value.  
 <!-- end of description -->
 The fields of the Date DataType are defined in the following table:  
 

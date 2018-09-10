@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## NonTransparentNetworkRedundancyType
+
 The representation of the NonTransparentNetworkRedundancyType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,5 +14,6 @@ The references from the NonTransparentNetworkRedundancyType ObjectType Node are 
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|ServerNetworkGroups|[NetworkGroupDataType](../../../Part5/DataTypes/NetworkGroupDataType/readme.md)[]|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[ServerNetworkGroups](#ServerNetworkGroups)|[NetworkGroupDataType](../../../Part5/DataTypes/NetworkGroupDataType/readme.md)[]|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Float
+Describes a value that is an IEEE 754-1985 single precision floating point number.  
 <!-- end of description -->
 The fields of the Float DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Int32
+Describes a value that is an integer between −2,147,483,648  and 2,147,483,647.  
 <!-- end of description -->
 The fields of the Int32 DataType are defined in the following table:  
 

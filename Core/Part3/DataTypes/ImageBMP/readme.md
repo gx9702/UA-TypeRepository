@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ImageBMP
+An image encoded in BMP format.  
 <!-- end of description -->
 The fields of the ImageBMP DataType are defined in the following table:  
 

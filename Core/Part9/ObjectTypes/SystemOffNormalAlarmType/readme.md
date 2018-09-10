@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## SystemOffNormalAlarmType
+
 The representation of the SystemOffNormalAlarmType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,5 +14,6 @@ The references from the SystemOffNormalAlarmType ObjectType Node are shown in th
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|CertificateExpirationAlarmType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[CertificateExpirationAlarmType](#CertificateExpirationAlarmType)||||
+
 

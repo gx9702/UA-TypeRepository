@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## AlarmGroupMember
+
 The representation of the AlarmGroupMember ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Enumeration
+Describes a value that is an enumerated DataType.  
 <!-- end of description -->
 The fields of the Enumeration DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Image
+Describes a value that is an image encoded as a string of bytes.  
 <!-- end of description -->
 The fields of the Image DataType are defined in the following table:  
 

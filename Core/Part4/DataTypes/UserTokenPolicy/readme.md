@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UserTokenPolicy
+Describes a user token that can be used with a server.  
 <!-- end of description -->
 The fields of the UserTokenPolicy DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UInt16
+Describes a value that is an integer between 0 and 65535.  
 <!-- end of description -->
 The fields of the UInt16 DataType are defined in the following table:  
 

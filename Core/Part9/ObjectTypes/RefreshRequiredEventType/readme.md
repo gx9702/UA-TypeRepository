@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## RefreshRequiredEventType
+
 The representation of the RefreshRequiredEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

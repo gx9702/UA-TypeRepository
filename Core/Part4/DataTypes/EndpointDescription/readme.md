@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## EndpointDescription
+The description of a endpoint that can be used to access a server.  
 <!-- end of description -->
 The fields of the EndpointDescription DataType are defined in the following table:  
 

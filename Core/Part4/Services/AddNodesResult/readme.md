@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AddNodesResult
+A result of an add node operation.  
 <!-- end of description -->
 The fields of the AddNodesResult DataType are defined in the following table:  
 

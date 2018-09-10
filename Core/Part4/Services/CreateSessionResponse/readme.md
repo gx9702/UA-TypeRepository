@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## CreateSessionResponse
+Creates a new session with the server.  
 <!-- end of description -->
 The fields of the CreateSessionResponse DataType are defined in the following table:  
 

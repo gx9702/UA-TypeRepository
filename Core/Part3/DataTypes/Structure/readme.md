@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Structure
+Describes a value that is any type of structure that can be described with a data encoding.  
 <!-- end of description -->
 The fields of the Structure DataType are defined in the following table:  
 

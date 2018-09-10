@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## WriterGroupMessageType
+
 The representation of the WriterGroupMessageType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,6 +14,7 @@ The references from the WriterGroupMessageType ObjectType Node are shown in the 
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|UadpWriterGroupMessageType||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|JsonWriterGroupMessageType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[UadpWriterGroupMessageType](#UadpWriterGroupMessageType)||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[JsonWriterGroupMessageType](#JsonWriterGroupMessageType)||||
+
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AudioDataType
+An image encoded in PNG format.  
 <!-- end of description -->
 The fields of the AudioDataType DataType are defined in the following table:  
 

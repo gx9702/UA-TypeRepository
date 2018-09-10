@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## QualifiedName
+Describes a value that is a name qualified by a namespace.  
 <!-- end of description -->
 The fields of the QualifiedName DataType are defined in the following table:  
 

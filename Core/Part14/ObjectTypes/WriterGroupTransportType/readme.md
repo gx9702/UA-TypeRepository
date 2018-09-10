@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## WriterGroupTransportType
+
 The representation of the WriterGroupTransportType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,6 +14,7 @@ The references from the WriterGroupTransportType ObjectType Node are shown in th
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|DatagramWriterGroupTransportType||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|BrokerWriterGroupTransportType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[DatagramWriterGroupTransportType](#DatagramWriterGroupTransportType)||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[BrokerWriterGroupTransportType](#BrokerWriterGroupTransportType)||||
+
 

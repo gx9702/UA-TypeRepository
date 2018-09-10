@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SessionAuthenticationToken
+A unique identifier for a session used to authenticate requests.  
 <!-- end of description -->
 The fields of the SessionAuthenticationToken DataType are defined in the following table:  
 

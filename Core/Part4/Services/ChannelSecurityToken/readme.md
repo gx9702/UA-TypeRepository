@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ChannelSecurityToken
+The token that identifies a set of keys for an active secure channel.  
 <!-- end of description -->
 The fields of the ChannelSecurityToken DataType are defined in the following table:  
 

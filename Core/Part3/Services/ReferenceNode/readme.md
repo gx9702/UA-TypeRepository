@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ReferenceNode
+Specifies a reference which belongs to a node.  
 <!-- end of description -->
 The fields of the ReferenceNode DataType are defined in the following table:  
 

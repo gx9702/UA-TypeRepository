@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BrowsePath
+A request to translate a path into a node id.  
 <!-- end of description -->
 The fields of the BrowsePath DataType are defined in the following table:  
 

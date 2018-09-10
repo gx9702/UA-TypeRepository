@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## SemanticChangeEventType
+
 The representation of the SemanticChangeEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,5 +14,6 @@ The references from the SemanticChangeEventType ObjectType Node are shown in the
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|Changes|[SemanticChangeStructureDataType](../../../Part5/DataTypes/SemanticChangeStructureDataType/readme.md)[]|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[Changes](#Changes)|[SemanticChangeStructureDataType](../../../Part5/DataTypes/SemanticChangeStructureDataType/readme.md)[]|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+
 

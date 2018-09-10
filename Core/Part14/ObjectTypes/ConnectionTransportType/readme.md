@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## ConnectionTransportType
+
 The representation of the ConnectionTransportType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,6 +14,7 @@ The references from the ConnectionTransportType ObjectType Node are shown in the
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|DatagramConnectionTransportType||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|BrokerConnectionTransportType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[DatagramConnectionTransportType](#DatagramConnectionTransportType)||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[BrokerConnectionTransportType](#BrokerConnectionTransportType)||||
+
 

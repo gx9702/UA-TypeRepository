@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## RequestHeader
+The header passed with every server request.  
 <!-- end of description -->
 The fields of the RequestHeader DataType are defined in the following table:  
 

@@ -335,7 +335,7 @@ namespace MarkdownProcessor
 
                 reference.BrowseName = null;
                 reference.DataType = null;
-                reference.Description = null;
+                reference.Documentation = null;
                 reference.ModellingRule = null;
                 reference.NodeClass = NodeClass.Unspecified;
                 reference.ReferenceType = null;
@@ -419,7 +419,7 @@ namespace MarkdownProcessor
 
                 if (descriptions.TryGetValue(reference.BrowseName, out description))
                 {
-                    reference.Description = description;
+                    reference.Documentation = description;
                 }
 
                 references.Add(reference);
@@ -446,7 +446,7 @@ namespace MarkdownProcessor
                 }
             }
 
-            entry.Description = ReadDescription(document, ref start);
+            entry.Documentation = ReadDescription(document, ref start);
 
             while (start < document.Count)
             {
@@ -486,7 +486,6 @@ namespace MarkdownProcessor
 
             if (attributes != null)
             {
-                entry.DisplayName = entry.Name;
                 entry.NodeClass = Opc.Ua.NodeClass.ObjectType;
                 entry.IsAbstract = false;
                 entry.BaseType = null;
@@ -500,7 +499,7 @@ namespace MarkdownProcessor
                     var name = cell.Text;
                     name = name.Replace("&lt;", "<");
                     name = name.Replace("&gt;", ">");
-                    entry.Name = entry.DisplayName = name;
+                    entry.Name = name;
                 }
 
                 if (attributes.TryGetValue("NodeClass", out cell))
@@ -577,7 +576,6 @@ namespace MarkdownProcessor
         {
             RepositoryDataType entry = new RepositoryDataType();
 
-            int state = 0;
             TableData fields = null;
             TableData references = null;
             Dictionary<string, CellData> attributes = null;
@@ -595,7 +593,7 @@ namespace MarkdownProcessor
                 }
             }
 
-            entry.Description = ReadDescription(document, ref start);
+            entry.Documentation = ReadDescription(document, ref start);
 
             while (start < document.Count)
             {
@@ -634,7 +632,6 @@ namespace MarkdownProcessor
 
             if (attributes != null)
             {
-                entry.DisplayName = entry.Name;
                 entry.IsAbstract = false;
                 entry.BaseType = null;
 
@@ -642,7 +639,7 @@ namespace MarkdownProcessor
 
                 if (attributes.TryGetValue("BrowseName", out cell))
                 {
-                    entry.Name = entry.DisplayName = cell.Text;
+                    entry.Name = cell.Text;
                 }
 
                 if (attributes.TryGetValue("IsAbstract", out cell))
@@ -672,7 +669,7 @@ namespace MarkdownProcessor
                     field.Name = null;
                     field.DataType = null;
                     field.ValueRank = ValueRanks.Scalar;
-                    field.Description = null;
+                    field.Documentation = null;
 
                     var cell = fields.GetCell("Name", ii);
 
@@ -723,8 +720,8 @@ namespace MarkdownProcessor
 
                     if (cell != null && !String.IsNullOrEmpty(cell.Text))
                     {
-                        field.Description = new List<string>();
-                        field.Description.Add(cell.Text);
+                        field.Documentation = new List<string>();
+                        field.Documentation.Add(cell.Text);
                     }
 
                     if (ii != 0 || field.Name != entry.Name)
@@ -793,7 +790,7 @@ namespace MarkdownProcessor
             return null;
         }
 
-        public Repository Import(string modeUri, string path)
+        public Repository Import(string path)
         {
             m_repository = new Repository();
 

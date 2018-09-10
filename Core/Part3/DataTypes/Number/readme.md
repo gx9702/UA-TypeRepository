@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Number
+Describes a value that can have any numeric DataType.  
 <!-- end of description -->
 The fields of the Number DataType are defined in the following table:  
 

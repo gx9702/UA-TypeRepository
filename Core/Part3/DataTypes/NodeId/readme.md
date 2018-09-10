@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## NodeId
+Describes a value that is an identifier for a node within a Server address space.  
 <!-- end of description -->
 The fields of the NodeId DataType are defined in the following table:  
 

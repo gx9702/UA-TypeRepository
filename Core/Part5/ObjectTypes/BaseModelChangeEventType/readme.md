@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## BaseModelChangeEventType
+
 The representation of the BaseModelChangeEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,6 +14,7 @@ The references from the BaseModelChangeEventType ObjectType Node are shown in th
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|GeneralModelChangeEventType||||
-|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|SemanticChangeEventType||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[GeneralModelChangeEventType](#GeneralModelChangeEventType)||||
+|[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[SemanticChangeEventType](#SemanticChangeEventType)||||
+
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DiscoveryConfiguration
+A base type for discovery configuration information.  
 <!-- end of description -->
 The fields of the DiscoveryConfiguration DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Boolean
+Describes a value that is either TRUE or FALSE.  
 <!-- end of description -->
 The fields of the Boolean DataType are defined in the following table:  
 

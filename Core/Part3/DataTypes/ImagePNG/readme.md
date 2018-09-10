@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ImagePNG
+An image encoded in PNG format.  
 <!-- end of description -->
 The fields of the ImagePNG DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ExpandedNodeId
+Describes a value that is an absolute identifier for a node.  
 <!-- end of description -->
 The fields of the ExpandedNodeId DataType are defined in the following table:  
 

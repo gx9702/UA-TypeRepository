@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## RegisterServerResponse
+Registers a server with the discovery server.  
 <!-- end of description -->
 The fields of the RegisterServerResponse DataType are defined in the following table:  
 

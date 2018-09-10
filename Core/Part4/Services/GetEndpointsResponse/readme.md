@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## GetEndpointsResponse
+Gets the endpoints used by the server.  
 <!-- end of description -->
 The fields of the GetEndpointsResponse DataType are defined in the following table:  
 

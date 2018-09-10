@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UnregisterNodesRequest
+Unregisters one or more previously registered nodes.  
 <!-- end of description -->
 The fields of the UnregisterNodesRequest DataType are defined in the following table:  
 

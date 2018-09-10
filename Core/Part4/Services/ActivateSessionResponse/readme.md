@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ActivateSessionResponse
+Activates a session with the server.  
 <!-- end of description -->
 The fields of the ActivateSessionResponse DataType are defined in the following table:  
 

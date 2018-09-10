@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## RegisterNodesResponse
+Registers one or more nodes for repeated use within a session.  
 <!-- end of description -->
 The fields of the RegisterNodesResponse DataType are defined in the following table:  
 

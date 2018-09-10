@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## HasEncoding
+The type for references from data type nodes to to data type encoding nodes.
 The representation of the HasEncoding ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

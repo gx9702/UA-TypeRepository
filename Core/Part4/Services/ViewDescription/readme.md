@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ViewDescription
+The view to browse.  
 <!-- end of description -->
 The fields of the ViewDescription DataType are defined in the following table:  
 

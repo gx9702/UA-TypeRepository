@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ServiceFault
+The response returned by all services when there is a service level error.  
 <!-- end of description -->
 The fields of the ServiceFault DataType are defined in the following table:  
 

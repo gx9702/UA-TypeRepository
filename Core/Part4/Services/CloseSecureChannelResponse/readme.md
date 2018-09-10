@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## CloseSecureChannelResponse
+Closes a secure channel.  
 <!-- end of description -->
 The fields of the CloseSecureChannelResponse DataType are defined in the following table:  
 

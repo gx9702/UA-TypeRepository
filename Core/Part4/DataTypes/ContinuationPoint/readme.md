@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ContinuationPoint
+An identifier for a suspended query or browse operation.  
 <!-- end of description -->
 The fields of the ContinuationPoint DataType are defined in the following table:  
 

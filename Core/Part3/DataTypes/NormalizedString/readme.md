@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## NormalizedString
+A string normalized based on the rules in the unicode specification.  
 <!-- end of description -->
 The fields of the NormalizedString DataType are defined in the following table:  
 

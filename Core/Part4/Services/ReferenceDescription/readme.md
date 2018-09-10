@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ReferenceDescription
+The description of a reference.  
 <!-- end of description -->
 The fields of the ReferenceDescription DataType are defined in the following table:  
 

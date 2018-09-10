@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AttributeWriteMask
+Define bits used to indicate which attributes are writable.  
 <!-- end of description -->
 The fields of the AttributeWriteMask DataType are defined in the following table:  
 

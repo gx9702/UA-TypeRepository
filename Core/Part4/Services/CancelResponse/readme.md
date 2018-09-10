@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## CancelResponse
+Cancels an outstanding request.  
 <!-- end of description -->
 The fields of the CancelResponse DataType are defined in the following table:  
 

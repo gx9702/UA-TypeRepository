@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## RelativePath
+A relative path constructed from reference types and browse names.  
 <!-- end of description -->
 The fields of the RelativePath DataType are defined in the following table:  
 

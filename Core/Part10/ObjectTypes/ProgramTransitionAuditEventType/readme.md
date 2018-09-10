@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## ProgramTransitionAuditEventType
+
 The representation of the ProgramTransitionAuditEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,5 +14,6 @@ The references from the ProgramTransitionAuditEventType ObjectType Node are show
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|Transition|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|[FiniteTransitionVariableType](../../Part5/VariableTypes/FiniteTransitionVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|[Transition](#Transition)|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|[FiniteTransitionVariableType](../../Part5/VariableTypes/FiniteTransitionVariableType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
+
 

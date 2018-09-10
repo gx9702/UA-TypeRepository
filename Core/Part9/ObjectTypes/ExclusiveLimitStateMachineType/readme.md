@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## ExclusiveLimitStateMachineType
+
 The representation of the ExclusiveLimitStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,12 +14,13 @@ The references from the ExclusiveLimitStateMachineType ObjectType Node are shown
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|HighHigh||[StateType](../../Part5/ObjectTypes/StateType/readme.md)||
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|High||[StateType](../../Part5/ObjectTypes/StateType/readme.md)||
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|Low||[StateType](../../Part5/ObjectTypes/StateType/readme.md)||
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|LowLow||[StateType](../../Part5/ObjectTypes/StateType/readme.md)||
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|LowLowToLow||[TransitionType](../../Part5/ObjectTypes/TransitionType/readme.md)||
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|LowToLowLow||[TransitionType](../../Part5/ObjectTypes/TransitionType/readme.md)||
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|HighHighToHigh||[TransitionType](../../Part5/ObjectTypes/TransitionType/readme.md)||
-|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|HighToHighHigh||[TransitionType](../../Part5/ObjectTypes/TransitionType/readme.md)||
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|[HighHigh](#HighHigh)||[StateType](../../Part5/ObjectTypes/StateType/readme.md)||
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|[High](#High)||[StateType](../../Part5/ObjectTypes/StateType/readme.md)||
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|[Low](#Low)||[StateType](../../Part5/ObjectTypes/StateType/readme.md)||
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|[LowLow](#LowLow)||[StateType](../../Part5/ObjectTypes/StateType/readme.md)||
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|[LowLowToLow](#LowLowToLow)||[TransitionType](../../Part5/ObjectTypes/TransitionType/readme.md)||
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|[LowToLowLow](#LowToLowLow)||[TransitionType](../../Part5/ObjectTypes/TransitionType/readme.md)||
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|[HighHighToHigh](#HighHighToHigh)||[TransitionType](../../Part5/ObjectTypes/TransitionType/readme.md)||
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|[HighToHighHigh](#HighToHighHigh)||[TransitionType](../../Part5/ObjectTypes/TransitionType/readme.md)||
+
 

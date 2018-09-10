@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UInt32
+Describes a value that is an integer between 0 and 4,294,967,295.  
 <!-- end of description -->
 The fields of the UInt32 DataType are defined in the following table:  
 

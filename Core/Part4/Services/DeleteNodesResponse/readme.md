@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DeleteNodesResponse
+Delete one or more nodes from the server address space.  
 <!-- end of description -->
 The fields of the DeleteNodesResponse DataType are defined in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## IdType
+The type of identifier used in a node id.  
 <!-- end of description -->
 The fields of the IdType DataType are defined in the following table:  
 

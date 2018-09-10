@@ -1,5 +1,6 @@
 <!-- objecttype -->
 ## MVAModelType
+Hold the descriptions of a mathematical process and associated information to convert scaled data into one or more process values.
 The representation of the MVAModelType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -13,6 +14,7 @@ The references from the MVAModelType VariableType Node are shown in the followin
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasOutput](../../ReferenceTypes/HasOutput/readme.md)|Variable|&lt;User defined Output#&gt;|[BaseDataType](../../../Core/Part3/DataTypes/BaseDataType/readme.md)|[MVAOutputParameterType](../../VariableTypes/MVAOutputParameterType/readme.md)|[OptionalPlaceholder](../../../Core/Objects/OptionalPlaceholder/readme.md)|
-|[HasProperty](../../../Core/Part3/ReferenceTypes/HasProperty/readme.md)|Variable|MainDataIndex|[Int32](../../../Core/Part3/DataTypes/Int32/readme.md)|[PropertyType](../../../Core/Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasOutput](../../ReferenceTypes/HasOutput/readme.md)|Variable|[&lt;User defined Output#&gt;](#&lt;User defined Output#&gt;)|[BaseDataType](../../../Core/Part3/DataTypes/BaseDataType/readme.md)|[MVAOutputParameterType](../../VariableTypes/MVAOutputParameterType/readme.md)|[OptionalPlaceholder](../../../Core/Objects/OptionalPlaceholder/readme.md)|
+|[HasProperty](../../../Core/Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[MainDataIndex](#MainDataIndex)|[Int32](../../../Core/Part3/DataTypes/Int32/readme.md)|[PropertyType](../../../Core/Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+
 
