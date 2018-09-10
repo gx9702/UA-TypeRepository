@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ServerDiagnosticsType
-The diagnostics information for a server.
+The diagnostics information for a server.  
 The representation of the ServerDiagnosticsType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

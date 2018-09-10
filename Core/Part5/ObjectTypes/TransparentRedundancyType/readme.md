@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## TransparentRedundancyType
-Identifies the capabilties of server that supports transparent redundancy.
+Identifies the capabilties of server that supports transparent redundancy.  
 The representation of the TransparentRedundancyType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

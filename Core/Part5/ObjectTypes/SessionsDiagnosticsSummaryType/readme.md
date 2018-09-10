@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## SessionsDiagnosticsSummaryType
-Provides a summary of session level diagnostics.
+Provides a summary of session level diagnostics.  
 The representation of the SessionsDiagnosticsSummaryType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

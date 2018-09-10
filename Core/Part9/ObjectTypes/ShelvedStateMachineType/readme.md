@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ShelvedStateMachineType
-
+  
 The representation of the ShelvedStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -29,7 +29,7 @@ The references from the ShelvedStateMachineType ObjectType Node are shown in the
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[OneShotShelve](#OneShotShelve)|||[Mandatory](../../Objects/Mandatory/readme.md)|
 
 ### <a name="TimedShelve"></a>TimedShelve
-
+  
 **Signature**
 ```
     TimedShelve(
@@ -42,13 +42,13 @@ The references from the ShelvedStateMachineType ObjectType Node are shown in the
 |ShelvingTime|If not 0, this parameter specifies a fixed time for which the Alarm is to be shelved.|
 
 ### <a name="Unshelve"></a>Unshelve
-
+  
 **Signature**
 ```
     Unshelve(    );
 ```
 ### <a name="OneShotShelve"></a>OneShotShelve
-
+  
 **Signature**
 ```
     OneShotShelve(    );

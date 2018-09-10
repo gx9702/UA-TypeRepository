@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AlarmGroupType
-
+  
 The representation of the AlarmGroupType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

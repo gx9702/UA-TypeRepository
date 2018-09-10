@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditHistoryDeleteEventType
-
+  
 The representation of the AuditHistoryDeleteEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

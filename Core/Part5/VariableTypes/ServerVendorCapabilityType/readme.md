@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ServerVendorCapabilityType
-
+  
 The representation of the ServerVendorCapabilityType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

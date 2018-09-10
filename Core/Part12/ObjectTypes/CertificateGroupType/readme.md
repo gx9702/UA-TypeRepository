@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## CertificateGroupType
-
+  
 The representation of the CertificateGroupType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

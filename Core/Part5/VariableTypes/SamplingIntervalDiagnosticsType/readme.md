@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## SamplingIntervalDiagnosticsType
-
+  
 The representation of the SamplingIntervalDiagnosticsType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

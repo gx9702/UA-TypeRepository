@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AnalyserChannelMaintenanceStateType
-
+  
 The representation of the AnalyserChannelMaintenanceStateType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

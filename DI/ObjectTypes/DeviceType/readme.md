@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## DeviceType
-Defines the basic information components for all configurable elements in a device topology
+Defines the basic information components for all configurable elements in a device topology  
 The representation of the DeviceType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

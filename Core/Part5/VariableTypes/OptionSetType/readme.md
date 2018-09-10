@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## OptionSetType
-
+  
 The representation of the OptionSetType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

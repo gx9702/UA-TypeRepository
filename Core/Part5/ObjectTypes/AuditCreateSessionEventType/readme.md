@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditCreateSessionEventType
-An event that is raised when a session is created.
+An event that is raised when a session is created.  
 The representation of the AuditCreateSessionEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

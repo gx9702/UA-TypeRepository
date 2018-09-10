@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## BrokerDataSetWriterTransportType
-
+  
 The representation of the BrokerDataSetWriterTransportType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

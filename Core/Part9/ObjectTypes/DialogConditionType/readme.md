@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## DialogConditionType
-
+  
 The representation of the DialogConditionType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -25,7 +25,7 @@ The references from the DialogConditionType ObjectType Node are shown in the fol
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[Respond](#Respond)|||[Mandatory](../../Objects/Mandatory/readme.md)|
 
 ### <a name="Respond"></a>Respond
-
+  
 **Signature**
 ```
     Respond(

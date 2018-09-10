@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## CertificateUpdatedAuditEventType
-
+  
 The representation of the CertificateUpdatedAuditEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

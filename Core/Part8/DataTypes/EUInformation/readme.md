@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## EUInformation
+This structure contains information about the EngineeringUnits. Its elements are defined in Table 16.  
 <!-- end of description -->
 The fields of the EUInformation DataType are defined in the following table:  
 

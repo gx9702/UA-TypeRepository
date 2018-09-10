@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## RoleType
-
+  
 The representation of the RoleType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -27,7 +27,7 @@ The references from the RoleType ObjectType Node are shown in the following tabl
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[RemoveEndpoint](#RemoveEndpoint)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="AddIdentity"></a>AddIdentity
-
+  
 **Signature**
 ```
     AddIdentity(
@@ -40,7 +40,7 @@ The references from the RoleType ObjectType Node are shown in the following tabl
 |RuleToAdd||
 
 ### <a name="RemoveIdentity"></a>RemoveIdentity
-
+  
 **Signature**
 ```
     RemoveIdentity(
@@ -53,7 +53,7 @@ The references from the RoleType ObjectType Node are shown in the following tabl
 |RuleToRemove||
 
 ### <a name="AddApplication"></a>AddApplication
-
+  
 **Signature**
 ```
     AddApplication(
@@ -66,7 +66,7 @@ The references from the RoleType ObjectType Node are shown in the following tabl
 |RuleToAdd||
 
 ### <a name="RemoveApplication"></a>RemoveApplication
-
+  
 **Signature**
 ```
     RemoveApplication(
@@ -79,7 +79,7 @@ The references from the RoleType ObjectType Node are shown in the following tabl
 |RuleToRemove||
 
 ### <a name="AddEndpoint"></a>AddEndpoint
-
+  
 **Signature**
 ```
     AddEndpoint(
@@ -92,7 +92,7 @@ The references from the RoleType ObjectType Node are shown in the following tabl
 |RuleToAdd||
 
 ### <a name="RemoveEndpoint"></a>RemoveEndpoint
-
+  
 **Signature**
 ```
     RemoveEndpoint(

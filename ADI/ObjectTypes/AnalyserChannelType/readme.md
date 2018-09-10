@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AnalyserChannelType
-
+  
 The representation of the AnalyserChannelType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

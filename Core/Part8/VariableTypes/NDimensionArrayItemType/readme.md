@@ -1,6 +1,8 @@
 <!-- objecttype -->
 ## NDimensionArrayItemType
-
+This VariableType defines a generic multi-dimensional ArrayItem.
+This approach minimizes the number of types however it may be proved more difficult to utilize for control system interactions.
+NDimensionArrayItemType is formally defined in Table 13.  
 The representation of the NDimensionArrayItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

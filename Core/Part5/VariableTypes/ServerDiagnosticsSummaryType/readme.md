@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ServerDiagnosticsSummaryType
-
+  
 The representation of the ServerDiagnosticsSummaryType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

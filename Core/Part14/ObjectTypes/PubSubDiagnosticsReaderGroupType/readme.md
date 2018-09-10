@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## PubSubDiagnosticsReaderGroupType
-
+  
 The representation of the PubSubDiagnosticsReaderGroupType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

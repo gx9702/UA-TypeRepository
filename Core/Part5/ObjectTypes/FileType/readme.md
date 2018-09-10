@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## FileType
-An object that represents a file that can be accessed via the server.
+An object that represents a file that can be accessed via the server.  
 The representation of the FileType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -29,7 +29,7 @@ The references from the FileType ObjectType Node are shown in the following tabl
 |[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[TrustListType](#TrustListType)||||
 
 ### <a name="Open"></a>Open
-
+  
 **Signature**
 ```
     Open(
@@ -44,7 +44,7 @@ The references from the FileType ObjectType Node are shown in the following tabl
 |FileHandle||
 
 ### <a name="Close"></a>Close
-
+  
 **Signature**
 ```
     Close(
@@ -57,7 +57,7 @@ The references from the FileType ObjectType Node are shown in the following tabl
 |FileHandle||
 
 ### <a name="Read"></a>Read
-
+  
 **Signature**
 ```
     Read(
@@ -74,7 +74,7 @@ The references from the FileType ObjectType Node are shown in the following tabl
 |Data||
 
 ### <a name="Write"></a>Write
-
+  
 **Signature**
 ```
     Write(
@@ -89,7 +89,7 @@ The references from the FileType ObjectType Node are shown in the following tabl
 |Data||
 
 ### <a name="GetPosition"></a>GetPosition
-
+  
 **Signature**
 ```
     GetPosition(
@@ -104,7 +104,7 @@ The references from the FileType ObjectType Node are shown in the following tabl
 |Position||
 
 ### <a name="SetPosition"></a>SetPosition
-
+  
 **Signature**
 ```
     SetPosition(

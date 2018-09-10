@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## HasInput
-TargetNode is providing an input value for a ChemometricModel.
+TargetNode is providing an input value for a ChemometricModel.  
 The representation of the HasInput ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## EUItemType
-
+  
 The representation of the EUItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

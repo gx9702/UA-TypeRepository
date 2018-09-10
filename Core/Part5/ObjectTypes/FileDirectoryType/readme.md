@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## FileDirectoryType
-
+  
 The representation of the FileDirectoryType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -22,7 +22,7 @@ The references from the FileDirectoryType ObjectType Node are shown in the follo
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[MoveOrCopy](#MoveOrCopy)|||[Mandatory](../../Objects/Mandatory/readme.md)|
 
 ### <a name="CreateDirectory"></a>CreateDirectory
-
+  
 **Signature**
 ```
     CreateDirectory(
@@ -37,7 +37,7 @@ The references from the FileDirectoryType ObjectType Node are shown in the follo
 |DirectoryNodeId||
 
 ### <a name="CreateFile"></a>CreateFile
-
+  
 **Signature**
 ```
     CreateFile(
@@ -56,7 +56,7 @@ The references from the FileDirectoryType ObjectType Node are shown in the follo
 |FileHandle||
 
 ### <a name="Delete"></a>Delete
-
+  
 **Signature**
 ```
     Delete(
@@ -69,7 +69,7 @@ The references from the FileDirectoryType ObjectType Node are shown in the follo
 |ObjectToDelete||
 
 ### <a name="MoveOrCopy"></a>MoveOrCopy
-
+  
 **Signature**
 ```
     MoveOrCopy(

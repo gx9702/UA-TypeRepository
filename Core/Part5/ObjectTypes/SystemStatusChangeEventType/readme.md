@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## SystemStatusChangeEventType
-
+  
 The representation of the SystemStatusChangeEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

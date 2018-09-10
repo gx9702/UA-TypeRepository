@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## DataSetFolderType
-
+  
 The representation of the DataSetFolderType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -25,7 +25,7 @@ The references from the DataSetFolderType ObjectType Node are shown in the follo
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[RemoveDataSetFolder](#RemoveDataSetFolder)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="AddPublishedDataItems"></a>AddPublishedDataItems
-
+  
 **Signature**
 ```
     AddPublishedDataItems(
@@ -50,7 +50,7 @@ The references from the DataSetFolderType ObjectType Node are shown in the follo
 |AddResults||
 
 ### <a name="AddPublishedEvents"></a>AddPublishedEvents
-
+  
 **Signature**
 ```
     AddPublishedEvents(
@@ -77,7 +77,7 @@ The references from the DataSetFolderType ObjectType Node are shown in the follo
 |DataSetNodeId||
 
 ### <a name="AddPublishedDataItemsTemplate"></a>AddPublishedDataItemsTemplate
-
+  
 **Signature**
 ```
     AddPublishedDataItemsTemplate(
@@ -98,7 +98,7 @@ The references from the DataSetFolderType ObjectType Node are shown in the follo
 |AddResults||
 
 ### <a name="AddPublishedEventsTemplate"></a>AddPublishedEventsTemplate
-
+  
 **Signature**
 ```
     AddPublishedEventsTemplate(
@@ -121,7 +121,7 @@ The references from the DataSetFolderType ObjectType Node are shown in the follo
 |DataSetNodeId||
 
 ### <a name="RemovePublishedDataSet"></a>RemovePublishedDataSet
-
+  
 **Signature**
 ```
     RemovePublishedDataSet(
@@ -134,7 +134,7 @@ The references from the DataSetFolderType ObjectType Node are shown in the follo
 |DataSetNodeId||
 
 ### <a name="AddDataSetFolder"></a>AddDataSetFolder
-
+  
 **Signature**
 ```
     AddDataSetFolder(
@@ -149,7 +149,7 @@ The references from the DataSetFolderType ObjectType Node are shown in the follo
 |DataSetFolderNodeId||
 
 ### <a name="RemoveDataSetFolder"></a>RemoveDataSetFolder
-
+  
 **Signature**
 ```
     RemoveDataSetFolder(

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## DescribesInputArgument
-
+  
 The representation of the DescribesInputArgument ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

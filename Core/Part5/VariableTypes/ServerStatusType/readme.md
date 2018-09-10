@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ServerStatusType
-
+  
 The representation of the ServerStatusType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

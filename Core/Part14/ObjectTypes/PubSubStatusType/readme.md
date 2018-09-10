@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## PubSubStatusType
-
+  
 The representation of the PubSubStatusType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -19,13 +19,13 @@ The references from the PubSubStatusType ObjectType Node are shown in the follow
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[Disable](#Disable)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="Enable"></a>Enable
-
+  
 **Signature**
 ```
     Enable(    );
 ```
 ### <a name="Disable"></a>Disable
-
+  
 **Signature**
 ```
     Disable(    );

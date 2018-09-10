@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## DataTypeSystemType
-
+  
 The representation of the DataTypeSystemType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

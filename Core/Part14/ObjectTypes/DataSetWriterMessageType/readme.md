@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## DataSetWriterMessageType
-
+  
 The representation of the DataSetWriterMessageType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

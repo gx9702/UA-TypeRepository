@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## FolderType
-The type for objects that organize other nodes.
+The type for objects that organize other nodes.  
 The representation of the FolderType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ServerCapabilitiesType
-Describes the capabilities supported by the server.
+Describes the capabilities supported by the server.  
 The representation of the ServerCapabilitiesType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

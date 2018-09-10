@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## StateType
-
+  
 The representation of the StateType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

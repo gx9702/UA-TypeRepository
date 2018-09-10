@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## HasSubStateMachine
-The type for a reference to a substate for a state.
+The type for a reference to a substate for a state.  
 The representation of the HasSubStateMachine ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditEventType
-A base type for events used to track client initiated changes to the server state.
+A base type for events used to track client initiated changes to the server state.  
 The representation of the AuditEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

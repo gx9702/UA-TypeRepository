@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## UadpWriterGroupMessageType
-
+  
 The representation of the UadpWriterGroupMessageType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

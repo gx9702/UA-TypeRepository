@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## MaintenanceConditionClassType
-
+  
 The representation of the MaintenanceConditionClassType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

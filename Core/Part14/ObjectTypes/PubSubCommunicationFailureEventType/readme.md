@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## PubSubCommunicationFailureEventType
-
+  
 The representation of the PubSubCommunicationFailureEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AccessorySlotType
-Organizes zero or more Accessory objects identified by "AccessoryIdentifier" which represent Accessories currently being used on that AccessorySlot.
+Organizes zero or more Accessory objects identified by "AccessoryIdentifier" which represent Accessories currently being used on that AccessorySlot.  
 The representation of the AccessorySlotType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## HasComponent
-The type for non-looping hierarchical reference from a node to its component.
+The type for non-looping hierarchical reference from a node to its component.  
 The representation of the HasComponent ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

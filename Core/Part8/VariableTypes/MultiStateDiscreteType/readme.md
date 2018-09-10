@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## MultiStateDiscreteType
-
+This VariableType defines the general characteristics of a DiscreteItem that can have more than two states. The MultiStateDiscreteType derives from the DiscreteItemType. It is formally defined in Table 5.  
 The representation of the MultiStateDiscreteType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

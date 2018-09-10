@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditConditionCommentEventType
-
+  
 The representation of the AuditConditionCommentEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

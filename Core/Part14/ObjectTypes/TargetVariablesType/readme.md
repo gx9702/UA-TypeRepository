@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## TargetVariablesType
-
+  
 The representation of the TargetVariablesType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -19,7 +19,7 @@ The references from the TargetVariablesType ObjectType Node are shown in the fol
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[RemoveTargetVariables](#RemoveTargetVariables)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="AddTargetVariables"></a>AddTargetVariables
-
+  
 **Signature**
 ```
     AddTargetVariables(
@@ -36,7 +36,7 @@ The references from the TargetVariablesType ObjectType Node are shown in the fol
 |AddResults||
 
 ### <a name="RemoveTargetVariables"></a>RemoveTargetVariables
-
+  
 **Signature**
 ```
     RemoveTargetVariables(

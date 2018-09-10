@@ -1,6 +1,7 @@
 <!-- objecttype -->
 ## ImageItemType
-
+ImageItemType defines the general characteristics of an ImageItem which represents a matrix of values like an image, where the pixel position is given by X which is the column and Y the row. The value is the pixel intensity.
+ImageItemType is formally defined in Table 11.  
 The representation of the ImageItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

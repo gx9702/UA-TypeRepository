@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## XYArrayItemType
-
+XYArrayItemType represents a vector of XVType values like a list of peaks, where XVType.x is the position of the peak and XVType.value is its intensity. XYArrayItemType is formally defined in Table 10.  
 The representation of the XYArrayItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## TransferServicesType
-
+  
 The representation of the TransferServicesType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -19,7 +19,7 @@ The references from the TransferServicesType ObjectType Node are shown in the fo
 |[HasComponent](../../../Core/Part3/ReferenceTypes/HasComponent/readme.md)|Method|[FetchTransferResultData](#FetchTransferResultData)|||[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
 
 ### <a name="TransferToDevice"></a>TransferToDevice
-
+  
 **Signature**
 ```
     TransferToDevice(
@@ -34,7 +34,7 @@ The references from the TransferServicesType ObjectType Node are shown in the fo
 |InitTransferStatus||
 
 ### <a name="TransferFromDevice"></a>TransferFromDevice
-
+  
 **Signature**
 ```
     TransferFromDevice(
@@ -49,7 +49,7 @@ The references from the TransferServicesType ObjectType Node are shown in the fo
 |InitTransferStatus||
 
 ### <a name="FetchTransferResultData"></a>FetchTransferResultData
-
+  
 **Signature**
 ```
     FetchTransferResultData(

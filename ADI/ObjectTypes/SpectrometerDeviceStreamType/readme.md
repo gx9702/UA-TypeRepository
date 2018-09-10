@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## SpectrometerDeviceStreamType
-
+  
 The representation of the SpectrometerDeviceStreamType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

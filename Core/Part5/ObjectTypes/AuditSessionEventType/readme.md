@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditSessionEventType
-A base type for events used to track related changes to a session.
+A base type for events used to track related changes to a session.  
 The representation of the AuditSessionEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

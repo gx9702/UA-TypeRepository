@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ExtensionFieldsType
-
+  
 The representation of the ExtensionFieldsType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -19,7 +19,7 @@ The references from the ExtensionFieldsType ObjectType Node are shown in the fol
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[RemoveExtensionField](#RemoveExtensionField)|||[Mandatory](../../Objects/Mandatory/readme.md)|
 
 ### <a name="AddExtensionField"></a>AddExtensionField
-
+  
 **Signature**
 ```
     AddExtensionField(
@@ -36,7 +36,7 @@ The references from the ExtensionFieldsType ObjectType Node are shown in the fol
 |FieldId||
 
 ### <a name="RemoveExtensionField"></a>RemoveExtensionField
-
+  
 **Signature**
 ```
     RemoveExtensionField(

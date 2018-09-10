@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## BaseObjectType
-The base type for all object nodes.
+The base type for all object nodes.  
 The representation of the BaseObjectType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## SubscriptionDiagnosticsType
-
+  
 The representation of the SubscriptionDiagnosticsType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

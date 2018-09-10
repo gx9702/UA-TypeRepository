@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AnalyserChannel_OperatingModeSubStateMachineType
-AnalyserChannel OperatingMode SubStateMachine
+AnalyserChannel OperatingMode SubStateMachine  
 The representation of the AnalyserChannel_OperatingModeSubStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

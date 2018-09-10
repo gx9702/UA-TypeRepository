@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## BlockType
-Adds the concept of Blocks needed for block-oriented FieldDevices
+Adds the concept of Blocks needed for block-oriented FieldDevices  
 The representation of the BlockType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

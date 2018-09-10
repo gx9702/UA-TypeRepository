@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## DataTypeDictionaryType
-The type for variable that represents the collection of data type decriptions.
+The type for variable that represents the collection of data type decriptions.  
 The representation of the DataTypeDictionaryType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

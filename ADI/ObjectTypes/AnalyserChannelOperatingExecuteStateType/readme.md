@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AnalyserChannelOperatingExecuteStateType
-
+  
 The representation of the AnalyserChannelOperatingExecuteStateType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

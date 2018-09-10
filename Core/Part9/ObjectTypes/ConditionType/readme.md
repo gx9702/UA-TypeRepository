@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ConditionType
-
+  
 The representation of the ConditionType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -35,19 +35,19 @@ The references from the ConditionType ObjectType Node are shown in the following
 |[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[AcknowledgeableConditionType](#AcknowledgeableConditionType)||||
 
 ### <a name="Disable"></a>Disable
-
+  
 **Signature**
 ```
     Disable(    );
 ```
 ### <a name="Enable"></a>Enable
-
+  
 **Signature**
 ```
     Enable(    );
 ```
 ### <a name="AddComment"></a>AddComment
-
+  
 **Signature**
 ```
     AddComment(
@@ -62,7 +62,7 @@ The references from the ConditionType ObjectType Node are shown in the following
 |Comment|The comment to add to the condition.|
 
 ### <a name="ConditionRefresh"></a>ConditionRefresh
-
+  
 **Signature**
 ```
     ConditionRefresh(
@@ -75,7 +75,7 @@ The references from the ConditionType ObjectType Node are shown in the following
 |SubscriptionId|The identifier for the suscription to refresh.|
 
 ### <a name="ConditionRefresh2"></a>ConditionRefresh2
-
+  
 **Signature**
 ```
     ConditionRefresh2(

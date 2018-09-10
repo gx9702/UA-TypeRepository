@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## Range
+This structure defines the Range for a value. Its elements are defined in Table 14.  
 <!-- end of description -->
 The fields of the Range DataType are defined in the following table:  
 

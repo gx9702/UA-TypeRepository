@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## SubscribedDataSetType
-
+  
 The representation of the SubscribedDataSetType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

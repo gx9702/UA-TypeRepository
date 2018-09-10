@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ProcessVariableType
-Provides a stable address space view from the user point of view even if the ADI server address space changes, after the new configuration is loaded.
+Provides a stable address space view from the user point of view even if the ADI server address space changes, after the new configuration is loaded.  
 The representation of the ProcessVariableType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

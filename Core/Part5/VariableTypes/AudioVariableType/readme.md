@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AudioVariableType
-
+  
 The representation of the AudioVariableType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

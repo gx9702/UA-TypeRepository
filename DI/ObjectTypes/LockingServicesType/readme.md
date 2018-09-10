@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## LockingServicesType
-An interface for Locking.
+An interface for Locking.  
 The representation of the LockingServicesType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -24,7 +24,7 @@ The references from the LockingServicesType ObjectType Node are shown in the fol
 |[HasComponent](../../../Core/Part3/ReferenceTypes/HasComponent/readme.md)|Method|[BreakLock](#BreakLock)|||[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
 
 ### <a name="InitLock"></a>InitLock
-
+  
 **Signature**
 ```
     InitLock(
@@ -39,7 +39,7 @@ The references from the LockingServicesType ObjectType Node are shown in the fol
 |InitLockStatus||
 
 ### <a name="RenewLock"></a>RenewLock
-
+  
 **Signature**
 ```
     RenewLock(
@@ -52,7 +52,7 @@ The references from the LockingServicesType ObjectType Node are shown in the fol
 |RenewLockStatus||
 
 ### <a name="ExitLock"></a>ExitLock
-
+  
 **Signature**
 ```
     ExitLock(
@@ -65,7 +65,7 @@ The references from the LockingServicesType ObjectType Node are shown in the fol
 |ExitLockStatus||
 
 ### <a name="BreakLock"></a>BreakLock
-
+  
 **Signature**
 ```
     BreakLock(

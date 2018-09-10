@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ProgramTransitionEventType
-
+  
 The representation of the ProgramTransitionEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

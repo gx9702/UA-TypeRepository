@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AcknowledgeableConditionType
-
+  
 The representation of the AcknowledgeableConditionType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -22,7 +22,7 @@ The references from the AcknowledgeableConditionType ObjectType Node are shown i
 |[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[AlarmConditionType](#AlarmConditionType)||||
 
 ### <a name="Acknowledge"></a>Acknowledge
-
+  
 **Signature**
 ```
     Acknowledge(
@@ -37,7 +37,7 @@ The references from the AcknowledgeableConditionType ObjectType Node are shown i
 |Comment|The comment to add to the condition.|
 
 ### <a name="Confirm"></a>Confirm
-
+  
 **Signature**
 ```
     Confirm(

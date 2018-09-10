@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## MultiStateValueDiscreteType
-
+This VariableType defines the general characteristics of a DiscreteItem that can have more than two states and where the state values (the enumeration) does not consist of consecutive numeric values (may have gaps) or where the enumeration is not zero-based. The MultiStateValueDiscreteType derives from the DiscreteItemType. It is formally defined in Table 6.  
 The representation of the MultiStateValueDiscreteType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

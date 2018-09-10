@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ServerRedundancyType
-A base type for an object that describe how a server supports redundancy.
+A base type for an object that describe how a server supports redundancy.  
 The representation of the ServerRedundancyType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

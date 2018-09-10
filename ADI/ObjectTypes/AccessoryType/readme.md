@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AccessoryType
-
+  
 The representation of the AccessoryType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

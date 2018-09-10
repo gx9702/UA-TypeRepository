@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## YArrayItemType
-
+YArrayItemType represents a single-dimensional array of numerical values used to represent spectra or distributions where the x axis intervals are constant. YArrayItemType is formally defined in Table 8.  
 The representation of the YArrayItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

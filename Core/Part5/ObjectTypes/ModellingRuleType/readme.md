@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ModellingRuleType
-The type for an object that describes how an instance declaration is used when a type is instantiated.
+The type for an object that describes how an instance declaration is used when a type is instantiated.  
 The representation of the ModellingRuleType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

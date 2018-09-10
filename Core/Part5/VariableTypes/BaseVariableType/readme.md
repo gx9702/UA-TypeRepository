@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## BaseVariableType
-The abstract base type for all variable nodes.
+The abstract base type for all variable nodes.  
 The representation of the BaseVariableType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

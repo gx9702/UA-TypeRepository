@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## FileTransferStateMachineType
-
+  
 The representation of the FileTransferStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -31,7 +31,7 @@ The references from the FileTransferStateMachineType ObjectType Node are shown i
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[Reset](#Reset)|||[Mandatory](../../Objects/Mandatory/readme.md)|
 
 ### <a name="Reset"></a>Reset
-
+  
 **Signature**
 ```
     Reset(    );

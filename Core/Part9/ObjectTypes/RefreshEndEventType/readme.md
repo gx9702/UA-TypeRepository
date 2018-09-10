@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## RefreshEndEventType
-
+  
 The representation of the RefreshEndEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## SessionDiagnosticsObjectType
-A container for session level diagnostics information.
+A container for session level diagnostics information.  
 The representation of the SessionDiagnosticsObjectType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

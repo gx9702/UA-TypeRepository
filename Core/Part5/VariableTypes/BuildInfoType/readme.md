@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## BuildInfoType
-
+  
 The representation of the BuildInfoType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

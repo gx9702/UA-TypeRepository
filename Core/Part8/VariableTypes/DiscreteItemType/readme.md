@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## DiscreteItemType
-
+  
 The representation of the DiscreteItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

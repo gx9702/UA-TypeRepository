@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## PubSubKeyServiceType
-
+  
 The representation of the PubSubKeyServiceType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -20,7 +20,7 @@ The references from the PubSubKeyServiceType ObjectType Node are shown in the fo
 |[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[PublishSubscribeType](#PublishSubscribeType)||||
 
 ### <a name="GetSecurityKeys"></a>GetSecurityKeys
-
+  
 **Signature**
 ```
     GetSecurityKeys(
@@ -47,7 +47,7 @@ The references from the PubSubKeyServiceType ObjectType Node are shown in the fo
 |KeyLifetime||
 
 ### <a name="GetSecurityGroup"></a>GetSecurityGroup
-
+  
 **Signature**
 ```
     GetSecurityGroup(

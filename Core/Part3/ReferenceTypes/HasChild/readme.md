@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## HasChild
-The abstract base type for all non-looping hierarchical references.
+The abstract base type for all non-looping hierarchical references.  
 The representation of the HasChild ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

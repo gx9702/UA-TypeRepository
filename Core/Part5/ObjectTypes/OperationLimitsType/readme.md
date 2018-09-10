@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## OperationLimitsType
-Identifies the operation limits imposed by the server.
+Identifies the operation limits imposed by the server.  
 The representation of the OperationLimitsType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

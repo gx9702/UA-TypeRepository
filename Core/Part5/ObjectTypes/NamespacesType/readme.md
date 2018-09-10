@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## NamespacesType
-A container for the namespace metadata provided by the server.
+A container for the namespace metadata provided by the server.  
 The representation of the NamespacesType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

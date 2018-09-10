@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## HasDataSetWriter
-
+  
 The representation of the HasDataSetWriter ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

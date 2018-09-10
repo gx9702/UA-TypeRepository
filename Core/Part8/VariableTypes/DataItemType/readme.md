@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## DataItemType
-A variable that contains live automation data.
+This VariableType defines the general characteristics of a DataItem. All other DataItem Types derive from it. The DataItemType derives from the BaseDataVariableType and therefore shares the variable model as described in Part 3 and Part 5. It is formally defined in Table 1.  
 The representation of the DataItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## PubSubDiagnosticsType
-
+  
 The representation of the PubSubDiagnosticsType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -29,7 +29,7 @@ The references from the PubSubDiagnosticsType ObjectType Node are shown in the f
 |[HasSubtype](../../../Part3/ReferenceTypes/HasSubtype/readme.md)|ObjectType|[PubSubDiagnosticsDataSetReaderType](#PubSubDiagnosticsDataSetReaderType)||||
 
 ### <a name="Reset"></a>Reset
-
+  
 **Signature**
 ```
     Reset(    );

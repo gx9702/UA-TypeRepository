@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ExclusiveLimitAlarmType
-
+  
 The representation of the ExclusiveLimitAlarmType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

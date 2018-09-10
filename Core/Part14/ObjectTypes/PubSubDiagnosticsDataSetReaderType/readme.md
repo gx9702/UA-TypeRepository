@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## PubSubDiagnosticsDataSetReaderType
-
+  
 The representation of the PubSubDiagnosticsDataSetReaderType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

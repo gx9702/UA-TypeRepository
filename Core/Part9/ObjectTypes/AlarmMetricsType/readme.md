@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AlarmMetricsType
-
+  
 The representation of the AlarmMetricsType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -25,7 +25,7 @@ The references from the AlarmMetricsType ObjectType Node are shown in the follow
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[Reset](#Reset)|||[Mandatory](../../Objects/Mandatory/readme.md)|
 
 ### <a name="Reset"></a>Reset
-
+  
 **Signature**
 ```
     Reset(    );

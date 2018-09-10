@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## BaseEventType
-The base type for all events.
+The base type for all events.  
 The representation of the BaseEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

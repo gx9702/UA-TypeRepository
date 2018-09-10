@@ -8,31 +8,40 @@ using Markdig;
 
 namespace MarkdownProcessor
 {
+    internal enum Operation
+    { 
+        NodeSetToMarkdown,
+        MarkdownToNodeSet,
+        WordToNodeSet
+    }   
+
     internal class Settings
     {
-        public bool OutputMarkdown;
-        public bool OutputNodeSet;
+        public Operation Operation;
         public string OutputPath;
+        public string InputPath;
         public string TargetModel;
         public Dictionary<string,string> NodeSetFiles;
         public Dictionary<string, string> RepositoryPaths;
 
         public static class ArgName
         {
-            public const string Markdown = "-markdown";
-            public const string NodeSet = "-nodeset";
+            public const string NodeSetToMarkdown = "-nodeset-to-markdown";
+            public const string MarkdownToNodeSet = "-markdown-to-nodeset";
+            public const string WordToNodeSet = "-word-to-nodeset";
+            public const string Input = "-input=";
             public const string Output = "-output=";
             public const string Model = "-model=";
         }
 
         public static void ShowUsage()
         {
-            Console.WriteLine("MarkdownProcessor [-markdown|-word|-nodeset] -output=<path> -model=<namespace-uri>,<nodeset-location>,<repository-path>");
+            Console.WriteLine("MarkdownProcessor [-nodeset-to-markdown|-markdown-to-nodeset|-word-to-nodeset] -input=<path> -output=<path> -model=<namespace-uri>,<nodeset-location>,<repository-path>");
             Console.WriteLine("");
             Console.WriteLine("where");
-            Console.WriteLine("   -markdown specifies a markdown repository is created/updated at the output location.");
-            Console.WriteLine("   -nodeset specifies that the nodeset if updated with the text from a markdown repository.");
-            Console.WriteLine("   -word specifies that the nodeset is used to update a word document.");
+            Console.WriteLine("   -nodeset-to-markdown specifies a markdown repository is created/updated at the output location.");
+            Console.WriteLine("   -markdown-to-nodeset specifies that the nodeset is updated with the text from a markdown repository.");
+            Console.WriteLine("   -word-to-nodeset specifies that the nodeset is updated with the text from a word document.");
             Console.WriteLine("");
             Console.WriteLine("   -model specifies the URI and nodeset file location and a optional repository path. The location may be a URL.");
             Console.WriteLine("          If the repository path is not provided it is assumed the nodeset is at the root of the repository.");
@@ -40,14 +49,15 @@ namespace MarkdownProcessor
             Console.WriteLine("          The first model parameter is the primary nodeset.");
             Console.WriteLine("");
             Console.WriteLine("   -output specifies a local directory or file path (depends on what the operation needs).");
+            Console.WriteLine("   -input  specifies a local directory or file path (depends on what the operation needs).");
         }
 
         public static Settings Parse(string[] args)
         {
             Settings settings = new Settings();
 
-            settings.OutputMarkdown = false;
-            settings.OutputNodeSet = false;
+            settings.Operation = Operation.NodeSetToMarkdown;
+            settings.InputPath = null;
             settings.OutputPath = ".\\";
             settings.TargetModel = null;
             settings.NodeSetFiles = new Dictionary<string, string>();
@@ -55,14 +65,24 @@ namespace MarkdownProcessor
 
             foreach (var arg in args)
             {
-                if (arg == ArgName.Markdown)
+                bool processed = true;
+
+                switch (arg)
                 {
-                    settings.OutputMarkdown = true;
+                    case ArgName.NodeSetToMarkdown: { settings.Operation = Operation.NodeSetToMarkdown; break; }
+                    case ArgName.MarkdownToNodeSet: { settings.Operation = Operation.MarkdownToNodeSet; break; }
+                    case ArgName.WordToNodeSet: { settings.Operation = Operation.WordToNodeSet; break; }
+                    default: { processed = false; break; }
+                }
+
+                if (processed)
+                {
                     continue;
                 }
-                else if (arg == ArgName.NodeSet)
+
+                if (arg.StartsWith(ArgName.Input))
                 {
-                    settings.OutputNodeSet = true;
+                    settings.InputPath = arg.Substring(ArgName.Input.Length);
                     continue;
                 }
 
@@ -129,7 +149,24 @@ namespace MarkdownProcessor
                 return;
             }
 
-            if (Settings.OutputMarkdown)
+            if (Settings.Operation == Operation.WordToNodeSet)
+            {
+                Console.WriteLine($"Loading Model: {Settings.TargetModel}");
+                ModelImporter importer = new ModelImporter();
+                importer.ModelRequired += ModelImporter_ModelRequired;
+                importer.LoadModel(Settings.NodeSetFiles[Settings.TargetModel]);
+
+                Console.WriteLine($"Merge Word Document: {Settings.TargetModel}");
+                importer.MergeWordDocument(Settings.TargetModel, Settings.InputPath);
+
+                Console.WriteLine($"Save NodeSet: {Settings.OutputPath}");
+                importer.SaveNodeSet(Settings.TargetModel, Settings.OutputPath);
+
+                Console.WriteLine($"All Done!");
+                return;
+            }
+
+            if (Settings.Operation == Operation.NodeSetToMarkdown)
             {
                 Console.WriteLine($"Loading Model: {Settings.TargetModel}");
                 ModelImporter importer = new ModelImporter();
@@ -154,11 +191,10 @@ namespace MarkdownProcessor
                 exporter.Export(repository, Settings.OutputPath);
 
                 Console.WriteLine($"All Done!");
-                Console.ReadLine();
                 return;
             }
 
-            if (Settings.OutputNodeSet)
+            if (Settings.Operation == Operation.MarkdownToNodeSet)
             {
                 Console.WriteLine($"Loading Model: {Settings.TargetModel}");
                 ModelImporter importer = new ModelImporter();
@@ -177,7 +213,6 @@ namespace MarkdownProcessor
                 importer.SaveNodeSet(Settings.TargetModel, Settings.OutputPath);
                 
                 Console.WriteLine($"All Done!");
-                Console.ReadLine();
                 return;
             }
         }

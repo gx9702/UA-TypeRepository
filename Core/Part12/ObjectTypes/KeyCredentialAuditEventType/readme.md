@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## KeyCredentialAuditEventType
-
+  
 The representation of the KeyCredentialAuditEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## SessionSecurityDiagnosticsArrayType
-
+  
 The representation of the SessionSecurityDiagnosticsArrayType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

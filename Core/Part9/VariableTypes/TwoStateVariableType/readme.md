@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## TwoStateVariableType
-
+  
 The representation of the TwoStateVariableType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

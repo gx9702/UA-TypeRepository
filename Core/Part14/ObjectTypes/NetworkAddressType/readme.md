@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## NetworkAddressType
-
+  
 The representation of the NetworkAddressType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

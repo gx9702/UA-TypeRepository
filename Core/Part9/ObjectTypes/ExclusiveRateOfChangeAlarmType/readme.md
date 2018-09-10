@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ExclusiveRateOfChangeAlarmType
-
+  
 The representation of the ExclusiveRateOfChangeAlarmType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

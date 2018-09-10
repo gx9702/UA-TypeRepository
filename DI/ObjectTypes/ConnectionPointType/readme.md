@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ConnectionPointType
-Represents the interface (interface card) of a Device to a Network.
+Represents the interface (interface card) of a Device to a Network.  
 The representation of the ConnectionPointType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

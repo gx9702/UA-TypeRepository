@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## DataSetReaderType
-
+  
 The representation of the DataSetReaderType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -33,7 +33,7 @@ The references from the DataSetReaderType ObjectType Node are shown in the follo
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[CreateDataSetMirror](#CreateDataSetMirror)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="CreateTargetVariables"></a>CreateTargetVariables
-
+  
 **Signature**
 ```
     CreateTargetVariables(
@@ -50,7 +50,7 @@ The references from the DataSetReaderType ObjectType Node are shown in the follo
 |AddResults||
 
 ### <a name="CreateDataSetMirror"></a>CreateDataSetMirror
-
+  
 **Signature**
 ```
     CreateDataSetMirror(

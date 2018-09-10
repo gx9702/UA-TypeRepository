@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditUpdateEventType
-
+  
 The representation of the AuditUpdateEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

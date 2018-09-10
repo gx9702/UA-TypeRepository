@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## JsonDataSetReaderMessageType
-
+  
 The representation of the JsonDataSetReaderMessageType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

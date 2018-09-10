@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AnalogItemType
-
+This VariableType defines the general characteristics of an AnalogItem. All other AnalogItem Types derive from it. The AnalogItemType derives from the DataItemType. It is formally defined in Table 2.  
 The representation of the AnalogItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

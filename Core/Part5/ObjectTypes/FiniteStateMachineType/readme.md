@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## FiniteStateMachineType
-
+  
 The representation of the FiniteStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

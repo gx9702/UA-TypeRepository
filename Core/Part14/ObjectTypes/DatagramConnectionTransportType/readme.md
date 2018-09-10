@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## DatagramConnectionTransportType
-
+  
 The representation of the DatagramConnectionTransportType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

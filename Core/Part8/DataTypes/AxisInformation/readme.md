@@ -1,5 +1,7 @@
 <!-- datatype -->
 ## AxisInformation
+This structure defines the information for auxiliary axis for ArrayItemType Variables.
+There are three typical uses of this structure:  
 <!-- end of description -->
 The fields of the AxisInformation DataType are defined in the following table:  
 

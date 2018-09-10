@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AddressSpaceFileType
-A file used to store a namespace exported from the server.
+A file used to store a namespace exported from the server.  
 The representation of the AddressSpaceFileType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -17,7 +17,7 @@ The references from the AddressSpaceFileType ObjectType Node are shown in the fo
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[ExportNamespace](#ExportNamespace)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="ExportNamespace"></a>ExportNamespace
-
+  
 **Signature**
 ```
     ExportNamespace(    );

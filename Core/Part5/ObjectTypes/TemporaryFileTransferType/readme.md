@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## TemporaryFileTransferType
-
+  
 The representation of the TemporaryFileTransferType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -21,7 +21,7 @@ The references from the TemporaryFileTransferType ObjectType Node are shown in t
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Object|[&lt;TransferState&gt;](#&lt;TransferState&gt;)||[FileTransferStateMachineType](../../Part5/ObjectTypes/FileTransferStateMachineType/readme.md)|[OptionalPlaceholder](../../Objects/OptionalPlaceholder/readme.md)|
 
 ### <a name="GenerateFileForRead"></a>GenerateFileForRead
-
+  
 **Signature**
 ```
     GenerateFileForRead(
@@ -40,7 +40,7 @@ The references from the TemporaryFileTransferType ObjectType Node are shown in t
 |CompletionStateMachine||
 
 ### <a name="GenerateFileForWrite"></a>GenerateFileForWrite
-
+  
 **Signature**
 ```
     GenerateFileForWrite(
@@ -57,7 +57,7 @@ The references from the TemporaryFileTransferType ObjectType Node are shown in t
 |FileHandle||
 
 ### <a name="CloseAndCommit"></a>CloseAndCommit
-
+  
 **Signature**
 ```
     CloseAndCommit(

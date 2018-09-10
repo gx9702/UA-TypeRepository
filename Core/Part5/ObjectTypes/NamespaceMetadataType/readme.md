@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## NamespaceMetadataType
-Provides the metadata for a namespace used by the server.
+Provides the metadata for a namespace used by the server.  
 The representation of the NamespaceMetadataType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

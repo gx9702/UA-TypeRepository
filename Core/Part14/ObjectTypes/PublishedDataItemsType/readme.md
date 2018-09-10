@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## PublishedDataItemsType
-
+  
 The representation of the PublishedDataItemsType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -19,7 +19,7 @@ The references from the PublishedDataItemsType ObjectType Node are shown in the 
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[RemoveVariables](#RemoveVariables)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="AddVariables"></a>AddVariables
-
+  
 **Signature**
 ```
     AddVariables(
@@ -42,7 +42,7 @@ The references from the PublishedDataItemsType ObjectType Node are shown in the 
 |AddResults||
 
 ### <a name="RemoveVariables"></a>RemoveVariables
-
+  
 **Signature**
 ```
     RemoveVariables(

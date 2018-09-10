@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## NetworkAddressUrlType
-
+  
 The representation of the NetworkAddressUrlType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

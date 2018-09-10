@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## HierarchicalReferences
-The abstract base type for all hierarchical references.
+The abstract base type for all hierarchical references.  
 The representation of the HierarchicalReferences ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

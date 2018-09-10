@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## References
-The abstract base type for all references.
+The abstract base type for all references.  
 The representation of the References ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

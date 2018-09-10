@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## PubSubDiagnosticsConnectionType
-
+  
 The representation of the PubSubDiagnosticsConnectionType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

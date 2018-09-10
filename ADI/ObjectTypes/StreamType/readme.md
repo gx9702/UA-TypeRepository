@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## StreamType
-
+  
 The representation of the StreamType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

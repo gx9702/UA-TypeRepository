@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## SecurityGroupFolderType
-
+  
 The representation of the SecurityGroupFolderType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -20,7 +20,7 @@ The references from the SecurityGroupFolderType ObjectType Node are shown in the
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[RemoveSecurityGroup](#RemoveSecurityGroup)|||[Mandatory](../../Objects/Mandatory/readme.md)|
 
 ### <a name="AddSecurityGroup"></a>AddSecurityGroup
-
+  
 **Signature**
 ```
     AddSecurityGroup(
@@ -45,7 +45,7 @@ The references from the SecurityGroupFolderType ObjectType Node are shown in the
 |SecurityGroupNodeId||
 
 ### <a name="RemoveSecurityGroup"></a>RemoveSecurityGroup
-
+  
 **Signature**
 ```
     RemoveSecurityGroup(

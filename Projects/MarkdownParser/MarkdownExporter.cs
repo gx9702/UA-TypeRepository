@@ -99,11 +99,10 @@ namespace MarkdownProcessor
 
                 if (!noFinalNewLine)
                 {
-                    writer.WriteLine();
+                    writer.WriteLine("  ");
                 }
             }
         }
-
 
         private void WriteMethod(StreamWriter writer, RepositoryReference reference)
         {

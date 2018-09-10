@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AccessorySlotStateMachineType
-Describes the behaviour of an AccessorySlot when a physical accessory is inserted or removed.
+Describes the behaviour of an AccessorySlot when a physical accessory is inserted or removed.  
 The representation of the AccessorySlotStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

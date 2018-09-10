@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## HistoryServerCapabilitiesType
-
+  
 The representation of the HistoryServerCapabilitiesType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

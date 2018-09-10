@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## NonHierarchicalReferences
-The abstract base type for all non-hierarchical references.
+The abstract base type for all non-hierarchical references.  
 The representation of the NonHierarchicalReferences ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

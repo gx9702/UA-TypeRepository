@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ConfigurableObjectType
-Defines a general pattern to expose and configure modular components
+Defines a general pattern to expose and configure modular components  
 The representation of the ConfigurableObjectType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

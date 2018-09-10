@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## BaseDataVariableType
-The type for variable that represents a process value.
+The type for variable that represents a process value.  
 The representation of the BaseDataVariableType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

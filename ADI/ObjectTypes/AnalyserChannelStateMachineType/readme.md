@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AnalyserChannelStateMachineType
-Contains a nested state model that defines the top level states Operating, Local and Maintenance
+Contains a nested state model that defines the top level states Operating, Local and Maintenance  
 The representation of the AnalyserChannelStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

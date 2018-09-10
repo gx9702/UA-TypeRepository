@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ConnectsTo
-Used to indicate that source and target Node have a topological connection.
+Used to indicate that source and target Node have a topological connection.  
 The representation of the ConnectsTo ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

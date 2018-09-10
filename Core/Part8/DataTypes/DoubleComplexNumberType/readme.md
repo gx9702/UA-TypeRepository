@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DoubleComplexNumberType
+This structure defines double IEEE 64 bits complex value. Its elements are defined in Table 21.  
 <!-- end of description -->
 The fields of the DoubleComplexNumberType DataType are defined in the following table:  
 

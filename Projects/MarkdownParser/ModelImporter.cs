@@ -5,6 +5,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.Reflection;
 using System.Text;
+using Microsoft.Office.Interop.Word;
 using Opc.Ua;
 using MarkdownProcessor.NodeSet;
 
@@ -1178,6 +1179,71 @@ namespace MarkdownProcessor
                 {
                     XmlSerializer serializer = new XmlSerializer(typeof(UANodeSet));
                     serializer.Serialize(writer, info.NodeSet);
+                }
+            }
+        }
+
+        public void MergeWordDocument(string modelUri, string filePath)
+        {
+            Dictionary<string, UANode> nodesByType = new Dictionary<string, UANode>();
+
+            foreach (var ii in Nodes)
+            {
+                var nodeClass = ii.Value.NodeClass;
+
+                if (nodeClass == NodeClass.ObjectType || nodeClass == NodeClass.VariableType || nodeClass == NodeClass.DataType || nodeClass == NodeClass.ReferenceType)
+                {
+                    var model = ModelNamespaceIndexes[ii.Key.NamespaceIndex];
+                    nodesByType[model.NamespaceUri + ii.Value.DecodedBrowseName.Name] = ii.Value;
+                }
+            }
+
+            Application word = null;
+            Document document = null;
+
+            try
+            {
+                word = new Application { Visible = false };
+                word.Documents.Open(filePath);
+
+                document = word.Documents[filePath];
+
+                foreach (Paragraph paragraph in document.Content.Paragraphs)
+                {
+                    if (paragraph.OutlineLevel != WdOutlineLevel.wdOutlineLevelBodyText)
+                    {
+                        var heading = paragraph.Range.Text;
+                        heading = heading.Trim();
+
+                        UANode node = null;
+
+                        if (nodesByType.TryGetValue(modelUri + heading, out node))
+                        {
+                            StringBuilder buffer = new StringBuilder();
+
+                            var next = paragraph.Next();
+
+                            while (next != null && next.get_Style().NameLocal == "PARAGRAPH,PA")
+                            {
+                                buffer.Append(next.Range.Text);
+                                next = next.Next();
+                            }
+
+                            node.Documentation = buffer.ToString().Trim();
+                        }
+                    }
+                }
+            }
+            finally
+            {
+                if (document != null)
+                {
+                    document.Close(false);
+                }
+
+                if (word != null)
+                {
+                    word.Quit();
                 }
             }
         }

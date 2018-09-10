@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ServerType
-Specifies the current status and capabilities of the server.
+Specifies the current status and capabilities of the server.  
 The representation of the ServerType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -33,7 +33,7 @@ The references from the ServerType ObjectType Node are shown in the following ta
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[RequestServerStateChange](#RequestServerStateChange)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="GetMonitoredItems"></a>GetMonitoredItems
-
+  
 **Signature**
 ```
     GetMonitoredItems(
@@ -50,7 +50,7 @@ The references from the ServerType ObjectType Node are shown in the following ta
 |ClientHandles||
 
 ### <a name="ResendData"></a>ResendData
-
+  
 **Signature**
 ```
     ResendData(
@@ -63,7 +63,7 @@ The references from the ServerType ObjectType Node are shown in the following ta
 |SubscriptionId||
 
 ### <a name="SetSubscriptionDurable"></a>SetSubscriptionDurable
-
+  
 **Signature**
 ```
     SetSubscriptionDurable(
@@ -80,7 +80,7 @@ The references from the ServerType ObjectType Node are shown in the following ta
 |RevisedLifetimeInHours||
 
 ### <a name="RequestServerStateChange"></a>RequestServerStateChange
-
+  
 **Signature**
 ```
     RequestServerStateChange(

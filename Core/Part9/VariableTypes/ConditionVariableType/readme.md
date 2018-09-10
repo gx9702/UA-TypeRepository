@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ConditionVariableType
-
+  
 The representation of the ConditionVariableType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

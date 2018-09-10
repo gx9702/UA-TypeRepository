@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AxisScaleEnumeration
+This enumeration identifies on which type of axis the data shall be displayed. Its values are defined in Table 24.  
 <!-- end of description -->
 The fields of the AxisScaleEnumeration DataType are defined in the following table:  
 

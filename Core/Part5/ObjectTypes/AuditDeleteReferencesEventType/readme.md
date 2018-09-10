@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditDeleteReferencesEventType
-
+  
 The representation of the AuditDeleteReferencesEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

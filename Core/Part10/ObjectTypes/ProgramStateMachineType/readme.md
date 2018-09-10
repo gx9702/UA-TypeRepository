@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ProgramStateMachineType
-A state machine for a program.
+A state machine for a program.  
 The representation of the ProgramStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -45,31 +45,31 @@ The references from the ProgramStateMachineType ObjectType Node are shown in the
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[Reset](#Reset)|||[OptionalPlaceholder](../../Objects/OptionalPlaceholder/readme.md)|
 
 ### <a name="Start"></a>Start
-
+  
 **Signature**
 ```
     Start(    );
 ```
 ### <a name="Suspend"></a>Suspend
-
+  
 **Signature**
 ```
     Suspend(    );
 ```
 ### <a name="Resume"></a>Resume
-
+  
 **Signature**
 ```
     Resume(    );
 ```
 ### <a name="Halt"></a>Halt
-
+  
 **Signature**
 ```
     Halt(    );
 ```
 ### <a name="Reset"></a>Reset
-
+  
 **Signature**
 ```
     Reset(    );

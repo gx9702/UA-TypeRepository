@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## SemanticChangeEventType
-
+  
 The representation of the SemanticChangeEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## WriterGroupType
-
+  
 The representation of the WriterGroupType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -27,7 +27,7 @@ The references from the WriterGroupType ObjectType Node are shown in the followi
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[RemoveDataSetWriter](#RemoveDataSetWriter)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="AddDataSetWriter"></a>AddDataSetWriter
-
+  
 **Signature**
 ```
     AddDataSetWriter(
@@ -42,7 +42,7 @@ The references from the WriterGroupType ObjectType Node are shown in the followi
 |DataSetWriterNodeId||
 
 ### <a name="RemoveDataSetWriter"></a>RemoveDataSetWriter
-
+  
 **Signature**
 ```
     RemoveDataSetWriter(

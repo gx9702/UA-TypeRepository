@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## TrustListType
-
+  
 The representation of the TrustListType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -21,7 +21,7 @@ The references from the TrustListType ObjectType Node are shown in the following
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[RemoveCertificate](#RemoveCertificate)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="OpenWithMasks"></a>OpenWithMasks
-
+  
 **Signature**
 ```
     OpenWithMasks(
@@ -36,7 +36,7 @@ The references from the TrustListType ObjectType Node are shown in the following
 |FileHandle||
 
 ### <a name="CloseAndUpdate"></a>CloseAndUpdate
-
+  
 **Signature**
 ```
     CloseAndUpdate(
@@ -51,7 +51,7 @@ The references from the TrustListType ObjectType Node are shown in the following
 |ApplyChangesRequired||
 
 ### <a name="AddCertificate"></a>AddCertificate
-
+  
 **Signature**
 ```
     AddCertificate(
@@ -66,7 +66,7 @@ The references from the TrustListType ObjectType Node are shown in the following
 |IsTrustedCertificate||
 
 ### <a name="RemoveCertificate"></a>RemoveCertificate
-
+  
 **Signature**
 ```
     RemoveCertificate(

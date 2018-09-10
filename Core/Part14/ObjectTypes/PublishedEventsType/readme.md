@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## PublishedEventsType
-
+  
 The representation of the PublishedEventsType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -20,7 +20,7 @@ The references from the PublishedEventsType ObjectType Node are shown in the fol
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[ModifyFieldSelection](#ModifyFieldSelection)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="ModifyFieldSelection"></a>ModifyFieldSelection
-
+  
 **Signature**
 ```
     ModifyFieldSelection(

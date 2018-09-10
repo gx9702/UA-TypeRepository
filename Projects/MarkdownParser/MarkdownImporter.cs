@@ -12,13 +12,6 @@ using Opc.Ua;
 
 namespace MarkdownProcessor
 {
-    public enum MarkdownDirectoryType
-    { 
-        Index = 0,
-        ObjectType = 1,
-        DataType = 2
-    }
-
     public class MarkdownImporter
     {
         private Repository m_repository;

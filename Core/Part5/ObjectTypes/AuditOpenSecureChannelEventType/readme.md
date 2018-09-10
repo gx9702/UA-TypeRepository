@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditOpenSecureChannelEventType
-An event that is raised when a secure channel is opened.
+An event that is raised when a secure channel is opened.  
 The representation of the AuditOpenSecureChannelEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## SecurityGroupType
-
+  
 The representation of the SecurityGroupType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

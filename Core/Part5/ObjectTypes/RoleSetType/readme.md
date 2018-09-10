@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## RoleSetType
-A container for the roles supported by the server.
+A container for the roles supported by the server.  
 The representation of the RoleSetType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -19,7 +19,7 @@ The references from the RoleSetType ObjectType Node are shown in the following t
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[RemoveRole](#RemoveRole)|||[Mandatory](../../Objects/Mandatory/readme.md)|
 
 ### <a name="AddRole"></a>AddRole
-
+  
 **Signature**
 ```
     AddRole(
@@ -36,7 +36,7 @@ The references from the RoleSetType ObjectType Node are shown in the following t
 |RoleNodeId||
 
 ### <a name="RemoveRole"></a>RemoveRole
-
+  
 **Signature**
 ```
     RemoveRole(

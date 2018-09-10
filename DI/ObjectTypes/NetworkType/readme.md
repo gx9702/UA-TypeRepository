@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## NetworkType
-Represents the communication means for Devices that are connected to it.
+Represents the communication means for Devices that are connected to it.  
 The representation of the NetworkType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

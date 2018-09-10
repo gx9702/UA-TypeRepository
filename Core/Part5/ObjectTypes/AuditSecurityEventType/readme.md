@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditSecurityEventType
-A base type for events used to track security related changes.
+A base type for events used to track security related changes.  
 The representation of the AuditSecurityEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

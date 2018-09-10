@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## KeyCredentialConfigurationFolderType
-
+  
 The representation of the KeyCredentialConfigurationFolderType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -18,7 +18,7 @@ The references from the KeyCredentialConfigurationFolderType ObjectType Node are
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[CreateCredential](#CreateCredential)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="CreateCredential"></a>CreateCredential
-
+  
 **Signature**
 ```
     CreateCredential(

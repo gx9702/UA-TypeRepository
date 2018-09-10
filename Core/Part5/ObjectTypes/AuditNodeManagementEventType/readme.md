@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditNodeManagementEventType
-
+  
 The representation of the AuditNodeManagementEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

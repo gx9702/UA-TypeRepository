@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## TwoStateDiscreteType
-
+This VariableType defines the general characteristics of a DiscreteItem that can have two states. The TwoStateDiscreteType derives from the DiscreteItemType. It is formally defined in Table 4.  
 The representation of the TwoStateDiscreteType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

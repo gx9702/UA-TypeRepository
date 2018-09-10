@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## KeyCredentialConfigurationType
-
+  
 The representation of the KeyCredentialConfigurationType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -23,7 +23,7 @@ The references from the KeyCredentialConfigurationType ObjectType Node are shown
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[DeleteCredential](#DeleteCredential)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="GetEncryptingKey"></a>GetEncryptingKey
-
+  
 **Signature**
 ```
     GetEncryptingKey(
@@ -42,7 +42,7 @@ The references from the KeyCredentialConfigurationType ObjectType Node are shown
 |RevisedSecurityPolicyUri||
 
 ### <a name="UpdateCredential"></a>UpdateCredential
-
+  
 **Signature**
 ```
     UpdateCredential(
@@ -61,7 +61,7 @@ The references from the KeyCredentialConfigurationType ObjectType Node are shown
 |SecurityPolicyUri||
 
 ### <a name="DeleteCredential"></a>DeleteCredential
-
+  
 **Signature**
 ```
     DeleteCredential(    );

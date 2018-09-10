@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## HasEffect
-The type for a reference to an event that may be raised when a transition occurs.
+The type for a reference to an event that may be raised when a transition occurs.  
 The representation of the HasEffect ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

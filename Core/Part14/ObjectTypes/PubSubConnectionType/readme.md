@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## PubSubConnectionType
-
+  
 The representation of the PubSubConnectionType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -28,7 +28,7 @@ The references from the PubSubConnectionType ObjectType Node are shown in the fo
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[RemoveGroup](#RemoveGroup)|||[Optional](../../Objects/Optional/readme.md)|
 
 ### <a name="AddWriterGroup"></a>AddWriterGroup
-
+  
 **Signature**
 ```
     AddWriterGroup(
@@ -43,7 +43,7 @@ The references from the PubSubConnectionType ObjectType Node are shown in the fo
 |GroupId||
 
 ### <a name="AddReaderGroup"></a>AddReaderGroup
-
+  
 **Signature**
 ```
     AddReaderGroup(
@@ -58,7 +58,7 @@ The references from the PubSubConnectionType ObjectType Node are shown in the fo
 |GroupId||
 
 ### <a name="RemoveGroup"></a>RemoveGroup
-
+  
 **Signature**
 ```
     RemoveGroup(

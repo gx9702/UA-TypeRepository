@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## GeneratesEvent
-The type for references from a node to an event type that is raised by node.
+The type for references from a node to an event type that is raised by node.  
 The representation of the GeneratesEvent ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

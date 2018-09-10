@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## PubSubTransportLimitsExceedEventType
-
+  
 The representation of the PubSubTransportLimitsExceedEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

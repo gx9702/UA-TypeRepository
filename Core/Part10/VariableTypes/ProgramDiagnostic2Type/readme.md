@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ProgramDiagnostic2Type
-
+  
 The representation of the ProgramDiagnostic2Type VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

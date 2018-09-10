@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## Aggregates
-The type for non-looping hierarchical references that are used to aggregate nodes into complex types.
+The type for non-looping hierarchical references that are used to aggregate nodes into complex types.  
 The representation of the Aggregates ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|

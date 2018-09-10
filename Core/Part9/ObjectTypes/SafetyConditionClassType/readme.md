@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## SafetyConditionClassType
-
+  
 The representation of the SafetyConditionClassType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

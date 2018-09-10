@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## SystemConditionClassType
-
+  
 The representation of the SystemConditionClassType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

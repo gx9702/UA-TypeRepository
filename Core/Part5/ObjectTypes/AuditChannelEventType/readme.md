@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditChannelEventType
-A base type for events used to track related changes to a secure channel.
+A base type for events used to track related changes to a secure channel.  
 The representation of the AuditChannelEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## NonTransparentRedundancyType
-Identifies the capabilties of server that supports non-transparent redundancy.
+Identifies the capabilties of server that supports non-transparent redundancy.  
 The representation of the NonTransparentRedundancyType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

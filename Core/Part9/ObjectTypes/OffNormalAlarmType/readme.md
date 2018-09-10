@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## OffNormalAlarmType
-
+  
 The representation of the OffNormalAlarmType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

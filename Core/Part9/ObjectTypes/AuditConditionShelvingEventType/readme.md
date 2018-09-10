@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditConditionShelvingEventType
-
+  
 The representation of the AuditConditionShelvingEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

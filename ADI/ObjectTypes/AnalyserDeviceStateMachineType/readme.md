@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AnalyserDeviceStateMachineType
-
+  
 The representation of the AnalyserDeviceStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditProgramTransitionEventType
-
+  
 The representation of the AuditProgramTransitionEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

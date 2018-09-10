@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ParticleSizeMonitorDeviceStreamType
-
+  
 The representation of the ParticleSizeMonitorDeviceStreamType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

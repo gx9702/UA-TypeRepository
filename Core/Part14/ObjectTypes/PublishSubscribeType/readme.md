@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## PublishSubscribeType
-
+  
 The representation of the PublishSubscribeType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -24,7 +24,7 @@ The references from the PublishSubscribeType ObjectType Node are shown in the fo
 |[HasProperty](../../../Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[SupportedTransportProfiles](#SupportedTransportProfiles)|[String](../../../Part3/DataTypes/String/readme.md)[]|[PropertyType](../../Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../Objects/Mandatory/readme.md)|
 
 ### <a name="SetSecurityKeys"></a>SetSecurityKeys
-
+  
 **Signature**
 ```
     SetSecurityKeys(
@@ -49,7 +49,7 @@ The references from the PublishSubscribeType ObjectType Node are shown in the fo
 |KeyLifetime||
 
 ### <a name="AddConnection"></a>AddConnection
-
+  
 **Signature**
 ```
     AddConnection(
@@ -64,7 +64,7 @@ The references from the PublishSubscribeType ObjectType Node are shown in the fo
 |ConnectionId||
 
 ### <a name="RemoveConnection"></a>RemoveConnection
-
+  
 **Signature**
 ```
     RemoveConnection(

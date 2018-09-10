@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## AuditAddReferencesEventType
-
+  
 The representation of the AuditAddReferencesEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

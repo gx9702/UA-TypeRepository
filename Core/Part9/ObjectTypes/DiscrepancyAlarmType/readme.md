@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## DiscrepancyAlarmType
-
+  
 The representation of the DiscrepancyAlarmType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|

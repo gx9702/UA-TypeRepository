@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## MVAOutputParameterType
-Hold the descriptions of a mathematical process and associated information to convert scaled data into one or more process values.
+Hold the descriptions of a mathematical process and associated information to convert scaled data into one or more process values.  
 The representation of the MVAOutputParameterType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|

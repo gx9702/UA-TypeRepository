@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## ServerConfigurationType
-
+  
 The representation of the ServerConfigurationType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
@@ -25,7 +25,7 @@ The references from the ServerConfigurationType ObjectType Node are shown in the
 |[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Method|[GetRejectedList](#GetRejectedList)|||[Mandatory](../../Objects/Mandatory/readme.md)|
 
 ### <a name="UpdateCertificate"></a>UpdateCertificate
-
+  
 **Signature**
 ```
     UpdateCertificate(
@@ -50,13 +50,13 @@ The references from the ServerConfigurationType ObjectType Node are shown in the
 |ApplyChangesRequired||
 
 ### <a name="ApplyChanges"></a>ApplyChanges
-
+  
 **Signature**
 ```
     ApplyChanges(    );
 ```
 ### <a name="CreateSigningRequest"></a>CreateSigningRequest
-
+  
 **Signature**
 ```
     CreateSigningRequest(
@@ -79,7 +79,7 @@ The references from the ServerConfigurationType ObjectType Node are shown in the
 |CertificateRequest||
 
 ### <a name="GetRejectedList"></a>GetRejectedList
-
+  
 **Signature**
 ```
     GetRejectedList(

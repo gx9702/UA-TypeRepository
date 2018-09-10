@@ -1,6 +1,6 @@
 <!-- objecttype -->
 ## DataTypeDescriptionType
-The type for variable that represents the description of a data type encoding.
+The type for variable that represents the description of a data type encoding.  
 The representation of the DataTypeDescriptionType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
