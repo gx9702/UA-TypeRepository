@@ -1,0 +1,32 @@
+<!-- datatype -->
+## UadpDataSetReaderMessageDataType
+This Structure DataType is used to represent UADP message mapping specific DataSetReader parameters. It is a subtype of the DataSetReaderMessageDataType defined in 6.2.8.11.3.
+
+The UadpDataSetReaderMessageDataType is formally defined in Table 58.  
+<!-- end of description -->
+The fields of the UadpDataSetReaderMessageDataType DataType are defined in the following table:  
+
+|Name|Type|Description|
+|---|---|---|
+|UadpDataSetReaderMessageDataType|Structure||
+|&nbsp;&nbsp;&nbsp;&nbsp;groupVersion|[VersionTime](../../../Part4/DataTypes/VersionTime/readme.md)||
+|&nbsp;&nbsp;&nbsp;&nbsp;networkMessageNumber|[UInt16](../../../Part3/DataTypes/UInt16/readme.md)||
+|&nbsp;&nbsp;&nbsp;&nbsp;dataSetOffset|[UInt16](../../../Part3/DataTypes/UInt16/readme.md)||
+|&nbsp;&nbsp;&nbsp;&nbsp;dataSetClassId|[Guid](../../../Part3/DataTypes/Guid/readme.md)||
+|&nbsp;&nbsp;&nbsp;&nbsp;networkMessageContentMask|[UadpNetworkMessageContentMask](../../../Part14/DataTypes/UadpNetworkMessageContentMask/readme.md)||
+|&nbsp;&nbsp;&nbsp;&nbsp;dataSetMessageContentMask|[UadpDataSetMessageContentMask](../../../Part14/DataTypes/UadpDataSetMessageContentMask/readme.md)||
+|&nbsp;&nbsp;&nbsp;&nbsp;publishingInterval|[Duration](../../../Part3/DataTypes/Duration/readme.md)||
+|&nbsp;&nbsp;&nbsp;&nbsp;receiveOffset|[Duration](../../../Part3/DataTypes/Duration/readme.md)||
+|&nbsp;&nbsp;&nbsp;&nbsp;processingOffset|[Duration](../../../Part3/DataTypes/Duration/readme.md)||
+
+The representation of the UadpDataSetReaderMessageDataType DataType in the address space is shown in the following table:  
+
+|Name|Attribute|
+|---|---|
+|NodeId|i=15653|
+|NamespaceUri|http://opcfoundation.org/UA/|
+|BrowseName|UadpDataSetReaderMessageDataType|
+|IsAbstract|False|
+|BaseType|[DataSetReaderMessageDataType](../../../Part14/DataTypes/DataSetReaderMessageDataType/readme.md)|
+|Categories|Part14|
+

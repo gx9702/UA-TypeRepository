@@ -1,0 +1,24 @@
+<!-- datatype -->
+## ReferenceTypeAttributes
+The attributes for a reference type node.  
+<!-- end of description -->
+The fields of the ReferenceTypeAttributes DataType are defined in the following table:  
+
+|Name|Type|Description|
+|---|---|---|
+|ReferenceTypeAttributes|Structure||
+|&nbsp;&nbsp;&nbsp;&nbsp;isAbstract|[Boolean](../../../Part3/DataTypes/Boolean/readme.md)|If TRUE the type is abstract and only subtypes of it appear in the address space.|
+|&nbsp;&nbsp;&nbsp;&nbsp;symmetric|[Boolean](../../../Part3/DataTypes/Boolean/readme.md)|If TRUE the reference type has the same semantics in both directions.|
+|&nbsp;&nbsp;&nbsp;&nbsp;inverseName|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|The display name for the reference when following it from target to source.|
+
+The representation of the ReferenceTypeAttributes DataType in the address space is shown in the following table:  
+
+|Name|Attribute|
+|---|---|
+|NodeId|i=367|
+|NamespaceUri|http://opcfoundation.org/UA/|
+|BrowseName|ReferenceTypeAttributes|
+|IsAbstract|False|
+|BaseType|[NodeAttributes](../../../Part4/Services/NodeAttributes/readme.md)|
+|Categories|Part4/Services|
+

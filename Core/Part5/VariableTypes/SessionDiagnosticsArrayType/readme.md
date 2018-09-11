@@ -1,0 +1,25 @@
+<!-- objecttype -->
+## SessionDiagnosticsArrayType
+  
+<!-- end of text -->
+The representation of the SessionDiagnosticsArrayType VariableType in the address space is shown in the following table:  
+
+|Name|Attribute|
+|---|---|
+|NodeId|i=2196|
+|NamespaceUri|http://opcfoundation.org/UA/|
+|BrowseName|SessionDiagnosticsArrayType|
+|NodeClass|VariableType|
+|DataType|[SessionDiagnosticsDataType](../../../Part5/DataTypes/SessionDiagnosticsDataType/readme.md)|
+|ValueRank|1|
+|IsAbstract|False|
+|BaseType|[BaseDataVariableType](../../../Part5/VariableTypes/BaseDataVariableType/readme.md)|
+|Categories|Part5|
+
+The references from the SessionDiagnosticsArrayType VariableType Node are shown in the following table:  
+
+|Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
+|---|---|---|---|---|---|
+|[HasComponent](../../../Part3/ReferenceTypes/HasComponent/readme.md)|Variable|[SessionDiagnostics](#SessionDiagnostics)|[SessionDiagnosticsDataType](../../../Part5/DataTypes/SessionDiagnosticsDataType/readme.md)|[SessionDiagnosticsVariableType](../../Part5/VariableTypes/SessionDiagnosticsVariableType/readme.md)|[ExposesItsArray](../../Objects/ExposesItsArray/readme.md)|
+
+
