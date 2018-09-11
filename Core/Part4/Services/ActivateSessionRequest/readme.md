@@ -18,7 +18,10 @@ The representation of the ActivateSessionRequest DataType in the address space i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=465|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ActivateSessionRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

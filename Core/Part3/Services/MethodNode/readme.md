@@ -14,7 +14,10 @@ The representation of the MethodNode DataType in the address space is shown in t
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=276|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|MethodNode|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[InstanceNode](../../../Part3/Services/InstanceNode/readme.md)|
+|Categories|Part3/Services|
 

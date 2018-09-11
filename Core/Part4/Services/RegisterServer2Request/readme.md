@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## RegisterServer2Request
+  
 <!-- end of description -->
 The fields of the RegisterServer2Request DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the RegisterServer2Request DataType in the address space i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12193|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|RegisterServer2Request|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

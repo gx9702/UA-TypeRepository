@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ShelvedStateMachineType
   
+<!-- end of text -->
 The representation of the ShelvedStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2929|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ShelvedStateMachineType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FiniteStateMachineType](../../../Part5/ObjectTypes/FiniteStateMachineType/readme.md)|
+|Categories|Part9|
 
 The references from the ShelvedStateMachineType ObjectType Node are shown in the following table:  
 

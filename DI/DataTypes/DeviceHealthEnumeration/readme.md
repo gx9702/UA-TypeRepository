@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DeviceHealthEnumeration
+  
 <!-- end of description -->
 The fields of the DeviceHealthEnumeration DataType are defined in the following table:  
 
@@ -15,9 +16,12 @@ The representation of the DeviceHealthEnumeration DataType in the address space 
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=6244|
+|NamespaceUri|http://opcfoundation.org/UA/DI/|
 |BrowseName|DeviceHealthEnumeration|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Core/Part3/DataTypes/Enumeration/readme.md)|
+|Categories||
 
 The references from the DeviceHealthEnumeration DataType Node are shown in the following table:  
 

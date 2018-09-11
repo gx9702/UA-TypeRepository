@@ -12,9 +12,12 @@ The representation of the UInt16 DataType in the address space is shown in the f
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=5|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UInt16|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInteger](../../../Part3/DataTypes/UInteger/readme.md)|
+|Categories|Part3|
 
 The references from the UInt16 DataType Node are shown in the following table:  
 

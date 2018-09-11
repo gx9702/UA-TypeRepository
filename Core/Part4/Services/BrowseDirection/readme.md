@@ -15,9 +15,12 @@ The representation of the BrowseDirection DataType in the address space is shown
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=510|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BrowseDirection|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part4/Services|
 
 The references from the BrowseDirection DataType Node are shown in the following table:  
 

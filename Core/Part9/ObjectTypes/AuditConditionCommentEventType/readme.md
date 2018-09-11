@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AuditConditionCommentEventType
   
+<!-- end of text -->
 The representation of the AuditConditionCommentEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2829|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuditConditionCommentEventType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[AuditConditionEventType](../../../Part9/ObjectTypes/AuditConditionEventType/readme.md)|
+|Categories|Part9|
 
 The references from the AuditConditionCommentEventType ObjectType Node are shown in the following table:  
 

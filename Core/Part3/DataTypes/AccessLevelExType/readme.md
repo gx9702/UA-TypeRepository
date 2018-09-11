@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AccessLevelExType
+  
 <!-- end of description -->
 The fields of the AccessLevelExType DataType are defined in the following table:  
 
@@ -20,9 +21,12 @@ The representation of the AccessLevelExType DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15406|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AccessLevelExType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|
+|Categories|Part3|
 
 The references from the AccessLevelExType DataType Node are shown in the following table:  
 

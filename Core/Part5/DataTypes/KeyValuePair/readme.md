@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## KeyValuePair
+  
 <!-- end of description -->
 The fields of the KeyValuePair DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the KeyValuePair DataType in the address space is shown in
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=14533|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|KeyValuePair|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part5|
 

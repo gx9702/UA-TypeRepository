@@ -12,7 +12,10 @@ The representation of the Duration DataType in the address space is shown in the
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=290|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Duration|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Double](../../../Part3/DataTypes/Double/readme.md)|
+|Categories|Part3|
 

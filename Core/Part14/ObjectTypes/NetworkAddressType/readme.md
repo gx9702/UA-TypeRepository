@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## NetworkAddressType
-  
+An instance of a subtype of this abstract ObjectType represents network address information. The NetworkAddressType is formally defined in Table A.12.  
+<!-- end of text -->
 The representation of the NetworkAddressType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=21145|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NetworkAddressType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part14|
 
 The references from the NetworkAddressType ObjectType Node are shown in the following table:  
 

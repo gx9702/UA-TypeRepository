@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ReaderGroupDataType
+This Structure DataType is used to represent the configuration parameters for ReaderGroups. The ReaderGroupDataType is formally defined in Table 32.  
 <!-- end of description -->
 The fields of the ReaderGroupDataType DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the ReaderGroupDataType DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15520|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ReaderGroupDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[PubSubGroupDataType](../../../Part14/DataTypes/PubSubGroupDataType/readme.md)|
+|Categories|Part14|
 

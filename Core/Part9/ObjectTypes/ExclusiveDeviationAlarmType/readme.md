@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ExclusiveDeviationAlarmType
   
+<!-- end of text -->
 The representation of the ExclusiveDeviationAlarmType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=9764|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ExclusiveDeviationAlarmType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[ExclusiveLimitAlarmType](../../../Part9/ObjectTypes/ExclusiveLimitAlarmType/readme.md)|
+|Categories|Part9|
 
 The references from the ExclusiveDeviationAlarmType ObjectType Node are shown in the following table:  
 

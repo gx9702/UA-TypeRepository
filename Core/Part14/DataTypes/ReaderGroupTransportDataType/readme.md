@@ -1,5 +1,8 @@
 <!-- datatype -->
 ## ReaderGroupTransportDataType
+This Structure DataType is an abstract base type for transport mapping specific ReaderGroup parameters. The abstract DataType does not define fields.
+
+The ReaderGroupTransportDataType Structure representation in the AddressSpace is defined in Table 34.  
 <!-- end of description -->
 The fields of the ReaderGroupTransportDataType DataType are defined in the following table:  
 
@@ -11,7 +14,10 @@ The representation of the ReaderGroupTransportDataType DataType in the address s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15621|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ReaderGroupTransportDataType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 

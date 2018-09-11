@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AggregateFilter
+  
 <!-- end of description -->
 The fields of the AggregateFilter DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the AggregateFilter DataType in the address space is shown
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=728|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AggregateFilter|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[MonitoringFilter](../../../Part4/DataTypes/MonitoringFilter/readme.md)|
+|Categories|Part4/Services|
 

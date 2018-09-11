@@ -1,12 +1,16 @@
 <!-- objecttype -->
 ## DataTypeEncodingType
   
+<!-- end of text -->
 The representation of the DataTypeEncodingType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=76|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataTypeEncodingType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 

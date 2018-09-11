@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## DataSetFolderType
-  
+The DataSetFolderType is formally defined Table 111.  
+<!-- end of text -->
 The representation of the DataSetFolderType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=14477|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataSetFolderType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FolderType](../../../Part5/ObjectTypes/FolderType/readme.md)|
+|Categories|Part14|
 
 The references from the DataSetFolderType ObjectType Node are shown in the following table:  
 

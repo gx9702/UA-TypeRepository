@@ -12,7 +12,10 @@ The representation of the Time DataType in the address space is shown in the fol
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=292|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Time|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[String](../../../Part3/DataTypes/String/readme.md)|
+|Categories|Part4|
 

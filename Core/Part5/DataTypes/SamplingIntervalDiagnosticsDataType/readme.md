@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SamplingIntervalDiagnosticsDataType
+  
 <!-- end of description -->
 The fields of the SamplingIntervalDiagnosticsDataType DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the SamplingIntervalDiagnosticsDataType DataType in the ad
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=856|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SamplingIntervalDiagnosticsDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part5|
 

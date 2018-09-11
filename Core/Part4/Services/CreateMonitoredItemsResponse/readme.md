@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## CreateMonitoredItemsResponse
+  
 <!-- end of description -->
 The fields of the CreateMonitoredItemsResponse DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the CreateMonitoredItemsResponse DataType in the address s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=752|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CreateMonitoredItemsResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

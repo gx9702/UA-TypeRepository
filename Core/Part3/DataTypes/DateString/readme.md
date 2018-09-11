@@ -12,7 +12,10 @@ The representation of the DateString DataType in the address space is shown in t
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12881|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DateString|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[String](../../../Part3/DataTypes/String/readme.md)|
+|Categories|Part3|
 

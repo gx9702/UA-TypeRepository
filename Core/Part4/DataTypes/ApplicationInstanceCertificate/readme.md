@@ -12,7 +12,10 @@ The representation of the ApplicationInstanceCertificate DataType in the address
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=311|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ApplicationInstanceCertificate|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[ByteString](../../../Part3/DataTypes/ByteString/readme.md)|
+|Categories|Part4|
 

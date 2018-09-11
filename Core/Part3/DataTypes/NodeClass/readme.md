@@ -20,9 +20,12 @@ The representation of the NodeClass DataType in the address space is shown in th
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=257|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NodeClass|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part3|
 
 The references from the NodeClass DataType Node are shown in the following table:  
 

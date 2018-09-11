@@ -12,7 +12,10 @@ The representation of the AudioDataType DataType in the address space is shown i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=16307|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AudioDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[ByteString](../../../Part3/DataTypes/ByteString/readme.md)|
+|Categories|Part3|
 

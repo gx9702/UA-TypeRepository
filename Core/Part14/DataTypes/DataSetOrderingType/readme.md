@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DataSetOrderingType
+  
 <!-- end of description -->
 The fields of the DataSetOrderingType DataType are defined in the following table:  
 
@@ -13,9 +14,12 @@ The representation of the DataSetOrderingType DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=20408|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataSetOrderingType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part14|
 
 The references from the DataSetOrderingType DataType Node are shown in the following table:  
 

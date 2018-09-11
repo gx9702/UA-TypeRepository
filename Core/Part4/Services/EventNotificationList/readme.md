@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## EventNotificationList
+  
 <!-- end of description -->
 The fields of the EventNotificationList DataType are defined in the following table:  
 
@@ -12,7 +13,10 @@ The representation of the EventNotificationList DataType in the address space is
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=914|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|EventNotificationList|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NotificationData](../../../Part4/Services/NotificationData/readme.md)|
+|Categories|Part4/Services|
 

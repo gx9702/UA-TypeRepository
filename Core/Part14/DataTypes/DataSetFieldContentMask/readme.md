@@ -1,5 +1,8 @@
 <!-- datatype -->
 ## DataSetFieldContentMask
+The parameter DataSetFieldContentMask with DataType DataSetFieldContentMask indicates the fields of a DataValue included in the DataSetMessages. 
+
+The DataSetFieldContentMask DataType is defined in 6.2.3.2.  
 <!-- end of description -->
 The fields of the DataSetFieldContentMask DataType are defined in the following table:  
 
@@ -16,9 +19,12 @@ The representation of the DataSetFieldContentMask DataType in the address space 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15583|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataSetFieldContentMask|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|
+|Categories|Part14|
 
 The references from the DataSetFieldContentMask DataType Node are shown in the following table:  
 

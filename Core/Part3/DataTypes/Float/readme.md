@@ -12,7 +12,10 @@ The representation of the Float DataType in the address space is shown in the fo
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=10|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Float|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Number](../../../Part3/DataTypes/Number/readme.md)|
+|Categories|Part3|
 

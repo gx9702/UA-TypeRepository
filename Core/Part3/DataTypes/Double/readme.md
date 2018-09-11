@@ -12,9 +12,12 @@ The representation of the Double DataType in the address space is shown in the f
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Double|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Number](../../../Part3/DataTypes/Number/readme.md)|
+|Categories|Part3|
 
 The references from the Double DataType Node are shown in the following table:  
 

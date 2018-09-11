@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ServerDiagnosticsType
 The diagnostics information for a server.  
+<!-- end of text -->
 The representation of the ServerDiagnosticsType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2020|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ServerDiagnosticsType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the ServerDiagnosticsType ObjectType Node are shown in the following table:  
 

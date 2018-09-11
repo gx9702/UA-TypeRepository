@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## TargetVariablesType
-  
+This ObjectType defines the metadata for the subscribed DataSet and the information for the processing of DataSetMessages. The TargetVariablesType is formally defined in Table 130.  
+<!-- end of text -->
 The representation of the TargetVariablesType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15111|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|TargetVariablesType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[SubscribedDataSetType](../../../Part14/ObjectTypes/SubscribedDataSetType/readme.md)|
+|Categories|Part14|
 
 The references from the TargetVariablesType ObjectType Node are shown in the following table:  
 

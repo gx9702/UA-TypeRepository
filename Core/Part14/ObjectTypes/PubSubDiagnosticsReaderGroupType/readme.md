@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## PubSubDiagnosticsReaderGroupType
-  
+The PubSubDiagnosticsReaderGroupType defines the diagnostic information for a ReaderGroupType Object and is formally defined in Table 146.  
+<!-- end of text -->
 The representation of the PubSubDiagnosticsReaderGroupType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=19903|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubDiagnosticsReaderGroupType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[PubSubDiagnosticsType](../../../Part14/ObjectTypes/PubSubDiagnosticsType/readme.md)|
+|Categories|Part14|
 
 The references from the PubSubDiagnosticsReaderGroupType ObjectType Node are shown in the following table:  
 

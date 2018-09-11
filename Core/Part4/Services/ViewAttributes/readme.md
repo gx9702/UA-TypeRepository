@@ -14,7 +14,10 @@ The representation of the ViewAttributes DataType in the address space is shown 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=373|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ViewAttributes|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NodeAttributes](../../../Part4/Services/NodeAttributes/readme.md)|
+|Categories|Part4/Services|
 

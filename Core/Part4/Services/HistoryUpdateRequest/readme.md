@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## HistoryUpdateRequest
+  
 <!-- end of description -->
 The fields of the HistoryUpdateRequest DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the HistoryUpdateRequest DataType in the address space is 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=698|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|HistoryUpdateRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

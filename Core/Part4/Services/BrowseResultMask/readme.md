@@ -21,9 +21,12 @@ The representation of the BrowseResultMask DataType in the address space is show
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=517|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BrowseResultMask|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part4/Services|
 
 The references from the BrowseResultMask DataType Node are shown in the following table:  
 

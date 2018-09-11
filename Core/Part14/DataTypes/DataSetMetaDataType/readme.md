@@ -1,5 +1,8 @@
 <!-- datatype -->
 ## DataSetMetaDataType
+This Structure DataType is a subtype of DataTypeSchemaHeader and is used to provide the metadata for a DataSet. The DataSetMetaDataType is formally defined in Table 3.
+
+The DataTypeSchemaHeader provides OPC UA DataType definitions used in the DataSetMetaData. The DataTypeSchemaHeader is defined in A.1.1.  
 <!-- end of description -->
 The fields of the DataSetMetaDataType DataType are defined in the following table:  
 
@@ -16,7 +19,10 @@ The representation of the DataSetMetaDataType DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=14523|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataSetMetaDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataTypeSchemaHeader](../../../Part14/DataTypes/DataTypeSchemaHeader/readme.md)|
+|Categories|Part14|
 

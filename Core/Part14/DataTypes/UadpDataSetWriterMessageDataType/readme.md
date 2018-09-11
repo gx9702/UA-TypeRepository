@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UadpDataSetWriterMessageDataType
+  
 <!-- end of description -->
 The fields of the UadpDataSetWriterMessageDataType DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the UadpDataSetWriterMessageDataType DataType in the addre
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15652|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UadpDataSetWriterMessageDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataSetWriterMessageDataType](../../../Part14/DataTypes/DataSetWriterMessageDataType/readme.md)|
+|Categories|Part14|
 

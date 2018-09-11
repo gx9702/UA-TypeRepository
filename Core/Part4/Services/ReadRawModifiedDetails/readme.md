@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ReadRawModifiedDetails
+  
 <!-- end of description -->
 The fields of the ReadRawModifiedDetails DataType are defined in the following table:  
 
@@ -16,7 +17,10 @@ The representation of the ReadRawModifiedDetails DataType in the address space i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=647|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ReadRawModifiedDetails|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[HistoryReadDetails](../../../Part4/Services/HistoryReadDetails/readme.md)|
+|Categories|Part4/Services|
 

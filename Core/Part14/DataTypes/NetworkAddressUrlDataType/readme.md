@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## NetworkAddressUrlDataType
+This Structure DataType is used to represent network address information in the form of an URL String. The NetworkAddressUrlDataType is formally defined in Table 30.  
 <!-- end of description -->
 The fields of the NetworkAddressUrlDataType DataType are defined in the following table:  
 
@@ -12,7 +13,10 @@ The representation of the NetworkAddressUrlDataType DataType in the address spac
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15510|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NetworkAddressUrlDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NetworkAddressDataType](../../../Part14/DataTypes/NetworkAddressDataType/readme.md)|
+|Categories|Part14|
 

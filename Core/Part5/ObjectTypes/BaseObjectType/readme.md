@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## BaseObjectType
 The base type for all object nodes.  
+<!-- end of text -->
 The representation of the BaseObjectType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=58|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BaseObjectType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType||
+|Categories|Part5|
 
 The references from the BaseObjectType ObjectType Node are shown in the following table:  
 

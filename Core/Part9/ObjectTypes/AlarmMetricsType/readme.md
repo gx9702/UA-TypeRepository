@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AlarmMetricsType
   
+<!-- end of text -->
 The representation of the AlarmMetricsType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17279|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AlarmMetricsType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part9|
 
 The references from the AlarmMetricsType ObjectType Node are shown in the following table:  
 

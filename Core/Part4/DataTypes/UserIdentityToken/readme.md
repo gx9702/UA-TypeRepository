@@ -13,9 +13,12 @@ The representation of the UserIdentityToken DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=316|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UserIdentityToken|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4|
 
 The references from the UserIdentityToken DataType Node are shown in the following table:  
 

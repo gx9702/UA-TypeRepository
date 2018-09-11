@@ -1,5 +1,8 @@
 <!-- datatype -->
 ## WriterGroupDataType
+This Structure DataType is used to represent the configuration parameters for WriterGroups. It is a subtype of PubSubGroupDataType defined in 0.
+
+The WriterGroupDataType is formally defined in Table 22.  
 <!-- end of description -->
 The fields of the WriterGroupDataType DataType are defined in the following table:  
 
@@ -19,7 +22,10 @@ The representation of the WriterGroupDataType DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15480|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|WriterGroupDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[PubSubGroupDataType](../../../Part14/DataTypes/PubSubGroupDataType/readme.md)|
+|Categories|Part14|
 

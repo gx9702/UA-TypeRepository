@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## NetworkType
 Represents the communication means for Devices that are connected to it.  
+<!-- end of text -->
 The representation of the NetworkType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=6247|
+|NamespaceUri|http://opcfoundation.org/UA/DI/|
 |BrowseName|NetworkType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Core/Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories||
 
 The references from the NetworkType ObjectType Node are shown in the following table:  
 

@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AccessoryType
   
+<!-- end of text -->
 The representation of the AccessoryType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=1019|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|AccessoryType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[TopologyElementType](../../../DI/ObjectTypes/TopologyElementType/readme.md)|
+|Categories||
 
 The references from the AccessoryType ObjectType Node are shown in the following table:  
 

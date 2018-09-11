@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DeleteAtTimeDetails
+  
 <!-- end of description -->
 The fields of the DeleteAtTimeDetails DataType are defined in the following table:  
 
@@ -12,7 +13,10 @@ The representation of the DeleteAtTimeDetails DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=689|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DeleteAtTimeDetails|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[HistoryUpdateDetails](../../../Part4/Services/HistoryUpdateDetails/readme.md)|
+|Categories|Part4/Services|
 

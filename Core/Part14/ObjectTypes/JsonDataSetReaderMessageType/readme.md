@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## JsonDataSetReaderMessageType
-  
+This ObjectType represents UADP message mapping specific parameters for a DataSetReader. The JsonDataSetReaderMessageType is formally defined in Table 163.  
+<!-- end of text -->
 The representation of the JsonDataSetReaderMessageType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=21130|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|JsonDataSetReaderMessageType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataSetReaderMessageType](../../../Part14/ObjectTypes/DataSetReaderMessageType/readme.md)|
+|Categories|Part14|
 
 The references from the JsonDataSetReaderMessageType ObjectType Node are shown in the following table:  
 

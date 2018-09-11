@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UadpWriterGroupMessageDataType
+  
 <!-- end of description -->
 The fields of the UadpWriterGroupMessageDataType DataType are defined in the following table:  
 
@@ -16,7 +17,10 @@ The representation of the UadpWriterGroupMessageDataType DataType in the address
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15645|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UadpWriterGroupMessageDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[WriterGroupMessageDataType](../../../Part14/DataTypes/WriterGroupMessageDataType/readme.md)|
+|Categories|Part14|
 

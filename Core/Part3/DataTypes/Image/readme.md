@@ -12,9 +12,12 @@ The representation of the Image DataType in the address space is shown in the fo
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=30|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Image|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[ByteString](../../../Part3/DataTypes/ByteString/readme.md)|
+|Categories|Part3|
 
 The references from the Image DataType Node are shown in the following table:  
 

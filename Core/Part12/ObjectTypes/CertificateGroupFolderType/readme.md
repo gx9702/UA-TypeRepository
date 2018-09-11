@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## CertificateGroupFolderType
   
+<!-- end of text -->
 The representation of the CertificateGroupFolderType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=13813|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CertificateGroupFolderType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FolderType](../../../Part5/ObjectTypes/FolderType/readme.md)|
+|Categories|Part12|
 
 The references from the CertificateGroupFolderType ObjectType Node are shown in the following table:  
 

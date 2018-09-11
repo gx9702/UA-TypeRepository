@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ProgramTransitionAuditEventType
   
+<!-- end of text -->
 The representation of the ProgramTransitionAuditEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=3806|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ProgramTransitionAuditEventType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[AuditUpdateStateEventType](../../../Part5/ObjectTypes/AuditUpdateStateEventType/readme.md)|
+|Categories|Part10|
 
 The references from the ProgramTransitionAuditEventType ObjectType Node are shown in the following table:  
 

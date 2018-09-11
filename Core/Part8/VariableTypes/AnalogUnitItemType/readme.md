@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## AnalogUnitItemType
   
+<!-- end of text -->
 The representation of the AnalogUnitItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17503|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AnalogUnitItemType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[Number](../../../Part3/DataTypes/Number/readme.md)|
+|ValueRank|-2|
+|IsAbstract|False|
 |BaseType|[DataItemType](../../../Part8/VariableTypes/DataItemType/readme.md)|
+|Categories|Part8|
 
 The references from the AnalogUnitItemType VariableType Node are shown in the following table:  
 

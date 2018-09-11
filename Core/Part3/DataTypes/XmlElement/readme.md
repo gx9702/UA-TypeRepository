@@ -12,7 +12,10 @@ The representation of the XmlElement DataType in the address space is shown in t
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=16|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|XmlElement|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)|
+|Categories|Part3|
 

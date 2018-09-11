@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## PubSubDiagnosticsCounterClassification
+The PubSubDiagnosticsCounterClassification is an enumeration that specifies the possible diagnostics counter classifications. The possible enumeration values are described in Table 138.  
 <!-- end of description -->
 The fields of the PubSubDiagnosticsCounterClassification DataType are defined in the following table:  
 
@@ -12,9 +13,12 @@ The representation of the PubSubDiagnosticsCounterClassification DataType in the
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=19730|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubDiagnosticsCounterClassification|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part14|
 
 The references from the PubSubDiagnosticsCounterClassification DataType Node are shown in the following table:  
 

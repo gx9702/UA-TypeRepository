@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ModellingRuleType
 The type for an object that describes how an instance declaration is used when a type is instantiated.  
+<!-- end of text -->
 The representation of the ModellingRuleType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=77|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ModellingRuleType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the ModellingRuleType ObjectType Node are shown in the following table:  
 

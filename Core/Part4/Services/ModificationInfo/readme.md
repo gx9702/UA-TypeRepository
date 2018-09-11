@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ModificationInfo
+  
 <!-- end of description -->
 The fields of the ModificationInfo DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the ModificationInfo DataType in the address space is show
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11216|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ModificationInfo|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

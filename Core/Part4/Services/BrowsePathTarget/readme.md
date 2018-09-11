@@ -14,7 +14,10 @@ The representation of the BrowsePathTarget DataType in the address space is show
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=546|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BrowsePathTarget|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

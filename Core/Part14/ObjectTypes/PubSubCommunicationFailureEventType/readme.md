@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## PubSubCommunicationFailureEventType
-  
+This EventType indicates that a NetworkMessage could not be published because of a communication failure. The PubSubCommunicationFailureEventType is formally defined in Table 157.  
+<!-- end of text -->
 The representation of the PubSubCommunicationFailureEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15563|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubCommunicationFailureEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[PubSubStatusEventType](../../../Part14/ObjectTypes/PubSubStatusEventType/readme.md)|
+|Categories|Part14|
 
 The references from the PubSubCommunicationFailureEventType ObjectType Node are shown in the following table:  
 

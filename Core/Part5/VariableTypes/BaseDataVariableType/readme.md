@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## BaseDataVariableType
 The type for variable that represents a process value.  
+<!-- end of text -->
 The representation of the BaseDataVariableType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=63|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BaseDataVariableType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)|
+|ValueRank|-2|
+|IsAbstract|False|
 |BaseType|[BaseVariableType](../../../Part5/VariableTypes/BaseVariableType/readme.md)|
+|Categories|Part5|
 
 The references from the BaseDataVariableType VariableType Node are shown in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DatagramConnectionTransportDataType
+  
 <!-- end of description -->
 The fields of the DatagramConnectionTransportDataType DataType are defined in the following table:  
 
@@ -12,7 +13,10 @@ The representation of the DatagramConnectionTransportDataType DataType in the ad
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17467|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DatagramConnectionTransportDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[ConnectionTransportDataType](../../../Part14/DataTypes/ConnectionTransportDataType/readme.md)|
+|Categories|Part14|
 

@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## RoleType
   
+<!-- end of text -->
 The representation of the RoleType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15620|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|RoleType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the RoleType ObjectType Node are shown in the following table:  
 

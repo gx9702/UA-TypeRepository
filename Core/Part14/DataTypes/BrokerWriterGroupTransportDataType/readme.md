@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BrokerWriterGroupTransportDataType
+  
 <!-- end of description -->
 The fields of the BrokerWriterGroupTransportDataType DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the BrokerWriterGroupTransportDataType DataType in the add
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15667|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BrokerWriterGroupTransportDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[WriterGroupTransportDataType](../../../Part14/DataTypes/WriterGroupTransportDataType/readme.md)|
+|Categories|Part14|
 

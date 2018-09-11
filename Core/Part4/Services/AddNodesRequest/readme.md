@@ -14,7 +14,10 @@ The representation of the AddNodesRequest DataType in the address space is shown
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=486|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AddNodesRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

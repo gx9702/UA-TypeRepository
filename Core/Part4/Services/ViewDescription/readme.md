@@ -15,7 +15,10 @@ The representation of the ViewDescription DataType in the address space is shown
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=511|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ViewDescription|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

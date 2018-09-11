@@ -1,5 +1,8 @@
 <!-- datatype -->
 ## WriterGroupTransportDataType
+This Structure DataType is an abstract base type for transport mapping specific WriterGroup parameters. The abstract DataType does not define fields.
+
+The WriterGroupTransportDataType Structure representation in the AddressSpace is defined in Table 24.  
 <!-- end of description -->
 The fields of the WriterGroupTransportDataType DataType are defined in the following table:  
 
@@ -11,9 +14,12 @@ The representation of the WriterGroupTransportDataType DataType in the address s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15611|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|WriterGroupTransportDataType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 
 The references from the WriterGroupTransportDataType DataType Node are shown in the following table:  
 

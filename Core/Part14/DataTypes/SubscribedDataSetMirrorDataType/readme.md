@@ -1,5 +1,8 @@
 <!-- datatype -->
 ## SubscribedDataSetMirrorDataType
+This Structure DataType is used to represent SubscribedDataSetMirror specific parameters. It is a subtype of the SubscribedDataSetDataType defined in 6.2.9.1.
+
+The SubscribedDataSetMirrorDataType is formally defined in Table 46.  
 <!-- end of description -->
 The fields of the SubscribedDataSetMirrorDataType DataType are defined in the following table:  
 
@@ -13,7 +16,10 @@ The representation of the SubscribedDataSetMirrorDataType DataType in the addres
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15635|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SubscribedDataSetMirrorDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[SubscribedDataSetDataType](../../../Part14/DataTypes/SubscribedDataSetDataType/readme.md)|
+|Categories|Part14|
 

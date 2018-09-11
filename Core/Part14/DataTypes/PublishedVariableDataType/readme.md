@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## PublishedVariableDataType
+  
 <!-- end of description -->
 The fields of the PublishedVariableDataType DataType are defined in the following table:  
 
@@ -19,7 +20,10 @@ The representation of the PublishedVariableDataType DataType in the address spac
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=14273|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PublishedVariableDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 

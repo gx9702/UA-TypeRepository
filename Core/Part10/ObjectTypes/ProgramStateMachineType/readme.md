@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ProgramStateMachineType
 A state machine for a program.  
+<!-- end of text -->
 The representation of the ProgramStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2391|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ProgramStateMachineType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FiniteStateMachineType](../../../Part5/ObjectTypes/FiniteStateMachineType/readme.md)|
+|Categories|Part10|
 
 The references from the ProgramStateMachineType ObjectType Node are shown in the following table:  
 

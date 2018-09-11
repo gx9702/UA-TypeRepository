@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## StatusResult
+  
 <!-- end of description -->
 The fields of the StatusResult DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the StatusResult DataType in the address space is shown in
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=299|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|StatusResult|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part5|
 

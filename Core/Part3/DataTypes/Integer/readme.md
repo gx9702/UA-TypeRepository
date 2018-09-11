@@ -12,9 +12,12 @@ The representation of the Integer DataType in the address space is shown in the 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=27|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Integer|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[Number](../../../Part3/DataTypes/Number/readme.md)|
+|Categories|Part3|
 
 The references from the Integer DataType Node are shown in the following table:  
 

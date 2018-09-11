@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## PerformUpdateType
+  
 <!-- end of description -->
 The fields of the PerformUpdateType DataType are defined in the following table:  
 
@@ -14,9 +15,12 @@ The representation of the PerformUpdateType DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11293|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PerformUpdateType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part4|
 
 The references from the PerformUpdateType DataType Node are shown in the following table:  
 

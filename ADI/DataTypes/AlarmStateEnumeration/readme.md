@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AlarmStateEnumeration
+  
 <!-- end of description -->
 The fields of the AlarmStateEnumeration DataType are defined in the following table:  
 
@@ -17,9 +18,12 @@ The representation of the AlarmStateEnumeration DataType in the address space is
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=3009|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|AlarmStateEnumeration|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Core/Part3/DataTypes/Enumeration/readme.md)|
+|Categories||
 
 The references from the AlarmStateEnumeration DataType Node are shown in the following table:  
 

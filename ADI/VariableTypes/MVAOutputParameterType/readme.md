@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## MVAOutputParameterType
 Hold the descriptions of a mathematical process and associated information to convert scaled data into one or more process values.  
+<!-- end of text -->
 The representation of the MVAOutputParameterType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=2010|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|MVAOutputParameterType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[BaseDataType](../../../Core/Part3/DataTypes/BaseDataType/readme.md)|
+|ValueRank|-2|
+|IsAbstract|False|
 |BaseType|[BaseDataVariableType](../../../Core/Part5/VariableTypes/BaseDataVariableType/readme.md)|
+|Categories||
 
 The references from the MVAOutputParameterType VariableType Node are shown in the following table:  
 

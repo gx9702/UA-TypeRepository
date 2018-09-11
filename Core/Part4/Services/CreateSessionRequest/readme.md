@@ -21,7 +21,10 @@ The representation of the CreateSessionRequest DataType in the address space is 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=459|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CreateSessionRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

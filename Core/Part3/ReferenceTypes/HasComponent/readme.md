@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## HasComponent
 The type for non-looping hierarchical reference from a node to its component.  
+<!-- end of text -->
 The representation of the HasComponent ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=47|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|HasComponent|
 |NodeClass|ReferenceType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Aggregates](../../../Part3/ReferenceTypes/Aggregates/readme.md)|
+|Categories|Part3|
 
 The references from the HasComponent ReferenceType Node are shown in the following table:  
 

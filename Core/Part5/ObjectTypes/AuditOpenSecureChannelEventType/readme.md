@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AuditOpenSecureChannelEventType
 An event that is raised when a secure channel is opened.  
+<!-- end of text -->
 The representation of the AuditOpenSecureChannelEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2060|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuditOpenSecureChannelEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[AuditChannelEventType](../../../Part5/ObjectTypes/AuditChannelEventType/readme.md)|
+|Categories|Part5|
 
 The references from the AuditOpenSecureChannelEventType ObjectType Node are shown in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ParameterResultDataType
+  
 <!-- end of description -->
 The fields of the ParameterResultDataType DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the ParameterResultDataType DataType in the address space 
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=6525|
+|NamespaceUri|http://opcfoundation.org/UA/DI/|
 |BrowseName|ParameterResultDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Core/Part3/DataTypes/Structure/readme.md)|
+|Categories||
 

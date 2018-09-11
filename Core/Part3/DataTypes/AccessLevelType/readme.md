@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AccessLevelType
+  
 <!-- end of description -->
 The fields of the AccessLevelType DataType are defined in the following table:  
 
@@ -17,9 +18,12 @@ The representation of the AccessLevelType DataType in the address space is shown
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15031|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AccessLevelType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Byte](../../../Part3/DataTypes/Byte/readme.md)|
+|Categories|Part3|
 
 The references from the AccessLevelType DataType Node are shown in the following table:  
 

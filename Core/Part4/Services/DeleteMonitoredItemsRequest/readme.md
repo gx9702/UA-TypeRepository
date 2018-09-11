@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DeleteMonitoredItemsRequest
+  
 <!-- end of description -->
 The fields of the DeleteMonitoredItemsRequest DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the DeleteMonitoredItemsRequest DataType in the address sp
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=779|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DeleteMonitoredItemsRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

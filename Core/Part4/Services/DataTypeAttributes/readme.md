@@ -13,7 +13,10 @@ The representation of the DataTypeAttributes DataType in the address space is sh
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=370|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataTypeAttributes|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NodeAttributes](../../../Part4/Services/NodeAttributes/readme.md)|
+|Categories|Part4/Services|
 

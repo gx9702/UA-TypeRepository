@@ -12,7 +12,10 @@ The representation of the Guid DataType in the address space is shown in the fol
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=14|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Guid|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)|
+|Categories|Part3|
 

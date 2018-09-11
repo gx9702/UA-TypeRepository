@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## HistoryUpdateType
+  
 <!-- end of description -->
 The fields of the HistoryUpdateType DataType are defined in the following table:  
 
@@ -14,9 +15,12 @@ The representation of the HistoryUpdateType DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11234|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|HistoryUpdateType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part4|
 
 The references from the HistoryUpdateType DataType Node are shown in the following table:  
 

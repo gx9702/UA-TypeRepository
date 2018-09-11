@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## SpectrometerDeviceStreamType
   
+<!-- end of text -->
 The representation of the SpectrometerDeviceStreamType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=1030|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|SpectrometerDeviceStreamType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[StreamType](../../ObjectTypes/StreamType/readme.md)|
+|Categories||
 
 The references from the SpectrometerDeviceStreamType ObjectType Node are shown in the following table:  
 

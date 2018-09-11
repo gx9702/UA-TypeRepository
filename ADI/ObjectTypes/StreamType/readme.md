@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## StreamType
   
+<!-- end of text -->
 The representation of the StreamType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=1010|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|StreamType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[TopologyElementType](../../../DI/ObjectTypes/TopologyElementType/readme.md)|
+|Categories||
 
 The references from the StreamType ObjectType Node are shown in the following table:  
 

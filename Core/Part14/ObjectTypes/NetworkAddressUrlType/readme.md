@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## NetworkAddressUrlType
-  
+An instance of this ObjectType represents network address information in the form of an URL String. The NetworkAddressUrlType is formally defined in Table A.13.  
+<!-- end of text -->
 The representation of the NetworkAddressUrlType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=21147|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NetworkAddressUrlType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NetworkAddressType](../../../Part14/ObjectTypes/NetworkAddressType/readme.md)|
+|Categories|Part14|
 
 The references from the NetworkAddressUrlType ObjectType Node are shown in the following table:  
 

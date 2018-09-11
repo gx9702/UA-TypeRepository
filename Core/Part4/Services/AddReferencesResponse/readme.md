@@ -15,7 +15,10 @@ The representation of the AddReferencesResponse DataType in the address space is
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=495|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AddReferencesResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

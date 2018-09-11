@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DeadbandType
+  
 <!-- end of description -->
 The fields of the DeadbandType DataType are defined in the following table:  
 
@@ -13,9 +14,12 @@ The representation of the DeadbandType DataType in the address space is shown in
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=718|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DeadbandType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part4/Services|
 
 The references from the DeadbandType DataType Node are shown in the following table:  
 

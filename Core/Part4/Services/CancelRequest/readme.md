@@ -14,7 +14,10 @@ The representation of the CancelRequest DataType in the address space is shown i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=477|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CancelRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

@@ -15,9 +15,12 @@ The representation of the MessageSecurityMode DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=302|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|MessageSecurityMode|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part4|
 
 The references from the MessageSecurityMode DataType Node are shown in the following table:  
 

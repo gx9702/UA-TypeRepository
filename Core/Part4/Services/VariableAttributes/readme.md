@@ -20,7 +20,10 @@ The representation of the VariableAttributes DataType in the address space is sh
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=355|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|VariableAttributes|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NodeAttributes](../../../Part4/Services/NodeAttributes/readme.md)|
+|Categories|Part4/Services|
 

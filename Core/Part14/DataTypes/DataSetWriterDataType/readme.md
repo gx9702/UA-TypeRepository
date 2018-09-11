@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DataSetWriterDataType
+This Structure DataType is used to represent the DataSetWriter parameters. The DataSetWriterDataType is formally defined in Table 17.  
 <!-- end of description -->
 The fields of the DataSetWriterDataType DataType are defined in the following table:  
 
@@ -20,7 +21,10 @@ The representation of the DataSetWriterDataType DataType in the address space is
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15597|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataSetWriterDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 

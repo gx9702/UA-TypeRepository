@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## TopologyElementType
 Defines the basic information components for all configurable elements in a device topology  
+<!-- end of text -->
 The representation of the TopologyElementType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=1001|
+|NamespaceUri|http://opcfoundation.org/UA/DI/|
 |BrowseName|TopologyElementType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseObjectType](../../../Core/Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories||
 
 The references from the TopologyElementType ObjectType Node are shown in the following table:  
 

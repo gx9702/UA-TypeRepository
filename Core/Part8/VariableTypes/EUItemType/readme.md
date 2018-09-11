@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## EUItemType
   
+<!-- end of text -->
 The representation of the EUItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17497|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|EUItemType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[Number](../../../Part3/DataTypes/Number/readme.md)|
+|ValueRank|-2|
+|IsAbstract|False|
 |BaseType|[DataItemType](../../../Part8/VariableTypes/DataItemType/readme.md)|
+|Categories|Part8|
 
 The references from the EUItemType VariableType Node are shown in the following table:  
 

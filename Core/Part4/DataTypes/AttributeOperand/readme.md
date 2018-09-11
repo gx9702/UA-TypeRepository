@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AttributeOperand
+  
 <!-- end of description -->
 The fields of the AttributeOperand DataType are defined in the following table:  
 
@@ -16,7 +17,10 @@ The representation of the AttributeOperand DataType in the address space is show
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=598|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AttributeOperand|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FilterOperand](../../../Part4/DataTypes/FilterOperand/readme.md)|
+|Categories|Part4|
 

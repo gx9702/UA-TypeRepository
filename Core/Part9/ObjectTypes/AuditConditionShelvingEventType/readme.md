@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AuditConditionShelvingEventType
   
+<!-- end of text -->
 The representation of the AuditConditionShelvingEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11093|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuditConditionShelvingEventType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[AuditConditionEventType](../../../Part9/ObjectTypes/AuditConditionEventType/readme.md)|
+|Categories|Part9|
 
 The references from the AuditConditionShelvingEventType ObjectType Node are shown in the following table:  
 

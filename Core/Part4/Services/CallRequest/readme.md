@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## CallRequest
+  
 <!-- end of description -->
 The fields of the CallRequest DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the CallRequest DataType in the address space is shown in 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=710|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CallRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

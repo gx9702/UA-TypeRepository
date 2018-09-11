@@ -1,5 +1,8 @@
 <!-- datatype -->
 ## ReaderGroupMessageDataType
+This Structure DataType is an abstract base type for message mapping specific ReaderGroup parameters. The abstract DataType does not define fields.
+
+The ReaderGroupMessageDataType Structure representation in the AddressSpace is defined in Table 35.  
 <!-- end of description -->
 The fields of the ReaderGroupMessageDataType DataType are defined in the following table:  
 
@@ -11,7 +14,10 @@ The representation of the ReaderGroupMessageDataType DataType in the address spa
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15622|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ReaderGroupMessageDataType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 

@@ -12,9 +12,12 @@ The representation of the String DataType in the address space is shown in the f
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|String|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)|
+|Categories|Part3|
 
 The references from the String DataType Node are shown in the following table:  
 

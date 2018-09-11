@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## GenericAttributes
+  
 <!-- end of description -->
 The fields of the GenericAttributes DataType are defined in the following table:  
 
@@ -12,7 +13,10 @@ The representation of the GenericAttributes DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17607|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|GenericAttributes|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NodeAttributes](../../../Part4/Services/NodeAttributes/readme.md)|
+|Categories|Part4/Services|
 

@@ -1,5 +1,8 @@
 <!-- datatype -->
 ## UadpDataSetReaderMessageDataType
+This Structure DataType is used to represent UADP message mapping specific DataSetReader parameters. It is a subtype of the DataSetReaderMessageDataType defined in 6.2.8.11.3.
+
+The UadpDataSetReaderMessageDataType is formally defined in Table 58.  
 <!-- end of description -->
 The fields of the UadpDataSetReaderMessageDataType DataType are defined in the following table:  
 
@@ -20,7 +23,10 @@ The representation of the UadpDataSetReaderMessageDataType DataType in the addre
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15653|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UadpDataSetReaderMessageDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataSetReaderMessageDataType](../../../Part14/DataTypes/DataSetReaderMessageDataType/readme.md)|
+|Categories|Part14|
 

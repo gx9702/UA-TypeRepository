@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## StructureDefinition
+  
 <!-- end of description -->
 The fields of the StructureDefinition DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the StructureDefinition DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=99|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|StructureDefinition|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataTypeDefinition](../../../Part3/DataTypes/DataTypeDefinition/readme.md)|
+|Categories|Part3|
 

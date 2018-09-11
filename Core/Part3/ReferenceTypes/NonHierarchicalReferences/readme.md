@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## NonHierarchicalReferences
 The abstract base type for all non-hierarchical references.  
+<!-- end of text -->
 The representation of the NonHierarchicalReferences ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=32|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NonHierarchicalReferences|
 |NodeClass|ReferenceType|
-|IsAbtract|False|
+|IsAbstract|True|
 |BaseType|[References](../../../Part3/ReferenceTypes/References/readme.md)|
+|Categories|Part3|
 
 The references from the NonHierarchicalReferences ReferenceType Node are shown in the following table:  
 

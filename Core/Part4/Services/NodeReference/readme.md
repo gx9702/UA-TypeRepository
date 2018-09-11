@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## NodeReference
+  
 <!-- end of description -->
 The fields of the NodeReference DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the NodeReference DataType in the address space is shown i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=580|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NodeReference|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

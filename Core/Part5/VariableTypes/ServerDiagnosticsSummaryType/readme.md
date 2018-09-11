@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## ServerDiagnosticsSummaryType
   
+<!-- end of text -->
 The representation of the ServerDiagnosticsSummaryType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2150|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ServerDiagnosticsSummaryType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[ServerDiagnosticsSummaryDataType](../../../Part5/DataTypes/ServerDiagnosticsSummaryDataType/readme.md)|
+|ValueRank|-1|
+|IsAbstract|False|
 |BaseType|[BaseDataVariableType](../../../Part5/VariableTypes/BaseDataVariableType/readme.md)|
+|Categories|Part5|
 
 The references from the ServerDiagnosticsSummaryType VariableType Node are shown in the following table:  
 

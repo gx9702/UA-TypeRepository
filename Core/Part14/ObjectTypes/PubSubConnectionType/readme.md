@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## PubSubConnectionType
-  
+This ObjectType is a concrete type for Objects representing PubSubConnections. A PubSubConnection is a combination of protocol selection, protocol settings and addressing information. The PubSubConnectionType is formally defined in Table 112.  
+<!-- end of text -->
 The representation of the PubSubConnectionType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=14209|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubConnectionType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part14|
 
 The references from the PubSubConnectionType ObjectType Node are shown in the following table:  
 

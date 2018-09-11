@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## PublishSubscribeType
-  
+An instance of this ObjectType represents the root Object for all PubSub related configuration and metadata Objects. The one instance of this ObjectType that represents the root Object is defined in 8.4. The ObjectType is formally defined in Table 103.  
+<!-- end of text -->
 The representation of the PublishSubscribeType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=14416|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PublishSubscribeType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[PubSubKeyServiceType](../../../Part14/ObjectTypes/PubSubKeyServiceType/readme.md)|
+|Categories|Part14|
 
 The references from the PublishSubscribeType ObjectType Node are shown in the following table:  
 

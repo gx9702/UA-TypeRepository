@@ -20,7 +20,10 @@ The representation of the EndpointDescription DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=312|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|EndpointDescription|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4|
 

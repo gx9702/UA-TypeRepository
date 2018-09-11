@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ServerRedundancyType
 A base type for an object that describe how a server supports redundancy.  
+<!-- end of text -->
 The representation of the ServerRedundancyType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2034|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ServerRedundancyType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the ServerRedundancyType ObjectType Node are shown in the following table:  
 

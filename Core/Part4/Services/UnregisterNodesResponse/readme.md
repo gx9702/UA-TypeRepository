@@ -13,7 +13,10 @@ The representation of the UnregisterNodesResponse DataType in the address space 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=567|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UnregisterNodesResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

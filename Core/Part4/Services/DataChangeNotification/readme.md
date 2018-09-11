@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DataChangeNotification
+  
 <!-- end of description -->
 The fields of the DataChangeNotification DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the DataChangeNotification DataType in the address space i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=809|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataChangeNotification|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NotificationData](../../../Part4/Services/NotificationData/readme.md)|
+|Categories|Part4/Services|
 

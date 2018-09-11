@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ServerDiagnosticsSummaryDataType
+  
 <!-- end of description -->
 The fields of the ServerDiagnosticsSummaryDataType DataType are defined in the following table:  
 
@@ -23,7 +24,10 @@ The representation of the ServerDiagnosticsSummaryDataType DataType in the addre
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=859|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ServerDiagnosticsSummaryDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part5|
 

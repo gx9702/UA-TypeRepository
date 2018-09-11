@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## MonitoredItemCreateResult
+  
 <!-- end of description -->
 The fields of the MonitoredItemCreateResult DataType are defined in the following table:  
 
@@ -16,7 +17,10 @@ The representation of the MonitoredItemCreateResult DataType in the address spac
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=746|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|MonitoredItemCreateResult|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

@@ -12,9 +12,12 @@ The representation of the Enumeration DataType in the address space is shown in 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=29|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Enumeration|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)|
+|Categories|Part3|
 
 The references from the Enumeration DataType Node are shown in the following table:  
 

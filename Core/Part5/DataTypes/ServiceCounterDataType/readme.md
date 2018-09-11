@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ServiceCounterDataType
+  
 <!-- end of description -->
 The fields of the ServiceCounterDataType DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the ServiceCounterDataType DataType in the address space i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=871|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ServiceCounterDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part5|
 

@@ -14,7 +14,10 @@ The representation of the MethodAttributes DataType in the address space is show
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=358|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|MethodAttributes|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NodeAttributes](../../../Part4/Services/NodeAttributes/readme.md)|
+|Categories|Part4/Services|
 

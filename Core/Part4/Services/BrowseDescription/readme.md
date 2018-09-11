@@ -18,7 +18,10 @@ The representation of the BrowseDescription DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=514|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BrowseDescription|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

@@ -14,7 +14,10 @@ The representation of the IssuedIdentityToken DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=938|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|IssuedIdentityToken|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UserIdentityToken](../../../Part4/DataTypes/UserIdentityToken/readme.md)|
+|Categories|Part4|
 

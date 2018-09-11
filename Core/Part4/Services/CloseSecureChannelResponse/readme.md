@@ -13,7 +13,10 @@ The representation of the CloseSecureChannelResponse DataType in the address spa
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=453|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CloseSecureChannelResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

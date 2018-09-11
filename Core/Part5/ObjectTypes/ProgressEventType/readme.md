@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ProgressEventType
   
+<!-- end of text -->
 The representation of the ProgressEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11436|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ProgressEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseEventType](../../../Part5/ObjectTypes/BaseEventType/readme.md)|
+|Categories|Part5|
 
 The references from the ProgressEventType ObjectType Node are shown in the following table:  
 

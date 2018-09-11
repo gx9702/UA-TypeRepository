@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DecimalDataType
+  
 <!-- end of description -->
 The fields of the DecimalDataType DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the DecimalDataType DataType in the address space is shown
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17861|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DecimalDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part3/Services|
 

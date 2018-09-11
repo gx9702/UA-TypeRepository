@@ -14,7 +14,10 @@ The representation of the DoubleComplexNumberType DataType in the address space 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12172|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DoubleComplexNumberType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part8|
 

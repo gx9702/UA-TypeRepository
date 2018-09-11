@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DeleteEventDetails
+  
 <!-- end of description -->
 The fields of the DeleteEventDetails DataType are defined in the following table:  
 
@@ -12,7 +13,10 @@ The representation of the DeleteEventDetails DataType in the address space is sh
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=692|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DeleteEventDetails|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[HistoryUpdateDetails](../../../Part4/Services/HistoryUpdateDetails/readme.md)|
+|Categories|Part4/Services|
 

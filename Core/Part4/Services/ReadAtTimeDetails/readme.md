@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ReadAtTimeDetails
+  
 <!-- end of description -->
 The fields of the ReadAtTimeDetails DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the ReadAtTimeDetails DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=653|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ReadAtTimeDetails|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[HistoryReadDetails](../../../Part4/Services/HistoryReadDetails/readme.md)|
+|Categories|Part4/Services|
 

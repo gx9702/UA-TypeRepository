@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## EventNotifierType
+  
 <!-- end of description -->
 The fields of the EventNotifierType DataType are defined in the following table:  
 
@@ -13,9 +14,12 @@ The representation of the EventNotifierType DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15033|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|EventNotifierType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Byte](../../../Part3/DataTypes/Byte/readme.md)|
+|Categories|Part3|
 
 The references from the EventNotifierType DataType Node are shown in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ElementOperand
+  
 <!-- end of description -->
 The fields of the ElementOperand DataType are defined in the following table:  
 
@@ -12,7 +13,10 @@ The representation of the ElementOperand DataType in the address space is shown 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=592|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ElementOperand|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FilterOperand](../../../Part4/DataTypes/FilterOperand/readme.md)|
+|Categories|Part4|
 

@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## CertificateGroupType
   
+<!-- end of text -->
 The representation of the CertificateGroupType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12555|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CertificateGroupType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part12|
 
 The references from the CertificateGroupType ObjectType Node are shown in the following table:  
 

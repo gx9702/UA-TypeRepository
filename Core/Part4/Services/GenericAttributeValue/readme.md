@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## GenericAttributeValue
+  
 <!-- end of description -->
 The fields of the GenericAttributeValue DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the GenericAttributeValue DataType in the address space is
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17606|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|GenericAttributeValue|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

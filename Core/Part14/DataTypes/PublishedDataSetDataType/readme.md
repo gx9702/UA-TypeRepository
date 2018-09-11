@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## PublishedDataSetDataType
+This Structure DataType represents the PublishedDataSet parameters. The PublishedDataSetDataType is formally defined in Table 9.  
 <!-- end of description -->
 The fields of the PublishedDataSetDataType DataType are defined in the following table:  
 
@@ -16,7 +17,10 @@ The representation of the PublishedDataSetDataType DataType in the address space
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15578|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PublishedDataSetDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 

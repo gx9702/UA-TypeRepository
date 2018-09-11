@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## StateType
   
+<!-- end of text -->
 The representation of the StateType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2307|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|StateType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the StateType ObjectType Node are shown in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BrokerDataSetWriterTransportDataType
+  
 <!-- end of description -->
 The fields of the BrokerDataSetWriterTransportDataType DataType are defined in the following table:  
 
@@ -17,7 +18,10 @@ The representation of the BrokerDataSetWriterTransportDataType DataType in the a
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15669|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BrokerDataSetWriterTransportDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataSetWriterTransportDataType](../../../Part14/DataTypes/DataSetWriterTransportDataType/readme.md)|
+|Categories|Part14|
 

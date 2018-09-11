@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UpdateStructureDataDetails
+  
 <!-- end of description -->
 The fields of the UpdateStructureDataDetails DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the UpdateStructureDataDetails DataType in the address spa
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11295|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UpdateStructureDataDetails|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[HistoryUpdateDetails](../../../Part4/Services/HistoryUpdateDetails/readme.md)|
+|Categories|Part4/Services|
 

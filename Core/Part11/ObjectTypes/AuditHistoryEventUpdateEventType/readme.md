@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AuditHistoryEventUpdateEventType
   
+<!-- end of text -->
 The representation of the AuditHistoryEventUpdateEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2999|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuditHistoryEventUpdateEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[AuditHistoryUpdateEventType](../../../Part5/ObjectTypes/AuditHistoryUpdateEventType/readme.md)|
+|Categories|Part11|
 
 The references from the AuditHistoryEventUpdateEventType ObjectType Node are shown in the following table:  
 

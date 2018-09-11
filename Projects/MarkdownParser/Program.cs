@@ -156,7 +156,7 @@ namespace MarkdownProcessor
                 importer.ModelRequired += ModelImporter_ModelRequired;
                 importer.LoadModel(Settings.NodeSetFiles[Settings.TargetModel]);
 
-                Console.WriteLine($"Merge Word Document: {Settings.TargetModel}");
+                Console.WriteLine($"Merge Word Document: {Settings.InputPath}");
                 importer.MergeWordDocument(Settings.TargetModel, Settings.InputPath);
 
                 Console.WriteLine($"Save NodeSet: {Settings.OutputPath}");

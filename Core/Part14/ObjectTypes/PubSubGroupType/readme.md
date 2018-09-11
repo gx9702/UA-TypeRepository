@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## PubSubGroupType
-  
+This ObjectType is the abstract base type for Objects representing communication groupings for PubSub connections. The PubSubGroupType is formally defined in Table 114.  
+<!-- end of text -->
 The representation of the PubSubGroupType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=14232|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubGroupType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part14|
 
 The references from the PubSubGroupType ObjectType Node are shown in the following table:  
 

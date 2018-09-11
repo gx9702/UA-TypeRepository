@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## BaseEventType
 The base type for all events.  
+<!-- end of text -->
 The representation of the BaseEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2041|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BaseEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the BaseEventType ObjectType Node are shown in the following table:  
 

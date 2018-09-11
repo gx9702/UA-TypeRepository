@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## EventFieldList
+  
 <!-- end of description -->
 The fields of the EventFieldList DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the EventFieldList DataType in the address space is shown 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=917|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|EventFieldList|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

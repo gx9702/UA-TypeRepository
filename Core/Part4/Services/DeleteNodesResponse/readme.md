@@ -15,7 +15,10 @@ The representation of the DeleteNodesResponse DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=501|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DeleteNodesResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

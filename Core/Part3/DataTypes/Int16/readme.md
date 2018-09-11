@@ -12,7 +12,10 @@ The representation of the Int16 DataType in the address space is shown in the fo
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=4|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Int16|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Integer](../../../Part3/DataTypes/Integer/readme.md)|
+|Categories|Part3|
 

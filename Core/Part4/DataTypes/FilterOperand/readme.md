@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## FilterOperand
+  
 <!-- end of description -->
 The fields of the FilterOperand DataType are defined in the following table:  
 
@@ -11,9 +12,12 @@ The representation of the FilterOperand DataType in the address space is shown i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=589|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|FilterOperand|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4|
 
 The references from the FilterOperand DataType Node are shown in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UadpNetworkMessageContentMask
+  
 <!-- end of description -->
 The fields of the UadpNetworkMessageContentMask DataType are defined in the following table:  
 
@@ -21,9 +22,12 @@ The representation of the UadpNetworkMessageContentMask DataType in the address 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15642|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UadpNetworkMessageContentMask|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|
+|Categories|Part14|
 
 The references from the UadpNetworkMessageContentMask DataType Node are shown in the following table:  
 

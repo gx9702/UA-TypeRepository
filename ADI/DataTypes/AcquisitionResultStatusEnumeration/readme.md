@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AcquisitionResultStatusEnumeration
+  
 <!-- end of description -->
 The fields of the AcquisitionResultStatusEnumeration DataType are defined in the following table:  
 
@@ -15,9 +16,12 @@ The representation of the AcquisitionResultStatusEnumeration DataType in the add
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=3003|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|AcquisitionResultStatusEnumeration|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Core/Part3/DataTypes/Enumeration/readme.md)|
+|Categories||
 
 The references from the AcquisitionResultStatusEnumeration DataType Node are shown in the following table:  
 

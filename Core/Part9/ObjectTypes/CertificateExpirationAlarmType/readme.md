@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## CertificateExpirationAlarmType
   
+<!-- end of text -->
 The representation of the CertificateExpirationAlarmType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=13225|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CertificateExpirationAlarmType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[SystemOffNormalAlarmType](../../../Part9/ObjectTypes/SystemOffNormalAlarmType/readme.md)|
+|Categories|Part9|
 
 The references from the CertificateExpirationAlarmType ObjectType Node are shown in the following table:  
 

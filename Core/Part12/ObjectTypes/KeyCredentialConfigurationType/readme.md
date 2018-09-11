@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## KeyCredentialConfigurationType
   
+<!-- end of text -->
 The representation of the KeyCredentialConfigurationType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=18001|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|KeyCredentialConfigurationType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part12|
 
 The references from the KeyCredentialConfigurationType ObjectType Node are shown in the following table:  
 

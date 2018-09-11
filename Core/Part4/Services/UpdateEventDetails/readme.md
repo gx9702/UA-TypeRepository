@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UpdateEventDetails
+  
 <!-- end of description -->
 The fields of the UpdateEventDetails DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the UpdateEventDetails DataType in the address space is sh
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=683|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UpdateEventDetails|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[HistoryUpdateDetails](../../../Part4/Services/HistoryUpdateDetails/readme.md)|
+|Categories|Part4/Services|
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SetMonitoringModeRequest
+  
 <!-- end of description -->
 The fields of the SetMonitoringModeRequest DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the SetMonitoringModeRequest DataType in the address space
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=767|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SetMonitoringModeRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

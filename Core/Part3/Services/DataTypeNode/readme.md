@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DataTypeNode
+  
 <!-- end of description -->
 The fields of the DataTypeNode DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the DataTypeNode DataType in the address space is shown in
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=282|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataTypeNode|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[TypeNode](../../../Part3/Services/TypeNode/readme.md)|
+|Categories|Part3/Services|
 

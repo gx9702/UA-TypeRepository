@@ -12,7 +12,10 @@ The representation of the SessionAuthenticationToken DataType in the address spa
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=388|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SessionAuthenticationToken|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NodeId](../../../Part3/DataTypes/NodeId/readme.md)|
+|Categories|Part4|
 

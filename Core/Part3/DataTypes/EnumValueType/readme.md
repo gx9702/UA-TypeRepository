@@ -15,9 +15,12 @@ The representation of the EnumValueType DataType in the address space is shown i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=7594|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|EnumValueType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part3|
 
 The references from the EnumValueType DataType Node are shown in the following table:  
 

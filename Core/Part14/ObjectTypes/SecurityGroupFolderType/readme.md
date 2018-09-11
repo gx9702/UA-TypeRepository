@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## SecurityGroupFolderType
-  
+The SecurityGroupFolderType is formally defined Table 102.  
+<!-- end of text -->
 The representation of the SecurityGroupFolderType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15452|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SecurityGroupFolderType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FolderType](../../../Part5/ObjectTypes/FolderType/readme.md)|
+|Categories|Part14|
 
 The references from the SecurityGroupFolderType ObjectType Node are shown in the following table:  
 

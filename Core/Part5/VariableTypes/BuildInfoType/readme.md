@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## BuildInfoType
   
+<!-- end of text -->
 The representation of the BuildInfoType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=3051|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BuildInfoType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[BuildInfo](../../../Part5/DataTypes/BuildInfo/readme.md)|
+|ValueRank|-1|
+|IsAbstract|False|
 |BaseType|[BaseDataVariableType](../../../Part5/VariableTypes/BaseDataVariableType/readme.md)|
+|Categories|Part5|
 
 The references from the BuildInfoType VariableType Node are shown in the following table:  
 

@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## RoleSetType
 A container for the roles supported by the server.  
+<!-- end of text -->
 The representation of the RoleSetType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15607|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|RoleSetType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the RoleSetType ObjectType Node are shown in the following table:  
 

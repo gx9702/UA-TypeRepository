@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## FileDirectoryType
   
+<!-- end of text -->
 The representation of the FileDirectoryType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=13353|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|FileDirectoryType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FolderType](../../../Part5/ObjectTypes/FolderType/readme.md)|
+|Categories|Part5|
 
 The references from the FileDirectoryType ObjectType Node are shown in the following table:  
 

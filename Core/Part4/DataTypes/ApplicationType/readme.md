@@ -15,9 +15,12 @@ The representation of the ApplicationType DataType in the address space is shown
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=307|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ApplicationType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part4|
 
 The references from the ApplicationType DataType Node are shown in the following table:  
 

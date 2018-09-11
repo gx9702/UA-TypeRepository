@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## HistoricalDataConfigurationType
   
+<!-- end of text -->
 The representation of the HistoricalDataConfigurationType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2318|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|HistoricalDataConfigurationType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part11|
 
 The references from the HistoricalDataConfigurationType ObjectType Node are shown in the following table:  
 

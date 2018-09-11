@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## HistoryModifiedData
+  
 <!-- end of description -->
 The fields of the HistoryModifiedData DataType are defined in the following table:  
 
@@ -12,7 +13,10 @@ The representation of the HistoryModifiedData DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11217|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|HistoryModifiedData|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[HistoryData](../../../Part4/Services/HistoryData/readme.md)|
+|Categories|Part4/Services|
 

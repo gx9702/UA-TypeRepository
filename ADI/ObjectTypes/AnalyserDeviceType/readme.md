@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AnalyserDeviceType
   
+<!-- end of text -->
 The representation of the AnalyserDeviceType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=1001|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|AnalyserDeviceType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[DeviceType](../../../DI/ObjectTypes/DeviceType/readme.md)|
+|Categories||
 
 The references from the AnalyserDeviceType ObjectType Node are shown in the following table:  
 

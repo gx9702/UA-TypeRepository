@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AuditCancelEventType
   
+<!-- end of text -->
 The representation of the AuditCancelEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2078|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuditCancelEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[AuditSessionEventType](../../../Part5/ObjectTypes/AuditSessionEventType/readme.md)|
+|Categories|Part5|
 
 The references from the AuditCancelEventType ObjectType Node are shown in the following table:  
 

@@ -12,7 +12,10 @@ The representation of the DurationString DataType in the address space is shown 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12879|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DurationString|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[String](../../../Part3/DataTypes/String/readme.md)|
+|Categories|Part3|
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## RolePermissionType
+  
 <!-- end of description -->
 The fields of the RolePermissionType DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the RolePermissionType DataType in the address space is sh
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=96|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|RolePermissionType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part3|
 

@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AuditCreateSessionEventType
 An event that is raised when a session is created.  
+<!-- end of text -->
 The representation of the AuditCreateSessionEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2071|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuditCreateSessionEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[AuditSessionEventType](../../../Part5/ObjectTypes/AuditSessionEventType/readme.md)|
+|Categories|Part5|
 
 The references from the AuditCreateSessionEventType ObjectType Node are shown in the following table:  
 

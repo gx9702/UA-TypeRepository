@@ -12,7 +12,10 @@ The representation of the Int32 DataType in the address space is shown in the fo
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=6|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Int32|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Integer](../../../Part3/DataTypes/Integer/readme.md)|
+|Categories|Part3|
 

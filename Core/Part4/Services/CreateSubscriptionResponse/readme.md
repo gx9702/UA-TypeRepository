@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## CreateSubscriptionResponse
+  
 <!-- end of description -->
 The fields of the CreateSubscriptionResponse DataType are defined in the following table:  
 
@@ -16,7 +17,10 @@ The representation of the CreateSubscriptionResponse DataType in the address spa
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=788|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CreateSubscriptionResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

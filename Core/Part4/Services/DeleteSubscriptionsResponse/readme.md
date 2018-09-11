@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DeleteSubscriptionsResponse
+  
 <!-- end of description -->
 The fields of the DeleteSubscriptionsResponse DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the DeleteSubscriptionsResponse DataType in the address sp
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=848|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DeleteSubscriptionsResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

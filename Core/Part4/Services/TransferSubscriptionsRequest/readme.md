@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## TransferSubscriptionsRequest
+  
 <!-- end of description -->
 The fields of the TransferSubscriptionsRequest DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the TransferSubscriptionsRequest DataType in the address s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=839|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|TransferSubscriptionsRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

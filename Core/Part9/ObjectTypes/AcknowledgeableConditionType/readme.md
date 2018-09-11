@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AcknowledgeableConditionType
   
+<!-- end of text -->
 The representation of the AcknowledgeableConditionType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2881|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AcknowledgeableConditionType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[ConditionType](../../../Part9/ObjectTypes/ConditionType/readme.md)|
+|Categories|Part9|
 
 The references from the AcknowledgeableConditionType ObjectType Node are shown in the following table:  
 

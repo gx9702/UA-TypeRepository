@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## RepublishRequest
+  
 <!-- end of description -->
 The fields of the RepublishRequest DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the RepublishRequest DataType in the address space is show
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=830|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|RepublishRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

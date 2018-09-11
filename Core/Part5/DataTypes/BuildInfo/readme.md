@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BuildInfo
+  
 <!-- end of description -->
 The fields of the BuildInfo DataType are defined in the following table:  
 
@@ -17,7 +18,10 @@ The representation of the BuildInfo DataType in the address space is shown in th
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=338|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BuildInfo|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part5|
 

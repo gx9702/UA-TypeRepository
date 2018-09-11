@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## NodeTypeDescription
+  
 <!-- end of description -->
 The fields of the NodeTypeDescription DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the NodeTypeDescription DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=573|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NodeTypeDescription|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

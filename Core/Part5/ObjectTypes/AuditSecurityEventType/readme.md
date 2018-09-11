@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AuditSecurityEventType
 A base type for events used to track security related changes.  
+<!-- end of text -->
 The representation of the AuditSecurityEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2058|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuditSecurityEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[AuditEventType](../../../Part5/ObjectTypes/AuditEventType/readme.md)|
+|Categories|Part5|
 
 The references from the AuditSecurityEventType ObjectType Node are shown in the following table:  
 

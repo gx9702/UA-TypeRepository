@@ -12,7 +12,10 @@ The representation of the DecimalString DataType in the address space is shown i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12878|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DecimalString|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[String](../../../Part3/DataTypes/String/readme.md)|
+|Categories|Part3|
 

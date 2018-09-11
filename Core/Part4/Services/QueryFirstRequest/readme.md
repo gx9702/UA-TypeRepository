@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## QueryFirstRequest
+  
 <!-- end of description -->
 The fields of the QueryFirstRequest DataType are defined in the following table:  
 
@@ -17,7 +18,10 @@ The representation of the QueryFirstRequest DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=613|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|QueryFirstRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

@@ -13,9 +13,12 @@ The representation of the SecurityTokenRequestType DataType in the address space
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=315|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SecurityTokenRequestType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part4|
 
 The references from the SecurityTokenRequestType DataType Node are shown in the following table:  
 

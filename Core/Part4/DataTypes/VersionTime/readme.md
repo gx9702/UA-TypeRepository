@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## VersionTime
+  
 <!-- end of description -->
 The fields of the VersionTime DataType are defined in the following table:  
 
@@ -11,7 +12,10 @@ The representation of the VersionTime DataType in the address space is shown in 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=20998|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|VersionTime|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|
+|Categories|Part4|
 

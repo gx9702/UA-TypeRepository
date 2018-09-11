@@ -21,7 +21,10 @@ The representation of the VariableNode DataType in the address space is shown in
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=267|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|VariableNode|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[InstanceNode](../../../Part3/Services/InstanceNode/readme.md)|
+|Categories|Part3/Services|
 

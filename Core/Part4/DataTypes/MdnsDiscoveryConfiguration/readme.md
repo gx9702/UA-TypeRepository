@@ -14,7 +14,10 @@ The representation of the MdnsDiscoveryConfiguration DataType in the address spa
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12891|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|MdnsDiscoveryConfiguration|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DiscoveryConfiguration](../../../Part4/DataTypes/DiscoveryConfiguration/readme.md)|
+|Categories|Part4|
 

@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ServerConfigurationType
   
+<!-- end of text -->
 The representation of the ServerConfigurationType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12581|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ServerConfigurationType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part12|
 
 The references from the ServerConfigurationType ObjectType Node are shown in the following table:  
 

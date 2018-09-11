@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## DialogConditionType
   
+<!-- end of text -->
 The representation of the DialogConditionType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2830|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DialogConditionType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[ConditionType](../../../Part9/ObjectTypes/ConditionType/readme.md)|
+|Categories|Part9|
 
 The references from the DialogConditionType ObjectType Node are shown in the following table:  
 

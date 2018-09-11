@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## LockingServicesType
 An interface for Locking.  
+<!-- end of text -->
 The representation of the LockingServicesType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=6388|
+|NamespaceUri|http://opcfoundation.org/UA/DI/|
 |BrowseName|LockingServicesType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Core/Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories||
 
 The references from the LockingServicesType ObjectType Node are shown in the following table:  
 

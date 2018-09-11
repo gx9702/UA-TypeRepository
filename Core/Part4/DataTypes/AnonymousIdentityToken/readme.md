@@ -12,7 +12,10 @@ The representation of the AnonymousIdentityToken DataType in the address space i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=319|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AnonymousIdentityToken|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UserIdentityToken](../../../Part4/DataTypes/UserIdentityToken/readme.md)|
+|Categories|Part4|
 

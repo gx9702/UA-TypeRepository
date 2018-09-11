@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## UadpDataSetWriterMessageType
-  
+This ObjectType represents UADP message mapping specific parameters for a DataSetWriter. The UadpDataSetWriterMessageType is formally defined in Table 159.  
+<!-- end of text -->
 The representation of the UadpDataSetWriterMessageType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=21111|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UadpDataSetWriterMessageType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataSetWriterMessageType](../../../Part14/ObjectTypes/DataSetWriterMessageType/readme.md)|
+|Categories|Part14|
 
 The references from the UadpDataSetWriterMessageType ObjectType Node are shown in the following table:  
 

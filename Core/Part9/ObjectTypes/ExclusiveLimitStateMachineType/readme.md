@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ExclusiveLimitStateMachineType
   
+<!-- end of text -->
 The representation of the ExclusiveLimitStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=9318|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ExclusiveLimitStateMachineType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FiniteStateMachineType](../../../Part5/ObjectTypes/FiniteStateMachineType/readme.md)|
+|Categories|Part9|
 
 The references from the ExclusiveLimitStateMachineType ObjectType Node are shown in the following table:  
 

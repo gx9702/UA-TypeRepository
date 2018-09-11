@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ReaderGroupType
-  
+This ObjectType is a concrete type for Objects representing DataSetReader groupings for PubSub connections. The ReaderGroupType is formally defined in Table 114.  
+<!-- end of text -->
 The representation of the ReaderGroupType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17999|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ReaderGroupType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[PubSubGroupType](../../../Part14/ObjectTypes/PubSubGroupType/readme.md)|
+|Categories|Part14|
 
 The references from the ReaderGroupType ObjectType Node are shown in the following table:  
 

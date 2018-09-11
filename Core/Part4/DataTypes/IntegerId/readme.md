@@ -12,7 +12,10 @@ The representation of the IntegerId DataType in the address space is shown in th
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=288|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|IntegerId|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|
+|Categories|Part4|
 

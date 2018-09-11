@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## CreateSubscriptionRequest
+  
 <!-- end of description -->
 The fields of the CreateSubscriptionRequest DataType are defined in the following table:  
 
@@ -18,7 +19,10 @@ The representation of the CreateSubscriptionRequest DataType in the address spac
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=785|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CreateSubscriptionRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

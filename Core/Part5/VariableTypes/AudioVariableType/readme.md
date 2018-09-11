@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## AudioVariableType
   
+<!-- end of text -->
 The representation of the AudioVariableType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17986|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AudioVariableType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[AudioDataType](../../../Part3/DataTypes/AudioDataType/readme.md)|
+|ValueRank|-1|
+|IsAbstract|False|
 |BaseType|[BaseDataVariableType](../../../Part5/VariableTypes/BaseDataVariableType/readme.md)|
+|Categories|Part5|
 
 The references from the AudioVariableType VariableType Node are shown in the following table:  
 

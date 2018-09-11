@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## WriterGroupType
-  
+Instances of WriterGroupType contain settings for a group of DataSetWriters. The WriterGroupType is formally defined in Table 115.  
+<!-- end of text -->
 The representation of the WriterGroupType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17725|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|WriterGroupType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[PubSubGroupType](../../../Part14/ObjectTypes/PubSubGroupType/readme.md)|
+|Categories|Part14|
 
 The references from the WriterGroupType ObjectType Node are shown in the following table:  
 

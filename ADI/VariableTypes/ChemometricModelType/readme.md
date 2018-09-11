@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## ChemometricModelType
 Hold the descriptions of a mathematical process and associated information to convert scaled data into one or more process values.  
+<!-- end of text -->
 The representation of the ChemometricModelType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=2007|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|ChemometricModelType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[ByteString](../../../Core/Part3/DataTypes/ByteString/readme.md)|
+|ValueRank|-2|
+|IsAbstract|False|
 |BaseType|[BaseDataVariableType](../../../Core/Part5/VariableTypes/BaseDataVariableType/readme.md)|
+|Categories||
 
 The references from the ChemometricModelType VariableType Node are shown in the following table:  
 

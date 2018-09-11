@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## NamespaceMetadataType
 Provides the metadata for a namespace used by the server.  
+<!-- end of text -->
 The representation of the NamespaceMetadataType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11616|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NamespaceMetadataType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the NamespaceMetadataType ObjectType Node are shown in the following table:  
 

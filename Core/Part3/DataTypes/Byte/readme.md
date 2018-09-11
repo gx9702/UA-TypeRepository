@@ -12,9 +12,12 @@ The representation of the Byte DataType in the address space is shown in the fol
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=3|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Byte|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInteger](../../../Part3/DataTypes/UInteger/readme.md)|
+|Categories|Part3|
 
 The references from the Byte DataType Node are shown in the following table:  
 

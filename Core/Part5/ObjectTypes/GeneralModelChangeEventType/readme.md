@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## GeneralModelChangeEventType
   
+<!-- end of text -->
 The representation of the GeneralModelChangeEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2133|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|GeneralModelChangeEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseModelChangeEventType](../../../Part5/ObjectTypes/BaseModelChangeEventType/readme.md)|
+|Categories|Part5|
 
 The references from the GeneralModelChangeEventType ObjectType Node are shown in the following table:  
 

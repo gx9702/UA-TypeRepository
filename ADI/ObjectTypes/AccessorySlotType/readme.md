@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AccessorySlotType
 Organizes zero or more Accessory objects identified by "AccessoryIdentifier" which represent Accessories currently being used on that AccessorySlot.  
+<!-- end of text -->
 The representation of the AccessorySlotType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=1017|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|AccessorySlotType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[ConfigurableObjectType](../../../DI/ObjectTypes/ConfigurableObjectType/readme.md)|
+|Categories||
 
 The references from the AccessorySlotType ObjectType Node are shown in the following table:  
 

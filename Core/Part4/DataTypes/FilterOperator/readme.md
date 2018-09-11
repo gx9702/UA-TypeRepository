@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## FilterOperator
+  
 <!-- end of description -->
 The fields of the FilterOperator DataType are defined in the following table:  
 
@@ -28,9 +29,12 @@ The representation of the FilterOperator DataType in the address space is shown 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=576|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|FilterOperator|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part4|
 
 The references from the FilterOperator DataType Node are shown in the following table:  
 

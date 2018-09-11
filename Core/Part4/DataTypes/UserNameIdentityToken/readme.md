@@ -15,7 +15,10 @@ The representation of the UserNameIdentityToken DataType in the address space is
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=322|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UserNameIdentityToken|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UserIdentityToken](../../../Part4/DataTypes/UserIdentityToken/readme.md)|
+|Categories|Part4|
 

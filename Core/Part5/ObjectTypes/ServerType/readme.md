@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ServerType
 Specifies the current status and capabilities of the server.  
+<!-- end of text -->
 The representation of the ServerType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2004|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ServerType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the ServerType ObjectType Node are shown in the following table:  
 

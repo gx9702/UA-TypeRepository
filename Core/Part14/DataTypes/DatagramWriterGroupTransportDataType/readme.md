@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DatagramWriterGroupTransportDataType
+  
 <!-- end of description -->
 The fields of the DatagramWriterGroupTransportDataType DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the DatagramWriterGroupTransportDataType DataType in the a
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15532|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DatagramWriterGroupTransportDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[WriterGroupTransportDataType](../../../Part14/DataTypes/WriterGroupTransportDataType/readme.md)|
+|Categories|Part14|
 

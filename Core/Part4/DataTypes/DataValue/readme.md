@@ -12,7 +12,10 @@ The representation of the DataValue DataType in the address space is shown in th
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=23|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataValue|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)|
+|Categories|Part4|
 

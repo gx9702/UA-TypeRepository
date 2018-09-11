@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## JsonDataSetWriterMessageDataType
+  
 <!-- end of description -->
 The fields of the JsonDataSetWriterMessageDataType DataType are defined in the following table:  
 
@@ -12,7 +13,10 @@ The representation of the JsonDataSetWriterMessageDataType DataType in the addre
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15664|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|JsonDataSetWriterMessageDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataSetWriterMessageDataType](../../../Part14/DataTypes/DataSetWriterMessageDataType/readme.md)|
+|Categories|Part14|
 

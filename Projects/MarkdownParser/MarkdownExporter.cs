@@ -80,7 +80,7 @@ namespace MarkdownProcessor
             }
         }
 
-        private void WriteParagraphs(StreamWriter writer, List<string> documentation, bool noFinalNewLine = false)
+        private void WriteParagraphs(StreamWriter writer, List<string> documentation, bool noFinalNewLine)
         {
             if (documentation != null)
             {
@@ -107,13 +107,16 @@ namespace MarkdownProcessor
         private void WriteMethod(StreamWriter writer, RepositoryReference reference)
         {
             var name = reference.BrowseName;
-            name = name.Replace("<", "&lt;");
-            name = name.Replace(">", "&gt;");
+
+            if (name.Contains("<") || name.Contains(">"))
+            {
+                return;
+            }
 
             bool hasArguments = (reference.InputArguments != null && reference.InputArguments.Count > 0) || (reference.OutputArguments != null && reference.OutputArguments.Count > 0);
 
             writer.WriteLine($"### <a name=\"{name}\"></a>{name}");
-            WriteParagraphs(writer, reference.Documentation);
+            WriteParagraphs(writer, reference.Documentation, false);
 
             const string indent = "    ";
 
@@ -208,17 +211,32 @@ namespace MarkdownProcessor
                 writer.WriteLine("<!-- objecttype -->");
                 writer.WriteLine($"## {entry.Name}");
 
-                WriteParagraphs(writer, entry.Documentation);
+                WriteParagraphs(writer, entry.Documentation, false);
 
+                writer.WriteLine("<!-- end of text -->");
                 writer.WriteLine($"The representation of the {entry.Name} {entry.NodeClass} in the address space is shown in the following table:  ");
 
                 writer.WriteLine();
                 writer.WriteLine($"|Name|Attribute|");
                 writer.WriteLine($"|---|---|");
+                writer.WriteLine($"|NodeId|{entry.NodeId}|");
+                writer.WriteLine($"|NamespaceUri|{entry.NamespaceUri}|");
                 writer.WriteLine($"|BrowseName|{entry.Name}|");
                 writer.WriteLine($"|NodeClass|{entry.NodeClass}|");
-                writer.WriteLine($"|IsAbtract|{entry.IsAbstract}|");
-                writer.WriteLine($"|BaseType|{Export(entry.BaseType)}|");
+
+                if (entry.NodeClass == NodeClass.Variable || entry.NodeClass == NodeClass.VariableType)
+                {
+                    writer.WriteLine($"|DataType|{Export(entry.DataType)}|");
+                    writer.WriteLine($"|ValueRank|{entry.ValueRank}|");
+                }
+
+                if (entry.NodeClass == NodeClass.ObjectType || entry.NodeClass == NodeClass.VariableType || entry.NodeClass == NodeClass.DataType || entry.NodeClass == NodeClass.ReferenceType)
+                {
+                    writer.WriteLine($"|IsAbstract|{entry.IsAbstract}|");
+                    writer.WriteLine($"|BaseType|{Export(entry.BaseType)}|");
+                }
+
+                writer.WriteLine($"|Categories|{ExportCategories(entry.Categories)}|");
                 writer.WriteLine();
 
                 if (entry.References != null && entry.References.Count > 0)
@@ -270,13 +288,33 @@ namespace MarkdownProcessor
                             name = name.Replace(">", "&gt;");
 
                             writer.WriteLine($"### <a name=\"{name}\"></a>{name}");
-                            WriteParagraphs(writer, reference.Documentation);
+                            WriteParagraphs(writer, reference.Documentation, true);
                         }
                     }
 
                     writer.WriteLine();
                 }
             }
+        }
+
+        private string ExportCategories(List<string> categories)
+        {
+            StringBuilder buffer = new StringBuilder();
+
+            if (categories != null)
+            {
+                foreach (var ii in categories)
+                {
+                    if (buffer.Length > 0)
+                    {
+                        buffer.Append(",");
+                    }
+
+                    buffer.Append(ii);
+                }
+            }
+
+            return buffer.ToString();
         }
 
         public void Export(RepositoryDataType entry, string path)
@@ -298,13 +336,7 @@ namespace MarkdownProcessor
                 writer.WriteLine("<!-- datatype -->");
                 writer.WriteLine($"## {entry.Name}");
 
-                if (entry.Documentation != null)
-                {
-                    foreach (var description in entry.Documentation)
-                    {
-                        writer.WriteLine($"{description}  ");
-                    }
-                }
+                WriteParagraphs(writer, entry.Documentation, false);
 
                 writer.WriteLine($"<!-- end of description -->");
                 writer.WriteLine($"The fields of the {entry.Name} DataType are defined in the following table:  ");
@@ -325,16 +357,19 @@ namespace MarkdownProcessor
                         {
                             foreach (var ii in field.Documentation)
                             {
-                                if (description.Length > 0)
+                                if (ii != null)
                                 {
-                                    description.Append($"  {Environment.NewLine}");
-                                }
+                                    if (description.Length > 0)
+                                    {
+                                        description.Append($"  {Environment.NewLine}");
+                                    }
 
-                                description.Append($"{ii}");
+                                    description.Append($"{ii}");
 
-                                if (!ii.EndsWith("."))
-                                {
-                                    description.Append(".");
+                                    if (!ii.EndsWith("."))
+                                    {
+                                        description.Append(".");
+                                    }
                                 }
                             }
                         }
@@ -367,16 +402,19 @@ namespace MarkdownProcessor
                         {
                             foreach (var ii in field.Documentation)
                             {
-                                if (description.Length > 0)
+                                if (ii != null)
                                 {
-                                    description.Append($"  {Environment.NewLine}");
-                                }
+                                    if (description.Length > 0)
+                                    {
+                                        description.Append($"  {Environment.NewLine}");
+                                    }
 
-                                description.Append($"{ii}");
+                                    description.Append($"{ii}");
 
-                                if (!ii.EndsWith("."))
-                                {
-                                    description.Append(".");
+                                    if (!ii.EndsWith("."))
+                                    {
+                                        description.Append(".");
+                                    }
                                 }
                             }
                         }
@@ -392,9 +430,13 @@ namespace MarkdownProcessor
                 writer.WriteLine();
                 writer.WriteLine($"|Name|Attribute|");
                 writer.WriteLine($"|---|---|");
+                writer.WriteLine($"|NodeId|{entry.NodeId}|");
+                writer.WriteLine($"|NamespaceUri|{entry.NamespaceUri}|");
                 writer.WriteLine($"|BrowseName|{entry.Name}|");
-                writer.WriteLine($"|IsAbtract|{entry.IsAbstract}|");
+                writer.WriteLine($"|IsAbstract|{entry.IsAbstract}|");
                 writer.WriteLine($"|BaseType|{Export(entry.BaseType)}|");
+                writer.WriteLine($"|Categories|{ExportCategories(entry.Categories)}|");
+
                 writer.WriteLine();
 
                 if (entry.References != null && entry.References.Count > 0)

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## FieldMetaData
+This Structure DataType is used to provide the metadata for a field in a DataSet. The FieldMetaData is formally defined in Table 5.  
 <!-- end of description -->
 The fields of the FieldMetaData DataType are defined in the following table:  
 
@@ -21,7 +22,10 @@ The representation of the FieldMetaData DataType in the address space is shown i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=14524|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|FieldMetaData|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 

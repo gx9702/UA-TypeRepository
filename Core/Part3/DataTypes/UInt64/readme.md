@@ -12,9 +12,12 @@ The representation of the UInt64 DataType in the address space is shown in the f
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=9|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UInt64|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInteger](../../../Part3/DataTypes/UInteger/readme.md)|
+|Categories|Part3|
 
 The references from the UInt64 DataType Node are shown in the following table:  
 

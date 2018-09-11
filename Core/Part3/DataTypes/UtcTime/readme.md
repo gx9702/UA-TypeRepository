@@ -12,7 +12,10 @@ The representation of the UtcTime DataType in the address space is shown in the 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=294|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UtcTime|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DateTime](../../../Part3/DataTypes/DateTime/readme.md)|
+|Categories|Part3|
 

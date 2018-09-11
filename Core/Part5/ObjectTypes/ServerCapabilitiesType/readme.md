@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ServerCapabilitiesType
 Describes the capabilities supported by the server.  
+<!-- end of text -->
 The representation of the ServerCapabilitiesType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2013|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ServerCapabilitiesType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the ServerCapabilitiesType ObjectType Node are shown in the following table:  
 

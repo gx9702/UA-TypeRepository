@@ -273,10 +273,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <Content Include="BuildModel.bat">
+    <Content Include="NodeSetToMarkdown.bat">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="BuildSchema.bat" />
+    <Content Include="MarkdownToNodeSet.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WordToNodeSet.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="packages.config" />
     <None Include="UANodeSet.xsd">
       <SubType>Designer</SubType>

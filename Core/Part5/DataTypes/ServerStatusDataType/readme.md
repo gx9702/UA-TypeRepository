@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ServerStatusDataType
+  
 <!-- end of description -->
 The fields of the ServerStatusDataType DataType are defined in the following table:  
 
@@ -17,7 +18,10 @@ The representation of the ServerStatusDataType DataType in the address space is 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=862|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ServerStatusDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part5|
 

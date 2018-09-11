@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## CreateMonitoredItemsRequest
+  
 <!-- end of description -->
 The fields of the CreateMonitoredItemsRequest DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the CreateMonitoredItemsRequest DataType in the address sp
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=749|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CreateMonitoredItemsRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

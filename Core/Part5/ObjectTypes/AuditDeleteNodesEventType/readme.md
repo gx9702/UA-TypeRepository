@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AuditDeleteNodesEventType
   
+<!-- end of text -->
 The representation of the AuditDeleteNodesEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2093|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuditDeleteNodesEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[AuditNodeManagementEventType](../../../Part5/ObjectTypes/AuditNodeManagementEventType/readme.md)|
+|Categories|Part5|
 
 The references from the AuditDeleteNodesEventType ObjectType Node are shown in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## InstanceNode
+  
 <!-- end of description -->
 The fields of the InstanceNode DataType are defined in the following table:  
 
@@ -11,9 +12,12 @@ The representation of the InstanceNode DataType in the address space is shown in
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11879|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|InstanceNode|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Node](../../../Part3/Services/Node/readme.md)|
+|Categories|Part3/Services|
 
 The references from the InstanceNode DataType Node are shown in the following table:  
 

@@ -46,9 +46,12 @@ The representation of the NodeAttributesMask DataType in the address space is sh
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=348|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NodeAttributesMask|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part4|
 
 The references from the NodeAttributesMask DataType Node are shown in the following table:  
 

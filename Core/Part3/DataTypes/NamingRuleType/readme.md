@@ -14,9 +14,12 @@ The representation of the NamingRuleType DataType in the address space is shown 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=120|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NamingRuleType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part3|
 
 The references from the NamingRuleType DataType Node are shown in the following table:  
 

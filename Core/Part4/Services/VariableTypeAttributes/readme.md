@@ -17,7 +17,10 @@ The representation of the VariableTypeAttributes DataType in the address space i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=364|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|VariableTypeAttributes|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NodeAttributes](../../../Part4/Services/NodeAttributes/readme.md)|
+|Categories|Part4/Services|
 

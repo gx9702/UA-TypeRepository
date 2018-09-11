@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ConnectionPointType
 Represents the interface (interface card) of a Device to a Network.  
+<!-- end of text -->
 The representation of the ConnectionPointType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=6308|
+|NamespaceUri|http://opcfoundation.org/UA/DI/|
 |BrowseName|ConnectionPointType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[TopologyElementType](../../ObjectTypes/TopologyElementType/readme.md)|
+|Categories||
 
 The references from the ConnectionPointType ObjectType Node are shown in the following table:  
 

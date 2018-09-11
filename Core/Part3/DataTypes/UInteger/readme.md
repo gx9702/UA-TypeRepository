@@ -12,9 +12,12 @@ The representation of the UInteger DataType in the address space is shown in the
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=28|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UInteger|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[Number](../../../Part3/DataTypes/Number/readme.md)|
+|Categories|Part3|
 
 The references from the UInteger DataType Node are shown in the following table:  
 

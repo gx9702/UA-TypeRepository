@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SetMonitoringModeResponse
+  
 <!-- end of description -->
 The fields of the SetMonitoringModeResponse DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the SetMonitoringModeResponse DataType in the address spac
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=770|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SetMonitoringModeResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

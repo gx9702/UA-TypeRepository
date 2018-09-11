@@ -12,7 +12,10 @@ The representation of the Union DataType in the address space is shown in the fo
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12756|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Union|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part3|
 

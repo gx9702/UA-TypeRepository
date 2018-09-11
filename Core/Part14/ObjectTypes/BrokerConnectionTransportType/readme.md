@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## BrokerConnectionTransportType
-  
+This ObjectType represents broker transport protocol mapping specific parameters for a PubSubConnection. The BrokerConnectionTransportType is formally defined in Table 166.  
+<!-- end of text -->
 The representation of the BrokerConnectionTransportType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15155|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BrokerConnectionTransportType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[ConnectionTransportType](../../../Part14/ObjectTypes/ConnectionTransportType/readme.md)|
+|Categories|Part14|
 
 The references from the BrokerConnectionTransportType ObjectType Node are shown in the following table:  
 

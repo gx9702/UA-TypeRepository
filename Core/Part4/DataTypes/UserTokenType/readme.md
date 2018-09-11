@@ -15,9 +15,12 @@ The representation of the UserTokenType DataType in the address space is shown i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=303|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UserTokenType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part4|
 
 The references from the UserTokenType DataType Node are shown in the following table:  
 

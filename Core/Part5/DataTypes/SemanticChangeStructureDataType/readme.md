@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SemanticChangeStructureDataType
+  
 <!-- end of description -->
 The fields of the SemanticChangeStructureDataType DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the SemanticChangeStructureDataType DataType in the addres
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=897|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SemanticChangeStructureDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part5|
 

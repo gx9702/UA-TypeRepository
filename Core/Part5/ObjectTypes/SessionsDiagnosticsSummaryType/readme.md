@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## SessionsDiagnosticsSummaryType
 Provides a summary of session level diagnostics.  
+<!-- end of text -->
 The representation of the SessionsDiagnosticsSummaryType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2026|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SessionsDiagnosticsSummaryType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the SessionsDiagnosticsSummaryType ObjectType Node are shown in the following table:  
 

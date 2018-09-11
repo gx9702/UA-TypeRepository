@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## KeyCredentialConfigurationFolderType
   
+<!-- end of text -->
 The representation of the KeyCredentialConfigurationFolderType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17496|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|KeyCredentialConfigurationFolderType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FolderType](../../../Part5/ObjectTypes/FolderType/readme.md)|
+|Categories|Part12|
 
 The references from the KeyCredentialConfigurationFolderType ObjectType Node are shown in the following table:  
 

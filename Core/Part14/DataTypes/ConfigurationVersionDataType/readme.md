@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ConfigurationVersionDataType
+This Structure DataType is used to indicate configuration changes in the information published for a DataSet. The ConfigurationVersionDataType is formally defined in Table 8.  
 <!-- end of description -->
 The fields of the ConfigurationVersionDataType DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the ConfigurationVersionDataType DataType in the address s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=14593|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ConfigurationVersionDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 

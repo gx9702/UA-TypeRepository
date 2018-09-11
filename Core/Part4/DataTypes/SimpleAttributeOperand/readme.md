@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SimpleAttributeOperand
+  
 <!-- end of description -->
 The fields of the SimpleAttributeOperand DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the SimpleAttributeOperand DataType in the address space i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=601|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SimpleAttributeOperand|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FilterOperand](../../../Part4/DataTypes/FilterOperand/readme.md)|
+|Categories|Part4|
 

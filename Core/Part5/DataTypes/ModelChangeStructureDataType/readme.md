@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ModelChangeStructureDataType
+  
 <!-- end of description -->
 The fields of the ModelChangeStructureDataType DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the ModelChangeStructureDataType DataType in the address s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=877|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ModelChangeStructureDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part5|
 

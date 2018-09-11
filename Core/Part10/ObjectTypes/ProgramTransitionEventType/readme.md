@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ProgramTransitionEventType
   
+<!-- end of text -->
 The representation of the ProgramTransitionEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2378|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ProgramTransitionEventType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[TransitionEventType](../../../Part5/ObjectTypes/TransitionEventType/readme.md)|
+|Categories|Part10|
 
 The references from the ProgramTransitionEventType ObjectType Node are shown in the following table:  
 

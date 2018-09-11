@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## IdentityCriteriaType
+  
 <!-- end of description -->
 The fields of the IdentityCriteriaType DataType are defined in the following table:  
 
@@ -16,9 +17,12 @@ The representation of the IdentityCriteriaType DataType in the address space is 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15632|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|IdentityCriteriaType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part5|
 
 The references from the IdentityCriteriaType DataType Node are shown in the following table:  
 

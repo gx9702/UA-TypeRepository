@@ -12,9 +12,12 @@ The representation of the BaseDataType DataType in the address space is shown in
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=24|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BaseDataType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType||
+|Categories|Part3|
 
 The references from the BaseDataType DataType Node are shown in the following table:  
 

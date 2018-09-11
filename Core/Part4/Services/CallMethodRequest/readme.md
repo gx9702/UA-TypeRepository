@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## CallMethodRequest
+  
 <!-- end of description -->
 The fields of the CallMethodRequest DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the CallMethodRequest DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=704|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CallMethodRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

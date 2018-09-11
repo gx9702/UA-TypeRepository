@@ -14,7 +14,10 @@ The representation of the DeleteNodesRequest DataType in the address space is sh
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=498|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DeleteNodesRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

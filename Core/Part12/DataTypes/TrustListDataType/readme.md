@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## TrustListDataType
+  
 <!-- end of description -->
 The fields of the TrustListDataType DataType are defined in the following table:  
 
@@ -16,7 +17,10 @@ The representation of the TrustListDataType DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12554|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|TrustListDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part12|
 

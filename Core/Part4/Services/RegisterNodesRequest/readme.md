@@ -14,7 +14,10 @@ The representation of the RegisterNodesRequest DataType in the address space is 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=558|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|RegisterNodesRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

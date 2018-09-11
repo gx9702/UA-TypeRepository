@@ -1,5 +1,8 @@
 <!-- datatype -->
 ## DataSetWriterMessageDataType
+This Structure DataType is an abstract base type for message mapping specific DataSetWriter parameters. The abstract DataType does not define fields.
+
+The DataSetWriterMessageDataType Structure representation in the AddressSpace is defined in Table 19.  
 <!-- end of description -->
 The fields of the DataSetWriterMessageDataType DataType are defined in the following table:  
 
@@ -11,9 +14,12 @@ The representation of the DataSetWriterMessageDataType DataType in the address s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15605|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataSetWriterMessageDataType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 
 The references from the DataSetWriterMessageDataType DataType Node are shown in the following table:  
 

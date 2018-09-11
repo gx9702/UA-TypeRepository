@@ -16,7 +16,10 @@ The representation of the FindServersRequest DataType in the address space is sh
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=420|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|FindServersRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

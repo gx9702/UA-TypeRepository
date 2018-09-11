@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## EventFilterResult
+  
 <!-- end of description -->
 The fields of the EventFilterResult DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the EventFilterResult DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=734|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|EventFilterResult|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[MonitoringFilterResult](../../../Part4/Services/MonitoringFilterResult/readme.md)|
+|Categories|Part4/Services|
 

@@ -1,5 +1,8 @@
 <!-- datatype -->
 ## PublishedEventsDataType
+This Structure DataType is used to represent PublishedEvents specific parameters. It is a subtype of the PublishedDataSetSourceDataType defined in 6.2.2.5.
+
+The PublishedEventsDataType is formally defined in Table 13.  
 <!-- end of description -->
 The fields of the PublishedEventsDataType DataType are defined in the following table:  
 
@@ -14,7 +17,10 @@ The representation of the PublishedEventsDataType DataType in the address space 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15582|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PublishedEventsDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[PublishedDataSetSourceDataType](../../../Part14/DataTypes/PublishedDataSetSourceDataType/readme.md)|
+|Categories|Part14|
 

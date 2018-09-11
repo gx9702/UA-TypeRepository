@@ -1,15 +1,21 @@
 <!-- objecttype -->
 ## ImageItemType
-ImageItemType defines the general characteristics of an ImageItem which represents a matrix of values like an image, where the pixel position is given by X which is the column and Y the row. The value is the pixel intensity.
+ImageItemType defines the general characteristics of an ImageItem which represents a matrix of values like an image, where the pixel position is given by X which is the column and Y the row. The value is the pixel intensity.  
 ImageItemType is formally defined in Table 11.  
+<!-- end of text -->
 The representation of the ImageItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12047|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ImageItemType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)|
+|ValueRank|2|
+|IsAbstract|False|
 |BaseType|[ArrayItemType](../../../Part8/VariableTypes/ArrayItemType/readme.md)|
+|Categories|Part8|
 
 The references from the ImageItemType VariableType Node are shown in the following table:  
 

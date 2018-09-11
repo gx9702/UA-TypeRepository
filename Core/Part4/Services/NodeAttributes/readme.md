@@ -17,9 +17,12 @@ The representation of the NodeAttributes DataType in the address space is shown 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=349|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NodeAttributes|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 
 The references from the NodeAttributes DataType Node are shown in the following table:  
 

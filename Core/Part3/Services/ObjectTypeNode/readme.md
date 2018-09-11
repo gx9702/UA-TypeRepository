@@ -13,7 +13,10 @@ The representation of the ObjectTypeNode DataType in the address space is shown 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=264|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ObjectTypeNode|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[TypeNode](../../../Part3/Services/TypeNode/readme.md)|
+|Categories|Part3/Services|
 

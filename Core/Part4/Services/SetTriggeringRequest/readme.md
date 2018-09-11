@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SetTriggeringRequest
+  
 <!-- end of description -->
 The fields of the SetTriggeringRequest DataType are defined in the following table:  
 
@@ -16,7 +17,10 @@ The representation of the SetTriggeringRequest DataType in the address space is 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=773|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SetTriggeringRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

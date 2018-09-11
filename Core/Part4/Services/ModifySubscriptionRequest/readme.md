@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ModifySubscriptionRequest
+  
 <!-- end of description -->
 The fields of the ModifySubscriptionRequest DataType are defined in the following table:  
 
@@ -18,7 +19,10 @@ The representation of the ModifySubscriptionRequest DataType in the address spac
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=791|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ModifySubscriptionRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

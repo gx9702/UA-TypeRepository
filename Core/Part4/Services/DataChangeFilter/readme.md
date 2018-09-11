@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DataChangeFilter
+  
 <!-- end of description -->
 The fields of the DataChangeFilter DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the DataChangeFilter DataType in the address space is show
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=722|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataChangeFilter|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[MonitoringFilter](../../../Part4/DataTypes/MonitoringFilter/readme.md)|
+|Categories|Part4/Services|
 

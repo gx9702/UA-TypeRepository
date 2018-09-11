@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## PubSubKeyServiceType
-  
+The PubSubKeyServiceType is formally defined in Table 100.  
+<!-- end of text -->
 The representation of the PubSubKeyServiceType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15906|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubKeyServiceType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part14|
 
 The references from the PubSubKeyServiceType ObjectType Node are shown in the following table:  
 

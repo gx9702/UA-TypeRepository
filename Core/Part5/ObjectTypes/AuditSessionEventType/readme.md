@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AuditSessionEventType
 A base type for events used to track related changes to a session.  
+<!-- end of text -->
 The representation of the AuditSessionEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2069|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuditSessionEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[AuditSecurityEventType](../../../Part5/ObjectTypes/AuditSecurityEventType/readme.md)|
+|Categories|Part5|
 
 The references from the AuditSessionEventType ObjectType Node are shown in the following table:  
 

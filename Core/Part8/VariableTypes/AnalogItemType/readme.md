@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## AnalogItemType
 This VariableType defines the general characteristics of an AnalogItem. All other AnalogItem Types derive from it. The AnalogItemType derives from the DataItemType. It is formally defined in Table 2.  
+<!-- end of text -->
 The representation of the AnalogItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2368|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AnalogItemType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[Number](../../../Part3/DataTypes/Number/readme.md)|
+|ValueRank|-2|
+|IsAbstract|False|
 |BaseType|[DataItemType](../../../Part8/VariableTypes/DataItemType/readme.md)|
+|Categories|Part8|
 
 The references from the AnalogItemType VariableType Node are shown in the following table:  
 

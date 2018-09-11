@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## EnumField
+  
 <!-- end of description -->
 The fields of the EnumField DataType are defined in the following table:  
 
@@ -12,7 +13,10 @@ The representation of the EnumField DataType in the address space is shown in th
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=102|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|EnumField|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[EnumValueType](../../../Part3/DataTypes/EnumValueType/readme.md)|
+|Categories|Part3|
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## OpenFileMode
+  
 <!-- end of description -->
 The fields of the OpenFileMode DataType are defined in the following table:  
 
@@ -14,9 +15,12 @@ The representation of the OpenFileMode DataType in the address space is shown in
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11939|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|OpenFileMode|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part5|
 
 The references from the OpenFileMode DataType Node are shown in the following table:  
 

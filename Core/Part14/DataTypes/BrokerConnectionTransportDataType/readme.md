@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BrokerConnectionTransportDataType
+  
 <!-- end of description -->
 The fields of the BrokerConnectionTransportDataType DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the BrokerConnectionTransportDataType DataType in the addr
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15007|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BrokerConnectionTransportDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[ConnectionTransportDataType](../../../Part14/DataTypes/ConnectionTransportDataType/readme.md)|
+|Categories|Part14|
 

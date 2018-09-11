@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## PubSubStatusEventType
-  
+This EventType is a base type for events which indicate an error or status change associated with a PubSubConnectionType, PubSubGroupType, DataSetWriterType or DataSetReaderType Object. The PubSubStatusEventType is formally defined in Table 155.  
+<!-- end of text -->
 The representation of the PubSubStatusEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15535|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubStatusEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[SystemEventType](../../../Part5/ObjectTypes/SystemEventType/readme.md)|
+|Categories|Part14|
 
 The references from the PubSubStatusEventType ObjectType Node are shown in the following table:  
 

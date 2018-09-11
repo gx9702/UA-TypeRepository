@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## StatusChangeNotification
+  
 <!-- end of description -->
 The fields of the StatusChangeNotification DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the StatusChangeNotification DataType in the address space
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=818|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|StatusChangeNotification|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NotificationData](../../../Part4/Services/NotificationData/readme.md)|
+|Categories|Part4/Services|
 

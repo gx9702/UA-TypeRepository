@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ProgramDiagnostic2DataType
+  
 <!-- end of description -->
 The fields of the ProgramDiagnostic2DataType DataType are defined in the following table:  
 
@@ -23,7 +24,10 @@ The representation of the ProgramDiagnostic2DataType DataType in the address spa
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15396|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ProgramDiagnostic2DataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part10|
 

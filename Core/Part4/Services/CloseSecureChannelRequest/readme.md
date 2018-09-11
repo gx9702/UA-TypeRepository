@@ -13,7 +13,10 @@ The representation of the CloseSecureChannelRequest DataType in the address spac
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=450|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CloseSecureChannelRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

@@ -1,12 +1,16 @@
 <!-- objecttype -->
 ## AuditConditionSuppressEventType
   
+<!-- end of text -->
 The representation of the AuditConditionSuppressEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17225|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuditConditionSuppressEventType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[AuditConditionEventType](../../../Part9/ObjectTypes/AuditConditionEventType/readme.md)|
+|Categories|Part9|
 

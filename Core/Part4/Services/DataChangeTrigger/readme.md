@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DataChangeTrigger
+  
 <!-- end of description -->
 The fields of the DataChangeTrigger DataType are defined in the following table:  
 
@@ -13,9 +14,12 @@ The representation of the DataChangeTrigger DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=717|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataChangeTrigger|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part4/Services|
 
 The references from the DataChangeTrigger DataType Node are shown in the following table:  
 

@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## StateVariableType
   
+<!-- end of text -->
 The representation of the StateVariableType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2755|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|StateVariableType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|
+|ValueRank|-1|
+|IsAbstract|False|
 |BaseType|[BaseDataVariableType](../../../Part5/VariableTypes/BaseDataVariableType/readme.md)|
+|Categories|Part5|
 
 The references from the StateVariableType VariableType Node are shown in the following table:  
 

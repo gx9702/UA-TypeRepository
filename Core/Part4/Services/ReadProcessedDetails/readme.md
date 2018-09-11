@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ReadProcessedDetails
+  
 <!-- end of description -->
 The fields of the ReadProcessedDetails DataType are defined in the following table:  
 
@@ -16,7 +17,10 @@ The representation of the ReadProcessedDetails DataType in the address space is 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=650|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ReadProcessedDetails|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[HistoryReadDetails](../../../Part4/Services/HistoryReadDetails/readme.md)|
+|Categories|Part4/Services|
 

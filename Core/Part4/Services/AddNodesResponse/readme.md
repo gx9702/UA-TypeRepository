@@ -15,7 +15,10 @@ The representation of the AddNodesResponse DataType in the address space is show
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=489|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AddNodesResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

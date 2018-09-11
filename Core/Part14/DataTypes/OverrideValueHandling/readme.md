@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## OverrideValueHandling
+The OverrideValueHandling is an enumeration that specifies the possible options for the handling of Override values. The possible enumeration values are described in Table 45.  
 <!-- end of description -->
 The fields of the OverrideValueHandling DataType are defined in the following table:  
 
@@ -13,9 +14,12 @@ The representation of the OverrideValueHandling DataType in the address space is
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15874|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|OverrideValueHandling|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part14|
 
 The references from the OverrideValueHandling DataType Node are shown in the following table:  
 

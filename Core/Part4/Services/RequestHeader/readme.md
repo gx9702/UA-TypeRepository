@@ -19,7 +19,10 @@ The representation of the RequestHeader DataType in the address space is shown i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=389|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|RequestHeader|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

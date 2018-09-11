@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## RedundantServerDataType
+  
 <!-- end of description -->
 The fields of the RedundantServerDataType DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the RedundantServerDataType DataType in the address space 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=853|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|RedundantServerDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part5|
 

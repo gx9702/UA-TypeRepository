@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## OperationLimitsType
 Identifies the operation limits imposed by the server.  
+<!-- end of text -->
 The representation of the OperationLimitsType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11564|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|OperationLimitsType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FolderType](../../../Part5/ObjectTypes/FolderType/readme.md)|
+|Categories|Part5|
 
 The references from the OperationLimitsType ObjectType Node are shown in the following table:  
 

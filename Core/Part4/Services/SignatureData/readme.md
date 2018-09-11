@@ -14,7 +14,10 @@ The representation of the SignatureData DataType in the address space is shown i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=456|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SignatureData|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

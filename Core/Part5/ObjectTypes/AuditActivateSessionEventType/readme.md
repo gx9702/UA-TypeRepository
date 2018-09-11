@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AuditActivateSessionEventType
   
+<!-- end of text -->
 The representation of the AuditActivateSessionEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2075|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuditActivateSessionEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[AuditSessionEventType](../../../Part5/ObjectTypes/AuditSessionEventType/readme.md)|
+|Categories|Part5|
 
 The references from the AuditActivateSessionEventType ObjectType Node are shown in the following table:  
 

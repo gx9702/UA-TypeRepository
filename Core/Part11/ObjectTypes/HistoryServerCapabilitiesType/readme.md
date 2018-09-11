@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## HistoryServerCapabilitiesType
   
+<!-- end of text -->
 The representation of the HistoryServerCapabilitiesType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2330|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|HistoryServerCapabilitiesType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part11|
 
 The references from the HistoryServerCapabilitiesType ObjectType Node are shown in the following table:  
 

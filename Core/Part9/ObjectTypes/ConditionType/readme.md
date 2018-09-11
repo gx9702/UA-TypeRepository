@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ConditionType
   
+<!-- end of text -->
 The representation of the ConditionType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2782|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ConditionType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseEventType](../../../Part5/ObjectTypes/BaseEventType/readme.md)|
+|Categories|Part9|
 
 The references from the ConditionType ObjectType Node are shown in the following table:  
 

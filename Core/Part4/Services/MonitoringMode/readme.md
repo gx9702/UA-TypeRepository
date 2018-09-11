@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## MonitoringMode
+  
 <!-- end of description -->
 The fields of the MonitoringMode DataType are defined in the following table:  
 
@@ -13,9 +14,12 @@ The representation of the MonitoringMode DataType in the address space is shown 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=716|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|MonitoringMode|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part4/Services|
 
 The references from the MonitoringMode DataType Node are shown in the following table:  
 

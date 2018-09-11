@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AccessRestrictionType
+  
 <!-- end of description -->
 The fields of the AccessRestrictionType DataType are defined in the following table:  
 
@@ -13,9 +14,12 @@ The representation of the AccessRestrictionType DataType in the address space is
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=95|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AccessRestrictionType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|
+|Categories|Part3|
 
 The references from the AccessRestrictionType DataType Node are shown in the following table:  
 

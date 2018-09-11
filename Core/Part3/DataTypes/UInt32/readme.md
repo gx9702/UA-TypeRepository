@@ -12,9 +12,12 @@ The representation of the UInt32 DataType in the address space is shown in the f
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=7|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UInt32|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInteger](../../../Part3/DataTypes/UInteger/readme.md)|
+|Categories|Part3|
 
 The references from the UInt32 DataType Node are shown in the following table:  
 

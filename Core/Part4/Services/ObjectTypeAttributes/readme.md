@@ -13,7 +13,10 @@ The representation of the ObjectTypeAttributes DataType in the address space is 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=361|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ObjectTypeAttributes|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NodeAttributes](../../../Part4/Services/NodeAttributes/readme.md)|
+|Categories|Part4/Services|
 

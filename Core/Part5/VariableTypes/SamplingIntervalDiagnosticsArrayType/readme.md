@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## SamplingIntervalDiagnosticsArrayType
   
+<!-- end of text -->
 The representation of the SamplingIntervalDiagnosticsArrayType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2164|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SamplingIntervalDiagnosticsArrayType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[SamplingIntervalDiagnosticsDataType](../../../Part5/DataTypes/SamplingIntervalDiagnosticsDataType/readme.md)|
+|ValueRank|1|
+|IsAbstract|False|
 |BaseType|[BaseDataVariableType](../../../Part5/VariableTypes/BaseDataVariableType/readme.md)|
+|Categories|Part5|
 
 The references from the SamplingIntervalDiagnosticsArrayType VariableType Node are shown in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## StructureField
+  
 <!-- end of description -->
 The fields of the StructureField DataType are defined in the following table:  
 
@@ -18,7 +19,10 @@ The representation of the StructureField DataType in the address space is shown 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=101|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|StructureField|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part3|
 

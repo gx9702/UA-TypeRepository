@@ -15,7 +15,10 @@ The representation of the ReferenceTypeNode DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=273|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ReferenceTypeNode|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[TypeNode](../../../Part3/Services/TypeNode/readme.md)|
+|Categories|Part3/Services|
 

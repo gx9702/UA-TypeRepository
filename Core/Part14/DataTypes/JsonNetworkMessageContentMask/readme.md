@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## JsonNetworkMessageContentMask
+  
 <!-- end of description -->
 The fields of the JsonNetworkMessageContentMask DataType are defined in the following table:  
 
@@ -16,9 +17,12 @@ The representation of the JsonNetworkMessageContentMask DataType in the address 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15654|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|JsonNetworkMessageContentMask|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|
+|Categories|Part14|
 
 The references from the JsonNetworkMessageContentMask DataType Node are shown in the following table:  
 

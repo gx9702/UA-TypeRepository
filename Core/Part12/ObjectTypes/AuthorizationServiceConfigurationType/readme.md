@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AuthorizationServiceConfigurationType
   
+<!-- end of text -->
 The representation of the AuthorizationServiceConfigurationType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17852|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuthorizationServiceConfigurationType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part12|
 
 The references from the AuthorizationServiceConfigurationType ObjectType Node are shown in the following table:  
 

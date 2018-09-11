@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AnalyserDeviceStateMachineType
   
+<!-- end of text -->
 The representation of the AnalyserDeviceStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=1002|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|AnalyserDeviceStateMachineType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FiniteStateMachineType](../../../Core/Part5/ObjectTypes/FiniteStateMachineType/readme.md)|
+|Categories||
 
 The references from the AnalyserDeviceStateMachineType ObjectType Node are shown in the following table:  
 

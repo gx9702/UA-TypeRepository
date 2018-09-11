@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## PubSubStatusType
-  
+This ObjectType is used to indicate and change the status of a PubSub Object like PubSubConnection, DataSetWriter or DataSetReader. The PubSubStatusType is formally defined in Table 132.  
+<!-- end of text -->
 The representation of the PubSubStatusType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=14643|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubStatusType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part14|
 
 The references from the PubSubStatusType ObjectType Node are shown in the following table:  
 

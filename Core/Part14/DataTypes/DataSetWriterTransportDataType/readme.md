@@ -1,5 +1,8 @@
 <!-- datatype -->
 ## DataSetWriterTransportDataType
+This Structure DataType is an abstract base type for transport mapping specific DataSetWriter parameters. The abstract DataType does not define fields.
+
+The DataSetWriterTransportDataType Structure representation in the AddressSpace is defined in Table 18.  
 <!-- end of description -->
 The fields of the DataSetWriterTransportDataType DataType are defined in the following table:  
 
@@ -11,9 +14,12 @@ The representation of the DataSetWriterTransportDataType DataType in the address
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15598|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataSetWriterTransportDataType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 
 The references from the DataSetWriterTransportDataType DataType Node are shown in the following table:  
 

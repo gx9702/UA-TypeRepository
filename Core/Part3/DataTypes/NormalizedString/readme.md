@@ -12,7 +12,10 @@ The representation of the NormalizedString DataType in the address space is show
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12877|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NormalizedString|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[String](../../../Part3/DataTypes/String/readme.md)|
+|Categories|Part3|
 

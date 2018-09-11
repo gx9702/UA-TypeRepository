@@ -13,7 +13,10 @@ The representation of the X509IdentityToken DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=325|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|X509IdentityToken|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UserIdentityToken](../../../Part4/DataTypes/UserIdentityToken/readme.md)|
+|Categories|Part4|
 

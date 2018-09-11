@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## ServerStatusType
   
+<!-- end of text -->
 The representation of the ServerStatusType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2138|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ServerStatusType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[ServerStatusDataType](../../../Part5/DataTypes/ServerStatusDataType/readme.md)|
+|ValueRank|-1|
+|IsAbstract|False|
 |BaseType|[BaseDataVariableType](../../../Part5/VariableTypes/BaseDataVariableType/readme.md)|
+|Categories|Part5|
 
 The references from the ServerStatusType VariableType Node are shown in the following table:  
 

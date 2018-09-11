@@ -482,7 +482,6 @@ namespace MarkdownProcessor
                     }
                 }
             }
-
         }
 
         private string GetPath(string rootPath, UANode node)
@@ -872,15 +871,31 @@ namespace MarkdownProcessor
                     }
                 }
 
-                if (ii.NodeClass == NodeClass.ObjectType || ii.NodeClass == NodeClass.ReferenceType || ii.NodeClass == NodeClass.VariableType)
+                if (ii.NodeClass != NodeClass.DataType)
                 {
+                    if (ii is UAInstance)
+                    {
+                        if (ii.Category == null || ii.Category.Length == 0)
+                        {
+                            continue;
+                        }
+                    }
+
+                    var gt = ii as UAType;
                     var ot = ii as UAObjectType;
                     var vt = ii as UAVariableType;
 
                     var entry = new RepositoryObjectVariableType();
 
+                    entry.NodeId = ii.DecodedNodeId;
+                    entry.NamespaceUri = this.ModelNamespaceIndexes[entry.NodeId.NamespaceIndex].NamespaceUri;
                     entry.Name = ii.DecodedBrowseName.Name;
                     entry.NodeClass = ii.NodeClass;
+
+                    if (ii.Category != null)
+                    {
+                        entry.Categories = new List<string>(ii.Category);
+                    }
 
                     if (!String.IsNullOrEmpty(ii.Documentation))
                     {
@@ -889,24 +904,17 @@ namespace MarkdownProcessor
                     else if (ii.Description != null && ii.Description.Length > 0)
                     {
                         entry.Documentation = new List<string>() { ii.Description[0].Value };
-
-                        // clear the description field to avoid redundant information in file.
-                        if (ii.Description.Length == 1)
-                        {
-                            ii.Description = null;
-                        }
                     }
 
                     entry.BaseType = CreateLink(ii.DecodedNodeId, ReferenceTypeIds.HasSubtype, false);
 
-                    if (ot != null)
+                    if (gt != null)
                     {
-                        entry.IsAbstract = ot.IsAbstract;
+                        entry.IsAbstract = gt.IsAbstract;
                     }
 
                     if (vt != null)
                     {
-                        entry.IsAbstract = vt.IsAbstract;
                         entry.DataType = CreateLink(ii.DecodedNodeId, vt.DecodedDataType);
                         entry.ValueRank = vt.ValueRank;
                     }
@@ -934,7 +942,14 @@ namespace MarkdownProcessor
 
                     var entry = new RepositoryDataType();
 
+                    entry.NodeId = ii.DecodedNodeId;
+                    entry.NamespaceUri = this.ModelNamespaceIndexes[entry.NodeId.NamespaceIndex].NamespaceUri;
                     entry.Name = ii.DecodedBrowseName.Name;
+
+                    if (ii.Category != null)
+                    {
+                        entry.Categories = new List<string>(ii.Category);
+                    }
 
                     if (!String.IsNullOrEmpty(ii.Documentation))
                     {
@@ -943,12 +958,6 @@ namespace MarkdownProcessor
                     else if (ii.Description != null && ii.Description.Length > 0)
                     {
                         entry.Documentation = new List<string>() { ii.Description[0].Value };
-
-                        // clear the description field to avoid redundant information in file.
-                        if (ii.Description.Length == 1)
-                        {
-                            ii.Description = null;
-                        }
                     }
 
                     entry.BaseType = CreateLink(ii.DecodedNodeId, ReferenceTypeIds.HasSubtype, false);
@@ -1037,6 +1046,8 @@ namespace MarkdownProcessor
            
             UADataType dataTypeNode = node as UADataType;
             dataTypeNode.Documentation = MergeDocumentation(entry.Documentation);
+            dataTypeNode.IsAbstract = entry.IsAbstract;
+            dataTypeNode.Category = entry.Categories.ToArray();
 
             foreach (var field in entry.Fields)
             {
@@ -1100,11 +1111,14 @@ namespace MarkdownProcessor
 
             if (!nodesByType.TryGetValue(modelUri + entry.Name, out node))
             {
-                node = new UAObjectType();
+                return;
             }
 
             UAType typeNode = node as UAType;
+
             typeNode.Documentation = MergeDocumentation(entry.Documentation);
+            typeNode.IsAbstract = entry.IsAbstract;
+            typeNode.Category = entry.Categories.ToArray();
 
             foreach (var reference in entry.References)
             {
@@ -1138,6 +1152,14 @@ namespace MarkdownProcessor
                 if (childIndex != null)
                 {
                     MergeRepositoryIndex(modelUri, nodesByType, childIndex);
+                    continue;
+                }
+
+                RepositoryObjectVariableType objectType = entry as RepositoryObjectVariableType;
+
+                if (objectType != null)
+                {
+                    MergeRepositoryObjectVariableType(modelUri, nodesByType, objectType);
                     continue;
                 }
 
@@ -1225,6 +1247,11 @@ namespace MarkdownProcessor
 
                             while (next != null && next.get_Style().NameLocal == "PARAGRAPH,PA")
                             {
+                                if (buffer.Length > 0)
+                                {
+                                    buffer.Append(Environment.NewLine);
+                                }
+
                                 buffer.Append(next.Range.Text);
                                 next = next.Next();
                             }

@@ -1,5 +1,8 @@
 <!-- datatype -->
 ## DataTypeSchemaHeader
+This Structure DataType is the abstract base type used to provide OPC UA DataType definitions for an OPC UA Binary encoded byte blob used outside an OPC UA Server AddressSpace.
+
+ The DataTypeSchemaHeader is formally defined in Table A.1.  
 <!-- end of description -->
 The fields of the DataTypeSchemaHeader DataType are defined in the following table:  
 
@@ -15,9 +18,12 @@ The representation of the DataTypeSchemaHeader DataType in the address space is 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15534|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataTypeSchemaHeader|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 
 The references from the DataTypeSchemaHeader DataType Node are shown in the following table:  
 

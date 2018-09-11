@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## DeviceType
 Defines the basic information components for all configurable elements in a device topology  
+<!-- end of text -->
 The representation of the DeviceType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=1002|
+|NamespaceUri|http://opcfoundation.org/UA/DI/|
 |BrowseName|DeviceType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[TopologyElementType](../../ObjectTypes/TopologyElementType/readme.md)|
+|Categories||
 
 The references from the DeviceType ObjectType Node are shown in the following table:  
 

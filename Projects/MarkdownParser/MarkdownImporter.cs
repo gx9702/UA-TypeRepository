@@ -465,18 +465,6 @@ namespace MarkdownProcessor
                 }
             }
 
-            while (start < document.Count)
-            {
-                Table table = document[start++] as Table;
-
-                if (table != null)
-                {
-                    references = ParseGenericTable(table);
-                    break;
-
-                }
-            }
-
             if (attributes != null)
             {
                 entry.NodeClass = Opc.Ua.NodeClass.ObjectType;
@@ -545,11 +533,13 @@ namespace MarkdownProcessor
                     {
                         var categories = name.Split(',');
 
+                        entry.Categories = new List<string>();
+
                         foreach (var category in categories)
                         {
-                            //if (!String.IsNullOrEmpty(name) && !entry.Categories.Contains(category))
+                            if (!String.IsNullOrEmpty(name) && !entry.Categories.Contains(category))
                             {
-                                //entry.Categories.Add(category);
+                                entry.Categories.Add(category);
                             }
                         }
                     }
@@ -650,6 +640,26 @@ namespace MarkdownProcessor
                         Name = cell.Text,
                         Path = cell.Link
                     };
+                }
+
+                if (attributes.TryGetValue("Categories", out cell))
+                {
+                    var name = cell.Text;
+
+                    if (!String.IsNullOrEmpty(name))
+                    {
+                        var categories = name.Split(',');
+
+                        entry.Categories = new List<string>();
+
+                        foreach (var category in categories)
+                        {
+                            if (!String.IsNullOrEmpty(name) && !entry.Categories.Contains(category))
+                            {
+                                entry.Categories.Add(category);
+                            }
+                        }
+                    }
                 }
             }
 

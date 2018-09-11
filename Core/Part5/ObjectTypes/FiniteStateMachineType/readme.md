@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## FiniteStateMachineType
   
+<!-- end of text -->
 The representation of the FiniteStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2771|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|FiniteStateMachineType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[StateMachineType](../../../Part5/ObjectTypes/StateMachineType/readme.md)|
+|Categories|Part5|
 
 The references from the FiniteStateMachineType ObjectType Node are shown in the following table:  
 

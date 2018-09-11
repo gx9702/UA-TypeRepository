@@ -12,9 +12,12 @@ The representation of the Number DataType in the address space is shown in the f
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=26|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Number|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)|
+|Categories|Part3|
 
 The references from the Number DataType Node are shown in the following table:  
 

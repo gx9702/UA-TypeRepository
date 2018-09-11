@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## CertificateUpdatedAuditEventType
   
+<!-- end of text -->
 The representation of the CertificateUpdatedAuditEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12620|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CertificateUpdatedAuditEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[AuditUpdateMethodEventType](../../../Part5/ObjectTypes/AuditUpdateMethodEventType/readme.md)|
+|Categories|Part12|
 
 The references from the CertificateUpdatedAuditEventType ObjectType Node are shown in the following table:  
 

@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## TrustListType
   
+<!-- end of text -->
 The representation of the TrustListType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12522|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|TrustListType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FileType](../../../Part5/ObjectTypes/FileType/readme.md)|
+|Categories|Part12|
 
 The references from the TrustListType ObjectType Node are shown in the following table:  
 

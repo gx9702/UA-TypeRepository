@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AnalyserChannel_OperatingModeSubStateMachineType
 AnalyserChannel OperatingMode SubStateMachine  
+<!-- end of text -->
 The representation of the AnalyserChannel_OperatingModeSubStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=1008|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|AnalyserChannel_OperatingModeSubStateMachineType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FiniteStateMachineType](../../../Core/Part5/ObjectTypes/FiniteStateMachineType/readme.md)|
+|Categories||
 
 The references from the AnalyserChannel_OperatingModeSubStateMachineType ObjectType Node are shown in the following table:  
 

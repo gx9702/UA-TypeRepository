@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AnalyserChannelOperatingExecuteStateType
   
+<!-- end of text -->
 The representation of the AnalyserChannelOperatingExecuteStateType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=8964|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|AnalyserChannelOperatingExecuteStateType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[StateType](../../../Core/Part5/ObjectTypes/StateType/readme.md)|
+|Categories||
 
 The references from the AnalyserChannelOperatingExecuteStateType ObjectType Node are shown in the following table:  
 

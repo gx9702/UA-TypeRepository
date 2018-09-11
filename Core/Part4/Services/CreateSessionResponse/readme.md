@@ -22,7 +22,10 @@ The representation of the CreateSessionResponse DataType in the address space is
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=462|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CreateSessionResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

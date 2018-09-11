@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## BrokerDataSetReaderTransportDataType
+  
 <!-- end of description -->
 The fields of the BrokerDataSetReaderTransportDataType DataType are defined in the following table:  
 
@@ -16,7 +17,10 @@ The representation of the BrokerDataSetReaderTransportDataType DataType in the a
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15670|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BrokerDataSetReaderTransportDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataSetReaderTransportDataType](../../../Part14/DataTypes/DataSetReaderTransportDataType/readme.md)|
+|Categories|Part14|
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ContentFilter
+  
 <!-- end of description -->
 The fields of the ContentFilter DataType are defined in the following table:  
 
@@ -12,7 +13,10 @@ The representation of the ContentFilter DataType in the address space is shown i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=586|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ContentFilter|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4|
 

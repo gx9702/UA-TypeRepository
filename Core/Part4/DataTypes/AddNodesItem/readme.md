@@ -19,7 +19,10 @@ The representation of the AddNodesItem DataType in the address space is shown in
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=376|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AddNodesItem|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4|
 

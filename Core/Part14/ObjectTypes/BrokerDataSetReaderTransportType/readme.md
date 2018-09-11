@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## BrokerDataSetReaderTransportType
-  
+This ObjectType represents datagram transport protocol mapping specific parameters for a DataSetReader. The BrokerDataSetReaderTransportType is formally defined in Table 170.  
+<!-- end of text -->
 The representation of the BrokerDataSetReaderTransportType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=21142|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BrokerDataSetReaderTransportType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataSetReaderTransportType](../../../Part14/ObjectTypes/DataSetReaderTransportType/readme.md)|
+|Categories|Part14|
 
 The references from the BrokerDataSetReaderTransportType ObjectType Node are shown in the following table:  
 

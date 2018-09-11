@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## FetchResultDataDataType
+  
 <!-- end of description -->
 The fields of the FetchResultDataDataType DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the FetchResultDataDataType DataType in the address space 
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=6524|
+|NamespaceUri|http://opcfoundation.org/UA/DI/|
 |BrowseName|FetchResultDataDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FetchResultDataType](../../DataTypes/FetchResultDataType/readme.md)|
+|Categories||
 

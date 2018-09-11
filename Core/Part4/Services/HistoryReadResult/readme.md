@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## HistoryReadResult
+  
 <!-- end of description -->
 The fields of the HistoryReadResult DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the HistoryReadResult DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=638|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|HistoryReadResult|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

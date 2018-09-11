@@ -1,14 +1,24 @@
 <!-- objecttype -->
 ## PublishedDataSetType
-  
+This ObjectType is the base type for PublishedDataSets. It defines the metadata and the configuration version of the DataSets sent as DataSetMessages through DataSetWriters.
+
+The PublishedDataSetType is the base type for configurable DataSets. Derived types like PublishedDataItemsType and PublishedEventsType defines how to collect the DataSet to be published. For PublishedDataItemsType this is a list of monitored Variables. For PublishedEventsType this is an Event selection. The list of monitored Variables or the list of selected EventFields defines the content and metadata of the PublishedDataSetType Object.
+
+If the content of the DataSet is defined by a product specific configuration and the source of the DataSet is not known, the PublishedDataSetType can be used directly to expose the PublishedDataSet in the AddressSpace of the Publisher.
+
+The PublishedDataSetType is formally defined in Table 105.  
+<!-- end of text -->
 The representation of the PublishedDataSetType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=14509|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PublishedDataSetType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part14|
 
 The references from the PublishedDataSetType ObjectType Node are shown in the following table:  
 

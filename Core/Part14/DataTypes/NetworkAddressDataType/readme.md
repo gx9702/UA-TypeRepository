@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## NetworkAddressDataType
+Subtypes of this abstract Structure DataType are used to represent network address information. The NetworkAddressDataType is formally defined in Table 28.  
 <!-- end of description -->
 The fields of the NetworkAddressDataType DataType are defined in the following table:  
 
@@ -12,9 +13,12 @@ The representation of the NetworkAddressDataType DataType in the address space i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15502|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NetworkAddressDataType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 
 The references from the NetworkAddressDataType DataType Node are shown in the following table:  
 

@@ -17,7 +17,10 @@ The representation of the VariableTypeNode DataType in the address space is show
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=270|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|VariableTypeNode|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[TypeNode](../../../Part3/Services/TypeNode/readme.md)|
+|Categories|Part3/Services|
 

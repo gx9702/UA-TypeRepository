@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## MVAModelType
 Hold the descriptions of a mathematical process and associated information to convert scaled data into one or more process values.  
+<!-- end of text -->
 The representation of the MVAModelType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=2009|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|MVAModelType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[ByteString](../../../Core/Part3/DataTypes/ByteString/readme.md)|
+|ValueRank|-2|
+|IsAbstract|False|
 |BaseType|[ChemometricModelType](../../VariableTypes/ChemometricModelType/readme.md)|
+|Categories||
 
 The references from the MVAModelType VariableType Node are shown in the following table:  
 

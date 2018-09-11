@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AccessorySlotStateMachineType
 Describes the behaviour of an AccessorySlot when a physical accessory is inserted or removed.  
+<!-- end of text -->
 The representation of the AccessorySlotStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=1018|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|AccessorySlotStateMachineType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FiniteStateMachineType](../../../Core/Part5/ObjectTypes/FiniteStateMachineType/readme.md)|
+|Categories||
 
 The references from the AccessorySlotStateMachineType ObjectType Node are shown in the following table:  
 

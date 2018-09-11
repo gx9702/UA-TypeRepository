@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## HistoryData
+  
 <!-- end of description -->
 The fields of the HistoryData DataType are defined in the following table:  
 
@@ -12,9 +13,12 @@ The representation of the HistoryData DataType in the address space is shown in 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=656|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|HistoryData|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 
 The references from the HistoryData DataType Node are shown in the following table:  
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## JsonWriterGroupMessageDataType
+  
 <!-- end of description -->
 The fields of the JsonWriterGroupMessageDataType DataType are defined in the following table:  
 
@@ -12,7 +13,10 @@ The representation of the JsonWriterGroupMessageDataType DataType in the address
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15657|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|JsonWriterGroupMessageDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[WriterGroupMessageDataType](../../../Part14/DataTypes/WriterGroupMessageDataType/readme.md)|
+|Categories|Part14|
 

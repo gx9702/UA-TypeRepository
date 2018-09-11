@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AuditEventType
 A base type for events used to track client initiated changes to the server state.  
+<!-- end of text -->
 The representation of the AuditEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2052|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuditEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseEventType](../../../Part5/ObjectTypes/BaseEventType/readme.md)|
+|Categories|Part5|
 
 The references from the AuditEventType ObjectType Node are shown in the following table:  
 

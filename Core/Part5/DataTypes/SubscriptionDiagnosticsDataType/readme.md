@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SubscriptionDiagnosticsDataType
+  
 <!-- end of description -->
 The fields of the SubscriptionDiagnosticsDataType DataType are defined in the following table:  
 
@@ -42,7 +43,10 @@ The representation of the SubscriptionDiagnosticsDataType DataType in the addres
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=874|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SubscriptionDiagnosticsDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part5|
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## AggregateFilterResult
+  
 <!-- end of description -->
 The fields of the AggregateFilterResult DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the AggregateFilterResult DataType in the address space is
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=737|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AggregateFilterResult|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[MonitoringFilterResult](../../../Part4/Services/MonitoringFilterResult/readme.md)|
+|Categories|Part4/Services|
 

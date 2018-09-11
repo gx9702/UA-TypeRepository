@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## HistoryReadDetails
+  
 <!-- end of description -->
 The fields of the HistoryReadDetails DataType are defined in the following table:  
 
@@ -11,9 +12,12 @@ The representation of the HistoryReadDetails DataType in the address space is sh
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=641|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|HistoryReadDetails|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 
 The references from the HistoryReadDetails DataType Node are shown in the following table:  
 

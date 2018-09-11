@@ -58,12 +58,14 @@
     <DisplayName>BaseDataType</DisplayName>
     <Description>Describes a value that can have any valid DataType.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that can have any valid DataType.</Documentation>
     <References />
   </UADataType>
   <UADataType NodeId="i=26" BrowseName="Number" IsAbstract="true">
     <DisplayName>Number</DisplayName>
     <Description>Describes a value that can have any numeric DataType.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that can have any numeric DataType.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -72,6 +74,7 @@
     <DisplayName>Integer</DisplayName>
     <Description>Describes a value that can have any integer DataType.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that can have any integer DataType.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=26</Reference>
     </References>
@@ -80,6 +83,7 @@
     <DisplayName>UInteger</DisplayName>
     <Description>Describes a value that can have any unsigned integer DataType.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that can have any unsigned integer DataType.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=26</Reference>
     </References>
@@ -88,6 +92,7 @@
     <DisplayName>Enumeration</DisplayName>
     <Description>Describes a value that is an enumerated DataType.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an enumerated DataType.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -96,6 +101,7 @@
     <DisplayName>Boolean</DisplayName>
     <Description>Describes a value that is either TRUE or FALSE.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is either TRUE or FALSE.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -104,6 +110,7 @@
     <DisplayName>SByte</DisplayName>
     <Description>Describes a value that is an integer between -128 and 127.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an integer between -128 and 127.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=27</Reference>
     </References>
@@ -112,6 +119,7 @@
     <DisplayName>Byte</DisplayName>
     <Description>Describes a value that is an integer between 0 and 255.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an integer between 0 and 255.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=28</Reference>
     </References>
@@ -120,6 +128,7 @@
     <DisplayName>Int16</DisplayName>
     <Description>Describes a value that is an integer between −32,768 and 32,767.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an integer between −32,768 and 32,767.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=27</Reference>
     </References>
@@ -128,6 +137,7 @@
     <DisplayName>UInt16</DisplayName>
     <Description>Describes a value that is an integer between 0 and 65535.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an integer between 0 and 65535.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=28</Reference>
     </References>
@@ -136,6 +146,7 @@
     <DisplayName>Int32</DisplayName>
     <Description>Describes a value that is an integer between −2,147,483,648  and 2,147,483,647.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an integer between −2,147,483,648  and 2,147,483,647.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=27</Reference>
     </References>
@@ -144,6 +155,7 @@
     <DisplayName>UInt32</DisplayName>
     <Description>Describes a value that is an integer between 0 and 4,294,967,295.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an integer between 0 and 4,294,967,295.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=28</Reference>
     </References>
@@ -152,6 +164,7 @@
     <DisplayName>Int64</DisplayName>
     <Description>Describes a value that is an integer between −9,223,372,036,854,775,808 and 9,223,372,036,854,775,807.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an integer between −9,223,372,036,854,775,808 and 9,223,372,036,854,775,807.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=27</Reference>
     </References>
@@ -160,6 +173,7 @@
     <DisplayName>UInt64</DisplayName>
     <Description>Describes a value that is an integer between 0 and 18,446,744,073,709,551,615.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an integer between 0 and 18,446,744,073,709,551,615.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=28</Reference>
     </References>
@@ -168,6 +182,7 @@
     <DisplayName>Float</DisplayName>
     <Description>Describes a value that is an IEEE 754-1985 single precision floating point number.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an IEEE 754-1985 single precision floating point number.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=26</Reference>
     </References>
@@ -176,6 +191,7 @@
     <DisplayName>Double</DisplayName>
     <Description>Describes a value that is an IEEE 754-1985 double precision floating point number.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an IEEE 754-1985 double precision floating point number.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=26</Reference>
     </References>
@@ -184,6 +200,7 @@
     <DisplayName>String</DisplayName>
     <Description>Describes a value that is a sequence of printable Unicode characters.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is a sequence of printable Unicode characters.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -192,6 +209,7 @@
     <DisplayName>DateTime</DisplayName>
     <Description>Describes a value that is a Gregorian calender date and time.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is a Gregorian calender date and time.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -200,6 +218,7 @@
     <DisplayName>Guid</DisplayName>
     <Description>Describes a value that is a 128-bit globally unique identifier.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is a 128-bit globally unique identifier.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -208,6 +227,7 @@
     <DisplayName>ByteString</DisplayName>
     <Description>Describes a value that is a sequence of bytes.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is a sequence of bytes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -216,6 +236,7 @@
     <DisplayName>XmlElement</DisplayName>
     <Description>Describes a value that is an XML element.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an XML element.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -224,6 +245,7 @@
     <DisplayName>NodeId</DisplayName>
     <Description>Describes a value that is an identifier for a node within a Server address space.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an identifier for a node within a Server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -232,6 +254,7 @@
     <DisplayName>ExpandedNodeId</DisplayName>
     <Description>Describes a value that is an absolute identifier for a node.</Description>
     <Category>Part4</Category>
+    <Documentation>Describes a value that is an absolute identifier for a node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -240,6 +263,7 @@
     <DisplayName>StatusCode</DisplayName>
     <Description>Describes a value that is a code representing the outcome of an operation by a Server.</Description>
     <Category>Part4</Category>
+    <Documentation>Describes a value that is a code representing the outcome of an operation by a Server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -248,6 +272,7 @@
     <DisplayName>QualifiedName</DisplayName>
     <Description>Describes a value that is a name qualified by a namespace.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is a name qualified by a namespace.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -256,6 +281,7 @@
     <DisplayName>LocalizedText</DisplayName>
     <Description>Describes a value that is human readable Unicode text with a locale identifier.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is human readable Unicode text with a locale identifier.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -264,6 +290,7 @@
     <DisplayName>Structure</DisplayName>
     <Description>Describes a value that is any type of structure that can be described with a data encoding.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is any type of structure that can be described with a data encoding.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -272,6 +299,7 @@
     <DisplayName>DataValue</DisplayName>
     <Description>Describes a value that is a structure containing a value, a status code and timestamps.</Description>
     <Category>Part4</Category>
+    <Documentation>Describes a value that is a structure containing a value, a status code and timestamps.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -280,6 +308,7 @@
     <DisplayName>DiagnosticInfo</DisplayName>
     <Description>Describes a value that is a structure containing diagnostics associated with a StatusCode.</Description>
     <Category>Part4</Category>
+    <Documentation>Describes a value that is a structure containing diagnostics associated with a StatusCode.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=24</Reference>
     </References>
@@ -288,6 +317,7 @@
     <DisplayName>Image</DisplayName>
     <Description>Describes a value that is an image encoded as a string of bytes.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that is an image encoded as a string of bytes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15</Reference>
     </References>
@@ -296,6 +326,7 @@
     <DisplayName>Decimal</DisplayName>
     <Description>Describes an arbitrary precision decimal value.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes an arbitrary precision decimal value.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=26</Reference>
     </References>
@@ -304,12 +335,14 @@
     <DisplayName>References</DisplayName>
     <Description>The abstract base type for all references.</Description>
     <Category>Part3</Category>
+    <Documentation>The abstract base type for all references.</Documentation>
     <References />
   </UAReferenceType>
   <UAReferenceType NodeId="i=32" BrowseName="NonHierarchicalReferences" IsAbstract="true">
     <DisplayName>NonHierarchicalReferences</DisplayName>
     <Description>The abstract base type for all non-hierarchical references.</Description>
     <Category>Part3</Category>
+    <Documentation>The abstract base type for all non-hierarchical references.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=31</Reference>
     </References>
@@ -319,6 +352,7 @@
     <DisplayName>HierarchicalReferences</DisplayName>
     <Description>The abstract base type for all hierarchical references.</Description>
     <Category>Part3</Category>
+    <Documentation>The abstract base type for all hierarchical references.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=31</Reference>
     </References>
@@ -328,6 +362,7 @@
     <DisplayName>HasChild</DisplayName>
     <Description>The abstract base type for all non-looping hierarchical references.</Description>
     <Category>Part3</Category>
+    <Documentation>The abstract base type for all non-looping hierarchical references.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=33</Reference>
     </References>
@@ -337,6 +372,7 @@
     <DisplayName>Organizes</DisplayName>
     <Description>The type for hierarchical references that are used to organize nodes.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for hierarchical references that are used to organize nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=33</Reference>
     </References>
@@ -346,6 +382,7 @@
     <DisplayName>HasEventSource</DisplayName>
     <Description>The type for non-looping hierarchical references that are used to organize event sources.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for non-looping hierarchical references that are used to organize event sources.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=33</Reference>
     </References>
@@ -355,6 +392,7 @@
     <DisplayName>HasModellingRule</DisplayName>
     <Description>The type for references from instance declarations to modelling rule nodes.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for references from instance declarations to modelling rule nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=32</Reference>
     </References>
@@ -364,6 +402,7 @@
     <DisplayName>HasEncoding</DisplayName>
     <Description>The type for references from data type nodes to to data type encoding nodes.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for references from data type nodes to to data type encoding nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=32</Reference>
     </References>
@@ -373,6 +412,7 @@
     <DisplayName>HasDescription</DisplayName>
     <Description>The type for references from data type encoding nodes to data type description nodes.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for references from data type encoding nodes to data type description nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=32</Reference>
     </References>
@@ -382,6 +422,7 @@
     <DisplayName>HasTypeDefinition</DisplayName>
     <Description>The type for references from a instance node its type defintion node.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for references from a instance node its type defintion node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=32</Reference>
     </References>
@@ -391,6 +432,7 @@
     <DisplayName>GeneratesEvent</DisplayName>
     <Description>The type for references from a node to an event type that is raised by node.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for references from a node to an event type that is raised by node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=32</Reference>
     </References>
@@ -400,6 +442,7 @@
     <DisplayName>AlwaysGeneratesEvent</DisplayName>
     <Description>The type for references from a node to an event type that is always raised by node.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for references from a node to an event type that is always raised by node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=41</Reference>
     </References>
@@ -409,6 +452,7 @@
     <DisplayName>Aggregates</DisplayName>
     <Description>The type for non-looping hierarchical references that are used to aggregate nodes into complex types.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for non-looping hierarchical references that are used to aggregate nodes into complex types.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=34</Reference>
     </References>
@@ -418,6 +462,7 @@
     <DisplayName>HasSubtype</DisplayName>
     <Description>The type for non-looping hierarchical references that are used to define sub types.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for non-looping hierarchical references that are used to define sub types.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=34</Reference>
     </References>
@@ -427,6 +472,7 @@
     <DisplayName>HasProperty</DisplayName>
     <Description>The type for non-looping hierarchical reference from a node to its property.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for non-looping hierarchical reference from a node to its property.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=44</Reference>
     </References>
@@ -436,6 +482,7 @@
     <DisplayName>HasComponent</DisplayName>
     <Description>The type for non-looping hierarchical reference from a node to its component.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for non-looping hierarchical reference from a node to its component.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=44</Reference>
     </References>
@@ -445,6 +492,7 @@
     <DisplayName>HasNotifier</DisplayName>
     <Description>The type for non-looping hierarchical references that are used to indicate how events propagate from node to node.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for non-looping hierarchical references that are used to indicate how events propagate from node to node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=36</Reference>
     </References>
@@ -454,6 +502,7 @@
     <DisplayName>HasOrderedComponent</DisplayName>
     <Description>The type for non-looping hierarchical reference from a node to its component when the order of references matters.</Description>
     <Category>Part3</Category>
+    <Documentation>The type for non-looping hierarchical reference from a node to its component when the order of references matters.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=47</Reference>
     </References>
@@ -463,6 +512,7 @@
     <DisplayName>FromState</DisplayName>
     <Description>The type for a reference to the state before a transition.</Description>
     <Category>Part5</Category>
+    <Documentation>The type for a reference to the state before a transition.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=32</Reference>
     </References>
@@ -472,6 +522,7 @@
     <DisplayName>ToState</DisplayName>
     <Description>The type for a reference to the state after a transition.</Description>
     <Category>Part5</Category>
+    <Documentation>The type for a reference to the state after a transition.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=32</Reference>
     </References>
@@ -481,6 +532,7 @@
     <DisplayName>HasCause</DisplayName>
     <Description>The type for a reference to a method that can cause a transition to occur.</Description>
     <Category>Part5</Category>
+    <Documentation>The type for a reference to a method that can cause a transition to occur.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=32</Reference>
     </References>
@@ -490,6 +542,7 @@
     <DisplayName>HasEffect</DisplayName>
     <Description>The type for a reference to an event that may be raised when a transition occurs.</Description>
     <Category>Part5</Category>
+    <Documentation>The type for a reference to an event that may be raised when a transition occurs.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=32</Reference>
     </References>
@@ -499,6 +552,7 @@
     <DisplayName>HasSubStateMachine</DisplayName>
     <Description>The type for a reference to a substate for a state.</Description>
     <Category>Part5</Category>
+    <Documentation>The type for a reference to a substate for a state.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=32</Reference>
     </References>
@@ -508,6 +562,7 @@
     <DisplayName>HasHistoricalConfiguration</DisplayName>
     <Description>The type for a reference to the historical configuration for a data variable.</Description>
     <Category>Part11</Category>
+    <Documentation>The type for a reference to the historical configuration for a data variable.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=44</Reference>
     </References>
@@ -517,12 +572,14 @@
     <DisplayName>BaseObjectType</DisplayName>
     <Description>The base type for all object nodes.</Description>
     <Category>Part5</Category>
+    <Documentation>The base type for all object nodes.</Documentation>
     <References />
   </UAObjectType>
   <UAObjectType NodeId="i=61" BrowseName="FolderType">
     <DisplayName>FolderType</DisplayName>
     <Description>The type for objects that organize other nodes.</Description>
     <Category>Part5</Category>
+    <Documentation>The type for objects that organize other nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
     </References>
@@ -531,12 +588,14 @@
     <DisplayName>BaseVariableType</DisplayName>
     <Description>The abstract base type for all variable nodes.</Description>
     <Category>Part5</Category>
+    <Documentation>The abstract base type for all variable nodes.</Documentation>
     <References />
   </UAVariableType>
   <UAVariableType NodeId="i=63" BrowseName="BaseDataVariableType" ValueRank="-2">
     <DisplayName>BaseDataVariableType</DisplayName>
     <Description>The type for variable that represents a process value.</Description>
     <Category>Part5</Category>
+    <Documentation>The type for variable that represents a process value.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=62</Reference>
     </References>
@@ -545,6 +604,7 @@
     <DisplayName>PropertyType</DisplayName>
     <Description>The type for variable that represents a property of another node.</Description>
     <Category>Part5</Category>
+    <Documentation>The type for variable that represents a property of another node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=62</Reference>
     </References>
@@ -553,6 +613,7 @@
     <DisplayName>DataTypeDescriptionType</DisplayName>
     <Description>The type for variable that represents the description of a data type encoding.</Description>
     <Category>Part5</Category>
+    <Documentation>The type for variable that represents the description of a data type encoding.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=104</Reference>
       <Reference ReferenceType="HasProperty">i=105</Reference>
@@ -581,6 +642,7 @@
     <DisplayName>DataTypeDictionaryType</DisplayName>
     <Description>The type for variable that represents the collection of data type decriptions.</Description>
     <Category>Part5</Category>
+    <Documentation>The type for variable that represents the collection of data type decriptions.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=106</Reference>
       <Reference ReferenceType="HasProperty">i=107</Reference>
@@ -633,6 +695,7 @@
     <DisplayName>NamingRuleType</DisplayName>
     <Description>Describes a value that specifies the significance of the BrowseName for an instance declaration.</Description>
     <Category>Part3</Category>
+    <Documentation>Describes a value that specifies the significance of the BrowseName for an instance declaration.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=12169</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
@@ -725,6 +788,7 @@
     <DisplayName>ModellingRuleType</DisplayName>
     <Description>The type for an object that describes how an instance declaration is used when a type is instantiated.</Description>
     <Category>Part5</Category>
+    <Documentation>The type for an object that describes how an instance declaration is used when a type is instantiated.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=111</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
@@ -1214,6 +1278,7 @@
     <DisplayName>ImageBMP</DisplayName>
     <Description>An image encoded in BMP format.</Description>
     <Category>Part3</Category>
+    <Documentation>An image encoded in BMP format.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=30</Reference>
     </References>
@@ -1222,6 +1287,7 @@
     <DisplayName>ImageGIF</DisplayName>
     <Description>An image encoded in GIF format.</Description>
     <Category>Part3</Category>
+    <Documentation>An image encoded in GIF format.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=30</Reference>
     </References>
@@ -1230,6 +1296,7 @@
     <DisplayName>ImageJPG</DisplayName>
     <Description>An image encoded in JPEG format.</Description>
     <Category>Part3</Category>
+    <Documentation>An image encoded in JPEG format.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=30</Reference>
     </References>
@@ -1238,6 +1305,7 @@
     <DisplayName>ImagePNG</DisplayName>
     <Description>An image encoded in PNG format.</Description>
     <Category>Part3</Category>
+    <Documentation>An image encoded in PNG format.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=30</Reference>
     </References>
@@ -1246,6 +1314,7 @@
     <DisplayName>AudioDataType</DisplayName>
     <Description>An image encoded in PNG format.</Description>
     <Category>Part3</Category>
+    <Documentation>An image encoded in PNG format.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15</Reference>
     </References>
@@ -1254,6 +1323,7 @@
     <DisplayName>ServerType</DisplayName>
     <Description>Specifies the current status and capabilities of the server.</Description>
     <Category>Part5</Category>
+    <Documentation>Specifies the current status and capabilities of the server.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=2005</Reference>
       <Reference ReferenceType="HasProperty">i=2006</Reference>
@@ -2070,6 +2140,7 @@
     <DisplayName>ServerCapabilitiesType</DisplayName>
     <Description>Describes the capabilities supported by the server.</Description>
     <Category>Part5</Category>
+    <Documentation>Describes the capabilities supported by the server.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=2014</Reference>
       <Reference ReferenceType="HasProperty">i=2016</Reference>
@@ -2346,6 +2417,7 @@
     <DisplayName>ServerDiagnosticsType</DisplayName>
     <Description>The diagnostics information for a server.</Description>
     <Category>Part5</Category>
+    <Documentation>The diagnostics information for a server.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=2021</Reference>
       <Reference ReferenceType="HasComponent">i=2022</Reference>
@@ -2532,6 +2604,7 @@
     <DisplayName>SessionsDiagnosticsSummaryType</DisplayName>
     <Description>Provides a summary of session level diagnostics.</Description>
     <Category>Part5</Category>
+    <Documentation>Provides a summary of session level diagnostics.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=2027</Reference>
       <Reference ReferenceType="HasComponent">i=2028</Reference>
@@ -3067,6 +3140,7 @@
     <DisplayName>SessionDiagnosticsObjectType</DisplayName>
     <Description>A container for session level diagnostics information.</Description>
     <Category>Part5</Category>
+    <Documentation>A container for session level diagnostics information.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=2030</Reference>
       <Reference ReferenceType="HasComponent">i=2031</Reference>
@@ -3573,6 +3647,7 @@
     <DisplayName>VendorServerInfoType</DisplayName>
     <Description>A base type for vendor specific server information.</Description>
     <Category>Part5</Category>
+    <Documentation>A base type for vendor specific server information.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
     </References>
@@ -3581,6 +3656,7 @@
     <DisplayName>ServerRedundancyType</DisplayName>
     <Description>A base type for an object that describe how a server supports redundancy.</Description>
     <Category>Part5</Category>
+    <Documentation>A base type for an object that describe how a server supports redundancy.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=2035</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
@@ -3599,6 +3675,7 @@
     <DisplayName>TransparentRedundancyType</DisplayName>
     <Description>Identifies the capabilties of server that supports transparent redundancy.</Description>
     <Category>Part5</Category>
+    <Documentation>Identifies the capabilties of server that supports transparent redundancy.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=2037</Reference>
       <Reference ReferenceType="HasProperty">i=2038</Reference>
@@ -3627,6 +3704,7 @@
     <DisplayName>NonTransparentRedundancyType</DisplayName>
     <Description>Identifies the capabilties of server that supports non-transparent redundancy.</Description>
     <Category>Part5</Category>
+    <Documentation>Identifies the capabilties of server that supports non-transparent redundancy.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=2040</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=2034</Reference>
@@ -3661,6 +3739,7 @@
     <DisplayName>OperationLimitsType</DisplayName>
     <Description>Identifies the operation limits imposed by the server.</Description>
     <Category>Part5</Category>
+    <Documentation>Identifies the operation limits imposed by the server.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=11565</Reference>
       <Reference ReferenceType="HasProperty">i=12161</Reference>
@@ -3789,6 +3868,7 @@
     <DisplayName>FileType</DisplayName>
     <Description>An object that represents a file that can be accessed via the server.</Description>
     <Category>Part5</Category>
+    <Documentation>An object that represents a file that can be accessed via the server.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=11576</Reference>
       <Reference ReferenceType="HasProperty">i=12686</Reference>
@@ -4204,6 +4284,7 @@
     <DisplayName>AddressSpaceFileType</DisplayName>
     <Description>A file used to store a namespace exported from the server.</Description>
     <Category>Part5</Category>
+    <Documentation>A file used to store a namespace exported from the server.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=11615</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=11575</Reference>
@@ -4221,6 +4302,7 @@
     <DisplayName>NamespaceMetadataType</DisplayName>
     <Description>Provides the metadata for a namespace used by the server.</Description>
     <Category>Part5</Category>
+    <Documentation>Provides the metadata for a namespace used by the server.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=11617</Reference>
       <Reference ReferenceType="HasProperty">i=11618</Reference>
@@ -4733,6 +4815,7 @@
     <DisplayName>NamespacesType</DisplayName>
     <Description>A container for the namespace metadata provided by the server.</Description>
     <Category>Part5</Category>
+    <Documentation>A container for the namespace metadata provided by the server.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=11646</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
@@ -4820,6 +4903,7 @@
     <DisplayName>BaseEventType</DisplayName>
     <Description>The base type for all events.</Description>
     <Category>Part5</Category>
+    <Documentation>The base type for all events.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=2042</Reference>
       <Reference ReferenceType="HasProperty">i=2043</Reference>
@@ -4918,6 +5002,7 @@
     <DisplayName>AuditEventType</DisplayName>
     <Description>A base type for events used to track client initiated changes to the server state.</Description>
     <Category>Part5</Category>
+    <Documentation>A base type for events used to track client initiated changes to the server state.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=2053</Reference>
       <Reference ReferenceType="HasProperty">i=2054</Reference>
@@ -4976,6 +5061,7 @@
     <DisplayName>AuditSecurityEventType</DisplayName>
     <Description>A base type for events used to track security related changes.</Description>
     <Category>Part5</Category>
+    <Documentation>A base type for events used to track security related changes.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=17615</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=2052</Reference>
@@ -4993,6 +5079,7 @@
     <DisplayName>AuditChannelEventType</DisplayName>
     <Description>A base type for events used to track related changes to a secure channel.</Description>
     <Category>Part5</Category>
+    <Documentation>A base type for events used to track related changes to a secure channel.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=2745</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=2058</Reference>
@@ -5011,6 +5098,7 @@
     <DisplayName>AuditOpenSecureChannelEventType</DisplayName>
     <Description>An event that is raised when a secure channel is opened.</Description>
     <Category>Part5</Category>
+    <Documentation>An event that is raised when a secure channel is opened.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=2061</Reference>
       <Reference ReferenceType="HasProperty">i=2746</Reference>
@@ -5079,6 +5167,7 @@
     <DisplayName>AuditSessionEventType</DisplayName>
     <Description>A base type for events used to track related changes to a session.</Description>
     <Category>Part5</Category>
+    <Documentation>A base type for events used to track related changes to a session.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=2070</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=2058</Reference>
@@ -5097,6 +5186,7 @@
     <DisplayName>AuditCreateSessionEventType</DisplayName>
     <Description>An event that is raised when a session is created.</Description>
     <Category>Part5</Category>
+    <Documentation>An event that is raised when a session is created.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=2072</Reference>
       <Reference ReferenceType="HasProperty">i=2073</Reference>
@@ -8791,6 +8881,7 @@
     <DisplayName>BitFieldMaskDataType</DisplayName>
     <Description>A mask of 32 bits that can be updated individually by using the top 32 bits as a mask.</Description>
     <Category>Part5</Category>
+    <Documentation>A mask of 32 bits that can be updated individually by using the top 32 bits as a mask.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=9</Reference>
     </References>
@@ -9183,10 +9274,18 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="OpenFileMode">
-      <Field Name="Read" Value="1" />
-      <Field Name="Write" Value="2" />
-      <Field Name="EraseExisting" Value="4" />
-      <Field Name="Append" Value="8" />
+      <Field Name="Read" Value="1">
+        <Description />
+      </Field>
+      <Field Name="Write" Value="2">
+        <Description />
+      </Field>
+      <Field Name="EraseExisting" Value="4">
+        <Description />
+      </Field>
+      <Field Name="Append" Value="8">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=11940" BrowseName="EnumValues" ParentNodeId="i=11939" DataType="i=7594" ValueRank="1">
@@ -11226,6 +11325,7 @@
     <DisplayName>RoleSetType</DisplayName>
     <Description>A container for the roles supported by the server.</Description>
     <Category>Part5</Category>
+    <Documentation>A container for the roles supported by the server.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=15608</Reference>
       <Reference ReferenceType="HasComponent">i=15997</Reference>
@@ -11649,12 +11749,24 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="IdentityCriteriaType">
-      <Field Name="UserName" Value="1" />
-      <Field Name="Thumbprint" Value="2" />
-      <Field Name="Role" Value="3" />
-      <Field Name="GroupId" Value="4" />
-      <Field Name="Anonymous" Value="5" />
-      <Field Name="AuthenticatedUser" Value="6" />
+      <Field Name="UserName" Value="1">
+        <Description />
+      </Field>
+      <Field Name="Thumbprint" Value="2">
+        <Description />
+      </Field>
+      <Field Name="Role" Value="3">
+        <Description />
+      </Field>
+      <Field Name="GroupId" Value="4">
+        <Description />
+      </Field>
+      <Field Name="Anonymous" Value="5">
+        <Description />
+      </Field>
+      <Field Name="AuthenticatedUser" Value="6">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15633" BrowseName="EnumValues" ParentNodeId="i=15632" DataType="i=7594" ValueRank="1">
@@ -13982,7 +14094,6 @@
   <UAVariableType NodeId="i=2372" BrowseName="DiscreteItemType" IsAbstract="true" ValueRank="-2">
     <DisplayName>DiscreteItemType</DisplayName>
     <Category>Part8</Category>
-    <Documentation />
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=2365</Reference>
     </References>
@@ -14059,7 +14170,6 @@
   <UAVariableType NodeId="i=12021" BrowseName="ArrayItemType" IsAbstract="true" ValueRank="0">
     <DisplayName>ArrayItemType</DisplayName>
     <Category>Part8</Category>
-    <Documentation />
     <References>
       <Reference ReferenceType="HasProperty">i=12024</Reference>
       <Reference ReferenceType="HasProperty">i=12025</Reference>
@@ -14146,7 +14256,8 @@
   <UAVariableType NodeId="i=12047" BrowseName="ImageItemType" ValueRank="2" ArrayDimensions="0,0">
     <DisplayName>ImageItemType</DisplayName>
     <Category>Part8</Category>
-    <Documentation>ImageItemType defines the general characteristics of an ImageItem which represents a matrix of values like an image, where the pixel position is given by X which is the column and Y the row. The value is the pixel intensity.ImageItemType is formally defined in Table 11.</Documentation>
+    <Documentation>ImageItemType defines the general characteristics of an ImageItem which represents a matrix of values like an image, where the pixel position is given by X which is the column and Y the row. The value is the pixel intensity.  
+ImageItemType is formally defined in Table 11.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=12055</Reference>
       <Reference ReferenceType="HasProperty">i=12056</Reference>
@@ -14207,7 +14318,9 @@
   <UAVariableType NodeId="i=12068" BrowseName="NDimensionArrayItemType" ValueRank="0">
     <DisplayName>NDimensionArrayItemType</DisplayName>
     <Category>Part8</Category>
-    <Documentation>This VariableType defines a generic multi-dimensional ArrayItem.This approach minimizes the number of types however it may be proved more difficult to utilize for control system interactions.NDimensionArrayItemType is formally defined in Table 13.</Documentation>
+    <Documentation>This VariableType defines a generic multi-dimensional ArrayItem.  
+This approach minimizes the number of types however it may be proved more difficult to utilize for control system interactions.  
+NDimensionArrayItemType is formally defined in Table 13.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=12076</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=12021</Reference>
@@ -17689,6 +17802,7 @@
     <DisplayName>ProgramStateMachineType</DisplayName>
     <Description>A state machine for a program.</Description>
     <Category>Part10</Category>
+    <Documentation>A state machine for a program.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=3830</Reference>
       <Reference ReferenceType="HasComponent">i=3835</Reference>
@@ -19385,12 +19499,24 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="TrustListMasks">
-      <Field Name="None" Value="0" />
-      <Field Name="TrustedCertificates" Value="1" />
-      <Field Name="TrustedCrls" Value="2" />
-      <Field Name="IssuerCertificates" Value="4" />
-      <Field Name="IssuerCrls" Value="8" />
-      <Field Name="All" Value="15" />
+      <Field Name="None" Value="0">
+        <Description />
+      </Field>
+      <Field Name="TrustedCertificates" Value="1">
+        <Description />
+      </Field>
+      <Field Name="TrustedCrls" Value="2">
+        <Description />
+      </Field>
+      <Field Name="IssuerCertificates" Value="4">
+        <Description />
+      </Field>
+      <Field Name="IssuerCrls" Value="8">
+        <Description />
+      </Field>
+      <Field Name="All" Value="15">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=12553" BrowseName="EnumValues" ParentNodeId="i=12552" DataType="i=7594" ValueRank="1">
@@ -25994,6 +26120,8 @@
   <UADataType NodeId="i=15534" BrowseName="DataTypeSchemaHeader">
     <DisplayName>DataTypeSchemaHeader</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is the abstract base type used to provide OPC UA DataType definitions for an OPC UA Binary encoded byte blob used outside an OPC UA Server AddressSpace.
+ The DataTypeSchemaHeader is formally defined in Table A.1.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26007,6 +26135,7 @@
   <UADataType NodeId="i=14525" BrowseName="DataTypeDescription">
     <DisplayName>DataTypeDescription</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is the abstract base type for all DataType descriptions containing the DataType NodeId and the definition for custom DataTypes like Structures and Enumerations. The DataTypeDescription is formally defined in Table A.3.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26018,6 +26147,7 @@
   <UADataType NodeId="i=15487" BrowseName="StructureDescription">
     <DisplayName>StructureDescription</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType provides the concrete DataTypeDescription for Structure DataTypes. It is a subtype of the DataTypeDescription DataType. The StructureDescription is formally defined in Table A.5.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=14525</Reference>
     </References>
@@ -26028,6 +26158,7 @@
   <UADataType NodeId="i=15488" BrowseName="EnumDescription">
     <DisplayName>EnumDescription</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType provides the concrete DataTypeDescription for Enumeration DataTypes. It is a subtype of the DataTypeDescription DataType. The EnumDescription is formally defined in Table A.7.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=14525</Reference>
     </References>
@@ -26039,6 +26170,7 @@
   <UADataType NodeId="i=15005" BrowseName="SimpleTypeDescription">
     <DisplayName>SimpleTypeDescription</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType provides the information for DataTypes derived from built-in DataTypes. It is a subtype of Structure. The SimpleTypeDescription is formally defined in Table A.9.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=14525</Reference>
     </References>
@@ -26050,6 +26182,11 @@
   <UADataType NodeId="i=15006" BrowseName="UABinaryFileDataType">
     <DisplayName>UABinaryFileDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType defines the base layout of an OPC UA Binary encoded file. The contend of the file is the UABinaryFileDataType encoded as ExtensionObject.
+The file specific meta data is provided by the DataTypeSchemaHeader which is the base type for the UABinaryFileDataType Structure.
+If the file is provided through a FileType Object, the MimeType Property of the Object shall have the value application/opcua+uabinary.
+If the file is stored on disc, the file extension shall be uabinary.
+The UABinaryFileDataType is formally defined in Table A.10.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15534</Reference>
     </References>
@@ -26067,10 +26204,18 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="PubSubState">
-      <Field Name="Disabled" Value="0" />
-      <Field Name="Paused" Value="1" />
-      <Field Name="Operational" Value="2" />
-      <Field Name="Error" Value="3" />
+      <Field Name="Disabled" Value="0">
+        <Description />
+      </Field>
+      <Field Name="Paused" Value="1">
+        <Description />
+      </Field>
+      <Field Name="Operational" Value="2">
+        <Description />
+      </Field>
+      <Field Name="Error" Value="3">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=14648" BrowseName="EnumStrings" ParentNodeId="i=14647" DataType="LocalizedText" ValueRank="1">
@@ -26108,6 +26253,8 @@
   <UADataType NodeId="i=14523" BrowseName="DataSetMetaDataType">
     <DisplayName>DataSetMetaDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is a subtype of DataTypeSchemaHeader and is used to provide the metadata for a DataSet. The DataSetMetaDataType is formally defined in Table 3.
+The DataTypeSchemaHeader provides OPC UA DataType definitions used in the DataSetMetaData. The DataTypeSchemaHeader is defined in A.1.1.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15534</Reference>
     </References>
@@ -26122,6 +26269,7 @@
   <UADataType NodeId="i=14524" BrowseName="FieldMetaData">
     <DisplayName>FieldMetaData</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to provide the metadata for a field in a DataSet. The FieldMetaData is formally defined in Table 5.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26141,12 +26289,16 @@
   <UADataType NodeId="i=15904" BrowseName="DataSetFieldFlags">
     <DisplayName>DataSetFieldFlags</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This DataType defines flags for DataSet fields.
+The DataSetFieldFlags is formally defined in Table 6.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15577</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
     </References>
     <Definition Name="DataSetFieldFlags" IsOptionSet="true">
-      <Field Name="PromotedField" Value="0" />
+      <Field Name="PromotedField" Value="0">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15577" BrowseName="OptionSetValues" ParentNodeId="i=15904" DataType="LocalizedText" ValueRank="1">
@@ -26169,6 +26321,7 @@
   <UADataType NodeId="i=14593" BrowseName="ConfigurationVersionDataType">
     <DisplayName>ConfigurationVersionDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to indicate configuration changes in the information published for a DataSet. The ConfigurationVersionDataType is formally defined in Table 8.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26180,6 +26333,7 @@
   <UADataType NodeId="i=15578" BrowseName="PublishedDataSetDataType">
     <DisplayName>PublishedDataSetDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType represents the PublishedDataSet parameters. The PublishedDataSetDataType is formally defined in Table 9.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26194,6 +26348,7 @@
   <UADataType NodeId="i=15580" BrowseName="PublishedDataSetSourceDataType" IsAbstract="true">
     <DisplayName>PublishedDataSetSourceDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The PublishedDataSetSourceDataType Structure is an abstract base type without fields for the definition of the PublishedDataSet source. Its representation in the AddressSpace is defined in Table 10.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26218,6 +26373,8 @@
   <UADataType NodeId="i=15581" BrowseName="PublishedDataItemsDataType">
     <DisplayName>PublishedDataItemsDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to represent PublishedDataItems specific parameters. It is a subtype of the PublishedDataSetSourceDataType defined in 6.2.2.5.
+The PublishedDataItemsDataType is formally defined in Table 12.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15580</Reference>
     </References>
@@ -26228,6 +26385,8 @@
   <UADataType NodeId="i=15582" BrowseName="PublishedEventsDataType">
     <DisplayName>PublishedEventsDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to represent PublishedEvents specific parameters. It is a subtype of the PublishedDataSetSourceDataType defined in 6.2.2.5.
+The PublishedEventsDataType is formally defined in Table 13.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15580</Reference>
     </References>
@@ -26240,17 +26399,31 @@
   <UADataType NodeId="i=15583" BrowseName="DataSetFieldContentMask">
     <DisplayName>DataSetFieldContentMask</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The parameter DataSetFieldContentMask with DataType DataSetFieldContentMask indicates the fields of a DataValue included in the DataSetMessages. 
+The DataSetFieldContentMask DataType is defined in 6.2.3.2.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15584</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
     </References>
     <Definition Name="DataSetFieldContentMask" IsOptionSet="true">
-      <Field Name="StatusCode" Value="0" />
-      <Field Name="SourceTimestamp" Value="1" />
-      <Field Name="ServerTimestamp" Value="2" />
-      <Field Name="SourcePicoSeconds" Value="3" />
-      <Field Name="ServerPicoSeconds" Value="4" />
-      <Field Name="RawDataEncoding" Value="5" />
+      <Field Name="StatusCode" Value="0">
+        <Description />
+      </Field>
+      <Field Name="SourceTimestamp" Value="1">
+        <Description />
+      </Field>
+      <Field Name="ServerTimestamp" Value="2">
+        <Description />
+      </Field>
+      <Field Name="SourcePicoSeconds" Value="3">
+        <Description />
+      </Field>
+      <Field Name="ServerPicoSeconds" Value="4">
+        <Description />
+      </Field>
+      <Field Name="RawDataEncoding" Value="5">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15584" BrowseName="OptionSetValues" ParentNodeId="i=15583" DataType="LocalizedText" ValueRank="1">
@@ -26298,6 +26471,7 @@
   <UADataType NodeId="i=15597" BrowseName="DataSetWriterDataType">
     <DisplayName>DataSetWriterDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to represent the DataSetWriter parameters. The DataSetWriterDataType is formally defined in Table 17.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26316,6 +26490,8 @@
   <UADataType NodeId="i=15598" BrowseName="DataSetWriterTransportDataType" IsAbstract="true">
     <DisplayName>DataSetWriterTransportDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is an abstract base type for transport mapping specific DataSetWriter parameters. The abstract DataType does not define fields.
+The DataSetWriterTransportDataType Structure representation in the AddressSpace is defined in Table 18.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26323,6 +26499,8 @@
   <UADataType NodeId="i=15605" BrowseName="DataSetWriterMessageDataType" IsAbstract="true">
     <DisplayName>DataSetWriterMessageDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is an abstract base type for message mapping specific DataSetWriter parameters. The abstract DataType does not define fields.
+The DataSetWriterMessageDataType Structure representation in the AddressSpace is defined in Table 19.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26346,6 +26524,8 @@
   <UADataType NodeId="i=15480" BrowseName="WriterGroupDataType">
     <DisplayName>WriterGroupDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to represent the configuration parameters for WriterGroups. It is a subtype of PubSubGroupDataType defined in 0.
+The WriterGroupDataType is formally defined in Table 22.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15609</Reference>
     </References>
@@ -26363,6 +26543,8 @@
   <UADataType NodeId="i=15611" BrowseName="WriterGroupTransportDataType" IsAbstract="true">
     <DisplayName>WriterGroupTransportDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is an abstract base type for transport mapping specific WriterGroup parameters. The abstract DataType does not define fields.
+The WriterGroupTransportDataType Structure representation in the AddressSpace is defined in Table 24.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26370,6 +26552,8 @@
   <UADataType NodeId="i=15616" BrowseName="WriterGroupMessageDataType" IsAbstract="true">
     <DisplayName>WriterGroupMessageDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is an abstract base type for message mapping specific WriterGroup parameters. The abstract DataType does not define fields.
+The WriterGroupMessageDataType Structure representation in the AddressSpace is defined in Table 25.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26377,6 +26561,7 @@
   <UADataType NodeId="i=15617" BrowseName="PubSubConnectionDataType">
     <DisplayName>PubSubConnectionDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to represent the configuration parameters for PubSubConnections. The PubSubConnectionDataType is formally defined in Table 26.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26395,6 +26580,8 @@
   <UADataType NodeId="i=15618" BrowseName="ConnectionTransportDataType" IsAbstract="true">
     <DisplayName>ConnectionTransportDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is an abstract base type for transport mapping specific PubSubConnection parameters. The abstract DataType does not define fields.
+The ConnectionTransportDataType Structure representation in the AddressSpace is defined in Table 27.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26402,6 +26589,7 @@
   <UADataType NodeId="i=15502" BrowseName="NetworkAddressDataType" IsAbstract="true">
     <DisplayName>NetworkAddressDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>Subtypes of this abstract Structure DataType are used to represent network address information. The NetworkAddressDataType is formally defined in Table 28.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26412,6 +26600,7 @@
   <UADataType NodeId="i=15510" BrowseName="NetworkAddressUrlDataType">
     <DisplayName>NetworkAddressUrlDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to represent network address information in the form of an URL String. The NetworkAddressUrlDataType is formally defined in Table 30.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15502</Reference>
     </References>
@@ -26422,6 +26611,7 @@
   <UADataType NodeId="i=15520" BrowseName="ReaderGroupDataType">
     <DisplayName>ReaderGroupDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to represent the configuration parameters for ReaderGroups. The ReaderGroupDataType is formally defined in Table 32.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15609</Reference>
     </References>
@@ -26434,6 +26624,8 @@
   <UADataType NodeId="i=15621" BrowseName="ReaderGroupTransportDataType" IsAbstract="true">
     <DisplayName>ReaderGroupTransportDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is an abstract base type for transport mapping specific ReaderGroup parameters. The abstract DataType does not define fields.
+The ReaderGroupTransportDataType Structure representation in the AddressSpace is defined in Table 34.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26441,6 +26633,8 @@
   <UADataType NodeId="i=15622" BrowseName="ReaderGroupMessageDataType" IsAbstract="true">
     <DisplayName>ReaderGroupMessageDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is an abstract base type for message mapping specific ReaderGroup parameters. The abstract DataType does not define fields.
+The ReaderGroupMessageDataType Structure representation in the AddressSpace is defined in Table 35.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26448,6 +26642,7 @@
   <UADataType NodeId="i=15623" BrowseName="DataSetReaderDataType">
     <DisplayName>DataSetReaderDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to represent the DataSetReader parameters. The DataSetReaderDataType is formally defined in Table 36.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26472,6 +26667,7 @@
   <UADataType NodeId="i=15628" BrowseName="DataSetReaderTransportDataType" IsAbstract="true">
     <DisplayName>DataSetReaderTransportDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is an abstract base type for transport specific DataSetReader parameters. The DataSetReaderTransportDataType is formally defined in Table 37.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26479,6 +26675,7 @@
   <UADataType NodeId="i=15629" BrowseName="DataSetReaderMessageDataType" IsAbstract="true">
     <DisplayName>DataSetReaderMessageDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is an abstract base type for message mapping specific DataSetReader parameters. The DataSetReaderMessageDataType is formally defined in Table 39.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26486,6 +26683,7 @@
   <UADataType NodeId="i=15630" BrowseName="SubscribedDataSetDataType" IsAbstract="true">
     <DisplayName>SubscribedDataSetDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is an abstract base type for SubscribedDataSet parameters. The SubscribedDataSetDataType is formally defined in Table 41.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26493,6 +26691,8 @@
   <UADataType NodeId="i=15631" BrowseName="TargetVariablesDataType">
     <DisplayName>TargetVariablesDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to represent TargetVariables specific parameters. It is a subtype of the SubscribedDataSetDataType defined in 6.2.9.1.
+The TargetVariablesDataType is formally defined in Table 43.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15630</Reference>
     </References>
@@ -26503,6 +26703,7 @@
   <UADataType NodeId="i=14744" BrowseName="FieldTargetDataType">
     <DisplayName>FieldTargetDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This DataType is used to provide the metadata for the relation between a field in a DataSetMessage and a target Variable in a DataSetReader. The FieldTargetDataType is formally defined in Table 44.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26519,14 +26720,21 @@
   <UADataType NodeId="i=15874" BrowseName="OverrideValueHandling">
     <DisplayName>OverrideValueHandling</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The OverrideValueHandling is an enumeration that specifies the possible options for the handling of Override values. The possible enumeration values are described in Table 45.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15875</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="OverrideValueHandling">
-      <Field Name="Disabled" Value="0" />
-      <Field Name="LastUseableValue" Value="1" />
-      <Field Name="OverrideValue" Value="2" />
+      <Field Name="Disabled" Value="0">
+        <Description />
+      </Field>
+      <Field Name="LastUseableValue" Value="1">
+        <Description />
+      </Field>
+      <Field Name="OverrideValue" Value="2">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15875" BrowseName="EnumStrings" ParentNodeId="i=15874" DataType="LocalizedText" ValueRank="1">
@@ -26559,6 +26767,8 @@
   <UADataType NodeId="i=15635" BrowseName="SubscribedDataSetMirrorDataType">
     <DisplayName>SubscribedDataSetMirrorDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to represent SubscribedDataSetMirror specific parameters. It is a subtype of the SubscribedDataSetDataType defined in 6.2.9.1.
+The SubscribedDataSetMirrorDataType is formally defined in Table 46.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15630</Reference>
     </References>
@@ -26570,6 +26780,7 @@
   <UADataType NodeId="i=15530" BrowseName="PubSubConfigurationDataType">
     <DisplayName>PubSubConfigurationDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to represent the PubSub configuration of an OPC UA Application. The PubSubConfigurationDataType is formally defined in Table 49.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -26587,9 +26798,15 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="DataSetOrderingType">
-      <Field Name="Undefined" Value="0" />
-      <Field Name="AscendingWriterId" Value="1" />
-      <Field Name="AscendingWriterIdSingle" Value="2" />
+      <Field Name="Undefined" Value="0">
+        <Description />
+      </Field>
+      <Field Name="AscendingWriterId" Value="1">
+        <Description />
+      </Field>
+      <Field Name="AscendingWriterIdSingle" Value="2">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15641" BrowseName="EnumStrings" ParentNodeId="i=20408" DataType="LocalizedText" ValueRank="1">
@@ -26627,17 +26844,39 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
     </References>
     <Definition Name="UadpNetworkMessageContentMask" IsOptionSet="true">
-      <Field Name="PublisherId" Value="0" />
-      <Field Name="GroupHeader" Value="1" />
-      <Field Name="WriterGroupId" Value="2" />
-      <Field Name="GroupVersion" Value="3" />
-      <Field Name="NetworkMessageNumber" Value="4" />
-      <Field Name="SequenceNumber" Value="5" />
-      <Field Name="PayloadHeader" Value="6" />
-      <Field Name="Timestamp" Value="7" />
-      <Field Name="Picoseconds" Value="8" />
-      <Field Name="DataSetClassId" Value="9" />
-      <Field Name="PromotedFields" Value="10" />
+      <Field Name="PublisherId" Value="0">
+        <Description />
+      </Field>
+      <Field Name="GroupHeader" Value="1">
+        <Description />
+      </Field>
+      <Field Name="WriterGroupId" Value="2">
+        <Description />
+      </Field>
+      <Field Name="GroupVersion" Value="3">
+        <Description />
+      </Field>
+      <Field Name="NetworkMessageNumber" Value="4">
+        <Description />
+      </Field>
+      <Field Name="SequenceNumber" Value="5">
+        <Description />
+      </Field>
+      <Field Name="PayloadHeader" Value="6">
+        <Description />
+      </Field>
+      <Field Name="Timestamp" Value="7">
+        <Description />
+      </Field>
+      <Field Name="Picoseconds" Value="8">
+        <Description />
+      </Field>
+      <Field Name="DataSetClassId" Value="9">
+        <Description />
+      </Field>
+      <Field Name="PromotedFields" Value="10">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15643" BrowseName="OptionSetValues" ParentNodeId="i=15642" DataType="LocalizedText" ValueRank="1">
@@ -26729,12 +26968,24 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
     </References>
     <Definition Name="UadpDataSetMessageContentMask" IsOptionSet="true">
-      <Field Name="Timestamp" Value="0" />
-      <Field Name="PicoSeconds" Value="1" />
-      <Field Name="Status" Value="2" />
-      <Field Name="MajorVersion" Value="3" />
-      <Field Name="MinorVersion" Value="4" />
-      <Field Name="SequenceNumber" Value="5" />
+      <Field Name="Timestamp" Value="0">
+        <Description />
+      </Field>
+      <Field Name="PicoSeconds" Value="1">
+        <Description />
+      </Field>
+      <Field Name="Status" Value="2">
+        <Description />
+      </Field>
+      <Field Name="MajorVersion" Value="3">
+        <Description />
+      </Field>
+      <Field Name="MinorVersion" Value="4">
+        <Description />
+      </Field>
+      <Field Name="SequenceNumber" Value="5">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15647" BrowseName="OptionSetValues" ParentNodeId="i=15646" DataType="LocalizedText" ValueRank="1">
@@ -26795,6 +27046,8 @@
   <UADataType NodeId="i=15653" BrowseName="UadpDataSetReaderMessageDataType">
     <DisplayName>UadpDataSetReaderMessageDataType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This Structure DataType is used to represent UADP message mapping specific DataSetReader parameters. It is a subtype of the DataSetReaderMessageDataType defined in 6.2.8.11.3.
+The UadpDataSetReaderMessageDataType is formally defined in Table 58.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15629</Reference>
     </References>
@@ -26818,12 +27071,24 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
     </References>
     <Definition Name="JsonNetworkMessageContentMask" IsOptionSet="true">
-      <Field Name="NetworkMessageHeader" Value="0" />
-      <Field Name="DataSetMessageHeader" Value="1" />
-      <Field Name="SingleDataSetMessage" Value="2" />
-      <Field Name="PublisherId" Value="3" />
-      <Field Name="DataSetClassId" Value="4" />
-      <Field Name="ReplyTo" Value="5" />
+      <Field Name="NetworkMessageHeader" Value="0">
+        <Description />
+      </Field>
+      <Field Name="DataSetMessageHeader" Value="1">
+        <Description />
+      </Field>
+      <Field Name="SingleDataSetMessage" Value="2">
+        <Description />
+      </Field>
+      <Field Name="PublisherId" Value="3">
+        <Description />
+      </Field>
+      <Field Name="DataSetClassId" Value="4">
+        <Description />
+      </Field>
+      <Field Name="ReplyTo" Value="5">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15655" BrowseName="OptionSetValues" ParentNodeId="i=15654" DataType="LocalizedText" ValueRank="1">
@@ -26886,11 +27151,21 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
     </References>
     <Definition Name="JsonDataSetMessageContentMask" IsOptionSet="true">
-      <Field Name="DataSetWriterId" Value="0" />
-      <Field Name="MetaDataVersion" Value="1" />
-      <Field Name="SequenceNumber" Value="2" />
-      <Field Name="Timestamp" Value="3" />
-      <Field Name="Status" Value="4" />
+      <Field Name="DataSetWriterId" Value="0">
+        <Description />
+      </Field>
+      <Field Name="MetaDataVersion" Value="1">
+        <Description />
+      </Field>
+      <Field Name="SequenceNumber" Value="2">
+        <Description />
+      </Field>
+      <Field Name="Timestamp" Value="3">
+        <Description />
+      </Field>
+      <Field Name="Status" Value="4">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15659" BrowseName="OptionSetValues" ParentNodeId="i=15658" DataType="LocalizedText" ValueRank="1">
@@ -26991,11 +27266,21 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="BrokerTransportQualityOfService">
-      <Field Name="NotSpecified" Value="0" />
-      <Field Name="BestEffort" Value="1" />
-      <Field Name="AtLeastOnce" Value="2" />
-      <Field Name="AtMostOnce" Value="3" />
-      <Field Name="ExactlyOnce" Value="4" />
+      <Field Name="NotSpecified" Value="0">
+        <Description />
+      </Field>
+      <Field Name="BestEffort" Value="1">
+        <Description />
+      </Field>
+      <Field Name="AtLeastOnce" Value="2">
+        <Description />
+      </Field>
+      <Field Name="AtMostOnce" Value="3">
+        <Description />
+      </Field>
+      <Field Name="ExactlyOnce" Value="4">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15009" BrowseName="EnumStrings" ParentNodeId="i=15008" DataType="LocalizedText" ValueRank="1">
@@ -27080,6 +27365,7 @@
   <UAObjectType NodeId="i=15906" BrowseName="PubSubKeyServiceType">
     <DisplayName>PubSubKeyServiceType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The PubSubKeyServiceType is formally defined in Table 100.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=15907</Reference>
       <Reference ReferenceType="HasComponent">i=15910</Reference>
@@ -27507,6 +27793,7 @@
   <UAObjectType NodeId="i=15452" BrowseName="SecurityGroupFolderType">
     <DisplayName>SecurityGroupFolderType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The SecurityGroupFolderType is formally defined Table 102.</Documentation>
     <References>
       <Reference ReferenceType="Organizes">i=15453</Reference>
       <Reference ReferenceType="HasComponent">i=15459</Reference>
@@ -27943,6 +28230,8 @@
   <UAObjectType NodeId="i=15471" BrowseName="SecurityGroupType">
     <DisplayName>SecurityGroupType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The SecurityGroupType is formally defined in Table 101.
+The Permission of the SecurityGroupType Objects controls the access to the security keys for the SecurityGroup through the Method GetSecurityKeys. The GetSecurityKeys Method is defined in 8.4.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15472</Reference>
       <Reference ReferenceType="HasProperty">i=15046</Reference>
@@ -27995,6 +28284,7 @@
   <UAObjectType NodeId="i=14416" BrowseName="PublishSubscribeType">
     <DisplayName>PublishSubscribeType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>An instance of this ObjectType represents the root Object for all PubSub related configuration and metadata Objects. The one instance of this ObjectType that represents the root Object is defined in 8.4. The ObjectType is formally defined in Table 103.</Documentation>
     <References>
       <Reference ReferenceType="i=14476">i=14417</Reference>
       <Reference ReferenceType="HasComponent">i=17296</Reference>
@@ -29912,6 +30202,10 @@
   <UAReferenceType NodeId="i=14476" BrowseName="HasPubSubConnection">
     <DisplayName>HasPubSubConnection</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The HasPubSubConnection ReferenceType is a concrete ReferenceType that can be used directly. It is a subtype of the HasComponent ReferenceType.
+The SourceNode of References of this type shall be the PublishSubscribe Object defined in 8.4.
+The TargetNode of this ReferenceType shall be an Object of type PubSubConnectionType defined in 9.1.5.2.
+The representation of the HasPubSubConnection ReferenceType in the AddressSpace is specified in Table 104.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=47</Reference>
     </References>
@@ -29920,6 +30214,10 @@
   <UAObjectType NodeId="i=14509" BrowseName="PublishedDataSetType">
     <DisplayName>PublishedDataSetType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is the base type for PublishedDataSets. It defines the metadata and the configuration version of the DataSets sent as DataSetMessages through DataSetWriters.
+The PublishedDataSetType is the base type for configurable DataSets. Derived types like PublishedDataItemsType and PublishedEventsType defines how to collect the DataSet to be published. For PublishedDataItemsType this is a list of monitored Variables. For PublishedEventsType this is an Event selection. The list of monitored Variables or the list of selected EventFields defines the content and metadata of the PublishedDataSetType Object.
+If the content of the DataSet is defined by a product specific configuration and the source of the DataSet is not known, the PublishedDataSetType can be used directly to expose the PublishedDataSet in the AddressSpace of the Publisher.
+The PublishedDataSetType is formally defined in Table 105.</Documentation>
     <References>
       <Reference ReferenceType="i=14936">i=15222</Reference>
       <Reference ReferenceType="HasProperty">i=14519</Reference>
@@ -30136,6 +30434,7 @@
   <UAObjectType NodeId="i=15489" BrowseName="ExtensionFieldsType">
     <DisplayName>ExtensionFieldsType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The ExtensionFieldsType is formally defined in Table 106. It allows the configuration of fields with values to be included in the DataSet in case the existing AddressSpace of the Publisher does not provide the necessary information.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15490</Reference>
       <Reference ReferenceType="HasComponent">i=15491</Reference>
@@ -30271,6 +30570,12 @@
   <UAReferenceType NodeId="i=14936" BrowseName="DataSetToWriter">
     <DisplayName>DataSetToWriter</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The DataSetToWriter ReferenceType is a concrete ReferenceType that can be used directly. It is a subtype of the HierarchicalReferences ReferenceType.
+The SourceNode of References of this type shall be an Object of ObjectType PublishedDataSetType or an ObjectType that is a subtype of PublishedDataSetType defined in 9.1.4.2.1.
+The TargetNode of this ReferenceType shall be an Object of the ObjectType DataSetWriterType defined in 9.1.7.1.
+Each DataSetWriter Object shall be the TargetNode of exactly one DataSetToWriter Reference.
+Servers shall provide the inverse Reference that relates a DataSetWriter Object back to a PublishedDataSetType Object.
+The representation of the DataSetToWriter ReferenceType in the AddressSpace is specified in Table 108.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=33</Reference>
     </References>
@@ -30279,6 +30584,8 @@
   <UAObjectType NodeId="i=14534" BrowseName="PublishedDataItemsType">
     <DisplayName>PublishedDataItemsType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The PublishedDataItemsType is used to select a list of OPC UA Variables as the source for the creation of DataSets sent through one or more DataSetWriters.
+The PublishedDataItemsType is formally defined Table 109.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=14548</Reference>
       <Reference ReferenceType="HasComponent">i=14555</Reference>
@@ -30523,6 +30830,8 @@
   <UAObjectType NodeId="i=14572" BrowseName="PublishedEventsType">
     <DisplayName>PublishedEventsType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This PublishedDataSetType is used to configure the collection of OPC UA Events.
+The PublishedEventsType is formally defined in Table 110.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=14586</Reference>
       <Reference ReferenceType="HasProperty">i=14587</Reference>
@@ -30671,6 +30980,7 @@
   <UAObjectType NodeId="i=14477" BrowseName="DataSetFolderType">
     <DisplayName>DataSetFolderType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The DataSetFolderType is formally defined Table 111.</Documentation>
     <References>
       <Reference ReferenceType="Organizes">i=14478</Reference>
       <Reference ReferenceType="HasComponent">i=14487</Reference>
@@ -32098,6 +32408,7 @@
   <UAObjectType NodeId="i=14209" BrowseName="PubSubConnectionType">
     <DisplayName>PubSubConnectionType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is a concrete type for Objects representing PubSubConnections. A PubSubConnection is a combination of protocol selection, protocol settings and addressing information. The PubSubConnectionType is formally defined in Table 112.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=14595</Reference>
       <Reference ReferenceType="HasComponent">i=17306</Reference>
@@ -32978,6 +33289,7 @@
   <UAObjectType NodeId="i=17721" BrowseName="ConnectionTransportType" IsAbstract="true">
     <DisplayName>ConnectionTransportType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is the abstract base type for Objects representing transport protocol mapping specific settings for PubSubConnections. The ConnectionTransportType is formally defined in Table 113.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
     </References>
@@ -32985,6 +33297,7 @@
   <UAObjectType NodeId="i=14232" BrowseName="PubSubGroupType">
     <DisplayName>PubSubGroupType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is the abstract base type for Objects representing communication groupings for PubSub connections. The PubSubGroupType is formally defined in Table 114.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15926</Reference>
       <Reference ReferenceType="HasProperty">i=15927</Reference>
@@ -33055,6 +33368,7 @@
   <UAObjectType NodeId="i=17725" BrowseName="WriterGroupType">
     <DisplayName>WriterGroupType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>Instances of WriterGroupType contain settings for a group of DataSetWriters. The WriterGroupType is formally defined in Table 115.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=17736</Reference>
       <Reference ReferenceType="HasProperty">i=17737</Reference>
@@ -33926,6 +34240,10 @@
   <UAReferenceType NodeId="i=15296" BrowseName="HasDataSetWriter">
     <DisplayName>HasDataSetWriter</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The HasDataSetWriter ReferenceType is a concrete ReferenceType that can be used directly. It is a subtype of the HasComponent ReferenceType.
+The SourceNode of References of this type shall be an instance of the WriterGroupType defined in 9.1.6.3.
+The TargetNode of this ReferenceType shall be an instance of the DataSetWriterType defined in 9.1.7.1.
+The representation of the HasDataSetWriter ReferenceType in the AddressSpace is specified in Table 116.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=47</Reference>
     </References>
@@ -33934,6 +34252,7 @@
   <UAObjectType NodeId="i=17997" BrowseName="WriterGroupTransportType" IsAbstract="true">
     <DisplayName>WriterGroupTransportType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is the abstract base type for Objects representing transport protocol mapping specific settings for WriterGroups. The WriterGroupTransportType is formally defined in Table 117.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
     </References>
@@ -33941,6 +34260,7 @@
   <UAObjectType NodeId="i=17998" BrowseName="WriterGroupMessageType" IsAbstract="true">
     <DisplayName>WriterGroupMessageType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is the abstract base type for Objects representing message mapping specific settings for WriterGroups. The WriterGroupMessageType is formally defined in Table 118.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
     </References>
@@ -33948,6 +34268,7 @@
   <UAObjectType NodeId="i=17999" BrowseName="ReaderGroupType">
     <DisplayName>ReaderGroupType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is a concrete type for Objects representing DataSetReader groupings for PubSub connections. The ReaderGroupType is formally defined in Table 114.</Documentation>
     <References>
       <Reference ReferenceType="i=15297">i=18076</Reference>
       <Reference ReferenceType="HasComponent">i=21015</Reference>
@@ -34735,6 +35056,10 @@
   <UAReferenceType NodeId="i=15297" BrowseName="HasDataSetReader">
     <DisplayName>HasDataSetReader</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The HasDataSetReader ReferenceType is a concrete ReferenceType that can be used directly. It is a subtype of the HasComponent ReferenceType.
+The SourceNode of References of this type shall be an instance of the ReaderGroupType defined in 9.1.6.6.
+The TargetNode of this ReferenceType shall be an instance of the DataSetReaderType defined in 9.1.8.1.
+The representation of the HasDataSetReader ReferenceType in the AddressSpace is specified in Table 120.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=47</Reference>
     </References>
@@ -34743,6 +35068,8 @@
   <UAObjectType NodeId="i=21090" BrowseName="ReaderGroupTransportType" IsAbstract="true">
     <DisplayName>ReaderGroupTransportType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is the abstract base type for Objects representing transport protocol mapping specific settings for ReaderGroups. The ReaderGroupTransportType is formally defined in Table 121.
+There is currently no transport protocol mapping specific setting defined.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
     </References>
@@ -34750,6 +35077,8 @@
   <UAObjectType NodeId="i=21091" BrowseName="ReaderGroupMessageType" IsAbstract="true">
     <DisplayName>ReaderGroupMessageType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is the abstract base type for Objects representing message mapping specific settings for ReaderGroups. The ReaderGroupMessageType is formally defined in Table 122.
+There is currently no message mapping specific setting defined.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
     </References>
@@ -34757,6 +35086,7 @@
   <UAObjectType NodeId="i=15298" BrowseName="DataSetWriterType">
     <DisplayName>DataSetWriterType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>An instance of this ObjectType represents the configuration for a DataSetWriter. The DataSetWriterType is formally defined Table 123.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=21092</Reference>
       <Reference ReferenceType="HasProperty">i=21093</Reference>
@@ -35336,6 +35666,7 @@
   <UAObjectType NodeId="i=15305" BrowseName="DataSetWriterTransportType" IsAbstract="true">
     <DisplayName>DataSetWriterTransportType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is the abstract base type for Objects defining protocol specific transport settings of DataSetMessages. The DataSetWriterTransportType is formally defined Table 124.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
     </References>
@@ -35343,6 +35674,7 @@
   <UAObjectType NodeId="i=21096" BrowseName="DataSetWriterMessageType" IsAbstract="true">
     <DisplayName>DataSetWriterMessageType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is the abstract base type for Objects representing message mapping specific settings for DataSetWriters. The DataSetWriterMessageType is formally defined in Table 125.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
     </References>
@@ -35350,6 +35682,8 @@
   <UAObjectType NodeId="i=15306" BrowseName="DataSetReaderType" IsAbstract="true">
     <DisplayName>DataSetReaderType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType defines receiving behaviour of DataSetMessages and the decoding to DataSets. The DataSetReaderType is formally defined in Table 105. 
+The SubscribedDataSetType defined in 9.1.9.1 describes the processing of the received DataSet in a Subscriber.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=21097</Reference>
       <Reference ReferenceType="HasProperty">i=21098</Reference>
@@ -36174,6 +36508,7 @@
   <UAObjectType NodeId="i=15319" BrowseName="DataSetReaderTransportType" IsAbstract="true">
     <DisplayName>DataSetReaderTransportType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is the abstract base type for Objects defining the transport protocol specific parameters for DataSetReaders. The DataSetReaderTransportType is formally defined in Table 127.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
     </References>
@@ -36181,6 +36516,7 @@
   <UAObjectType NodeId="i=21104" BrowseName="DataSetReaderMessageType" IsAbstract="true">
     <DisplayName>DataSetReaderMessageType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is the abstract base type for Objects representing message mapping specific settings for DataSetReaders. The DataSetReaderMessageType is formally defined in Table 128.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
     </References>
@@ -36188,6 +36524,7 @@
   <UAObjectType NodeId="i=15108" BrowseName="SubscribedDataSetType">
     <DisplayName>SubscribedDataSetType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType defines the metadata for the subscribed DataSet and the information for the processing of DataSetMessages. The SubscribedDataSetType is formally defined in Table 129.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15109</Reference>
       <Reference ReferenceType="HasProperty">i=15110</Reference>
@@ -36213,6 +36550,7 @@
   <UAObjectType NodeId="i=15111" BrowseName="TargetVariablesType">
     <DisplayName>TargetVariablesType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType defines the metadata for the subscribed DataSet and the information for the processing of DataSetMessages. The TargetVariablesType is formally defined in Table 130.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15114</Reference>
       <Reference ReferenceType="HasComponent">i=15115</Reference>
@@ -36393,6 +36731,7 @@
   <UAObjectType NodeId="i=15127" BrowseName="SubscribedDataSetMirrorType">
     <DisplayName>SubscribedDataSetMirrorType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType defines the information for the processing of DataSetMessages as mirror Variables. For each field of the DataSet a mirror Variable is created in the Subscriber AddressSpace. The SubscribedDataSetMirrorType is formally defined in Table 131.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15108</Reference>
     </References>
@@ -36400,6 +36739,7 @@
   <UAObjectType NodeId="i=14643" BrowseName="PubSubStatusType">
     <DisplayName>PubSubStatusType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType is used to indicate and change the status of a PubSub Object like PubSubConnection, DataSetWriter or DataSetReader. The PubSubStatusType is formally defined in Table 132.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=14644</Reference>
       <Reference ReferenceType="HasComponent">i=14645</Reference>
@@ -36432,6 +36772,7 @@
   <UAObjectType NodeId="i=19677" BrowseName="PubSubDiagnosticsType">
     <DisplayName>PubSubDiagnosticsType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The PubSubDiagnosticsType is the base type for the diagnostics objects and is formally defined in Table 134.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=19678</Reference>
       <Reference ReferenceType="HasComponent">i=19679</Reference>
@@ -36879,16 +37220,28 @@
   <UADataType NodeId="i=19723" BrowseName="DiagnosticsLevel">
     <DisplayName>DiagnosticsLevel</DisplayName>
     <Category>Part14</Category>
+    <Documentation>PubSub diagnostics are intended to assure users about the correct operation of a PubSub system and to help in the discovery of potential faults. Depending on the situation, not all diagnostic Objects might be needed, and on the other hand providing them requires resources. As a result, diagnostic objects are assigned to different diagnostic levels. Only diagnostic Objects belonging to the currently set diagnostic level or a more severe level have to be provided. This mechanism provides the user the ability to select a suitable diagnostic configuration depending on the application.
+The DiagnosticsLevel is an enumeration that specifies the possible diagnostics levels. The possible enumeration values are described in Table 136.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=19724</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="DiagnosticsLevel">
-      <Field Name="Basic" Value="0" />
-      <Field Name="Advanced" Value="1" />
-      <Field Name="Info" Value="2" />
-      <Field Name="Log" Value="3" />
-      <Field Name="Debug" Value="4" />
+      <Field Name="Basic" Value="0">
+        <Description />
+      </Field>
+      <Field Name="Advanced" Value="1">
+        <Description />
+      </Field>
+      <Field Name="Info" Value="2">
+        <Description />
+      </Field>
+      <Field Name="Log" Value="3">
+        <Description />
+      </Field>
+      <Field Name="Debug" Value="4">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=19724" BrowseName="EnumStrings" ParentNodeId="i=19723" DataType="LocalizedText" ValueRank="1">
@@ -36931,6 +37284,7 @@
   <UAVariableType NodeId="i=19725" BrowseName="PubSubDiagnosticsCounterType" DataType="UInt32">
     <DisplayName>PubSubDiagnosticsCounterType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The PubSubDiagnosticsCounterType is formally defined in Table 137.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=19726</Reference>
       <Reference ReferenceType="HasProperty">i=19727</Reference>
@@ -36974,13 +37328,18 @@
   <UADataType NodeId="i=19730" BrowseName="PubSubDiagnosticsCounterClassification">
     <DisplayName>PubSubDiagnosticsCounterClassification</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The PubSubDiagnosticsCounterClassification is an enumeration that specifies the possible diagnostics counter classifications. The possible enumeration values are described in Table 138.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=19731</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="PubSubDiagnosticsCounterClassification">
-      <Field Name="Information" Value="0" />
-      <Field Name="Error" Value="1" />
+      <Field Name="Information" Value="0">
+        <Description />
+      </Field>
+      <Field Name="Error" Value="1">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=19731" BrowseName="EnumStrings" ParentNodeId="i=19730" DataType="LocalizedText" ValueRank="1">
@@ -37008,6 +37367,7 @@
   <UAObjectType NodeId="i=19732" BrowseName="PubSubDiagnosticsRootType">
     <DisplayName>PubSubDiagnosticsRootType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The PubSubDiagnosticsRootType defines the diagnostic information for the PublishSubscribe Object and is formally defined in Table 139.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=19777</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=19677</Reference>
@@ -37108,6 +37468,7 @@
   <UAObjectType NodeId="i=19786" BrowseName="PubSubDiagnosticsConnectionType">
     <DisplayName>PubSubDiagnosticsConnectionType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The PubSubDiagnosticsConnectionType defines the diagnostic information for a PubSubConnectionType Object and is formally defined in Table 141.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=19831</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=19677</Reference>
@@ -37145,6 +37506,7 @@
   <UAObjectType NodeId="i=19834" BrowseName="PubSubDiagnosticsWriterGroupType">
     <DisplayName>PubSubDiagnosticsWriterGroupType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The PubSubDiagnosticsWriterGroupType defines the diagnostic information for a WriterGroupType Object and is formally defined in Table 143.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=19848</Reference>
       <Reference ReferenceType="HasComponent">i=19879</Reference>
@@ -37713,6 +38075,7 @@
   <UAObjectType NodeId="i=19903" BrowseName="PubSubDiagnosticsReaderGroupType">
     <DisplayName>PubSubDiagnosticsReaderGroupType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The PubSubDiagnosticsReaderGroupType defines the diagnostic information for a ReaderGroupType Object and is formally defined in Table 146.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=19917</Reference>
       <Reference ReferenceType="HasComponent">i=19948</Reference>
@@ -38239,6 +38602,7 @@
   <UAObjectType NodeId="i=19968" BrowseName="PubSubDiagnosticsDataSetWriterType">
     <DisplayName>PubSubDiagnosticsDataSetWriterType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The PubSubDiagnosticsDataSetWriterType defines the diagnostic information for a PubSubDataSetWriterType Object and is formally defined in Table 149.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=19982</Reference>
       <Reference ReferenceType="HasComponent">i=20013</Reference>
@@ -38705,6 +39069,7 @@
   <UAObjectType NodeId="i=20027" BrowseName="PubSubDiagnosticsDataSetReaderType">
     <DisplayName>PubSubDiagnosticsDataSetReaderType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>The PubSubDiagnosticsDataSetReaderType defines the diagnostic information for a PubSubDataSetReaderType Object and is formally defined in Table 152.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=20041</Reference>
       <Reference ReferenceType="HasComponent">i=20072</Reference>
@@ -39264,6 +39629,7 @@
   <UAObjectType NodeId="i=15535" BrowseName="PubSubStatusEventType" IsAbstract="true">
     <DisplayName>PubSubStatusEventType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This EventType is a base type for events which indicate an error or status change associated with a PubSubConnectionType, PubSubGroupType, DataSetWriterType or DataSetReaderType Object. The PubSubStatusEventType is formally defined in Table 155.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15545</Reference>
       <Reference ReferenceType="HasProperty">i=15546</Reference>
@@ -39298,6 +39664,7 @@
   <UAObjectType NodeId="i=15548" BrowseName="PubSubTransportLimitsExceedEventType" IsAbstract="true">
     <DisplayName>PubSubTransportLimitsExceedEventType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This EventType indicates that a NetworkMessage could not be published because it exceeds the limits of transport. The PubSubTransportLimitsExceedEventType is formally defined in Table 156.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15561</Reference>
       <Reference ReferenceType="HasProperty">i=15562</Reference>
@@ -39323,6 +39690,7 @@
   <UAObjectType NodeId="i=15563" BrowseName="PubSubCommunicationFailureEventType" IsAbstract="true">
     <DisplayName>PubSubCommunicationFailureEventType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This EventType indicates that a NetworkMessage could not be published because of a communication failure. The PubSubCommunicationFailureEventType is formally defined in Table 157.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15576</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15535</Reference>
@@ -39339,6 +39707,7 @@
   <UAObjectType NodeId="i=21105" BrowseName="UadpWriterGroupMessageType">
     <DisplayName>UadpWriterGroupMessageType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType represents UADP message mapping specific parameters for a WriterGroup. The UadpWriterGroupMessageType is formally defined in Table 158.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=21106</Reference>
       <Reference ReferenceType="HasProperty">i=21107</Reference>
@@ -39391,6 +39760,7 @@
   <UAObjectType NodeId="i=21111" BrowseName="UadpDataSetWriterMessageType">
     <DisplayName>UadpDataSetWriterMessageType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType represents UADP message mapping specific parameters for a DataSetWriter. The UadpDataSetWriterMessageType is formally defined in Table 159.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=21112</Reference>
       <Reference ReferenceType="HasProperty">i=21113</Reference>
@@ -39434,6 +39804,7 @@
   <UAObjectType NodeId="i=21116" BrowseName="UadpDataSetReaderMessageType">
     <DisplayName>UadpDataSetReaderMessageType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType represents UADP message mapping specific parameters for a DataSetReader. The UadpDataSetWriterMessageType is formally defined in Table 160.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=21117</Reference>
       <Reference ReferenceType="HasProperty">i=21118</Reference>
@@ -39531,6 +39902,7 @@
   <UAObjectType NodeId="i=21126" BrowseName="JsonWriterGroupMessageType">
     <DisplayName>JsonWriterGroupMessageType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType represents JSON message mapping specific parameters for a WriterGroup. The JsonWriterGroupMessageType is formally defined in Table 161.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=21127</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=17998</Reference>
@@ -39547,6 +39919,7 @@
   <UAObjectType NodeId="i=21128" BrowseName="JsonDataSetWriterMessageType">
     <DisplayName>JsonDataSetWriterMessageType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType represents UADP message mapping specific parameters for a DataSetWriter. The JsonDataSetWriterMessageType is formally defined in Table 162.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=21129</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=21096</Reference>
@@ -39563,6 +39936,7 @@
   <UAObjectType NodeId="i=21130" BrowseName="JsonDataSetReaderMessageType">
     <DisplayName>JsonDataSetReaderMessageType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType represents UADP message mapping specific parameters for a DataSetReader. The JsonDataSetReaderMessageType is formally defined in Table 163.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=21131</Reference>
       <Reference ReferenceType="HasProperty">i=21132</Reference>
@@ -39588,6 +39962,7 @@
   <UAObjectType NodeId="i=15064" BrowseName="DatagramConnectionTransportType">
     <DisplayName>DatagramConnectionTransportType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType represents datagram transport protocol mapping specific parameters for a PubSubConnection. The DatagramConnectionTransportType is formally defined in Table 164.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=15072</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=17721</Reference>
@@ -39613,6 +39988,7 @@
   <UAObjectType NodeId="i=21133" BrowseName="DatagramWriterGroupTransportType">
     <DisplayName>DatagramWriterGroupTransportType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType represents datagram transport protocol mapping specific parameters for a WriterGroup. The DatagramWriterGroupTransportType is formally defined in Table 167.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=21134</Reference>
       <Reference ReferenceType="HasProperty">i=21135</Reference>
@@ -39638,6 +40014,7 @@
   <UAObjectType NodeId="i=15155" BrowseName="BrokerConnectionTransportType">
     <DisplayName>BrokerConnectionTransportType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType represents broker transport protocol mapping specific parameters for a PubSubConnection. The BrokerConnectionTransportType is formally defined in Table 166.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15156</Reference>
       <Reference ReferenceType="HasProperty">i=15178</Reference>
@@ -39663,6 +40040,7 @@
   <UAObjectType NodeId="i=21136" BrowseName="BrokerWriterGroupTransportType">
     <DisplayName>BrokerWriterGroupTransportType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType represents broker transport protocol mapping specific parameters for a WriterGroup. The BrokerWriterGroupTransportType is formally defined in Table 167.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=21137</Reference>
       <Reference ReferenceType="HasProperty">i=15246</Reference>
@@ -39706,6 +40084,7 @@
   <UAObjectType NodeId="i=21138" BrowseName="BrokerDataSetWriterTransportType">
     <DisplayName>BrokerDataSetWriterTransportType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType represents broker transport protocol mapping specific parameters for a DataSetWriter. The BrokerDataSetWriterTransportType is formally defined in Table 168.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=21139</Reference>
       <Reference ReferenceType="HasProperty">i=21140</Reference>
@@ -39767,6 +40146,7 @@
   <UAObjectType NodeId="i=21142" BrowseName="BrokerDataSetReaderTransportType">
     <DisplayName>BrokerDataSetReaderTransportType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>This ObjectType represents datagram transport protocol mapping specific parameters for a DataSetReader. The BrokerDataSetReaderTransportType is formally defined in Table 170.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=21143</Reference>
       <Reference ReferenceType="HasProperty">i=15334</Reference>
@@ -39819,6 +40199,7 @@
   <UAObjectType NodeId="i=21145" BrowseName="NetworkAddressType" IsAbstract="true">
     <DisplayName>NetworkAddressType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>An instance of a subtype of this abstract ObjectType represents network address information. The NetworkAddressType is formally defined in Table A.12.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=21146</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
@@ -39835,6 +40216,7 @@
   <UAObjectType NodeId="i=21147" BrowseName="NetworkAddressUrlType">
     <DisplayName>NetworkAddressUrlType</DisplayName>
     <Category>Part14</Category>
+    <Documentation>An instance of this ObjectType represents network address information in the form of an URL String. The NetworkAddressUrlType is formally defined in Table A.13.</Documentation>
     <References>
       <Reference ReferenceType="HasComponent">i=21149</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=21145</Reference>
@@ -39852,6 +40234,7 @@
     <DisplayName>IdType</DisplayName>
     <Description>The type of identifier used in a node id.</Description>
     <Category>Part3</Category>
+    <Documentation>The type of identifier used in a node id.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=7591</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
@@ -39907,6 +40290,7 @@
     <DisplayName>NodeClass</DisplayName>
     <Description>A mask specifying the class of the node.</Description>
     <Category>Part3</Category>
+    <Documentation>A mask specifying the class of the node.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=11878</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
@@ -40141,23 +40525,57 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
     </References>
     <Definition Name="PermissionType" IsOptionSet="true">
-      <Field Name="Browse" Value="0" />
-      <Field Name="ReadRolePermissions" Value="1" />
-      <Field Name="WriteAttribute" Value="2" />
-      <Field Name="WriteRolePermissions" Value="3" />
-      <Field Name="WriteHistorizing" Value="4" />
-      <Field Name="Read" Value="5" />
-      <Field Name="Write" Value="6" />
-      <Field Name="ReadHistory" Value="7" />
-      <Field Name="InsertHistory" Value="8" />
-      <Field Name="ModifyHistory" Value="9" />
-      <Field Name="DeleteHistory" Value="10" />
-      <Field Name="ReceiveEvents" Value="11" />
-      <Field Name="Call" Value="12" />
-      <Field Name="AddReference" Value="13" />
-      <Field Name="RemoveReference" Value="14" />
-      <Field Name="DeleteNode" Value="15" />
-      <Field Name="AddNode" Value="16" />
+      <Field Name="Browse" Value="0">
+        <Description />
+      </Field>
+      <Field Name="ReadRolePermissions" Value="1">
+        <Description />
+      </Field>
+      <Field Name="WriteAttribute" Value="2">
+        <Description />
+      </Field>
+      <Field Name="WriteRolePermissions" Value="3">
+        <Description />
+      </Field>
+      <Field Name="WriteHistorizing" Value="4">
+        <Description />
+      </Field>
+      <Field Name="Read" Value="5">
+        <Description />
+      </Field>
+      <Field Name="Write" Value="6">
+        <Description />
+      </Field>
+      <Field Name="ReadHistory" Value="7">
+        <Description />
+      </Field>
+      <Field Name="InsertHistory" Value="8">
+        <Description />
+      </Field>
+      <Field Name="ModifyHistory" Value="9">
+        <Description />
+      </Field>
+      <Field Name="DeleteHistory" Value="10">
+        <Description />
+      </Field>
+      <Field Name="ReceiveEvents" Value="11">
+        <Description />
+      </Field>
+      <Field Name="Call" Value="12">
+        <Description />
+      </Field>
+      <Field Name="AddReference" Value="13">
+        <Description />
+      </Field>
+      <Field Name="RemoveReference" Value="14">
+        <Description />
+      </Field>
+      <Field Name="DeleteNode" Value="15">
+        <Description />
+      </Field>
+      <Field Name="AddNode" Value="16">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15030" BrowseName="OptionSetValues" ParentNodeId="i=94" DataType="LocalizedText" ValueRank="1">
@@ -40265,13 +40683,27 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=3</Reference>
     </References>
     <Definition Name="AccessLevelType" IsOptionSet="true">
-      <Field Name="CurrentRead" Value="0" />
-      <Field Name="CurrentWrite" Value="1" />
-      <Field Name="HistoryRead" Value="2" />
-      <Field Name="HistoryWrite" Value="3" />
-      <Field Name="SemanticChange" Value="4" />
-      <Field Name="StatusWrite" Value="5" />
-      <Field Name="TimestampWrite" Value="6" />
+      <Field Name="CurrentRead" Value="0">
+        <Description />
+      </Field>
+      <Field Name="CurrentWrite" Value="1">
+        <Description />
+      </Field>
+      <Field Name="HistoryRead" Value="2">
+        <Description />
+      </Field>
+      <Field Name="HistoryWrite" Value="3">
+        <Description />
+      </Field>
+      <Field Name="SemanticChange" Value="4">
+        <Description />
+      </Field>
+      <Field Name="StatusWrite" Value="5">
+        <Description />
+      </Field>
+      <Field Name="TimestampWrite" Value="6">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15032" BrowseName="OptionSetValues" ParentNodeId="i=15031" DataType="LocalizedText" ValueRank="1">
@@ -40329,16 +40761,36 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
     </References>
     <Definition Name="AccessLevelExType" IsOptionSet="true">
-      <Field Name="CurrentRead" Value="0" />
-      <Field Name="CurrentWrite" Value="1" />
-      <Field Name="HistoryRead" Value="2" />
-      <Field Name="HistoryWrite" Value="3" />
-      <Field Name="SemanticChange" Value="4" />
-      <Field Name="StatusWrite" Value="5" />
-      <Field Name="TimestampWrite" Value="6" />
-      <Field Name="NonatomicRead" Value="8" />
-      <Field Name="NonatomicWrite" Value="9" />
-      <Field Name="WriteFullArrayOnly" Value="10" />
+      <Field Name="CurrentRead" Value="0">
+        <Description />
+      </Field>
+      <Field Name="CurrentWrite" Value="1">
+        <Description />
+      </Field>
+      <Field Name="HistoryRead" Value="2">
+        <Description />
+      </Field>
+      <Field Name="HistoryWrite" Value="3">
+        <Description />
+      </Field>
+      <Field Name="SemanticChange" Value="4">
+        <Description />
+      </Field>
+      <Field Name="StatusWrite" Value="5">
+        <Description />
+      </Field>
+      <Field Name="TimestampWrite" Value="6">
+        <Description />
+      </Field>
+      <Field Name="NonatomicRead" Value="8">
+        <Description />
+      </Field>
+      <Field Name="NonatomicWrite" Value="9">
+        <Description />
+      </Field>
+      <Field Name="WriteFullArrayOnly" Value="10">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15407" BrowseName="OptionSetValues" ParentNodeId="i=15406" DataType="LocalizedText" ValueRank="1">
@@ -40416,9 +40868,15 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=3</Reference>
     </References>
     <Definition Name="EventNotifierType" IsOptionSet="true">
-      <Field Name="SubscribeToEvents" Value="0" />
-      <Field Name="HistoryRead" Value="2" />
-      <Field Name="HistoryWrite" Value="3" />
+      <Field Name="SubscribeToEvents" Value="0">
+        <Description />
+      </Field>
+      <Field Name="HistoryRead" Value="2">
+        <Description />
+      </Field>
+      <Field Name="HistoryWrite" Value="3">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15034" BrowseName="OptionSetValues" ParentNodeId="i=15033" DataType="LocalizedText" ValueRank="1">
@@ -40461,9 +40919,15 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
     </References>
     <Definition Name="AccessRestrictionType" IsOptionSet="true">
-      <Field Name="SigningRequired" Value="0" />
-      <Field Name="EncryptionRequired" Value="1" />
-      <Field Name="SessionRequired" Value="2" />
+      <Field Name="SigningRequired" Value="0">
+        <Description />
+      </Field>
+      <Field Name="EncryptionRequired" Value="1">
+        <Description />
+      </Field>
+      <Field Name="SessionRequired" Value="2">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=15035" BrowseName="OptionSetValues" ParentNodeId="i=95" DataType="LocalizedText" ValueRank="1">
@@ -40519,9 +40983,15 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="StructureType">
-      <Field Name="Structure" Value="0" />
-      <Field Name="StructureWithOptionalFields" Value="1" />
-      <Field Name="Union" Value="2" />
+      <Field Name="Structure" Value="0">
+        <Description />
+      </Field>
+      <Field Name="StructureWithOptionalFields" Value="1">
+        <Description />
+      </Field>
+      <Field Name="Union" Value="2">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=14528" BrowseName="EnumStrings" ParentNodeId="i=98" DataType="LocalizedText" ValueRank="1">
@@ -40594,6 +41064,7 @@
     <DisplayName>Node</DisplayName>
     <Description>Specifies the attributes which belong to all nodes.</Description>
     <Category>Part3/Services</Category>
+    <Documentation>Specifies the attributes which belong to all nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -40651,6 +41122,7 @@
     <DisplayName>ObjectNode</DisplayName>
     <Description>Specifies the attributes which belong to object nodes.</Description>
     <Category>Part3/Services</Category>
+    <Documentation>Specifies the attributes which belong to object nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=11879</Reference>
     </References>
@@ -40664,6 +41136,7 @@
     <DisplayName>ObjectTypeNode</DisplayName>
     <Description>Specifies the attributes which belong to object type nodes.</Description>
     <Category>Part3/Services</Category>
+    <Documentation>Specifies the attributes which belong to object type nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=11880</Reference>
     </References>
@@ -40677,6 +41150,7 @@
     <DisplayName>VariableNode</DisplayName>
     <Description>Specifies the attributes which belong to variable nodes.</Description>
     <Category>Part3/Services</Category>
+    <Documentation>Specifies the attributes which belong to variable nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=11879</Reference>
     </References>
@@ -40714,6 +41188,7 @@
     <DisplayName>VariableTypeNode</DisplayName>
     <Description>Specifies the attributes which belong to variable type nodes.</Description>
     <Category>Part3/Services</Category>
+    <Documentation>Specifies the attributes which belong to variable type nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=11880</Reference>
     </References>
@@ -40739,6 +41214,7 @@
     <DisplayName>ReferenceTypeNode</DisplayName>
     <Description>Specifies the attributes which belong to reference type nodes.</Description>
     <Category>Part3/Services</Category>
+    <Documentation>Specifies the attributes which belong to reference type nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=11880</Reference>
     </References>
@@ -40758,6 +41234,7 @@
     <DisplayName>MethodNode</DisplayName>
     <Description>Specifies the attributes which belong to method nodes.</Description>
     <Category>Part3/Services</Category>
+    <Documentation>Specifies the attributes which belong to method nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=11879</Reference>
     </References>
@@ -40804,6 +41281,7 @@
     <DisplayName>ReferenceNode</DisplayName>
     <Description>Specifies a reference which belongs to a node.</Description>
     <Category>Part3/Services</Category>
+    <Documentation>Specifies a reference which belongs to a node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -40823,6 +41301,7 @@
     <DisplayName>Argument</DisplayName>
     <Description>An argument for a method.</Description>
     <Category>Part3</Category>
+    <Documentation>An argument for a method.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -40848,6 +41327,7 @@
     <DisplayName>EnumValueType</DisplayName>
     <Description>A mapping between a value of an enumerated type and a name and description.</Description>
     <Category>Part3</Category>
+    <Documentation>A mapping between a value of an enumerated type and a name and description.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -40877,6 +41357,7 @@
     <DisplayName>OptionSet</DisplayName>
     <Description>This abstract Structured DataType is the base DataType for all DataTypes representing a bit mask.</Description>
     <Category>Part3</Category>
+    <Documentation>This abstract Structured DataType is the base DataType for all DataTypes representing a bit mask.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -40893,6 +41374,7 @@
     <DisplayName>Union</DisplayName>
     <Description>This abstract DataType is the base DataType for all union DataTypes.</Description>
     <Category>Part3</Category>
+    <Documentation>This abstract DataType is the base DataType for all union DataTypes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -40901,6 +41383,7 @@
     <DisplayName>NormalizedString</DisplayName>
     <Description>A string normalized based on the rules in the unicode specification.</Description>
     <Category>Part3</Category>
+    <Documentation>A string normalized based on the rules in the unicode specification.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=12</Reference>
     </References>
@@ -40909,6 +41392,7 @@
     <DisplayName>DecimalString</DisplayName>
     <Description>An arbitraty numeric value.</Description>
     <Category>Part3</Category>
+    <Documentation>An arbitraty numeric value.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=12</Reference>
     </References>
@@ -40917,6 +41401,7 @@
     <DisplayName>DurationString</DisplayName>
     <Description>A period of time formatted as defined in ISO 8601-2000.</Description>
     <Category>Part3</Category>
+    <Documentation>A period of time formatted as defined in ISO 8601-2000.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=12</Reference>
     </References>
@@ -40925,6 +41410,7 @@
     <DisplayName>TimeString</DisplayName>
     <Description>A time formatted as defined in ISO 8601-2000.</Description>
     <Category>Part3</Category>
+    <Documentation>A time formatted as defined in ISO 8601-2000.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=12</Reference>
     </References>
@@ -40933,6 +41419,7 @@
     <DisplayName>DateString</DisplayName>
     <Description>A date formatted as defined in ISO 8601-2000.</Description>
     <Category>Part3</Category>
+    <Documentation>A date formatted as defined in ISO 8601-2000.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=12</Reference>
     </References>
@@ -40941,6 +41428,7 @@
     <DisplayName>Duration</DisplayName>
     <Description>A period of time measured in milliseconds.</Description>
     <Category>Part3</Category>
+    <Documentation>A period of time measured in milliseconds.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=11</Reference>
     </References>
@@ -40949,6 +41437,7 @@
     <DisplayName>UtcTime</DisplayName>
     <Description>A date/time value specified in Universal Coordinated Time (UTC).</Description>
     <Category>Part3</Category>
+    <Documentation>A date/time value specified in Universal Coordinated Time (UTC).</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=13</Reference>
     </References>
@@ -40957,6 +41446,7 @@
     <DisplayName>LocaleId</DisplayName>
     <Description>An identifier for a user locale.</Description>
     <Category>Part3</Category>
+    <Documentation>An identifier for a user locale.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=12</Reference>
     </References>
@@ -40976,6 +41466,7 @@
     <DisplayName>IntegerId</DisplayName>
     <Description>A numeric identifier for an object.</Description>
     <Category>Part4</Category>
+    <Documentation>A numeric identifier for an object.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
     </References>
@@ -40984,6 +41475,7 @@
     <DisplayName>ApplicationType</DisplayName>
     <Description>The types of applications.</Description>
     <Category>Part4</Category>
+    <Documentation>The types of applications.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=7597</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
@@ -41039,6 +41531,7 @@
     <DisplayName>ApplicationDescription</DisplayName>
     <Description>Describes an application and how to find it.</Description>
     <Category>Part4</Category>
+    <Documentation>Describes an application and how to find it.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41070,6 +41563,7 @@
     <DisplayName>RequestHeader</DisplayName>
     <Description>The header passed with every server request.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The header passed with every server request.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41101,6 +41595,7 @@
     <DisplayName>ResponseHeader</DisplayName>
     <Description>The header passed with every server response.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The header passed with every server response.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41136,6 +41631,7 @@
     <DisplayName>ServiceFault</DisplayName>
     <Description>The response returned by all services when there is a service level error.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The response returned by all services when there is a service level error.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41175,6 +41671,7 @@
     <DisplayName>FindServersRequest</DisplayName>
     <Description>Finds the servers known to the discovery server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Finds the servers known to the discovery server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41197,6 +41694,7 @@
     <DisplayName>FindServersResponse</DisplayName>
     <Description>Finds the servers known to the discovery server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Finds the servers known to the discovery server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41251,6 +41749,7 @@
     <DisplayName>ApplicationInstanceCertificate</DisplayName>
     <Description>A certificate for an instance of an application.</Description>
     <Category>Part4</Category>
+    <Documentation>A certificate for an instance of an application.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15</Reference>
     </References>
@@ -41259,6 +41758,7 @@
     <DisplayName>MessageSecurityMode</DisplayName>
     <Description>The type of security to use on a message.</Description>
     <Category>Part4</Category>
+    <Documentation>The type of security to use on a message.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=7595</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
@@ -41314,6 +41814,7 @@
     <DisplayName>UserTokenType</DisplayName>
     <Description>The possible user token types.</Description>
     <Category>Part4</Category>
+    <Documentation>The possible user token types.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=7596</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
@@ -41369,6 +41870,7 @@
     <DisplayName>UserTokenPolicy</DisplayName>
     <Description>Describes a user token that can be used with a server.</Description>
     <Category>Part4</Category>
+    <Documentation>Describes a user token that can be used with a server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41394,6 +41896,7 @@
     <DisplayName>EndpointDescription</DisplayName>
     <Description>The description of a endpoint that can be used to access a server.</Description>
     <Category>Part4</Category>
+    <Documentation>The description of a endpoint that can be used to access a server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41428,6 +41931,7 @@
     <DisplayName>GetEndpointsRequest</DisplayName>
     <Description>Gets the endpoints used by the server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Gets the endpoints used by the server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41450,6 +41954,7 @@
     <DisplayName>GetEndpointsResponse</DisplayName>
     <Description>Gets the endpoints used by the server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Gets the endpoints used by the server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41466,6 +41971,7 @@
     <DisplayName>RegisteredServer</DisplayName>
     <Description>The information required to register a server with a discovery server.</Description>
     <Category>Part4</Category>
+    <Documentation>The information required to register a server with a discovery server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41500,6 +42006,7 @@
     <DisplayName>RegisterServerRequest</DisplayName>
     <Description>Registers a server with the discovery server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Registers a server with the discovery server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41516,6 +42023,7 @@
     <DisplayName>RegisterServerResponse</DisplayName>
     <Description>Registers a server with the discovery server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Registers a server with the discovery server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41529,6 +42037,7 @@
     <DisplayName>DiscoveryConfiguration</DisplayName>
     <Description>A base type for discovery configuration information.</Description>
     <Category>Part4</Category>
+    <Documentation>A base type for discovery configuration information.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41537,6 +42046,7 @@
     <DisplayName>MdnsDiscoveryConfiguration</DisplayName>
     <Description>The discovery information needed for mDNS registration.</Description>
     <Category>Part4</Category>
+    <Documentation>The discovery information needed for mDNS registration.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=12890</Reference>
     </References>
@@ -41577,6 +42087,7 @@
     <DisplayName>SecurityTokenRequestType</DisplayName>
     <Description>Indicates whether a token if being created or renewed.</Description>
     <Category>Part4</Category>
+    <Documentation>Indicates whether a token if being created or renewed.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=7598</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
@@ -41616,6 +42127,7 @@
     <DisplayName>ChannelSecurityToken</DisplayName>
     <Description>The token that identifies a set of keys for an active secure channel.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The token that identifies a set of keys for an active secure channel.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41638,6 +42150,7 @@
     <DisplayName>OpenSecureChannelRequest</DisplayName>
     <Description>Creates a secure channel with a server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Creates a secure channel with a server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41666,6 +42179,7 @@
     <DisplayName>OpenSecureChannelResponse</DisplayName>
     <Description>Creates a secure channel with a server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Creates a secure channel with a server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41688,6 +42202,7 @@
     <DisplayName>CloseSecureChannelRequest</DisplayName>
     <Description>Closes a secure channel.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Closes a secure channel.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41701,6 +42216,7 @@
     <DisplayName>CloseSecureChannelResponse</DisplayName>
     <Description>Closes a secure channel.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Closes a secure channel.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41714,6 +42230,7 @@
     <DisplayName>SignedSoftwareCertificate</DisplayName>
     <Description>A software certificate with a digital signature.</Description>
     <Category>Part4</Category>
+    <Documentation>A software certificate with a digital signature.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41730,6 +42247,7 @@
     <DisplayName>SessionAuthenticationToken</DisplayName>
     <Description>A unique identifier for a session used to authenticate requests.</Description>
     <Category>Part4</Category>
+    <Documentation>A unique identifier for a session used to authenticate requests.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=17</Reference>
     </References>
@@ -41738,6 +42256,7 @@
     <DisplayName>SignatureData</DisplayName>
     <Description>A digital signature.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>A digital signature.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41754,6 +42273,7 @@
     <DisplayName>CreateSessionRequest</DisplayName>
     <Description>Creates a new session with the server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Creates a new session with the server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41791,6 +42311,7 @@
     <DisplayName>CreateSessionResponse</DisplayName>
     <Description>Creates a new session with the server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Creates a new session with the server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41831,6 +42352,7 @@
     <DisplayName>UserIdentityToken</DisplayName>
     <Description>A base type for a user identity token.</Description>
     <Category>Part4</Category>
+    <Documentation>A base type for a user identity token.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41844,6 +42366,7 @@
     <DisplayName>AnonymousIdentityToken</DisplayName>
     <Description>A token representing an anonymous user.</Description>
     <Category>Part4</Category>
+    <Documentation>A token representing an anonymous user.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=316</Reference>
     </References>
@@ -41852,6 +42375,7 @@
     <DisplayName>UserNameIdentityToken</DisplayName>
     <Description>A token representing a user identified by a user name and password.</Description>
     <Category>Part4</Category>
+    <Documentation>A token representing a user identified by a user name and password.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=316</Reference>
     </References>
@@ -41871,6 +42395,7 @@
     <DisplayName>X509IdentityToken</DisplayName>
     <Description>A token representing a user identified by an X509 certificate.</Description>
     <Category>Part4</Category>
+    <Documentation>A token representing a user identified by an X509 certificate.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=316</Reference>
     </References>
@@ -41884,6 +42409,7 @@
     <DisplayName>IssuedIdentityToken</DisplayName>
     <Description>A token representing a user identified by a WS-Security XML token.</Description>
     <Category>Part4</Category>
+    <Documentation>A token representing a user identified by a WS-Security XML token.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=316</Reference>
     </References>
@@ -41900,6 +42426,7 @@
     <DisplayName>ActivateSessionRequest</DisplayName>
     <Description>Activates a session with the server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Activates a session with the server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41928,6 +42455,7 @@
     <DisplayName>ActivateSessionResponse</DisplayName>
     <Description>Activates a session with the server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Activates a session with the server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41950,6 +42478,7 @@
     <DisplayName>CloseSessionRequest</DisplayName>
     <Description>Closes a session with the server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Closes a session with the server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41966,6 +42495,7 @@
     <DisplayName>CloseSessionResponse</DisplayName>
     <Description>Closes a session with the server.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Closes a session with the server.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41979,6 +42509,7 @@
     <DisplayName>CancelRequest</DisplayName>
     <Description>Cancels an outstanding request.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Cancels an outstanding request.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -41995,6 +42526,7 @@
     <DisplayName>CancelResponse</DisplayName>
     <Description>Cancels an outstanding request.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Cancels an outstanding request.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -42011,6 +42543,7 @@
     <DisplayName>NodeAttributesMask</DisplayName>
     <Description>The bits used to specify default attributes for a new node.</Description>
     <Category>Part4</Category>
+    <Documentation>The bits used to specify default attributes for a new node.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=11881</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
@@ -42839,6 +43372,7 @@
     <DisplayName>NodeAttributes</DisplayName>
     <Description>The base attributes for all nodes.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The base attributes for all nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -42864,6 +43398,7 @@
     <DisplayName>ObjectAttributes</DisplayName>
     <Description>The attributes for an object node.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The attributes for an object node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=349</Reference>
     </References>
@@ -42877,6 +43412,7 @@
     <DisplayName>VariableAttributes</DisplayName>
     <Description>The attributes for a variable node.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The attributes for a variable node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=349</Reference>
     </References>
@@ -42911,6 +43447,7 @@
     <DisplayName>MethodAttributes</DisplayName>
     <Description>The attributes for a method node.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The attributes for a method node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=349</Reference>
     </References>
@@ -42927,6 +43464,7 @@
     <DisplayName>ObjectTypeAttributes</DisplayName>
     <Description>The attributes for an object type node.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The attributes for an object type node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=349</Reference>
     </References>
@@ -42940,6 +43478,7 @@
     <DisplayName>VariableTypeAttributes</DisplayName>
     <Description>The attributes for a variable type node.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The attributes for a variable type node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=349</Reference>
     </References>
@@ -42965,6 +43504,7 @@
     <DisplayName>ReferenceTypeAttributes</DisplayName>
     <Description>The attributes for a reference type node.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The attributes for a reference type node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=349</Reference>
     </References>
@@ -42984,6 +43524,7 @@
     <DisplayName>DataTypeAttributes</DisplayName>
     <Description>The attributes for a data type node.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The attributes for a data type node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=349</Reference>
     </References>
@@ -42997,6 +43538,7 @@
     <DisplayName>ViewAttributes</DisplayName>
     <Description>The attributes for a view node.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The attributes for a view node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=349</Reference>
     </References>
@@ -43034,6 +43576,7 @@
     <DisplayName>AddNodesItem</DisplayName>
     <Description>A request to add a node to the server address space.</Description>
     <Category>Part4</Category>
+    <Documentation>A request to add a node to the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43065,6 +43608,7 @@
     <DisplayName>AddNodesResult</DisplayName>
     <Description>A result of an add node operation.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>A result of an add node operation.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43081,6 +43625,7 @@
     <DisplayName>AddNodesRequest</DisplayName>
     <Description>Adds one or more nodes to the server address space.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Adds one or more nodes to the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43097,6 +43642,7 @@
     <DisplayName>AddNodesResponse</DisplayName>
     <Description>Adds one or more nodes to the server address space.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Adds one or more nodes to the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43116,6 +43662,7 @@
     <DisplayName>AddReferencesItem</DisplayName>
     <Description>A request to add a reference to the server address space.</Description>
     <Category>Part4</Category>
+    <Documentation>A request to add a reference to the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43144,6 +43691,7 @@
     <DisplayName>AddReferencesRequest</DisplayName>
     <Description>Adds one or more references to the server address space.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Adds one or more references to the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43160,6 +43708,7 @@
     <DisplayName>AddReferencesResponse</DisplayName>
     <Description>Adds one or more references to the server address space.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Adds one or more references to the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43179,6 +43728,7 @@
     <DisplayName>DeleteNodesItem</DisplayName>
     <Description>A request to delete a node to the server address space.</Description>
     <Category>Part4</Category>
+    <Documentation>A request to delete a node to the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43195,6 +43745,7 @@
     <DisplayName>DeleteNodesRequest</DisplayName>
     <Description>Delete one or more nodes from the server address space.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Delete one or more nodes from the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43211,6 +43762,7 @@
     <DisplayName>DeleteNodesResponse</DisplayName>
     <Description>Delete one or more nodes from the server address space.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Delete one or more nodes from the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43230,6 +43782,7 @@
     <DisplayName>DeleteReferencesItem</DisplayName>
     <Description>A request to delete a node from the server address space.</Description>
     <Category>Part4</Category>
+    <Documentation>A request to delete a node from the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43255,6 +43808,7 @@
     <DisplayName>DeleteReferencesRequest</DisplayName>
     <Description>Delete one or more references from the server address space.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Delete one or more references from the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43271,6 +43825,7 @@
     <DisplayName>DeleteReferencesResponse</DisplayName>
     <Description>Delete one or more references from the server address space.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Delete one or more references from the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43290,6 +43845,7 @@
     <DisplayName>AttributeWriteMask</DisplayName>
     <Description>Define bits used to indicate which attributes are writable.</Description>
     <Category>Part4</Category>
+    <Documentation>Define bits used to indicate which attributes are writable.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15036</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
@@ -43521,6 +44077,7 @@
     <DisplayName>BrowseDirection</DisplayName>
     <Description>The directions of the references to return.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The directions of the references to return.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=7603</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
@@ -43535,7 +44092,9 @@
       <Field Name="Both" Value="2">
         <Description>Return forward and inverse references.</Description>
       </Field>
-      <Field Name="Invalid" Value="3" />
+      <Field Name="Invalid" Value="3">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=7603" BrowseName="EnumStrings" ParentNodeId="i=510" DataType="LocalizedText" ValueRank="1">
@@ -43574,6 +44133,7 @@
     <DisplayName>ViewDescription</DisplayName>
     <Description>The view to browse.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The view to browse.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43593,6 +44153,7 @@
     <DisplayName>BrowseDescription</DisplayName>
     <Description>A request to browse the the references from a node.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>A request to browse the the references from a node.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43621,6 +44182,7 @@
     <DisplayName>BrowseResultMask</DisplayName>
     <Description>A bit mask which specifies what should be returned in a browse response.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>A bit mask which specifies what should be returned in a browse response.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=11883</Reference>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
@@ -43874,6 +44436,7 @@
     <DisplayName>ReferenceDescription</DisplayName>
     <Description>The description of a reference.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The description of a reference.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43905,6 +44468,7 @@
     <DisplayName>ContinuationPoint</DisplayName>
     <Description>An identifier for a suspended query or browse operation.</Description>
     <Category>Part4</Category>
+    <Documentation>An identifier for a suspended query or browse operation.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15</Reference>
     </References>
@@ -43913,6 +44477,7 @@
     <DisplayName>BrowseResult</DisplayName>
     <Description>The result of a browse operation.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The result of a browse operation.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43932,6 +44497,7 @@
     <DisplayName>BrowseRequest</DisplayName>
     <Description>Browse the references for one or more nodes from the server address space.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Browse the references for one or more nodes from the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43954,6 +44520,7 @@
     <DisplayName>BrowseResponse</DisplayName>
     <Description>Browse the references for one or more nodes from the server address space.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Browse the references for one or more nodes from the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43973,6 +44540,7 @@
     <DisplayName>BrowseNextRequest</DisplayName>
     <Description>Continues one or more browse operations.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Continues one or more browse operations.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -43992,6 +44560,7 @@
     <DisplayName>BrowseNextResponse</DisplayName>
     <Description>Continues one or more browse operations.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Continues one or more browse operations.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -44011,6 +44580,7 @@
     <DisplayName>RelativePathElement</DisplayName>
     <Description>An element in a relative path.</Description>
     <Category>Part4</Category>
+    <Documentation>An element in a relative path.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -44033,6 +44603,7 @@
     <DisplayName>RelativePath</DisplayName>
     <Description>A relative path constructed from reference types and browse names.</Description>
     <Category>Part4</Category>
+    <Documentation>A relative path constructed from reference types and browse names.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -44046,6 +44617,7 @@
     <DisplayName>BrowsePath</DisplayName>
     <Description>A request to translate a path into a node id.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>A request to translate a path into a node id.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -44062,6 +44634,7 @@
     <DisplayName>BrowsePathTarget</DisplayName>
     <Description>The target of the translated path.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The target of the translated path.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -44078,6 +44651,7 @@
     <DisplayName>BrowsePathResult</DisplayName>
     <Description>The result of a translate opearation.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>The result of a translate opearation.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -44094,6 +44668,7 @@
     <DisplayName>TranslateBrowsePathsToNodeIdsRequest</DisplayName>
     <Description>Translates one or more paths in the server address space.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Translates one or more paths in the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -44110,6 +44685,7 @@
     <DisplayName>TranslateBrowsePathsToNodeIdsResponse</DisplayName>
     <Description>Translates one or more paths in the server address space.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Translates one or more paths in the server address space.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -44129,6 +44705,7 @@
     <DisplayName>RegisterNodesRequest</DisplayName>
     <Description>Registers one or more nodes for repeated use within a session.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Registers one or more nodes for repeated use within a session.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -44145,6 +44722,7 @@
     <DisplayName>RegisterNodesResponse</DisplayName>
     <Description>Registers one or more nodes for repeated use within a session.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Registers one or more nodes for repeated use within a session.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -44161,6 +44739,7 @@
     <DisplayName>UnregisterNodesRequest</DisplayName>
     <Description>Unregisters one or more previously registered nodes.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Unregisters one or more previously registered nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -44177,6 +44756,7 @@
     <DisplayName>UnregisterNodesResponse</DisplayName>
     <Description>Unregisters one or more previously registered nodes.</Description>
     <Category>Part4/Services</Category>
+    <Documentation>Unregisters one or more previously registered nodes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -44190,6 +44770,7 @@
     <DisplayName>Counter</DisplayName>
     <Description>A monotonically increasing value.</Description>
     <Category>Part4</Category>
+    <Documentation>A monotonically increasing value.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
     </References>
@@ -44198,6 +44779,7 @@
     <DisplayName>NumericRange</DisplayName>
     <Description>Specifies a range of array indexes.</Description>
     <Category>Part4</Category>
+    <Documentation>Specifies a range of array indexes.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=12</Reference>
     </References>
@@ -44206,6 +44788,7 @@
     <DisplayName>Time</DisplayName>
     <Description>A time value specified as HH:MM:SS.SSS.</Description>
     <Category>Part4</Category>
+    <Documentation>A time value specified as HH:MM:SS.SSS.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=12</Reference>
     </References>
@@ -44214,6 +44797,7 @@
     <DisplayName>Date</DisplayName>
     <Description>A date value.</Description>
     <Category>Part4</Category>
+    <Documentation>A date value.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=13</Reference>
     </References>
@@ -44268,24 +44852,60 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="FilterOperator">
-      <Field Name="Equals" Value="0" />
-      <Field Name="IsNull" Value="1" />
-      <Field Name="GreaterThan" Value="2" />
-      <Field Name="LessThan" Value="3" />
-      <Field Name="GreaterThanOrEqual" Value="4" />
-      <Field Name="LessThanOrEqual" Value="5" />
-      <Field Name="Like" Value="6" />
-      <Field Name="Not" Value="7" />
-      <Field Name="Between" Value="8" />
-      <Field Name="InList" Value="9" />
-      <Field Name="And" Value="10" />
-      <Field Name="Or" Value="11" />
-      <Field Name="Cast" Value="12" />
-      <Field Name="InView" Value="13" />
-      <Field Name="OfType" Value="14" />
-      <Field Name="RelatedTo" Value="15" />
-      <Field Name="BitwiseAnd" Value="16" />
-      <Field Name="BitwiseOr" Value="17" />
+      <Field Name="Equals" Value="0">
+        <Description />
+      </Field>
+      <Field Name="IsNull" Value="1">
+        <Description />
+      </Field>
+      <Field Name="GreaterThan" Value="2">
+        <Description />
+      </Field>
+      <Field Name="LessThan" Value="3">
+        <Description />
+      </Field>
+      <Field Name="GreaterThanOrEqual" Value="4">
+        <Description />
+      </Field>
+      <Field Name="LessThanOrEqual" Value="5">
+        <Description />
+      </Field>
+      <Field Name="Like" Value="6">
+        <Description />
+      </Field>
+      <Field Name="Not" Value="7">
+        <Description />
+      </Field>
+      <Field Name="Between" Value="8">
+        <Description />
+      </Field>
+      <Field Name="InList" Value="9">
+        <Description />
+      </Field>
+      <Field Name="And" Value="10">
+        <Description />
+      </Field>
+      <Field Name="Or" Value="11">
+        <Description />
+      </Field>
+      <Field Name="Cast" Value="12">
+        <Description />
+      </Field>
+      <Field Name="InView" Value="13">
+        <Description />
+      </Field>
+      <Field Name="OfType" Value="14">
+        <Description />
+      </Field>
+      <Field Name="RelatedTo" Value="15">
+        <Description />
+      </Field>
+      <Field Name="BitwiseAnd" Value="16">
+        <Description />
+      </Field>
+      <Field Name="BitwiseOr" Value="17">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=7605" BrowseName="EnumStrings" ParentNodeId="i=576" DataType="LocalizedText" ValueRank="1">
@@ -44587,11 +45207,21 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="TimestampsToReturn">
-      <Field Name="Source" Value="0" />
-      <Field Name="Server" Value="1" />
-      <Field Name="Both" Value="2" />
-      <Field Name="Neither" Value="3" />
-      <Field Name="Invalid" Value="4" />
+      <Field Name="Source" Value="0">
+        <Description />
+      </Field>
+      <Field Name="Server" Value="1">
+        <Description />
+      </Field>
+      <Field Name="Both" Value="2">
+        <Description />
+      </Field>
+      <Field Name="Neither" Value="3">
+        <Description />
+      </Field>
+      <Field Name="Invalid" Value="4">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=7606" BrowseName="EnumStrings" ParentNodeId="i=625" DataType="LocalizedText" ValueRank="1">
@@ -44875,10 +45505,18 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="HistoryUpdateType">
-      <Field Name="Insert" Value="1" />
-      <Field Name="Replace" Value="2" />
-      <Field Name="Update" Value="3" />
-      <Field Name="Delete" Value="4" />
+      <Field Name="Insert" Value="1">
+        <Description />
+      </Field>
+      <Field Name="Replace" Value="2">
+        <Description />
+      </Field>
+      <Field Name="Update" Value="3">
+        <Description />
+      </Field>
+      <Field Name="Delete" Value="4">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=11884" BrowseName="EnumValues" ParentNodeId="i=11234" DataType="i=7594" ValueRank="1">
@@ -44965,10 +45603,18 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="PerformUpdateType">
-      <Field Name="Insert" Value="1" />
-      <Field Name="Replace" Value="2" />
-      <Field Name="Update" Value="3" />
-      <Field Name="Remove" Value="4" />
+      <Field Name="Insert" Value="1">
+        <Description />
+      </Field>
+      <Field Name="Replace" Value="2">
+        <Description />
+      </Field>
+      <Field Name="Update" Value="3">
+        <Description />
+      </Field>
+      <Field Name="Remove" Value="4">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=11885" BrowseName="EnumValues" ParentNodeId="i=11293" DataType="i=7594" ValueRank="1">
@@ -45204,9 +45850,15 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="MonitoringMode">
-      <Field Name="Disabled" Value="0" />
-      <Field Name="Sampling" Value="1" />
-      <Field Name="Reporting" Value="2" />
+      <Field Name="Disabled" Value="0">
+        <Description />
+      </Field>
+      <Field Name="Sampling" Value="1">
+        <Description />
+      </Field>
+      <Field Name="Reporting" Value="2">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=7608" BrowseName="EnumStrings" ParentNodeId="i=716" DataType="LocalizedText" ValueRank="1">
@@ -45244,9 +45896,15 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="DataChangeTrigger">
-      <Field Name="Status" Value="0" />
-      <Field Name="StatusValue" Value="1" />
-      <Field Name="StatusValueTimestamp" Value="2" />
+      <Field Name="Status" Value="0">
+        <Description />
+      </Field>
+      <Field Name="StatusValue" Value="1">
+        <Description />
+      </Field>
+      <Field Name="StatusValueTimestamp" Value="2">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=7609" BrowseName="EnumStrings" ParentNodeId="i=717" DataType="LocalizedText" ValueRank="1">
@@ -45284,9 +45942,15 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="DeadbandType">
-      <Field Name="None" Value="0" />
-      <Field Name="Absolute" Value="1" />
-      <Field Name="Percent" Value="2" />
+      <Field Name="None" Value="0">
+        <Description />
+      </Field>
+      <Field Name="Absolute" Value="1">
+        <Description />
+      </Field>
+      <Field Name="Percent" Value="2">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=7610" BrowseName="EnumStrings" ParentNodeId="i=718" DataType="LocalizedText" ValueRank="1">
@@ -45903,12 +46567,24 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="RedundancySupport">
-      <Field Name="None" Value="0" />
-      <Field Name="Cold" Value="1" />
-      <Field Name="Warm" Value="2" />
-      <Field Name="Hot" Value="3" />
-      <Field Name="Transparent" Value="4" />
-      <Field Name="HotAndMirrored" Value="5" />
+      <Field Name="None" Value="0">
+        <Description />
+      </Field>
+      <Field Name="Cold" Value="1">
+        <Description />
+      </Field>
+      <Field Name="Warm" Value="2">
+        <Description />
+      </Field>
+      <Field Name="Hot" Value="3">
+        <Description />
+      </Field>
+      <Field Name="Transparent" Value="4">
+        <Description />
+      </Field>
+      <Field Name="HotAndMirrored" Value="5">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=7611" BrowseName="EnumStrings" ParentNodeId="i=851" DataType="LocalizedText" ValueRank="1">
@@ -45961,14 +46637,30 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="ServerState">
-      <Field Name="Running" Value="0" />
-      <Field Name="Failed" Value="1" />
-      <Field Name="NoConfiguration" Value="2" />
-      <Field Name="Suspended" Value="3" />
-      <Field Name="Shutdown" Value="4" />
-      <Field Name="Test" Value="5" />
-      <Field Name="CommunicationFault" Value="6" />
-      <Field Name="Unknown" Value="7" />
+      <Field Name="Running" Value="0">
+        <Description />
+      </Field>
+      <Field Name="Failed" Value="1">
+        <Description />
+      </Field>
+      <Field Name="NoConfiguration" Value="2">
+        <Description />
+      </Field>
+      <Field Name="Suspended" Value="3">
+        <Description />
+      </Field>
+      <Field Name="Shutdown" Value="4">
+        <Description />
+      </Field>
+      <Field Name="Test" Value="5">
+        <Description />
+      </Field>
+      <Field Name="CommunicationFault" Value="6">
+        <Description />
+      </Field>
+      <Field Name="Unknown" Value="7">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=7612" BrowseName="EnumStrings" ParentNodeId="i=852" DataType="LocalizedText" ValueRank="1">
@@ -46245,11 +46937,21 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="ModelChangeStructureVerbMask">
-      <Field Name="NodeAdded" Value="1" />
-      <Field Name="NodeDeleted" Value="2" />
-      <Field Name="ReferenceAdded" Value="4" />
-      <Field Name="ReferenceDeleted" Value="8" />
-      <Field Name="DataTypeChanged" Value="16" />
+      <Field Name="NodeAdded" Value="1">
+        <Description />
+      </Field>
+      <Field Name="NodeDeleted" Value="2">
+        <Description />
+      </Field>
+      <Field Name="ReferenceAdded" Value="4">
+        <Description />
+      </Field>
+      <Field Name="ReferenceDeleted" Value="8">
+        <Description />
+      </Field>
+      <Field Name="DataTypeChanged" Value="16">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=11942" BrowseName="EnumValues" ParentNodeId="i=11941" DataType="i=7594" ValueRank="1">
@@ -46402,9 +47104,15 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="AxisScaleEnumeration">
-      <Field Name="Linear" Value="0" />
-      <Field Name="Log" Value="1" />
-      <Field Name="Ln" Value="2" />
+      <Field Name="Linear" Value="0">
+        <Description />
+      </Field>
+      <Field Name="Log" Value="1">
+        <Description />
+      </Field>
+      <Field Name="Ln" Value="2">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=12078" BrowseName="EnumStrings" ParentNodeId="i=12077" DataType="LocalizedText" ValueRank="1">
@@ -46461,7 +47169,8 @@
   <UADataType NodeId="i=12079" BrowseName="AxisInformation">
     <DisplayName>AxisInformation</DisplayName>
     <Category>Part8</Category>
-    <Documentation>This structure defines the information for auxiliary axis for ArrayItemType Variables.There are three typical uses of this structure:</Documentation>
+    <Documentation>This structure defines the information for auxiliary axis for ArrayItemType Variables.  
+There are three typical uses of this structure:</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -46476,7 +47185,9 @@
   <UADataType NodeId="i=12080" BrowseName="XVType">
     <DisplayName>XVType</DisplayName>
     <Category>Part8</Category>
-    <Documentation>This structure defines a physical value relative to a X axis and it is used as the DataType of the Value of XYArrayItemType. For details see 5.3.4.3.Many devices can produce values that can perfectly be represented with a float IEEE 32 bits but, they can position them on the X axis with an accuracy that requires double IEEE 64 bits. For example, the peak value in an absorbance spectrum where the amplitude of the peak can be represented by a float IEEE 32 bits, but its frequency position required 10 digits which implies the use of a double IEEE 64 bits. Its elements are defined in Table 26.</Documentation>
+    <Documentation>This structure defines a physical value relative to a X axis and it is used as the DataType of the Value of XYArrayItemType. For details see 5.3.4.3.  
+Many devices can produce values that can perfectly be represented with a float IEEE 32 bits but, they can position them on the X axis with an accuracy that requires double IEEE 64 bits. For example, the peak value in an absorbance spectrum where the amplitude of the peak can be represented by a float IEEE 32 bits, but its frequency position required 10 digits which implies the use of a double IEEE 64 bits.  
+Its elements are defined in Table 26.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
     </References>
@@ -46545,11 +47256,21 @@
       <Reference ReferenceType="HasSubtype" IsForward="false">i=29</Reference>
     </References>
     <Definition Name="ExceptionDeviationFormat">
-      <Field Name="AbsoluteValue" Value="0" />
-      <Field Name="PercentOfValue" Value="1" />
-      <Field Name="PercentOfRange" Value="2" />
-      <Field Name="PercentOfEURange" Value="3" />
-      <Field Name="Unknown" Value="4" />
+      <Field Name="AbsoluteValue" Value="0">
+        <Description />
+      </Field>
+      <Field Name="PercentOfValue" Value="1">
+        <Description />
+      </Field>
+      <Field Name="PercentOfRange" Value="2">
+        <Description />
+      </Field>
+      <Field Name="PercentOfEURange" Value="3">
+        <Description />
+      </Field>
+      <Field Name="Unknown" Value="4">
+        <Description />
+      </Field>
     </Definition>
   </UADataType>
   <UAVariable NodeId="i=7614" BrowseName="EnumStrings" ParentNodeId="i=890" DataType="LocalizedText" ValueRank="1">

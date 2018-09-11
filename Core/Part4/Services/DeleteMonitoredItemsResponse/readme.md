@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DeleteMonitoredItemsResponse
+  
 <!-- end of description -->
 The fields of the DeleteMonitoredItemsResponse DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the DeleteMonitoredItemsResponse DataType in the address s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=782|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DeleteMonitoredItemsResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

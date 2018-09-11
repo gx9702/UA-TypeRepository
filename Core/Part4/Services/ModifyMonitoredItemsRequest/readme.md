@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ModifyMonitoredItemsRequest
+  
 <!-- end of description -->
 The fields of the ModifyMonitoredItemsRequest DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the ModifyMonitoredItemsRequest DataType in the address sp
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=761|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ModifyMonitoredItemsRequest|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

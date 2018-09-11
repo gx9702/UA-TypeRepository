@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## CertificateType
   
+<!-- end of text -->
 The representation of the CertificateType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12556|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CertificateType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part12|
 
 The references from the CertificateType ObjectType Node are shown in the following table:  
 

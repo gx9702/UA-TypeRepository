@@ -4,6 +4,6 @@
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>-word-to-nodeset -input="X:\Work\OPC\UA-TypeRepository2\Core\OPC UA Part 8 - DataAccess Release 1.04 Specification.docx" -output="X:\Work\OPC\UA-TypeRepository2\Core\Opc.Ua.NodeSet2.xml" -model="http://opcfoundation.org/UA/,X:\Work\OPC\UA-TypeRepository2\Core\Opc.Ua.NodeSet2.xml"</StartArguments>
+    <StartArguments>-markdown-to-nodeset -output="X:\Work\OPC\UA-TypeRepository2\Core\Opc.Ua.NodeSet2.xml" -model="http://opcfoundation.org/UA/,X:\Work\OPC\UA-TypeRepository2\Core\Opc.Ua.NodeSet2.xml"</StartArguments>
   </PropertyGroup>
 </Project>

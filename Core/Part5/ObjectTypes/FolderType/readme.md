@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## FolderType
 The type for objects that organize other nodes.  
+<!-- end of text -->
 The representation of the FolderType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=61|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|FolderType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the FolderType ObjectType Node are shown in the following table:  
 

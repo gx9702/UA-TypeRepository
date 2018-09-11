@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## FiniteTransitionVariableType
   
+<!-- end of text -->
 The representation of the FiniteTransitionVariableType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2767|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|FiniteTransitionVariableType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[LocalizedText](../../../Part3/DataTypes/LocalizedText/readme.md)|
+|ValueRank|-1|
+|IsAbstract|False|
 |BaseType|[TransitionVariableType](../../../Part5/VariableTypes/TransitionVariableType/readme.md)|
+|Categories|Part5|
 
 The references from the FiniteTransitionVariableType VariableType Node are shown in the following table:  
 

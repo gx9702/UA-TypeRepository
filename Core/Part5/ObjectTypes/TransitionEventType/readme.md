@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## TransitionEventType
   
+<!-- end of text -->
 The representation of the TransitionEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2311|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|TransitionEventType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseEventType](../../../Part5/ObjectTypes/BaseEventType/readme.md)|
+|Categories|Part5|
 
 The references from the TransitionEventType ObjectType Node are shown in the following table:  
 

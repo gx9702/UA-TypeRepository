@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## DataSetReaderType
-  
+This ObjectType defines receiving behaviour of DataSetMessages and the decoding to DataSets. The DataSetReaderType is formally defined in Table 105. 
+
+The SubscribedDataSetType defined in 9.1.9.1 describes the processing of the received DataSet in a Subscriber.  
+<!-- end of text -->
 The representation of the DataSetReaderType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15306|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataSetReaderType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part14|
 
 The references from the DataSetReaderType ObjectType Node are shown in the following table:  
 

@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## OffNormalAlarmType
   
+<!-- end of text -->
 The representation of the OffNormalAlarmType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=10637|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|OffNormalAlarmType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DiscreteAlarmType](../../../Part9/ObjectTypes/DiscreteAlarmType/readme.md)|
+|Categories|Part9|
 
 The references from the OffNormalAlarmType ObjectType Node are shown in the following table:  
 

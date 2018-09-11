@@ -16,7 +16,10 @@ The representation of the OpenSecureChannelResponse DataType in the address spac
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=447|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|OpenSecureChannelResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

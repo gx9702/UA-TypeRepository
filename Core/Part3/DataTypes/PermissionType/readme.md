@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## PermissionType
+  
 <!-- end of description -->
 The fields of the PermissionType DataType are defined in the following table:  
 
@@ -27,9 +28,12 @@ The representation of the PermissionType DataType in the address space is shown 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=94|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PermissionType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|
+|Categories|Part3|
 
 The references from the PermissionType DataType Node are shown in the following table:  
 

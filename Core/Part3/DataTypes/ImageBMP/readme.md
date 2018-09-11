@@ -12,7 +12,10 @@ The representation of the ImageBMP DataType in the address space is shown in the
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2000|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ImageBMP|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Image](../../../Part3/DataTypes/Image/readme.md)|
+|Categories|Part3|
 

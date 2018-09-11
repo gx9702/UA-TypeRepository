@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ModelChangeStructureVerbMask
+  
 <!-- end of description -->
 The fields of the ModelChangeStructureVerbMask DataType are defined in the following table:  
 
@@ -15,9 +16,12 @@ The representation of the ModelChangeStructureVerbMask DataType in the address s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11941|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ModelChangeStructureVerbMask|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part5/Services|
 
 The references from the ModelChangeStructureVerbMask DataType Node are shown in the following table:  
 

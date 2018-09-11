@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## EnumDescription
+This Structure DataType provides the concrete DataTypeDescription for Enumeration DataTypes. It is a subtype of the DataTypeDescription DataType. The EnumDescription is formally defined in Table A.7.  
 <!-- end of description -->
 The fields of the EnumDescription DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the EnumDescription DataType in the address space is shown
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15488|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|EnumDescription|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataTypeDescription](../../../Part14/DataTypes/DataTypeDescription/readme.md)|
+|Categories|Part14|
 

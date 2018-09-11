@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## ExtensionFieldsType
-  
+The ExtensionFieldsType is formally defined in Table 106. It allows the configuration of fields with values to be included in the DataSet in case the existing AddressSpace of the Publisher does not provide the necessary information.  
+<!-- end of text -->
 The representation of the ExtensionFieldsType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15489|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ExtensionFieldsType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part14|
 
 The references from the ExtensionFieldsType ObjectType Node are shown in the following table:  
 

@@ -12,7 +12,10 @@ The representation of the ContinuationPoint DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=521|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ContinuationPoint|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[ByteString](../../../Part3/DataTypes/ByteString/readme.md)|
+|Categories|Part4|
 

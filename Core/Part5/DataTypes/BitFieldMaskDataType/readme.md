@@ -12,7 +12,10 @@ The representation of the BitFieldMaskDataType DataType in the address space is 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11737|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BitFieldMaskDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInt64](../../../Part3/DataTypes/UInt64/readme.md)|
+|Categories|Part5|
 

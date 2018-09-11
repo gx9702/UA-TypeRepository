@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## DataTypeDescription
+This Structure DataType is the abstract base type for all DataType descriptions containing the DataType NodeId and the definition for custom DataTypes like Structures and Enumerations. The DataTypeDescription is formally defined in Table A.3.  
 <!-- end of description -->
 The fields of the DataTypeDescription DataType are defined in the following table:  
 
@@ -13,9 +14,12 @@ The representation of the DataTypeDescription DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=14525|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataTypeDescription|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 
 The references from the DataTypeDescription DataType Node are shown in the following table:  
 

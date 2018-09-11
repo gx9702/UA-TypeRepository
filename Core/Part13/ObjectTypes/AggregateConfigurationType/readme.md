@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AggregateConfigurationType
   
+<!-- end of text -->
 The representation of the AggregateConfigurationType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11187|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AggregateConfigurationType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part13|
 
 The references from the AggregateConfigurationType ObjectType Node are shown in the following table:  
 

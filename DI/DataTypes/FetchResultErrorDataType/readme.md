@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## FetchResultErrorDataType
+  
 <!-- end of description -->
 The fields of the FetchResultErrorDataType DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the FetchResultErrorDataType DataType in the address space
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=6523|
+|NamespaceUri|http://opcfoundation.org/UA/DI/|
 |BrowseName|FetchResultErrorDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FetchResultDataType](../../DataTypes/FetchResultDataType/readme.md)|
+|Categories||
 

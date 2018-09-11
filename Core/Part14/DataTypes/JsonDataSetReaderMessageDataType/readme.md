@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## JsonDataSetReaderMessageDataType
+  
 <!-- end of description -->
 The fields of the JsonDataSetReaderMessageDataType DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the JsonDataSetReaderMessageDataType DataType in the addre
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15665|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|JsonDataSetReaderMessageDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataSetReaderMessageDataType](../../../Part14/DataTypes/DataSetReaderMessageDataType/readme.md)|
+|Categories|Part14|
 

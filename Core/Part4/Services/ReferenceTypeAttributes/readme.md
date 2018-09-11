@@ -15,7 +15,10 @@ The representation of the ReferenceTypeAttributes DataType in the address space 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=367|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ReferenceTypeAttributes|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[NodeAttributes](../../../Part4/Services/NodeAttributes/readme.md)|
+|Categories|Part4/Services|
 

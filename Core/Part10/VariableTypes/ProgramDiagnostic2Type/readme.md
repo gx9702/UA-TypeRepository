@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## ProgramDiagnostic2Type
   
+<!-- end of text -->
 The representation of the ProgramDiagnostic2Type VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15383|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ProgramDiagnostic2Type|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[ProgramDiagnostic2DataType](../../../Part10/DataTypes/ProgramDiagnostic2DataType/readme.md)|
+|ValueRank|-1|
+|IsAbstract|False|
 |BaseType|[BaseDataVariableType](../../../Part5/VariableTypes/BaseDataVariableType/readme.md)|
+|Categories|Part10|
 
 The references from the ProgramDiagnostic2Type VariableType Node are shown in the following table:  
 

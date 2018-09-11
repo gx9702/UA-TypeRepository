@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## QueryDataSet
+  
 <!-- end of description -->
 The fields of the QueryDataSet DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the QueryDataSet DataType in the address space is shown in
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=577|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|QueryDataSet|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

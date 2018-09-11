@@ -12,7 +12,10 @@ The representation of the Counter DataType in the address space is shown in the 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=289|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|Counter|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|
+|Categories|Part4|
 

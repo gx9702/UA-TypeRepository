@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## EventFilter
+  
 <!-- end of description -->
 The fields of the EventFilter DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the EventFilter DataType in the address space is shown in 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=725|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|EventFilter|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[MonitoringFilter](../../../Part4/DataTypes/MonitoringFilter/readme.md)|
+|Categories|Part4|
 

@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## WriterGroupTransportType
-  
+This ObjectType is the abstract base type for Objects representing transport protocol mapping specific settings for WriterGroups. The WriterGroupTransportType is formally defined in Table 117.  
+<!-- end of text -->
 The representation of the WriterGroupTransportType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17997|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|WriterGroupTransportType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part14|
 
 The references from the WriterGroupTransportType ObjectType Node are shown in the following table:  
 

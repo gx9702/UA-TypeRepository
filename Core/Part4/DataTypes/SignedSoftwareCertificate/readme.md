@@ -14,7 +14,10 @@ The representation of the SignedSoftwareCertificate DataType in the address spac
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=344|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SignedSoftwareCertificate|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4|
 

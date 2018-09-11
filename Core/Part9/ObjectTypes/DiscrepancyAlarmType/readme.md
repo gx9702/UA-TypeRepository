@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## DiscrepancyAlarmType
   
+<!-- end of text -->
 The representation of the DiscrepancyAlarmType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17080|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DiscrepancyAlarmType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[AlarmConditionType](../../../Part9/ObjectTypes/AlarmConditionType/readme.md)|
+|Categories|Part9|
 
 The references from the DiscrepancyAlarmType ObjectType Node are shown in the following table:  
 

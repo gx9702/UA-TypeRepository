@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## References
 The abstract base type for all references.  
+<!-- end of text -->
 The representation of the References ReferenceType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=31|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|References|
 |NodeClass|ReferenceType|
-|IsAbtract|False|
+|IsAbstract|True|
 |BaseType||
+|Categories|Part3|
 
 The references from the References ReferenceType Node are shown in the following table:  
 

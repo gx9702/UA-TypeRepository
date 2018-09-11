@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## SubscribedDataSetType
-  
+This ObjectType defines the metadata for the subscribed DataSet and the information for the processing of DataSetMessages. The SubscribedDataSetType is formally defined in Table 129.  
+<!-- end of text -->
 The representation of the SubscribedDataSetType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15108|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SubscribedDataSetType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part14|
 
 The references from the SubscribedDataSetType ObjectType Node are shown in the following table:  
 

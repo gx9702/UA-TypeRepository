@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## QueryNextResponse
+  
 <!-- end of description -->
 The fields of the QueryNextResponse DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the QueryNextResponse DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=622|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|QueryNextResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

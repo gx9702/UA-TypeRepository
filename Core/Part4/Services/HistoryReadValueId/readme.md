@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## HistoryReadValueId
+  
 <!-- end of description -->
 The fields of the HistoryReadValueId DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the HistoryReadValueId DataType in the address space is sh
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=635|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|HistoryReadValueId|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

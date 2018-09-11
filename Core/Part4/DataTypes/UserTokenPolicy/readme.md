@@ -17,7 +17,10 @@ The representation of the UserTokenPolicy DataType in the address space is shown
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=304|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UserTokenPolicy|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4|
 

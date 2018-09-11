@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ReadValueId
+  
 <!-- end of description -->
 The fields of the ReadValueId DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the ReadValueId DataType in the address space is shown in 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=626|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ReadValueId|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

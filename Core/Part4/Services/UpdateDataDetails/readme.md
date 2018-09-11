@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## UpdateDataDetails
+  
 <!-- end of description -->
 The fields of the UpdateDataDetails DataType are defined in the following table:  
 
@@ -13,7 +14,10 @@ The representation of the UpdateDataDetails DataType in the address space is sho
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=680|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UpdateDataDetails|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[HistoryUpdateDetails](../../../Part4/Services/HistoryUpdateDetails/readme.md)|
+|Categories|Part4/Services|
 

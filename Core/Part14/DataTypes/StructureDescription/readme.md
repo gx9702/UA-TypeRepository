@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## StructureDescription
+This Structure DataType provides the concrete DataTypeDescription for Structure DataTypes. It is a subtype of the DataTypeDescription DataType. The StructureDescription is formally defined in Table A.5.  
 <!-- end of description -->
 The fields of the StructureDescription DataType are defined in the following table:  
 
@@ -12,7 +13,10 @@ The representation of the StructureDescription DataType in the address space is 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15487|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|StructureDescription|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataTypeDescription](../../../Part14/DataTypes/DataTypeDescription/readme.md)|
+|Categories|Part14|
 

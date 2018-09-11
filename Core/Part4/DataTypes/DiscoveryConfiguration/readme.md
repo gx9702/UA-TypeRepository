@@ -12,9 +12,12 @@ The representation of the DiscoveryConfiguration DataType in the address space i
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12890|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DiscoveryConfiguration|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4|
 
 The references from the DiscoveryConfiguration DataType Node are shown in the following table:  
 

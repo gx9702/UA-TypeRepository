@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## CallMethodResult
+  
 <!-- end of description -->
 The fields of the CallMethodResult DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the CallMethodResult DataType in the address space is show
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=707|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CallMethodResult|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

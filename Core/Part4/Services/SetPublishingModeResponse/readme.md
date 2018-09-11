@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SetPublishingModeResponse
+  
 <!-- end of description -->
 The fields of the SetPublishingModeResponse DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the SetPublishingModeResponse DataType in the address spac
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=800|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SetPublishingModeResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## WriteValue
+  
 <!-- end of description -->
 The fields of the WriteValue DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the WriteValue DataType in the address space is shown in t
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=668|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|WriteValue|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

@@ -12,7 +12,10 @@ The representation of the NumericRange DataType in the address space is shown in
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=291|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NumericRange|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[String](../../../Part3/DataTypes/String/readme.md)|
+|Categories|Part4|
 

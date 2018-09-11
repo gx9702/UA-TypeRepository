@@ -15,7 +15,10 @@ The representation of the TranslateBrowsePathsToNodeIdsResponse DataType in the 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=555|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|TranslateBrowsePathsToNodeIdsResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

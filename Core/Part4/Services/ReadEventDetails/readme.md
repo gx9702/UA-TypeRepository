@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ReadEventDetails
+  
 <!-- end of description -->
 The fields of the ReadEventDetails DataType are defined in the following table:  
 
@@ -15,7 +16,10 @@ The representation of the ReadEventDetails DataType in the address space is show
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=644|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ReadEventDetails|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[HistoryReadDetails](../../../Part4/Services/HistoryReadDetails/readme.md)|
+|Categories|Part4/Services|
 

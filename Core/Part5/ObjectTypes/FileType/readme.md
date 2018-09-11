@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## FileType
 An object that represents a file that can be accessed via the server.  
+<!-- end of text -->
 The representation of the FileType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11575|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|FileType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the FileType ObjectType Node are shown in the following table:  
 

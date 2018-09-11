@@ -1,6 +1,6 @@
 <!-- datatype -->
 ## AxisInformation
-This structure defines the information for auxiliary axis for ArrayItemType Variables.
+This structure defines the information for auxiliary axis for ArrayItemType Variables.  
 There are three typical uses of this structure:  
 <!-- end of description -->
 The fields of the AxisInformation DataType are defined in the following table:  
@@ -18,7 +18,10 @@ The representation of the AxisInformation DataType in the address space is shown
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12079|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AxisInformation|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part8|
 

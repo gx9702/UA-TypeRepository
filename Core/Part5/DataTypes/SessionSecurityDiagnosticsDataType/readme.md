@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SessionSecurityDiagnosticsDataType
+  
 <!-- end of description -->
 The fields of the SessionSecurityDiagnosticsDataType DataType are defined in the following table:  
 
@@ -20,7 +21,10 @@ The representation of the SessionSecurityDiagnosticsDataType DataType in the add
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=868|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SessionSecurityDiagnosticsDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part5|
 

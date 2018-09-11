@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## AlarmRateVariableType
   
+<!-- end of text -->
 The representation of the AlarmRateVariableType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=17277|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AlarmRateVariableType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[Double](../../../Part3/DataTypes/Double/readme.md)|
+|ValueRank|-1|
+|IsAbstract|False|
 |BaseType|[BaseDataVariableType](../../../Part5/VariableTypes/BaseDataVariableType/readme.md)|
+|Categories|Part9|
 
 The references from the AlarmRateVariableType VariableType Node are shown in the following table:  
 

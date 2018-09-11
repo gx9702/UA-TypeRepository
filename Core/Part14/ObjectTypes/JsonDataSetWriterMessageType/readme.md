@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## JsonDataSetWriterMessageType
-  
+This ObjectType represents UADP message mapping specific parameters for a DataSetWriter. The JsonDataSetWriterMessageType is formally defined in Table 162.  
+<!-- end of text -->
 The representation of the JsonDataSetWriterMessageType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=21128|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|JsonDataSetWriterMessageType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[DataSetWriterMessageType](../../../Part14/ObjectTypes/DataSetWriterMessageType/readme.md)|
+|Categories|Part14|
 
 The references from the JsonDataSetWriterMessageType ObjectType Node are shown in the following table:  
 

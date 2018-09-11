@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## FileTransferStateMachineType
   
+<!-- end of text -->
 The representation of the FileTransferStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15803|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|FileTransferStateMachineType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FiniteStateMachineType](../../../Part5/ObjectTypes/FiniteStateMachineType/readme.md)|
+|Categories|Part5|
 
 The references from the FileTransferStateMachineType ObjectType Node are shown in the following table:  
 

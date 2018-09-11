@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## PubSubDiagnosticsCounterType
-  
+The PubSubDiagnosticsCounterType is formally defined in Table 137.  
+<!-- end of text -->
 The representation of the PubSubDiagnosticsCounterType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=19725|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubDiagnosticsCounterType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|
+|ValueRank|-1|
+|IsAbstract|False|
 |BaseType|[BaseDataVariableType](../../../Part5/VariableTypes/BaseDataVariableType/readme.md)|
+|Categories|Part14|
 
 The references from the PubSubDiagnosticsCounterType VariableType Node are shown in the following table:  
 

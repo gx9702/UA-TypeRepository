@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## PubSubConnectionDataType
+This Structure DataType is used to represent the configuration parameters for PubSubConnections. The PubSubConnectionDataType is formally defined in Table 26.  
 <!-- end of description -->
 The fields of the PubSubConnectionDataType DataType are defined in the following table:  
 
@@ -20,7 +21,10 @@ The representation of the PubSubConnectionDataType DataType in the address space
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15617|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubConnectionDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 

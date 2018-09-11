@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## PubSubDiagnosticsType
-  
+The PubSubDiagnosticsType is the base type for the diagnostics objects and is formally defined in Table 134.  
+<!-- end of text -->
 The representation of the PubSubDiagnosticsType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=19677|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubDiagnosticsType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part14|
 
 The references from the PubSubDiagnosticsType ObjectType Node are shown in the following table:  
 

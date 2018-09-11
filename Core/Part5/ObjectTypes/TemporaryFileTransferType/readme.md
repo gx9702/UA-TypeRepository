@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## TemporaryFileTransferType
   
+<!-- end of text -->
 The representation of the TemporaryFileTransferType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15744|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|TemporaryFileTransferType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part5|
 
 The references from the TemporaryFileTransferType ObjectType Node are shown in the following table:  
 

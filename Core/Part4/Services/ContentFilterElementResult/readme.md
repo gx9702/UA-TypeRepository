@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## ContentFilterElementResult
+  
 <!-- end of description -->
 The fields of the ContentFilterElementResult DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the ContentFilterElementResult DataType in the address spa
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=604|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ContentFilterElementResult|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

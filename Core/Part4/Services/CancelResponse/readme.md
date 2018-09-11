@@ -14,7 +14,10 @@ The representation of the CancelResponse DataType in the address space is shown 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=480|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|CancelResponse|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AlarmConditionType
   
+<!-- end of text -->
 The representation of the AlarmConditionType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2915|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AlarmConditionType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[AcknowledgeableConditionType](../../../Part9/ObjectTypes/AcknowledgeableConditionType/readme.md)|
+|Categories|Part9|
 
 The references from the AlarmConditionType ObjectType Node are shown in the following table:  
 

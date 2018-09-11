@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## SpectrometerDeviceType
   
+<!-- end of text -->
 The representation of the SpectrometerDeviceType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=1011|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|SpectrometerDeviceType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[AnalyserDeviceType](../../ObjectTypes/AnalyserDeviceType/readme.md)|
+|Categories||
 
 The references from the SpectrometerDeviceType ObjectType Node are shown in the following table:  
 

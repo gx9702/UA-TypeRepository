@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## ArrayItemType
   
+<!-- end of text -->
 The representation of the ArrayItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12021|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ArrayItemType|
 |NodeClass|VariableType|
-|IsAbtract|True|
+|DataType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)|
+|ValueRank|0|
+|IsAbstract|True|
 |BaseType|[DataItemType](../../../Part8/VariableTypes/DataItemType/readme.md)|
+|Categories|Part8|
 
 The references from the ArrayItemType VariableType Node are shown in the following table:  
 

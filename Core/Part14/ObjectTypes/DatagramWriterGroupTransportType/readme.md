@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## DatagramWriterGroupTransportType
-  
+This ObjectType represents datagram transport protocol mapping specific parameters for a WriterGroup. The DatagramWriterGroupTransportType is formally defined in Table 167.  
+<!-- end of text -->
 The representation of the DatagramWriterGroupTransportType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=21133|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DatagramWriterGroupTransportType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[WriterGroupTransportType](../../../Part14/ObjectTypes/WriterGroupTransportType/readme.md)|
+|Categories|Part14|
 
 The references from the DatagramWriterGroupTransportType ObjectType Node are shown in the following table:  
 

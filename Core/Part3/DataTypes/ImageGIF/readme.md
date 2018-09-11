@@ -12,7 +12,10 @@ The representation of the ImageGIF DataType in the address space is shown in the
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2001|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|ImageGIF|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Image](../../../Part3/DataTypes/Image/readme.md)|
+|Categories|Part3|
 

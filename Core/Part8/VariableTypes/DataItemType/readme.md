@@ -1,14 +1,20 @@
 <!-- objecttype -->
 ## DataItemType
 This VariableType defines the general characteristics of a DataItem. All other DataItem Types derive from it. The DataItemType derives from the BaseDataVariableType and therefore shares the variable model as described in Part 3 and Part 5. It is formally defined in Table 1.  
+<!-- end of text -->
 The representation of the DataItemType VariableType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2365|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataItemType|
 |NodeClass|VariableType|
-|IsAbtract|False|
+|DataType|[BaseDataType](../../../Part3/DataTypes/BaseDataType/readme.md)|
+|ValueRank|-2|
+|IsAbstract|False|
 |BaseType|[BaseDataVariableType](../../../Part5/VariableTypes/BaseDataVariableType/readme.md)|
+|Categories|Part8|
 
 The references from the DataItemType VariableType Node are shown in the following table:  
 

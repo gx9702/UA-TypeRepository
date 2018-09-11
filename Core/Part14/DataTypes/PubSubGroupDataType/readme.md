@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## PubSubGroupDataType
+  
 <!-- end of description -->
 The fields of the PubSubGroupDataType DataType are defined in the following table:  
 
@@ -18,9 +19,12 @@ The representation of the PubSubGroupDataType DataType in the address space is s
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15609|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubGroupDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 
 The references from the PubSubGroupDataType DataType Node are shown in the following table:  
 

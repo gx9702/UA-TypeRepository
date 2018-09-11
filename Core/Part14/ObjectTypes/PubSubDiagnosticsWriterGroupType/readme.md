@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## PubSubDiagnosticsWriterGroupType
-  
+The PubSubDiagnosticsWriterGroupType defines the diagnostic information for a WriterGroupType Object and is formally defined in Table 143.  
+<!-- end of text -->
 The representation of the PubSubDiagnosticsWriterGroupType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=19834|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubDiagnosticsWriterGroupType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[PubSubDiagnosticsType](../../../Part14/ObjectTypes/PubSubDiagnosticsType/readme.md)|
+|Categories|Part14|
 
 The references from the PubSubDiagnosticsWriterGroupType ObjectType Node are shown in the following table:  
 

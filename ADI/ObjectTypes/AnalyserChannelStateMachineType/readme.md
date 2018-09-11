@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AnalyserChannelStateMachineType
 Contains a nested state model that defines the top level states Operating, Local and Maintenance  
+<!-- end of text -->
 The representation of the AnalyserChannelStateMachineType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=1007|
+|NamespaceUri|http://opcfoundation.org/UA/ADI/|
 |BrowseName|AnalyserChannelStateMachineType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[FiniteStateMachineType](../../../Core/Part5/ObjectTypes/FiniteStateMachineType/readme.md)|
+|Categories||
 
 The references from the AnalyserChannelStateMachineType ObjectType Node are shown in the following table:  
 

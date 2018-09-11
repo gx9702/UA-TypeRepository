@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## SystemEventType
   
+<!-- end of text -->
 The representation of the SystemEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2130|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SystemEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseEventType](../../../Part5/ObjectTypes/BaseEventType/readme.md)|
+|Categories|Part5|
 
 The references from the SystemEventType ObjectType Node are shown in the following table:  
 

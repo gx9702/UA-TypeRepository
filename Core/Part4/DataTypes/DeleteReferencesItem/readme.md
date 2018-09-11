@@ -17,7 +17,10 @@ The representation of the DeleteReferencesItem DataType in the address space is 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=385|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DeleteReferencesItem|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4|
 

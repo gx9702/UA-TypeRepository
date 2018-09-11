@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## AuditUrlMismatchEventType
   
+<!-- end of text -->
 The representation of the AuditUrlMismatchEventType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2748|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AuditUrlMismatchEventType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[AuditCreateSessionEventType](../../../Part5/ObjectTypes/AuditCreateSessionEventType/readme.md)|
+|Categories|Part5|
 
 The references from the AuditUrlMismatchEventType ObjectType Node are shown in the following table:  
 

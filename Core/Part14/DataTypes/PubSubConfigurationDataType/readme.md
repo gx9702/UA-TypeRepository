@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## PubSubConfigurationDataType
+This Structure DataType is used to represent the PubSub configuration of an OPC UA Application. The PubSubConfigurationDataType is formally defined in Table 49.  
 <!-- end of description -->
 The fields of the PubSubConfigurationDataType DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the PubSubConfigurationDataType DataType in the address sp
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15530|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|PubSubConfigurationDataType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part14|
 

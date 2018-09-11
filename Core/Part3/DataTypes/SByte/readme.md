@@ -12,7 +12,10 @@ The representation of the SByte DataType in the address space is shown in the fo
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SByte|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Integer](../../../Part3/DataTypes/Integer/readme.md)|
+|Categories|Part3|
 

@@ -14,9 +14,12 @@ The representation of the AxisScaleEnumeration DataType in the address space is 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=12077|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AxisScaleEnumeration|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Enumeration](../../../Part3/DataTypes/Enumeration/readme.md)|
+|Categories|Part8|
 
 The references from the AxisScaleEnumeration DataType Node are shown in the following table:  
 

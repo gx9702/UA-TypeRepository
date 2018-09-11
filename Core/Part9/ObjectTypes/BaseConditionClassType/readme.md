@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## BaseConditionClassType
   
+<!-- end of text -->
 The representation of the BaseConditionClassType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=11163|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|BaseConditionClassType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part9|
 
 The references from the BaseConditionClassType ObjectType Node are shown in the following table:  
 

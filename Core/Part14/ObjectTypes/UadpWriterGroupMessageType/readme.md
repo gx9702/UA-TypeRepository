@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## UadpWriterGroupMessageType
-  
+This ObjectType represents UADP message mapping specific parameters for a WriterGroup. The UadpWriterGroupMessageType is formally defined in Table 158.  
+<!-- end of text -->
 The representation of the UadpWriterGroupMessageType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=21105|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|UadpWriterGroupMessageType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[WriterGroupMessageType](../../../Part14/ObjectTypes/WriterGroupMessageType/readme.md)|
+|Categories|Part14|
 
 The references from the UadpWriterGroupMessageType ObjectType Node are shown in the following table:  
 

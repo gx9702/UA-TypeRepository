@@ -1,5 +1,6 @@
 <!-- datatype -->
 ## SessionlessInvokeResponseType
+  
 <!-- end of description -->
 The fields of the SessionlessInvokeResponseType DataType are defined in the following table:  
 
@@ -14,7 +15,10 @@ The representation of the SessionlessInvokeResponseType DataType in the address 
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=20999|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|SessionlessInvokeResponseType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[Structure](../../../Part3/DataTypes/Structure/readme.md)|
+|Categories|Part4/Services|
 

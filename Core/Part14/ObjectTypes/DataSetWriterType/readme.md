@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## DataSetWriterType
-  
+An instance of this ObjectType represents the configuration for a DataSetWriter. The DataSetWriterType is formally defined Table 123.  
+<!-- end of text -->
 The representation of the DataSetWriterType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=15298|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|DataSetWriterType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[BaseObjectType](../../../Part5/ObjectTypes/BaseObjectType/readme.md)|
+|Categories|Part14|
 
 The references from the DataSetWriterType ObjectType Node are shown in the following table:  
 

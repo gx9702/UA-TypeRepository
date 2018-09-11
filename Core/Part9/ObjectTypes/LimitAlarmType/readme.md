@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## LimitAlarmType
   
+<!-- end of text -->
 The representation of the LimitAlarmType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2955|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|LimitAlarmType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[AlarmConditionType](../../../Part9/ObjectTypes/AlarmConditionType/readme.md)|
+|Categories|Part9|
 
 The references from the LimitAlarmType ObjectType Node are shown in the following table:  
 

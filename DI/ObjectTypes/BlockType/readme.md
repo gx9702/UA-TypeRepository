@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## BlockType
 Adds the concept of Blocks needed for block-oriented FieldDevices  
+<!-- end of text -->
 The representation of the BlockType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|ns=1;i=1003|
+|NamespaceUri|http://opcfoundation.org/UA/DI/|
 |BrowseName|BlockType|
 |NodeClass|ObjectType|
-|IsAbtract|True|
+|IsAbstract|True|
 |BaseType|[TopologyElementType](../../ObjectTypes/TopologyElementType/readme.md)|
+|Categories||
 
 The references from the BlockType ObjectType Node are shown in the following table:  
 

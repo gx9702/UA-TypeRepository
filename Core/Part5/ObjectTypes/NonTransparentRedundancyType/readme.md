@@ -1,14 +1,18 @@
 <!-- objecttype -->
 ## NonTransparentRedundancyType
 Identifies the capabilties of server that supports non-transparent redundancy.  
+<!-- end of text -->
 The representation of the NonTransparentRedundancyType ObjectType in the address space is shown in the following table:  
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=2039|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|NonTransparentRedundancyType|
 |NodeClass|ObjectType|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[ServerRedundancyType](../../../Part5/ObjectTypes/ServerRedundancyType/readme.md)|
+|Categories|Part5|
 
 The references from the NonTransparentRedundancyType ObjectType Node are shown in the following table:  
 

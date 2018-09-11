@@ -37,9 +37,12 @@ The representation of the AttributeWriteMask DataType in the address space is sh
 
 |Name|Attribute|
 |---|---|
+|NodeId|i=347|
+|NamespaceUri|http://opcfoundation.org/UA/|
 |BrowseName|AttributeWriteMask|
-|IsAbtract|False|
+|IsAbstract|False|
 |BaseType|[UInt32](../../../Part3/DataTypes/UInt32/readme.md)|
+|Categories|Part4|
 
 The references from the AttributeWriteMask DataType Node are shown in the following table:  
 
