@@ -6,8 +6,8 @@ The representation of the ElectricalEnergyClassType ObjectType in the address sp
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2218|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2219|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ElectricalEnergyClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

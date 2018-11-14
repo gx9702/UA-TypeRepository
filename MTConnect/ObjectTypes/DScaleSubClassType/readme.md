@@ -6,8 +6,8 @@ The representation of the DScaleSubClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2434|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2437|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|DScaleSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

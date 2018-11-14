@@ -6,8 +6,8 @@ The representation of the AccelerationClassType ObjectType in the address space 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2196|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2197|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|AccelerationClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

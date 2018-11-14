@@ -6,8 +6,8 @@ The representation of the DelaySubClassType ObjectType in the address space is s
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2428|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2431|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|DelaySubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

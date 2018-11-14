@@ -6,8 +6,8 @@ The representation of the PositionClassType ObjectType in the address space is s
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2240|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2241|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|PositionClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

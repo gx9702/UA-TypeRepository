@@ -6,8 +6,8 @@ The representation of the AngularVelocityClassType ObjectType in the address spa
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2202|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2203|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|AngularVelocityClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

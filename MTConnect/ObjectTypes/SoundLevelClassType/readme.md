@@ -6,8 +6,8 @@ The representation of the SoundLevelClassType ObjectType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2252|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2253|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|SoundLevelClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

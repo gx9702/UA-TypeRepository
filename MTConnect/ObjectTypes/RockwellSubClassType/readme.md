@@ -6,8 +6,8 @@ The representation of the RockwellSubClassType ObjectType in the address space i
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2504|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2507|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|RockwellSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

@@ -6,8 +6,8 @@ The representation of the ResponseSubClassType ObjectType in the address space i
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2502|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2505|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ResponseSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

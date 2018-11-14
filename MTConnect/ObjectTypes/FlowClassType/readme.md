@@ -6,8 +6,8 @@ The representation of the FlowClassType ObjectType in the address space is shown
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2224|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2225|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|FlowClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

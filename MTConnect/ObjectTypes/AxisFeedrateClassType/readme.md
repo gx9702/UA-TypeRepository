@@ -6,8 +6,8 @@ The representation of the AxisFeedrateClassType ObjectType in the address space 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2208|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2209|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|AxisFeedrateClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

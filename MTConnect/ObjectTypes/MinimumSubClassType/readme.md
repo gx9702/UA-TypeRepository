@@ -6,8 +6,8 @@ The representation of the MinimumSubClassType ObjectType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2464|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2467|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|MinimumSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

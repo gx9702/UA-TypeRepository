@@ -6,8 +6,8 @@ The representation of the AccumulatedTimeClassType ObjectType in the address spa
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2198|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2199|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|AccumulatedTimeClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

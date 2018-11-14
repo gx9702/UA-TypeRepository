@@ -6,8 +6,8 @@ The representation of the RadialSubClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2492|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2495|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|RadialSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

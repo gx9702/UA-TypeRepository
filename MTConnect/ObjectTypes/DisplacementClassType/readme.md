@@ -6,8 +6,8 @@ The representation of the DisplacementClassType ObjectType in the address space 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2216|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2217|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|DisplacementClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

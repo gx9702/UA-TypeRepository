@@ -6,8 +6,8 @@ The representation of the AmperageClassType ObjectType in the address space is s
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2204|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2205|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|AmperageClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

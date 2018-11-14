@@ -6,8 +6,8 @@ The representation of the PartIdClassType ObjectType in the address space is sho
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2306|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2307|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|PartIdClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

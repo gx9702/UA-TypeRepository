@@ -6,8 +6,8 @@ The representation of the ChuckInterlockClassType ObjectType in the address spac
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2092|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2093|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ChuckInterlockClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|
@@ -18,7 +18,7 @@ The references from the ChuckInterlockClassType ObjectType Node are shown in the
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Core/Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[ActiveStateDataType](../../DataTypes/ActiveStateDataType/readme.md)|[ActiveStateDataType](../../DataTypes/ActiveStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Core/Part3/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[ActiveStateDataType](../../DataTypes/ActiveStateDataType/readme.md)|[ActiveStateDataType](../../DataTypes/ActiveStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Core/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[ActiveStateDataType](../../DataTypes/ActiveStateDataType/readme.md)|[ActiveStateDataType](../../DataTypes/ActiveStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Core/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[ActiveStateDataType](../../DataTypes/ActiveStateDataType/readme.md)|[ActiveStateDataType](../../DataTypes/ActiveStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
 
 

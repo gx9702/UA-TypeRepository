@@ -6,8 +6,8 @@ The representation of the LogicProgramClassType ObjectType in the address space 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2340|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2341|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|LogicProgramClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

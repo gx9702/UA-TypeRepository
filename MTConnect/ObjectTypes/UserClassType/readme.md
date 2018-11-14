@@ -6,8 +6,8 @@ The representation of the UserClassType ObjectType in the address space is shown
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2326|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2327|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|UserClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

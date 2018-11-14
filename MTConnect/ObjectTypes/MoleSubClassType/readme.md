@@ -6,8 +6,8 @@ The representation of the MoleSubClassType ObjectType in the address space is sh
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2468|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2471|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|MoleSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

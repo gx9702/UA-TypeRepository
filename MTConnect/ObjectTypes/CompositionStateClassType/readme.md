@@ -6,8 +6,8 @@ The representation of the CompositionStateClassType ObjectType in the address sp
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2104|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2105|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|CompositionStateClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|
@@ -18,7 +18,7 @@ The references from the CompositionStateClassType ObjectType Node are shown in t
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Core/Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[CompositionStateDataType](../../DataTypes/CompositionStateDataType/readme.md)|[CompositionStateDataType](../../DataTypes/CompositionStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Core/Part3/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[CompositionStateDataType](../../DataTypes/CompositionStateDataType/readme.md)|[CompositionStateDataType](../../DataTypes/CompositionStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Core/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[CompositionStateDataType](../../DataTypes/CompositionStateDataType/readme.md)|[CompositionStateDataType](../../DataTypes/CompositionStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Core/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[CompositionStateDataType](../../DataTypes/CompositionStateDataType/readme.md)|[CompositionStateDataType](../../DataTypes/CompositionStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
 
 

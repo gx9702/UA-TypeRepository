@@ -6,8 +6,8 @@ The representation of the PoweredSubClassType ObjectType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2484|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2487|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|PoweredSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

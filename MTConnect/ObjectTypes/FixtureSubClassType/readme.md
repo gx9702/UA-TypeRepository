@@ -6,8 +6,8 @@ The representation of the FixtureSubClassType ObjectType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2436|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2439|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|FixtureSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

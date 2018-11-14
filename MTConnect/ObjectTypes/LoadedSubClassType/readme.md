@@ -6,8 +6,8 @@ The representation of the LoadedSubClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2454|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2457|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|LoadedSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

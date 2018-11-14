@@ -6,8 +6,8 @@ The representation of the PrimarySubClassType ObjectType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2482|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2485|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|PrimarySubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

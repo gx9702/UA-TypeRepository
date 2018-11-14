@@ -6,8 +6,8 @@ The representation of the AScaleSubClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2410|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2413|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|AScaleSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

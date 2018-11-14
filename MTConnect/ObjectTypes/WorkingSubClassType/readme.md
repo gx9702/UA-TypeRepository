@@ -6,8 +6,8 @@ The representation of the WorkingSubClassType ObjectType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2536|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2539|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|WorkingSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

@@ -6,8 +6,8 @@ The representation of the CoupledAxesClassType ObjectType in the address space i
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2296|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2297|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|CoupledAxesClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

@@ -6,8 +6,8 @@ The representation of the CloseDoorClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2181|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2182|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|CloseDoorClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|
@@ -18,7 +18,7 @@ The references from the CloseDoorClassType ObjectType Node are shown in the foll
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Core/Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[InterfaceStateDataType](../../DataTypes/InterfaceStateDataType/readme.md)|[InterfaceStateDataType](../../DataTypes/InterfaceStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Core/Part3/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[InterfaceStateDataType](../../DataTypes/InterfaceStateDataType/readme.md)|[InterfaceStateDataType](../../DataTypes/InterfaceStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Core/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[InterfaceStateDataType](../../DataTypes/InterfaceStateDataType/readme.md)|[InterfaceStateDataType](../../DataTypes/InterfaceStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Core/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[InterfaceStateDataType](../../DataTypes/InterfaceStateDataType/readme.md)|[InterfaceStateDataType](../../DataTypes/InterfaceStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
 
 

@@ -6,8 +6,8 @@ The representation of the LoadClassType ObjectType in the address space is shown
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2194|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2195|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|LoadClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

@@ -6,8 +6,8 @@ The representation of the MassClassType ObjectType in the address space is shown
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2232|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2233|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|MassClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

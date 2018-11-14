@@ -6,8 +6,8 @@ The representation of the SerialNumberClassType ObjectType in the address space 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2318|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2319|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|SerialNumberClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

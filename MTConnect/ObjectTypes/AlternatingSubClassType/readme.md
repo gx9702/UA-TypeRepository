@@ -6,8 +6,8 @@ The representation of the AlternatingSubClassType ObjectType in the address spac
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2408|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2411|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|AlternatingSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

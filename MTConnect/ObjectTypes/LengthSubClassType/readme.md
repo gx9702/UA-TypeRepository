@@ -6,8 +6,8 @@ The representation of the LengthSubClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2448|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2451|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|LengthSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

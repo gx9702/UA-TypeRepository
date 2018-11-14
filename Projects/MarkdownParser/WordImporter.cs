@@ -552,7 +552,7 @@ namespace MarkdownProcessor
                                     data.AddHeading(cell);
                                     cell.Range.Bold = -1;
                                 }
-                                else;
+                                else
                                 {
                                     data.SetCell(ii - 1, jj - 1, cell);
                                 }

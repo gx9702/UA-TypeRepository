@@ -6,8 +6,8 @@ The representation of the ToolNumberClassType ObjectType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2322|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2323|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ToolNumberClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

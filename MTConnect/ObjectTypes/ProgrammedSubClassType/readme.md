@@ -6,8 +6,8 @@ The representation of the ProgrammedSubClassType ObjectType in the address space
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2490|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2493|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ProgrammedSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

@@ -6,8 +6,8 @@ The representation of the AllSubClassType ObjectType in the address space is sho
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2406|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2409|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|AllSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

@@ -6,8 +6,8 @@ The representation of the KineticSubClassType ObjectType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2442|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2445|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|KineticSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

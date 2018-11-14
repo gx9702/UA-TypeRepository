@@ -6,8 +6,8 @@ The representation of the AvailabilityClassType ObjectType in the address space 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2080|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2081|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|AvailabilityClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|
@@ -18,7 +18,7 @@ The references from the AvailabilityClassType ObjectType Node are shown in the f
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Core/Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[AvailabilityDataType](../../DataTypes/AvailabilityDataType/readme.md)|[AvailabilityDataType](../../DataTypes/AvailabilityDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Core/Part3/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[AvailabilityDataType](../../DataTypes/AvailabilityDataType/readme.md)|[AvailabilityDataType](../../DataTypes/AvailabilityDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Core/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[AvailabilityDataType](../../DataTypes/AvailabilityDataType/readme.md)|[AvailabilityDataType](../../DataTypes/AvailabilityDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Core/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[AvailabilityDataType](../../DataTypes/AvailabilityDataType/readme.md)|[AvailabilityDataType](../../DataTypes/AvailabilityDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
 
 

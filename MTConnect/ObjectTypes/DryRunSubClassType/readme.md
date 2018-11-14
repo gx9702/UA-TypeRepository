@@ -6,8 +6,8 @@ The representation of the DryRunSubClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2432|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2435|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|DryRunSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

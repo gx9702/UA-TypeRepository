@@ -6,8 +6,8 @@ The representation of the RelativeSubClassType ObjectType in the address space i
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2496|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2499|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|RelativeSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

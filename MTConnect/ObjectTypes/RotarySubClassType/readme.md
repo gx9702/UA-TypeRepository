@@ -6,8 +6,8 @@ The representation of the RotarySubClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2506|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2509|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|RotarySubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

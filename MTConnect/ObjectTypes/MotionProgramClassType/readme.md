@@ -6,8 +6,8 @@ The representation of the MotionProgramClassType ObjectType in the address space
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2344|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2345|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|MotionProgramClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

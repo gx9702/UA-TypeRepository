@@ -6,8 +6,8 @@ The representation of the FrequencyClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2226|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2227|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|FrequencyClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

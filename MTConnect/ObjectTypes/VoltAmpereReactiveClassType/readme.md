@@ -6,8 +6,8 @@ The representation of the VoltAmpereReactiveClassType ObjectType in the address 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2268|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2269|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|VoltAmpereReactiveClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

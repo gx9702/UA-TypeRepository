@@ -6,8 +6,8 @@ The representation of the StandardSubClassType ObjectType in the address space i
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2512|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2515|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|StandardSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

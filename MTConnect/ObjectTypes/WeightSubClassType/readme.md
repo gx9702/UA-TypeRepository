@@ -6,8 +6,8 @@ The representation of the WeightSubClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2534|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2537|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|WeightSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

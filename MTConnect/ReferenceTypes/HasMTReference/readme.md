@@ -6,11 +6,11 @@ The representation of the HasMTReference ReferenceType in the address space is s
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2585|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2590|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|HasMTReference|
 |NodeClass|ReferenceType|
 |IsAbstract|False|
-|BaseType|[NonHierarchicalReferences](../../../Core/Part3/ReferenceTypes/NonHierarchicalReferences/readme.md)|
+|BaseType|[NonHierarchicalReferences](../../../Core/ReferenceTypes/NonHierarchicalReferences/readme.md)|
 |Categories||
 

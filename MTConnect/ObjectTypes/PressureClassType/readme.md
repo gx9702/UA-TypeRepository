@@ -6,8 +6,8 @@ The representation of the PressureClassType ObjectType in the address space is s
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2244|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2245|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|PressureClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

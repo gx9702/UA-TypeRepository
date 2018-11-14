@@ -6,8 +6,8 @@ The representation of the VelocityClassType ObjectType in the address space is s
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2266|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2267|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|VelocityClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

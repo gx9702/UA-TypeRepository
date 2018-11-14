@@ -6,8 +6,8 @@ The representation of the ProbeSubClassType ObjectType in the address space is s
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2486|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2489|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ProbeSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

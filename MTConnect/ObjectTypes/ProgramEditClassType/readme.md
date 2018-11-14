@@ -6,8 +6,8 @@ The representation of the ProgramEditClassType ObjectType in the address space i
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2152|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2153|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ProgramEditClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|
@@ -18,7 +18,7 @@ The references from the ProgramEditClassType ObjectType Node are shown in the fo
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Core/Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[ProgramEditDataType](../../DataTypes/ProgramEditDataType/readme.md)|[ProgramEditDataType](../../DataTypes/ProgramEditDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Core/Part3/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[ProgramEditDataType](../../DataTypes/ProgramEditDataType/readme.md)|[ProgramEditDataType](../../DataTypes/ProgramEditDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Core/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[ProgramEditDataType](../../DataTypes/ProgramEditDataType/readme.md)|[ProgramEditDataType](../../DataTypes/ProgramEditDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Core/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[ProgramEditDataType](../../DataTypes/ProgramEditDataType/readme.md)|[ProgramEditDataType](../../DataTypes/ProgramEditDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
 
 

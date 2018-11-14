@@ -6,8 +6,8 @@ The representation of the ToolGroupSubClassType ObjectType in the address space 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2522|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2525|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ToolGroupSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

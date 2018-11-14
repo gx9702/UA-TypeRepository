@@ -6,8 +6,8 @@ The representation of the ShoreSubClassType ObjectType in the address space is s
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2510|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2513|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ShoreSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

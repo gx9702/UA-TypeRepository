@@ -6,11 +6,11 @@ The representation of the HasMTComposition ReferenceType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2602|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2605|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|HasMTComposition|
 |NodeClass|ReferenceType|
 |IsAbstract|False|
-|BaseType|[NonHierarchicalReferences](../../../Core/Part3/ReferenceTypes/NonHierarchicalReferences/readme.md)|
+|BaseType|[NonHierarchicalReferences](../../../Core/ReferenceTypes/NonHierarchicalReferences/readme.md)|
 |Categories||
 

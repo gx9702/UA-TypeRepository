@@ -6,8 +6,8 @@ The representation of the ToolSubClassType ObjectType in the address space is sh
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2524|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2527|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ToolSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

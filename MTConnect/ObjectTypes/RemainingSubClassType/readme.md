@@ -6,8 +6,8 @@ The representation of the RemainingSubClassType ObjectType in the address space 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2498|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2501|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|RemainingSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

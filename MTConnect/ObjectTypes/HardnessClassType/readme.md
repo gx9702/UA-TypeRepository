@@ -6,8 +6,8 @@ The representation of the HardnessClassType ObjectType in the address space is s
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2282|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2283|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|HardnessClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

@@ -6,8 +6,8 @@ The representation of the UasbleSubClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2526|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2529|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|UasbleSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

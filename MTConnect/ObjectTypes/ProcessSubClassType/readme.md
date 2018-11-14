@@ -6,8 +6,8 @@ The representation of the ProcessSubClassType ObjectType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2488|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2491|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ProcessSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

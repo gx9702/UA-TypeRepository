@@ -6,8 +6,8 @@ The representation of the WorkpieceSubClassType ObjectType in the address space 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2538|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2541|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|WorkpieceSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

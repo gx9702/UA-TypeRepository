@@ -6,8 +6,8 @@ The representation of the GoodSubClassType ObjectType in the address space is sh
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2422|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2425|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|GoodSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

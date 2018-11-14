@@ -6,8 +6,8 @@ The representation of the WorkOffsetClassType ObjectType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2332|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2333|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|WorkOffsetClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

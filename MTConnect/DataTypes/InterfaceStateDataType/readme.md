@@ -16,16 +16,16 @@ The representation of the InterfaceStateDataType DataType in the address space i
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2165|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2166|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|InterfaceStateDataType|
 |IsAbstract|False|
-|BaseType|[Enumeration](../../../Core/Part3/DataTypes/Enumeration/readme.md)|
+|BaseType|[Enumeration](../../../Core/DataTypes/Enumeration/readme.md)|
 |Categories||
 
 The references from the InterfaceStateDataType DataType Node are shown in the following table:  
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Core/Part3/ReferenceTypes/HasProperty/readme.md)|Variable|EnumStrings|[LocalizedText](../../../Core/Part3/DataTypes/LocalizedText/readme.md)[]|[PropertyType](../../../Core/Part5/VariableTypes/PropertyType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Core/ReferenceTypes/HasProperty/readme.md)|Variable|EnumStrings|[LocalizedText](../../../Core/DataTypes/LocalizedText/readme.md)[]|[PropertyType](../../../Core/VariableTypes/PropertyType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
 

@@ -6,8 +6,8 @@ The representation of the MaintenanceSubClassType ObjectType in the address spac
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2458|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2461|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|MaintenanceSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

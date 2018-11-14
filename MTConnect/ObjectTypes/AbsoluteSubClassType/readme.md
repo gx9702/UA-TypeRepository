@@ -6,8 +6,8 @@ The representation of the AbsoluteSubClassType ObjectType in the address space i
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2400|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2403|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|AbsoluteSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

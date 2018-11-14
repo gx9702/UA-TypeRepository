@@ -6,8 +6,8 @@ The representation of the TemperatureClassType ObjectType in the address space i
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2256|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2257|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|TemperatureClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

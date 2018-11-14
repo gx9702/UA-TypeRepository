@@ -6,8 +6,8 @@ The representation of the BrinellSubClassType ObjectType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2416|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2419|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|BrinellSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

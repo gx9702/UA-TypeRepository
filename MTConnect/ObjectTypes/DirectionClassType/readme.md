@@ -6,8 +6,8 @@ The representation of the DirectionClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2110|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2111|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|DirectionClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|
@@ -18,7 +18,7 @@ The references from the DirectionClassType ObjectType Node are shown in the foll
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Core/Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[DirectionDataType](../../DataTypes/DirectionDataType/readme.md)|[DirectionDataType](../../DataTypes/DirectionDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Core/Part3/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[DirectionDataType](../../DataTypes/DirectionDataType/readme.md)|[DirectionDataType](../../DataTypes/DirectionDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Core/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[DirectionDataType](../../DataTypes/DirectionDataType/readme.md)|[DirectionDataType](../../DataTypes/DirectionDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Core/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[DirectionDataType](../../DataTypes/DirectionDataType/readme.md)|[DirectionDataType](../../DataTypes/DirectionDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
 
 

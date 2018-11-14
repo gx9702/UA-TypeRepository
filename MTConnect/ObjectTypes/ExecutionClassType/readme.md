@@ -6,8 +6,8 @@ The representation of the ExecutionClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2101|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2102|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ExecutionClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|
@@ -18,7 +18,7 @@ The references from the ExecutionClassType ObjectType Node are shown in the foll
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Core/Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[ExecutionDataType](../../DataTypes/ExecutionDataType/readme.md)|[ExecutionDataType](../../DataTypes/ExecutionDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Core/Part3/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[ExecutionDataType](../../DataTypes/ExecutionDataType/readme.md)|[ExecutionDataType](../../DataTypes/ExecutionDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Core/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[ExecutionDataType](../../DataTypes/ExecutionDataType/readme.md)|[ExecutionDataType](../../DataTypes/ExecutionDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Core/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[ExecutionDataType](../../DataTypes/ExecutionDataType/readme.md)|[ExecutionDataType](../../DataTypes/ExecutionDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
 
 

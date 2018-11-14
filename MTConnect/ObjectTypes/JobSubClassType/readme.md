@@ -6,8 +6,8 @@ The representation of the JobSubClassType ObjectType in the address space is sho
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2440|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2443|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|JobSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

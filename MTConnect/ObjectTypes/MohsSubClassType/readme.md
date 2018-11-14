@@ -6,8 +6,8 @@ The representation of the MohsSubClassType ObjectType in the address space is sh
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2466|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2469|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|MohsSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

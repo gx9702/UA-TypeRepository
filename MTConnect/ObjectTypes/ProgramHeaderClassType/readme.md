@@ -6,8 +6,8 @@ The representation of the ProgramHeaderClassType ObjectType in the address space
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2314|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2315|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ProgramHeaderClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

@@ -6,8 +6,8 @@ The representation of the OperatorSubClassType ObjectType in the address space i
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2476|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2479|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|OperatorSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

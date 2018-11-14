@@ -6,8 +6,8 @@ The representation of the LineLabelClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2298|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2299|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|LineLabelClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

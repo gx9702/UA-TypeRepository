@@ -6,8 +6,8 @@ The representation of the VoltageClassType ObjectType in the address space is sh
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2272|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2273|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|VoltageClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

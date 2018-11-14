@@ -6,8 +6,8 @@ The representation of the PathFeedrateClassType ObjectType in the address space 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2234|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2235|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|PathFeedrateClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

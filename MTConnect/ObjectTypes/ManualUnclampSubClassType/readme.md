@@ -6,8 +6,8 @@ The representation of the ManualUnclampSubClassType ObjectType in the address sp
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2460|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2463|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ManualUnclampSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

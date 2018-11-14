@@ -6,8 +6,8 @@ The representation of the MachineAxisLockSubClassType ObjectType in the address 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2456|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2459|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|MachineAxisLockSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

@@ -6,8 +6,8 @@ The representation of the PHClassType ObjectType in the address space is shown i
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2238|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2239|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|PHClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

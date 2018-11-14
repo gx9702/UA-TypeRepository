@@ -6,8 +6,8 @@ The representation of the OperatingSubClassType ObjectType in the address space 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2474|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2477|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|OperatingSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

@@ -6,8 +6,8 @@ The representation of the AxisFeedrateOverrideClassType ObjectType in the addres
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2278|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2279|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|AxisFeedrateOverrideClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

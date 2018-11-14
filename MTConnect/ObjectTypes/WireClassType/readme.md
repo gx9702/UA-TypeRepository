@@ -6,8 +6,8 @@ The representation of the WireClassType ObjectType in the address space is shown
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2328|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2329|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|WireClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

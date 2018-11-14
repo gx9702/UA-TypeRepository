@@ -6,8 +6,8 @@ The representation of the OptionalStopSubClassType ObjectType in the address spa
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2478|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2481|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|OptionalStopSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

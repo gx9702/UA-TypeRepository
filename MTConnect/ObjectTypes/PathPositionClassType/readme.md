@@ -6,8 +6,8 @@ The representation of the PathPositionClassType ObjectType in the address space 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2236|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2237|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|PathPositionClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

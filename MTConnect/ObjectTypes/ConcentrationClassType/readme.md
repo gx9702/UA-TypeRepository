@@ -6,8 +6,8 @@ The representation of the ConcentrationClassType ObjectType in the address space
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2212|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2213|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ConcentrationClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

@@ -6,8 +6,8 @@ The representation of the AngleClassType ObjectType in the address space is show
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2206|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2207|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|AngleClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

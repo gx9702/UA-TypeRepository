@@ -6,8 +6,8 @@ The representation of the PartCountClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2286|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2287|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|PartCountClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

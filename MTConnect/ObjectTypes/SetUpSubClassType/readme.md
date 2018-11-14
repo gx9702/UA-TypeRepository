@@ -6,8 +6,8 @@ The representation of the SetUpSubClassType ObjectType in the address space is s
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2508|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2511|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|SetUpSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

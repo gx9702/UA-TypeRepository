@@ -6,8 +6,8 @@ The representation of the AngularAccelerationClassType ObjectType in the address
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2200|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2201|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|AngularAccelerationClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

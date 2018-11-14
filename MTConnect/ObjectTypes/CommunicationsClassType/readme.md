@@ -6,8 +6,8 @@ The representation of the CommunicationsClassType ObjectType in the address spac
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2336|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2337|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|CommunicationsClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

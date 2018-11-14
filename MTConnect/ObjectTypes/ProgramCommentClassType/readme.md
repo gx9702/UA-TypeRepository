@@ -6,8 +6,8 @@ The representation of the ProgramCommentClassType ObjectType in the address spac
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2316|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2317|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ProgramCommentClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

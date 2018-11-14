@@ -6,8 +6,8 @@ The representation of the CScaleSubClassType ObjectType in the address space is 
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2426|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2429|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|CScaleSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

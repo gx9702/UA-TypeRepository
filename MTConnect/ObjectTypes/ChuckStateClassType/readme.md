@@ -6,8 +6,8 @@ The representation of the ChuckStateClassType ObjectType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2095|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2096|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ChuckStateClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|
@@ -18,7 +18,7 @@ The references from the ChuckStateClassType ObjectType Node are shown in the fol
 
 |Reference|NodeClass|BrowseName|DataType|TypeDefinition|ModellingRule|
 |---|---|---|---|---|---|
-|[HasProperty](../../../Core/Part3/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[OpenStateDataType](../../DataTypes/OpenStateDataType/readme.md)|[OpenStateDataType](../../DataTypes/OpenStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
-|[HasComponent](../../../Core/Part3/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[OpenStateDataType](../../DataTypes/OpenStateDataType/readme.md)|[OpenStateDataType](../../DataTypes/OpenStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasProperty](../../../Core/ReferenceTypes/HasProperty/readme.md)|Variable|[EnumValues](#EnumValues)|[OpenStateDataType](../../DataTypes/OpenStateDataType/readme.md)|[OpenStateDataType](../../DataTypes/OpenStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
+|[HasComponent](../../../Core/ReferenceTypes/HasComponent/readme.md)|Variable|[EnumValues](#EnumValues)|[OpenStateDataType](../../DataTypes/OpenStateDataType/readme.md)|[OpenStateDataType](../../DataTypes/OpenStateDataType/readme.md)|[Mandatory](../../../Core/Objects/Mandatory/readme.md)|
 
 

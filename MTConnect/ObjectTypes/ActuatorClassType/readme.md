@@ -6,8 +6,8 @@ The representation of the ActuatorClassType ObjectType in the address space is s
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2334|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2335|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ActuatorClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

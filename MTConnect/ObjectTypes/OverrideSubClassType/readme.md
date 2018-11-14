@@ -6,8 +6,8 @@ The representation of the OverrideSubClassType ObjectType in the address space i
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2480|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2483|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|OverrideSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

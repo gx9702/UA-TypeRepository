@@ -6,8 +6,8 @@ The representation of the RotaryVelocityClassType ObjectType in the address spac
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2250|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2251|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|RotaryVelocityClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

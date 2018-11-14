@@ -6,8 +6,8 @@ The representation of the ProgramEditNameClassType ObjectType in the address spa
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2312|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2313|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|ProgramEditNameClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|

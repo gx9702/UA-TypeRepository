@@ -6,8 +6,8 @@ The representation of the MaximumSubClassType ObjectType in the address space is
 
 |Name|Attribute|
 |---|---|
-|NodeId|ns=1;i=2462|
-|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2|
+|NodeId|ns=1;i=2465|
+|NamespaceUri|http://opcfoundation.org/UA/MTConnect/v2/|
 |BrowseName|MaximumSubClassType|
 |NodeClass|ObjectType|
 |IsAbstract|False|
