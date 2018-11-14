@@ -9,11 +9,12 @@ using Markdig;
 namespace MarkdownProcessor
 {
     internal enum Operation
-    { 
+    {
         NodeSetToMarkdown,
         MarkdownToNodeSet,
-        WordToNodeSet
-    }   
+        WordToNodeSet,
+        WordAnalysis
+    }
 
     internal class Settings
     {
@@ -21,11 +22,12 @@ namespace MarkdownProcessor
         public string OutputPath;
         public string InputPath;
         public string TargetModel;
-        public Dictionary<string,string> NodeSetFiles;
+        public Dictionary<string, string> NodeSetFiles;
         public Dictionary<string, string> RepositoryPaths;
 
         public static class ArgName
         {
+            public const string WordDocumentAnalysis = "-word-analysis";
             public const string NodeSetToMarkdown = "-nodeset-to-markdown";
             public const string MarkdownToNodeSet = "-markdown-to-nodeset";
             public const string WordToNodeSet = "-word-to-nodeset";
@@ -72,6 +74,7 @@ namespace MarkdownProcessor
                     case ArgName.NodeSetToMarkdown: { settings.Operation = Operation.NodeSetToMarkdown; break; }
                     case ArgName.MarkdownToNodeSet: { settings.Operation = Operation.MarkdownToNodeSet; break; }
                     case ArgName.WordToNodeSet: { settings.Operation = Operation.WordToNodeSet; break; }
+                    case ArgName.WordDocumentAnalysis: { settings.Operation = Operation.WordAnalysis; break; }
                     default: { processed = false; break; }
                 }
 
@@ -140,6 +143,7 @@ namespace MarkdownProcessor
     {
         static Settings Settings;
 
+        [STAThread]
         static void Main(string[] args)
         {
             Settings = Settings.Parse(args);
@@ -147,6 +151,13 @@ namespace MarkdownProcessor
             if (Settings == null)
             {
                 return;
+            }
+
+            if (Settings.Operation == Operation.WordAnalysis)
+            {
+                Console.WriteLine($"Merge Word Document: {Settings.InputPath}");
+                WordImporter importer = new WordImporter();
+                importer.Analyze(Settings.InputPath, @"X:\Work\OPC\UA-TypeRepository2\Core\IECTemplate.docx", Settings.OutputPath);
             }
 
             if (Settings.Operation == Operation.WordToNodeSet)
@@ -258,7 +269,7 @@ namespace MarkdownProcessor
 
             string repositoryPath = GetRepositoryPath(e.ModelUri);
 
-            if (e.ModelUri != Settings.TargetModel)
+            if (repositoryPath != null && e.ModelUri != Settings.TargetModel)
             {
                 string targetPath = GetRepositoryPath(Settings.TargetModel);
 

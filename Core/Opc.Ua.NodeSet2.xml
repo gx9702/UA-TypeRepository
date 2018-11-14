@@ -26120,7 +26120,8 @@ NDimensionArrayItemType is formally defined in Table 13.</Documentation>
   <UADataType NodeId="i=15534" BrowseName="DataTypeSchemaHeader">
     <DisplayName>DataTypeSchemaHeader</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is the abstract base type used to provide OPC UA DataType definitions for an OPC UA Binary encoded byte blob used outside an OPC UA Server AddressSpace.
+    <Documentation>This Structure DataType is the abstract base type used to provide OPC UA DataType definitions for an OPC UA Binary encoded byte blob used outside an OPC UA Server AddressSpace.
+
  The DataTypeSchemaHeader is formally defined in Table A.1.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
@@ -26182,10 +26183,14 @@ NDimensionArrayItemType is formally defined in Table 13.</Documentation>
   <UADataType NodeId="i=15006" BrowseName="UABinaryFileDataType">
     <DisplayName>UABinaryFileDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType defines the base layout of an OPC UA Binary encoded file. The contend of the file is the UABinaryFileDataType encoded as ExtensionObject.
-The file specific meta data is provided by the DataTypeSchemaHeader which is the base type for the UABinaryFileDataType Structure.
-If the file is provided through a FileType Object, the MimeType Property of the Object shall have the value application/opcua+uabinary.
-If the file is stored on disc, the file extension shall be uabinary.
+    <Documentation>This Structure DataType defines the base layout of an OPC UA Binary encoded file. The contend of the file is the UABinaryFileDataType encoded as ExtensionObject.
+
+The file specific meta data is provided by the DataTypeSchemaHeader which is the base type for the UABinaryFileDataType Structure.
+
+If the file is provided through a FileType Object, the MimeType Property of the Object shall have the value application/opcua+uabinary.
+
+If the file is stored on disc, the file extension shall be uabinary.
+
 The UABinaryFileDataType is formally defined in Table A.10.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15534</Reference>
@@ -26253,7 +26258,8 @@ The UABinaryFileDataType is formally defined in Table A.10.</Documentation>
   <UADataType NodeId="i=14523" BrowseName="DataSetMetaDataType">
     <DisplayName>DataSetMetaDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is a subtype of DataTypeSchemaHeader and is used to provide the metadata for a DataSet. The DataSetMetaDataType is formally defined in Table 3.
+    <Documentation>This Structure DataType is a subtype of DataTypeSchemaHeader and is used to provide the metadata for a DataSet. The DataSetMetaDataType is formally defined in Table 3.
+
 The DataTypeSchemaHeader provides OPC UA DataType definitions used in the DataSetMetaData. The DataTypeSchemaHeader is defined in A.1.1.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15534</Reference>
@@ -26289,7 +26295,8 @@ The DataTypeSchemaHeader provides OPC UA DataType definitions used in the DataSe
   <UADataType NodeId="i=15904" BrowseName="DataSetFieldFlags">
     <DisplayName>DataSetFieldFlags</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This DataType defines flags for DataSet fields.
+    <Documentation>This DataType defines flags for DataSet fields.
+
 The DataSetFieldFlags is formally defined in Table 6.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15577</Reference>
@@ -26373,7 +26380,8 @@ The DataSetFieldFlags is formally defined in Table 6.</Documentation>
   <UADataType NodeId="i=15581" BrowseName="PublishedDataItemsDataType">
     <DisplayName>PublishedDataItemsDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is used to represent PublishedDataItems specific parameters. It is a subtype of the PublishedDataSetSourceDataType defined in 6.2.2.5.
+    <Documentation>This Structure DataType is used to represent PublishedDataItems specific parameters. It is a subtype of the PublishedDataSetSourceDataType defined in 6.2.2.5.
+
 The PublishedDataItemsDataType is formally defined in Table 12.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15580</Reference>
@@ -26385,7 +26393,8 @@ The PublishedDataItemsDataType is formally defined in Table 12.</Documentation>
   <UADataType NodeId="i=15582" BrowseName="PublishedEventsDataType">
     <DisplayName>PublishedEventsDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is used to represent PublishedEvents specific parameters. It is a subtype of the PublishedDataSetSourceDataType defined in 6.2.2.5.
+    <Documentation>This Structure DataType is used to represent PublishedEvents specific parameters. It is a subtype of the PublishedDataSetSourceDataType defined in 6.2.2.5.
+
 The PublishedEventsDataType is formally defined in Table 13.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15580</Reference>
@@ -26399,7 +26408,8 @@ The PublishedEventsDataType is formally defined in Table 13.</Documentation>
   <UADataType NodeId="i=15583" BrowseName="DataSetFieldContentMask">
     <DisplayName>DataSetFieldContentMask</DisplayName>
     <Category>Part14</Category>
-    <Documentation>The parameter DataSetFieldContentMask with DataType DataSetFieldContentMask indicates the fields of a DataValue included in the DataSetMessages. 
+    <Documentation>The parameter DataSetFieldContentMask with DataType DataSetFieldContentMask indicates the fields of a DataValue included in the DataSetMessages. 
+
 The DataSetFieldContentMask DataType is defined in 6.2.3.2.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15584</Reference>
@@ -26490,7 +26500,8 @@ The DataSetFieldContentMask DataType is defined in 6.2.3.2.</Documentation>
   <UADataType NodeId="i=15598" BrowseName="DataSetWriterTransportDataType" IsAbstract="true">
     <DisplayName>DataSetWriterTransportDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is an abstract base type for transport mapping specific DataSetWriter parameters. The abstract DataType does not define fields.
+    <Documentation>This Structure DataType is an abstract base type for transport mapping specific DataSetWriter parameters. The abstract DataType does not define fields.
+
 The DataSetWriterTransportDataType Structure representation in the AddressSpace is defined in Table 18.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
@@ -26499,7 +26510,8 @@ The DataSetWriterTransportDataType Structure representation in the AddressSpace 
   <UADataType NodeId="i=15605" BrowseName="DataSetWriterMessageDataType" IsAbstract="true">
     <DisplayName>DataSetWriterMessageDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is an abstract base type for message mapping specific DataSetWriter parameters. The abstract DataType does not define fields.
+    <Documentation>This Structure DataType is an abstract base type for message mapping specific DataSetWriter parameters. The abstract DataType does not define fields.
+
 The DataSetWriterMessageDataType Structure representation in the AddressSpace is defined in Table 19.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
@@ -26524,7 +26536,8 @@ The DataSetWriterMessageDataType Structure representation in the AddressSpace is
   <UADataType NodeId="i=15480" BrowseName="WriterGroupDataType">
     <DisplayName>WriterGroupDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is used to represent the configuration parameters for WriterGroups. It is a subtype of PubSubGroupDataType defined in 0.
+    <Documentation>This Structure DataType is used to represent the configuration parameters for WriterGroups. It is a subtype of PubSubGroupDataType defined in 0.
+
 The WriterGroupDataType is formally defined in Table 22.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15609</Reference>
@@ -26543,7 +26556,8 @@ The WriterGroupDataType is formally defined in Table 22.</Documentation>
   <UADataType NodeId="i=15611" BrowseName="WriterGroupTransportDataType" IsAbstract="true">
     <DisplayName>WriterGroupTransportDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is an abstract base type for transport mapping specific WriterGroup parameters. The abstract DataType does not define fields.
+    <Documentation>This Structure DataType is an abstract base type for transport mapping specific WriterGroup parameters. The abstract DataType does not define fields.
+
 The WriterGroupTransportDataType Structure representation in the AddressSpace is defined in Table 24.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
@@ -26552,7 +26566,8 @@ The WriterGroupTransportDataType Structure representation in the AddressSpace is
   <UADataType NodeId="i=15616" BrowseName="WriterGroupMessageDataType" IsAbstract="true">
     <DisplayName>WriterGroupMessageDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is an abstract base type for message mapping specific WriterGroup parameters. The abstract DataType does not define fields.
+    <Documentation>This Structure DataType is an abstract base type for message mapping specific WriterGroup parameters. The abstract DataType does not define fields.
+
 The WriterGroupMessageDataType Structure representation in the AddressSpace is defined in Table 25.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
@@ -26580,7 +26595,8 @@ The WriterGroupMessageDataType Structure representation in the AddressSpace is d
   <UADataType NodeId="i=15618" BrowseName="ConnectionTransportDataType" IsAbstract="true">
     <DisplayName>ConnectionTransportDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is an abstract base type for transport mapping specific PubSubConnection parameters. The abstract DataType does not define fields.
+    <Documentation>This Structure DataType is an abstract base type for transport mapping specific PubSubConnection parameters. The abstract DataType does not define fields.
+
 The ConnectionTransportDataType Structure representation in the AddressSpace is defined in Table 27.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
@@ -26624,7 +26640,8 @@ The ConnectionTransportDataType Structure representation in the AddressSpace is 
   <UADataType NodeId="i=15621" BrowseName="ReaderGroupTransportDataType" IsAbstract="true">
     <DisplayName>ReaderGroupTransportDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is an abstract base type for transport mapping specific ReaderGroup parameters. The abstract DataType does not define fields.
+    <Documentation>This Structure DataType is an abstract base type for transport mapping specific ReaderGroup parameters. The abstract DataType does not define fields.
+
 The ReaderGroupTransportDataType Structure representation in the AddressSpace is defined in Table 34.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
@@ -26633,7 +26650,8 @@ The ReaderGroupTransportDataType Structure representation in the AddressSpace is
   <UADataType NodeId="i=15622" BrowseName="ReaderGroupMessageDataType" IsAbstract="true">
     <DisplayName>ReaderGroupMessageDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is an abstract base type for message mapping specific ReaderGroup parameters. The abstract DataType does not define fields.
+    <Documentation>This Structure DataType is an abstract base type for message mapping specific ReaderGroup parameters. The abstract DataType does not define fields.
+
 The ReaderGroupMessageDataType Structure representation in the AddressSpace is defined in Table 35.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
@@ -26691,7 +26709,8 @@ The ReaderGroupMessageDataType Structure representation in the AddressSpace is d
   <UADataType NodeId="i=15631" BrowseName="TargetVariablesDataType">
     <DisplayName>TargetVariablesDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is used to represent TargetVariables specific parameters. It is a subtype of the SubscribedDataSetDataType defined in 6.2.9.1.
+    <Documentation>This Structure DataType is used to represent TargetVariables specific parameters. It is a subtype of the SubscribedDataSetDataType defined in 6.2.9.1.
+
 The TargetVariablesDataType is formally defined in Table 43.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15630</Reference>
@@ -26767,7 +26786,8 @@ The TargetVariablesDataType is formally defined in Table 43.</Documentation>
   <UADataType NodeId="i=15635" BrowseName="SubscribedDataSetMirrorDataType">
     <DisplayName>SubscribedDataSetMirrorDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is used to represent SubscribedDataSetMirror specific parameters. It is a subtype of the SubscribedDataSetDataType defined in 6.2.9.1.
+    <Documentation>This Structure DataType is used to represent SubscribedDataSetMirror specific parameters. It is a subtype of the SubscribedDataSetDataType defined in 6.2.9.1.
+
 The SubscribedDataSetMirrorDataType is formally defined in Table 46.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15630</Reference>
@@ -27046,7 +27066,8 @@ The SubscribedDataSetMirrorDataType is formally defined in Table 46.</Documentat
   <UADataType NodeId="i=15653" BrowseName="UadpDataSetReaderMessageDataType">
     <DisplayName>UadpDataSetReaderMessageDataType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This Structure DataType is used to represent UADP message mapping specific DataSetReader parameters. It is a subtype of the DataSetReaderMessageDataType defined in 6.2.8.11.3.
+    <Documentation>This Structure DataType is used to represent UADP message mapping specific DataSetReader parameters. It is a subtype of the DataSetReaderMessageDataType defined in 6.2.8.11.3.
+
 The UadpDataSetReaderMessageDataType is formally defined in Table 58.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=15629</Reference>
@@ -28230,7 +28251,8 @@ The UadpDataSetReaderMessageDataType is formally defined in Table 58.</Documenta
   <UAObjectType NodeId="i=15471" BrowseName="SecurityGroupType">
     <DisplayName>SecurityGroupType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>The SecurityGroupType is formally defined in Table 101.
+    <Documentation>The SecurityGroupType is formally defined in Table 101.
+
 The Permission of the SecurityGroupType Objects controls the access to the security keys for the SecurityGroup through the Method GetSecurityKeys. The GetSecurityKeys Method is defined in 8.4.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=15472</Reference>
@@ -30202,9 +30224,12 @@ The Permission of the SecurityGroupType Objects controls the access to the secur
   <UAReferenceType NodeId="i=14476" BrowseName="HasPubSubConnection">
     <DisplayName>HasPubSubConnection</DisplayName>
     <Category>Part14</Category>
-    <Documentation>The HasPubSubConnection ReferenceType is a concrete ReferenceType that can be used directly. It is a subtype of the HasComponent ReferenceType.
-The SourceNode of References of this type shall be the PublishSubscribe Object defined in 8.4.
-The TargetNode of this ReferenceType shall be an Object of type PubSubConnectionType defined in 9.1.5.2.
+    <Documentation>The HasPubSubConnection ReferenceType is a concrete ReferenceType that can be used directly. It is a subtype of the HasComponent ReferenceType.
+
+The SourceNode of References of this type shall be the PublishSubscribe Object defined in 8.4.
+
+The TargetNode of this ReferenceType shall be an Object of type PubSubConnectionType defined in 9.1.5.2.
+
 The representation of the HasPubSubConnection ReferenceType in the AddressSpace is specified in Table 104.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=47</Reference>
@@ -30214,9 +30239,12 @@ The representation of the HasPubSubConnection ReferenceType in the AddressSpace 
   <UAObjectType NodeId="i=14509" BrowseName="PublishedDataSetType">
     <DisplayName>PublishedDataSetType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This ObjectType is the base type for PublishedDataSets. It defines the metadata and the configuration version of the DataSets sent as DataSetMessages through DataSetWriters.
-The PublishedDataSetType is the base type for configurable DataSets. Derived types like PublishedDataItemsType and PublishedEventsType defines how to collect the DataSet to be published. For PublishedDataItemsType this is a list of monitored Variables. For PublishedEventsType this is an Event selection. The list of monitored Variables or the list of selected EventFields defines the content and metadata of the PublishedDataSetType Object.
-If the content of the DataSet is defined by a product specific configuration and the source of the DataSet is not known, the PublishedDataSetType can be used directly to expose the PublishedDataSet in the AddressSpace of the Publisher.
+    <Documentation>This ObjectType is the base type for PublishedDataSets. It defines the metadata and the configuration version of the DataSets sent as DataSetMessages through DataSetWriters.
+
+The PublishedDataSetType is the base type for configurable DataSets. Derived types like PublishedDataItemsType and PublishedEventsType defines how to collect the DataSet to be published. For PublishedDataItemsType this is a list of monitored Variables. For PublishedEventsType this is an Event selection. The list of monitored Variables or the list of selected EventFields defines the content and metadata of the PublishedDataSetType Object.
+
+If the content of the DataSet is defined by a product specific configuration and the source of the DataSet is not known, the PublishedDataSetType can be used directly to expose the PublishedDataSet in the AddressSpace of the Publisher.
+
 The PublishedDataSetType is formally defined in Table 105.</Documentation>
     <References>
       <Reference ReferenceType="i=14936">i=15222</Reference>
@@ -30570,11 +30598,16 @@ The PublishedDataSetType is formally defined in Table 105.</Documentation>
   <UAReferenceType NodeId="i=14936" BrowseName="DataSetToWriter">
     <DisplayName>DataSetToWriter</DisplayName>
     <Category>Part14</Category>
-    <Documentation>The DataSetToWriter ReferenceType is a concrete ReferenceType that can be used directly. It is a subtype of the HierarchicalReferences ReferenceType.
-The SourceNode of References of this type shall be an Object of ObjectType PublishedDataSetType or an ObjectType that is a subtype of PublishedDataSetType defined in 9.1.4.2.1.
-The TargetNode of this ReferenceType shall be an Object of the ObjectType DataSetWriterType defined in 9.1.7.1.
-Each DataSetWriter Object shall be the TargetNode of exactly one DataSetToWriter Reference.
-Servers shall provide the inverse Reference that relates a DataSetWriter Object back to a PublishedDataSetType Object.
+    <Documentation>The DataSetToWriter ReferenceType is a concrete ReferenceType that can be used directly. It is a subtype of the HierarchicalReferences ReferenceType.
+
+The SourceNode of References of this type shall be an Object of ObjectType PublishedDataSetType or an ObjectType that is a subtype of PublishedDataSetType defined in 9.1.4.2.1.
+
+The TargetNode of this ReferenceType shall be an Object of the ObjectType DataSetWriterType defined in 9.1.7.1.
+
+Each DataSetWriter Object shall be the TargetNode of exactly one DataSetToWriter Reference.
+
+Servers shall provide the inverse Reference that relates a DataSetWriter Object back to a PublishedDataSetType Object.
+
 The representation of the DataSetToWriter ReferenceType in the AddressSpace is specified in Table 108.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=33</Reference>
@@ -30584,7 +30617,8 @@ The representation of the DataSetToWriter ReferenceType in the AddressSpace is s
   <UAObjectType NodeId="i=14534" BrowseName="PublishedDataItemsType">
     <DisplayName>PublishedDataItemsType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>The PublishedDataItemsType is used to select a list of OPC UA Variables as the source for the creation of DataSets sent through one or more DataSetWriters.
+    <Documentation>The PublishedDataItemsType is used to select a list of OPC UA Variables as the source for the creation of DataSets sent through one or more DataSetWriters.
+
 The PublishedDataItemsType is formally defined Table 109.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=14548</Reference>
@@ -30830,7 +30864,8 @@ The PublishedDataItemsType is formally defined Table 109.</Documentation>
   <UAObjectType NodeId="i=14572" BrowseName="PublishedEventsType">
     <DisplayName>PublishedEventsType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This PublishedDataSetType is used to configure the collection of OPC UA Events.
+    <Documentation>This PublishedDataSetType is used to configure the collection of OPC UA Events.
+
 The PublishedEventsType is formally defined in Table 110.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=14586</Reference>
@@ -34240,9 +34275,12 @@ The PublishedEventsType is formally defined in Table 110.</Documentation>
   <UAReferenceType NodeId="i=15296" BrowseName="HasDataSetWriter">
     <DisplayName>HasDataSetWriter</DisplayName>
     <Category>Part14</Category>
-    <Documentation>The HasDataSetWriter ReferenceType is a concrete ReferenceType that can be used directly. It is a subtype of the HasComponent ReferenceType.
-The SourceNode of References of this type shall be an instance of the WriterGroupType defined in 9.1.6.3.
-The TargetNode of this ReferenceType shall be an instance of the DataSetWriterType defined in 9.1.7.1.
+    <Documentation>The HasDataSetWriter ReferenceType is a concrete ReferenceType that can be used directly. It is a subtype of the HasComponent ReferenceType.
+
+The SourceNode of References of this type shall be an instance of the WriterGroupType defined in 9.1.6.3.
+
+The TargetNode of this ReferenceType shall be an instance of the DataSetWriterType defined in 9.1.7.1.
+
 The representation of the HasDataSetWriter ReferenceType in the AddressSpace is specified in Table 116.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=47</Reference>
@@ -35056,9 +35094,12 @@ The representation of the HasDataSetWriter ReferenceType in the AddressSpace is 
   <UAReferenceType NodeId="i=15297" BrowseName="HasDataSetReader">
     <DisplayName>HasDataSetReader</DisplayName>
     <Category>Part14</Category>
-    <Documentation>The HasDataSetReader ReferenceType is a concrete ReferenceType that can be used directly. It is a subtype of the HasComponent ReferenceType.
-The SourceNode of References of this type shall be an instance of the ReaderGroupType defined in 9.1.6.6.
-The TargetNode of this ReferenceType shall be an instance of the DataSetReaderType defined in 9.1.8.1.
+    <Documentation>The HasDataSetReader ReferenceType is a concrete ReferenceType that can be used directly. It is a subtype of the HasComponent ReferenceType.
+
+The SourceNode of References of this type shall be an instance of the ReaderGroupType defined in 9.1.6.6.
+
+The TargetNode of this ReferenceType shall be an instance of the DataSetReaderType defined in 9.1.8.1.
+
 The representation of the HasDataSetReader ReferenceType in the AddressSpace is specified in Table 120.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=47</Reference>
@@ -35068,7 +35109,8 @@ The representation of the HasDataSetReader ReferenceType in the AddressSpace is 
   <UAObjectType NodeId="i=21090" BrowseName="ReaderGroupTransportType" IsAbstract="true">
     <DisplayName>ReaderGroupTransportType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This ObjectType is the abstract base type for Objects representing transport protocol mapping specific settings for ReaderGroups. The ReaderGroupTransportType is formally defined in Table 121.
+    <Documentation>This ObjectType is the abstract base type for Objects representing transport protocol mapping specific settings for ReaderGroups. The ReaderGroupTransportType is formally defined in Table 121.
+
 There is currently no transport protocol mapping specific setting defined.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
@@ -35077,7 +35119,8 @@ There is currently no transport protocol mapping specific setting defined.</Docu
   <UAObjectType NodeId="i=21091" BrowseName="ReaderGroupMessageType" IsAbstract="true">
     <DisplayName>ReaderGroupMessageType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This ObjectType is the abstract base type for Objects representing message mapping specific settings for ReaderGroups. The ReaderGroupMessageType is formally defined in Table 122.
+    <Documentation>This ObjectType is the abstract base type for Objects representing message mapping specific settings for ReaderGroups. The ReaderGroupMessageType is formally defined in Table 122.
+
 There is currently no message mapping specific setting defined.</Documentation>
     <References>
       <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
@@ -35682,7 +35725,8 @@ There is currently no message mapping specific setting defined.</Documentation>
   <UAObjectType NodeId="i=15306" BrowseName="DataSetReaderType" IsAbstract="true">
     <DisplayName>DataSetReaderType</DisplayName>
     <Category>Part14</Category>
-    <Documentation>This ObjectType defines receiving behaviour of DataSetMessages and the decoding to DataSets. The DataSetReaderType is formally defined in Table 105. 
+    <Documentation>This ObjectType defines receiving behaviour of DataSetMessages and the decoding to DataSets. The DataSetReaderType is formally defined in Table 105. 
+
 The SubscribedDataSetType defined in 9.1.9.1 describes the processing of the received DataSet in a Subscriber.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=21097</Reference>
@@ -37220,7 +37264,8 @@ The SubscribedDataSetType defined in 9.1.9.1 describes the processing of the rec
   <UADataType NodeId="i=19723" BrowseName="DiagnosticsLevel">
     <DisplayName>DiagnosticsLevel</DisplayName>
     <Category>Part14</Category>
-    <Documentation>PubSub diagnostics are intended to assure users about the correct operation of a PubSub system and to help in the discovery of potential faults. Depending on the situation, not all diagnostic Objects might be needed, and on the other hand providing them requires resources. As a result, diagnostic objects are assigned to different diagnostic levels. Only diagnostic Objects belonging to the currently set diagnostic level or a more severe level have to be provided. This mechanism provides the user the ability to select a suitable diagnostic configuration depending on the application.
+    <Documentation>PubSub diagnostics are intended to assure users about the correct operation of a PubSub system and to help in the discovery of potential faults. Depending on the situation, not all diagnostic Objects might be needed, and on the other hand providing them requires resources. As a result, diagnostic objects are assigned to different diagnostic levels. Only diagnostic Objects belonging to the currently set diagnostic level or a more severe level have to be provided. This mechanism provides the user the ability to select a suitable diagnostic configuration depending on the application.
+
 The DiagnosticsLevel is an enumeration that specifies the possible diagnostics levels. The possible enumeration values are described in Table 136.</Documentation>
     <References>
       <Reference ReferenceType="HasProperty">i=19724</Reference>

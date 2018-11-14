@@ -4,6 +4,6 @@
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>-markdown-to-nodeset -output="X:\Work\OPC\UA-TypeRepository2\Core\Opc.Ua.NodeSet2.xml" -model="http://opcfoundation.org/UA/,X:\Work\OPC\UA-TypeRepository2\Core\Opc.Ua.NodeSet2.xml"</StartArguments>
+    <StartArguments>-nodeset-to-markdown -output="X:\Work\OPC\UA-TypeRepository2\MTConnect" -model="http://opcfoundation.org/UA/MTConnect/v2,X:\Work\OPC\UA-TypeRepository2\MTConnect\MTConnect.NodeSet2.xml" -model="http://opcfoundation.org/UA/,X:\Work\OPC\UA-TypeRepository2\Core\Opc.Ua.NodeSet2.xml"</StartArguments>
   </PropertyGroup>
 </Project>
